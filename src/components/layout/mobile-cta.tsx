@@ -45,7 +45,7 @@ export function MobileCta() {
           </Link>
           <Link
             href={site.bookingHref}
-            className="flex h-12 min-w-0 items-center justify-center gap-2 rounded-full bg-brand-500 px-2 text-sm font-semibold text-white transition-colors"
+            className="flex h-12 min-w-0 items-center justify-center gap-2 rounded-full bg-brand-700 px-2 text-sm font-semibold text-white transition-colors"
           >
             <CalendarCheck className="size-4 shrink-0" />
             <span>

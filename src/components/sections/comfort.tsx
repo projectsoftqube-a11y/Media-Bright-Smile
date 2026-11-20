@@ -63,7 +63,7 @@ export function Comfort() {
           <div className="lg:col-span-8">
             <Eyebrow>Your Comfort</Eyebrow>
             <SplitReveal as="h2" id="comfort-heading" className="mt-6 text-display-md font-bold">
-              Dentistry that puts <span className="text-brand-500">you</span> first
+              Dentistry that puts <span className="text-brand-600">you</span> first
             </SplitReveal>
             <Reveal>
               <p className="mt-6 max-w-2xl text-lg leading-relaxed">

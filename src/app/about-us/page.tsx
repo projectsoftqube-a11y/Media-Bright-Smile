@@ -80,7 +80,7 @@ export default function AboutPage() {
         eyebrow="About us"
         title={
           <>
-            About <span className="text-brand-500">Media Brite Smile</span>
+            About <span className="text-brand-600">Media Brite Smile</span>
           </>
         }
         lead="A three-dentist practice on N Pennell Road in Media, treating families, nervous patients and anyone who has been told they need work done and wants a second look at it."
@@ -118,7 +118,7 @@ export default function AboutPage() {
               eyebrow="Who we are"
               title={
                 <>
-                  A family, cosmetic and <span className="text-brand-500">implant</span> practice
+                  A family, cosmetic and <span className="text-brand-600">implant</span> practice
                 </>
               }
             />
@@ -190,7 +190,7 @@ export default function AboutPage() {
                   <span className="block leading-snug font-bold tracking-tight sm:text-lg">The rest of the team</span>
                   <span className="mt-0.5 block text-sm text-white/65">Hygienists, assistants and the front desk</span>
                 </span>
-                <span className="hidden items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-glow transition-colors duration-300 group-hover:bg-brand-500 group-hover:text-white min-[481px]:inline-flex">
+                <span className="hidden items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-glow transition-colors duration-300 group-hover:bg-brand-700 group-hover:text-white min-[481px]:inline-flex">
                   Meet the team
                   <ArrowUpRight className="size-4 transition-transform duration-500 group-hover:rotate-45" />
                 </span>
@@ -243,7 +243,7 @@ export default function AboutPage() {
               eyebrow="Nervous patients"
               title={
                 <>
-                  Tell us <span className="text-brand-500">before</span> you book
+                  Tell us <span className="text-brand-600">before</span> you book
                 </>
               }
               lead="Not when you are already in the chair. Dental anxiety is common, and it changes how an appointment should be paced."
@@ -357,7 +357,7 @@ export default function AboutPage() {
             <Reveal className="mt-8">
               <Link
                 href="/patient-information/care-and-comfort/advanced-technology"
-                className="inline-flex min-h-12 items-center gap-2 rounded-full bg-white/10 px-6 font-semibold text-glow ring-1 ring-white/15 transition-colors hover:bg-brand-500 hover:text-white"
+                className="inline-flex min-h-12 items-center gap-2 rounded-full bg-white/10 px-6 font-semibold text-glow ring-1 ring-white/15 transition-colors hover:bg-brand-700 hover:text-white"
               >
                 The equipment we use and why <ArrowUpRight className="size-4" />
               </Link>
@@ -374,7 +374,7 @@ export default function AboutPage() {
             eyebrow="What makes us different"
             title={
               <>
-                Three things, and none of them are <span className="text-brand-500">slogans</span>
+                Three things, and none of them are <span className="text-brand-600">slogans</span>
               </>
             }
             aside={
@@ -441,7 +441,7 @@ export default function AboutPage() {
               eyebrow="Where to find us"
               title={
                 <>
-                  {site.address.street}, <span className="text-brand-500">Media</span>
+                  {site.address.street}, <span className="text-brand-600">Media</span>
                 </>
               }
               lead="Open from 8am Monday to Friday. Patients travel in from across eastern and central Delaware County, including Swarthmore, Wallingford, Springfield, Brookhaven and Aston."

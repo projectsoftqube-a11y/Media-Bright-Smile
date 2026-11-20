@@ -115,7 +115,7 @@ export function DoctorStory({ doctor, profile }: { doctor: Doctor; profile: Doct
                     <span
                       className={cn(
                         "text-sm font-semibold tabular-nums transition-colors",
-                        active === i ? "text-brand-500" : "text-muted",
+                        active === i ? "text-brand-700" : "text-muted",
                       )}
                     >
                       {String(i + 1).padStart(2, "0")}

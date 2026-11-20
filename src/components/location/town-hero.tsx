@@ -14,7 +14,7 @@ function Headline({ h1, name }: { h1: string; name: string }) {
   return (
     <>
       {h1.slice(0, i)}
-      <span className="text-brand-500">{name}</span>
+      <span className="text-brand-600">{name}</span>
       {h1.slice(i + name.length)}
     </>
   );
@@ -42,7 +42,7 @@ export function TownHero({ location, town }: { location: Location; town: Town })
             <Headline h1={town.h1} name={town.name} />
           </SplitReveal>
 
-          <Reveal delay={0.15}>
+          <Reveal delay={0.15} fade={false}>
             {town.intro.map((p) => (
               <p key={p.slice(0, 24)} className="mt-6 max-w-xl text-lg leading-relaxed text-pretty">
                 {p}
@@ -58,7 +58,7 @@ export function TownHero({ location, town }: { location: Location; town: Town })
             </div>
           </Reveal>
 
-          <Reveal delay={0.3}>
+          <Reveal delay={0.3} fade={false}>
             <div className="mt-9 flex flex-col gap-5 border-t border-line pt-7 sm:flex-row sm:items-center sm:gap-8">
               <a href={site.gbp} target="_blank" rel="noopener" className="flex shrink-0 items-center gap-3">
                 <span className="text-4xl leading-none font-bold tracking-tighter text-ink">{site.rating.score}</span>
@@ -85,7 +85,7 @@ export function TownHero({ location, town }: { location: Location; town: Town })
           </Reveal>
         </div>
 
-        <Reveal delay={0.2} className="min-w-0 lg:col-span-6">
+        <Reveal delay={0.2} fade={false} className="min-w-0 lg:col-span-6">
           <div className="relative overflow-hidden rounded-4xl bg-mist shadow-lift ring-1 ring-line sm:rounded-5xl">
             <iframe
               title={`Driving route from ${town.name}, PA to ${site.name}`}

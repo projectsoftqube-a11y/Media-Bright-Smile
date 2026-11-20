@@ -73,9 +73,11 @@ export function Hero() {
     { scope: root },
   );
 
+  /* Rise only, no fade: the hero paragraph is the page's LCP element on phones, and text that starts
+     at opacity 0 cannot count as painted until JavaScript runs (that cost ~13s of LCP on slow 4G). */
   const appear = (delay: number) => ({
-    initial: { opacity: 0, y: 22 },
-    animate: { opacity: 1, y: 0 },
+    initial: { y: 22 },
+    animate: { y: 0 },
     transition: { duration: 0.9, ease: ease.out, delay },
   });
 

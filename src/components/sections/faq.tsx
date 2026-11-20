@@ -53,7 +53,7 @@ export function Faq() {
         <div className="lg:col-span-5">
           <div className="lg:sticky lg:top-28">
             <p className="text-sm font-semibold text-muted">
-              <span className="text-brand-500">({pad(faqs.length)})</span> Frequently asked
+              <span className="text-brand-700">({pad(faqs.length)})</span> Frequently asked
             </p>
             <SplitReveal as="h2" id="faq-heading" className="mt-3 text-display-md font-bold">
               Common questions
@@ -118,7 +118,7 @@ export function Faq() {
 
             <p className="mt-8 text-lg leading-snug font-semibold tracking-tight text-ink">
               Still curious? Call{" "}
-              <a href={site.phone.href} className="whitespace-nowrap text-brand-500 hover:text-brand-700">
+              <a href={site.phone.href} className="whitespace-nowrap text-brand-700 hover:text-brand-900">
                 {site.phone.display}
               </a>{" "}
               or{" "}
@@ -155,7 +155,7 @@ export function Faq() {
                     <span
                       className={cn(
                         "text-xs font-semibold tabular-nums transition-colors duration-500",
-                        isOpen ? "text-brand-500" : "text-muted group-hover:text-ink",
+                        isOpen ? "text-brand-700" : "text-muted group-hover:text-ink",
                       )}
                     >
                       {pad(i + 1)}

@@ -109,7 +109,7 @@ export function LegalPage({ doc }: { doc: LegalDoc }) {
                   aria-labelledby={`${s.id}-title`}
                   className="scroll-mt-32 border-b border-line py-8 last:border-b-0 sm:py-10"
                 >
-                  <p className="text-xs font-bold tracking-[0.16em] text-brand-500 uppercase">Section {nn(i)}</p>
+                  <p className="text-xs font-bold tracking-[0.16em] text-brand-700 uppercase">Section {nn(i)}</p>
                   <h2
                     id={`${s.id}-title`}
                     className="mt-2 text-2xl font-bold tracking-tight text-balance text-ink sm:text-[1.75rem]"
@@ -161,7 +161,7 @@ function Hero({ doc, minutes }: { doc: LegalDoc; minutes: number }) {
           </div>
 
           <div className="grid grid-cols-1 items-center gap-12 p-7 sm:p-12 lg:p-16 xl:grid-cols-[1.15fr_0.85fr] xl:gap-16">
-            <Reveal y={30}>
+            <Reveal y={30} fade={false}>
               <Eyebrow tone="light">{doc.eyebrow}</Eyebrow>
               <h1 id="legal-title" className="mt-6 pb-2 text-display-lg font-bold text-white">
                 {first && <>{first} </>}
@@ -266,8 +266,8 @@ function Hero({ doc, minutes }: { doc: LegalDoc; minutes: number }) {
                   className={cn(
                     "grid size-11 shrink-0 place-items-center rounded-2xl transition-colors duration-300",
                     on
-                      ? "bg-brand-500 text-white"
-                      : "bg-mist text-brand-600 group-hover:bg-brand-500 group-hover:text-white",
+                      ? "bg-brand-700 text-white"
+                      : "bg-mist text-brand-600 group-hover:bg-brand-700 group-hover:text-white",
                   )}
                 >
                   <DIcon className="size-5" />
@@ -297,7 +297,7 @@ function Glance({ doc }: { doc: LegalDoc }) {
           <div>
             <Eyebrow>At a glance</Eyebrow>
             <h2 id="glance-heading" className="mt-5 text-display-md font-bold">
-              The short <span className="text-brand-500">version</span>
+              The short <span className="text-brand-600">version</span>
             </h2>
           </div>
           <p className="max-w-md text-lg leading-relaxed">

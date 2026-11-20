@@ -43,7 +43,7 @@ export function DoctorFacts({ doctor, profile }: { doctor: Doctor; profile: Doct
             <div>
               <Eyebrow>At a glance</Eyebrow>
               <h2 id="doctor-facts-heading" className="mt-5 text-display-md font-bold">
-                {doctor.short}&apos;s <span className="text-brand-500">credentials</span>
+                {doctor.short}&apos;s <span className="text-brand-600">credentials</span>
               </h2>
             </div>
             <Reveal y={12}>

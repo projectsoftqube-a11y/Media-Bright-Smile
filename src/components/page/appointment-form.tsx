@@ -278,7 +278,7 @@ export function AppointmentForm({ id = "appointment-form" }: { id?: "appointment
                 <div>
                   <button
                     type="submit"
-                    className="inline-flex min-h-14 w-full cursor-pointer items-center justify-center gap-2 rounded-full bg-brand-500 px-8 font-semibold text-white shadow-glow transition-colors hover:bg-brand-600 sm:w-auto"
+                    className="inline-flex min-h-14 w-full cursor-pointer items-center justify-center gap-2 rounded-full bg-brand-700 px-8 font-semibold text-white shadow-glow transition-colors hover:bg-brand-800 sm:w-auto"
                   >
                     <Send className="size-4" /> Request My Appointment
                   </button>

@@ -263,7 +263,7 @@ export default async function PreventativePage({ params }: PageProps<"/preventat
               eyebrow="Preventative care"
               title={
                 <>
-                  Six ways we keep problems <span className="text-brand-500">small</span>
+                  Six ways we keep problems <span className="text-brand-600">small</span>
                 </>
               }
               cards={[

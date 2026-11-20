@@ -72,7 +72,7 @@ function DoctorCard({ d, index }: { d: Doctor; index: number }) {
           <div className="mt-6 flex items-start justify-between gap-4">
             <div>
               <h3 className="text-2xl font-bold tracking-tight">
-                {d.name}, <span className="text-brand-500">{d.credential}</span>
+                {d.name}, <span className="text-brand-600">{d.credential}</span>
               </h3>
               <p className="mt-2 text-sm leading-relaxed lg:hidden">{d.bio}</p>
             </div>
@@ -94,7 +94,7 @@ export function Doctors() {
           <div className="lg:col-span-8">
             <Eyebrow>Meet the Doctors</Eyebrow>
             <SplitReveal as="h2" id="doctors-heading" className="mt-6 text-display-lg font-bold">
-              Meet the <span className="accent-serif text-brand-500">dentists</span>
+              Meet the <span className="accent-serif text-brand-600">dentists</span>
             </SplitReveal>
             <Reveal>
               <p className="mt-6 max-w-2xl text-lg leading-relaxed">

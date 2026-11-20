@@ -8,15 +8,18 @@ type RevealProps = {
   children: ReactNode;
   delay?: number;
   y?: number;
+  /** false = rise only, visible from first paint. Use above the fold: content that starts at
+      opacity 0 cannot count as painted (LCP) until JavaScript has loaded and run. */
+  fade?: boolean;
   className?: string;
 } & Omit<HTMLMotionProps<"div">, "children">;
 
 /** Fade + rise into view once. The workhorse entrance for blocks and cards. */
-export function Reveal({ children, delay = 0, y = 40, className, ...props }: RevealProps) {
+export function Reveal({ children, delay = 0, y = 40, fade = true, className, ...props }: RevealProps) {
   return (
     <motion.div
-      initial={{ opacity: 0, y }}
-      whileInView={{ opacity: 1, y: 0 }}
+      initial={fade ? { opacity: 0, y } : { y }}
+      whileInView={fade ? { opacity: 1, y: 0 } : { y: 0 }}
       viewport={inView}
       transition={{ duration: 1, ease: ease.out, delay }}
       className={className}

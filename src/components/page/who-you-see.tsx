@@ -87,7 +87,7 @@ export function WhoYouSee() {
                 <span
                   className={cn(
                     "grid size-10 shrink-0 place-items-center rounded-xl transition-colors",
-                    on ? "bg-brand-500 text-white" : "bg-mist text-brand-600",
+                    on ? "bg-brand-700 text-white" : "bg-mist text-brand-600",
                   )}
                 >
                   <Icon className="size-5" />

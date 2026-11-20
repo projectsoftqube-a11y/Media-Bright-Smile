@@ -62,7 +62,7 @@ export default function PatientReviewsPage() {
         eyebrow="Patient reviews"
         title={
           <>
-            Media Brite Smile <span className="text-brand-500">reviews</span>
+            Media Brite Smile <span className="text-brand-600">reviews</span>
           </>
         }
         lead={`${site.rating.score} stars from ${site.rating.count} Google reviews. Read them on Google rather than taking a curated selection on our own website at face value.`}
@@ -130,7 +130,7 @@ export default function PatientReviewsPage() {
               eyebrow="Where the reviews live"
               title={
                 <>
-                  The one place a practice <span className="text-brand-500">cannot edit</span>
+                  The one place a practice <span className="text-brand-600">cannot edit</span>
                 </>
               }
             />
@@ -196,7 +196,7 @@ export default function PatientReviewsPage() {
             eyebrow="What patients mention most"
             title={
               <>
-                The same few things <span className="text-brand-500">keep coming up</span>
+                The same few things <span className="text-brand-600">keep coming up</span>
               </>
             }
             lead="If that is what you want from a dentist in Media, PA, read the reviews and see whether you believe them."

@@ -112,7 +112,7 @@ export function Steps({ items, tone = "dark" }: { items: { title: string; text: 
           <span
             className={cn(
               "grid size-11 place-items-center rounded-full text-sm font-bold tabular-nums",
-              light ? "bg-white text-ink" : "bg-brand-500 text-white",
+              light ? "bg-white text-ink" : "bg-brand-700 text-white",
             )}
           >
             {String(i + 1).padStart(2, "0")}

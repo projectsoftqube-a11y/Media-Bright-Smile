@@ -71,7 +71,7 @@ function SafetyBanner({ text }: { text: string }) {
   return (
     <section className="bg-pearl pb-4" aria-label="Safety notice">
       <div className="container-site">
-        <Reveal>
+        <Reveal fade={false}>
           <div className="flex flex-col gap-5 rounded-4xl bg-linear-to-r from-rose-600 to-rose-500 p-6 text-white shadow-lift sm:flex-row sm:items-center sm:p-8">
             <span className="grid size-14 shrink-0 place-items-center rounded-2xl bg-white text-rose-600">
               <Siren className="size-6" />
@@ -97,7 +97,7 @@ function Accent({ text, accent }: { text: string; accent?: string }) {
   return (
     <>
       {text.slice(0, i)}
-      <span className="text-brand-500">{a}</span>
+      <span className="text-brand-600">{a}</span>
       {text.slice(i + a.length)}
     </>
   );

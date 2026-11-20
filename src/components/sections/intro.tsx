@@ -56,7 +56,7 @@ export function Intro() {
               <div className="absolute inset-x-0 bottom-0 h-0 bg-linear-to-t from-brand-50 to-transparent transition-all duration-700 ease-out-expo group-hover:h-full" />
               <p className="relative text-[clamp(1.875rem,1.2rem+3vw,4.25rem)] leading-none font-bold tracking-[-0.04em] text-ink">
                 <Counter to={s.value} decimals={s.decimals} />
-                {s.suffix && <span className="ml-1 text-brand-500">{s.suffix}</span>}
+                {s.suffix && <span className="ml-1 text-brand-600">{s.suffix}</span>}
               </p>
               <p className="relative mt-4 text-sm font-medium tracking-wide text-muted uppercase">{s.label}</p>
             </RevealItem>

@@ -118,7 +118,7 @@ function Pagination({ page, pages }: { page: number; pages: number }) {
             item,
             "tabular-nums",
             n === page
-              ? "bg-brand-500 text-white shadow-glow"
+              ? "bg-brand-700 text-white shadow-glow"
               : "bg-pearl text-ink ring-1 ring-line hover:bg-ink hover:text-white",
           )}
         >
@@ -161,7 +161,7 @@ export function BlogHub({ page = 1 }: { page?: number }) {
         eyebrow="Dental blog"
         title={
           <>
-            Dental Advice and <span className="text-brand-500">Updates</span>
+            Dental Advice and <span className="text-brand-600">Updates</span>
           </>
         }
         lead="This dental blog from Media Brite Smile in Media, PA answers the questions patients actually ask in the chair and on the phone, in plain English and without a sales pitch. Each article links to the treatment page it relates to, so you can see what the practice offers and what it costs."
@@ -200,7 +200,7 @@ export function BlogHub({ page = 1 }: { page?: number }) {
             eyebrow="From the blog"
             title={
               <>
-                {page === 1 ? "Latest" : `Page ${page} of`} <span className="text-brand-500">posts</span>
+                {page === 1 ? "Latest" : `Page ${page} of`} <span className="text-brand-600">posts</span>
               </>
             }
           />
@@ -269,7 +269,7 @@ export function BlogHub({ page = 1 }: { page?: number }) {
             eyebrow="Topics"
             title={
               <>
-                Four things patients <span className="text-brand-500">ask most</span>
+                Four things patients <span className="text-brand-600">ask most</span>
               </>
             }
           />
@@ -330,13 +330,13 @@ export function BlogHub({ page = 1 }: { page?: number }) {
             eyebrow="More help"
             title={
               <>
-                More <span className="text-brand-500">help</span>
+                More <span className="text-brand-600">help</span>
               </>
             }
             aside={
               <a
                 href={site.phone.href}
-                className="inline-flex min-h-12 items-center gap-3 rounded-full bg-pearl px-5 font-semibold text-ink ring-1 ring-line transition-colors hover:bg-brand-500 hover:text-white"
+                className="inline-flex min-h-12 items-center gap-3 rounded-full bg-pearl px-5 font-semibold text-ink ring-1 ring-line transition-colors hover:bg-brand-700 hover:text-white"
               >
                 <Phone className="size-4" /> {site.phone.display}
               </a>

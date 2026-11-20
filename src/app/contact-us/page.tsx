@@ -86,7 +86,7 @@ export default function ContactPage() {
         eyebrow="Contact us"
         title={
           <>
-            Contact our dental office in <span className="text-brand-500">Media, PA</span>
+            Contact our dental office in <span className="text-brand-600">Media, PA</span>
           </>
         }
         lead={`Our dental office in Media, PA is at ${site.address.street}. Call ${site.phone.display}, or send an appointment request and we will come back to you with a time.`}
@@ -163,7 +163,7 @@ export default function ContactPage() {
             eyebrow="Where to find us"
             title={
               <>
-                {site.address.street}, <span className="text-brand-500">Media</span>
+                {site.address.street}, <span className="text-brand-600">Media</span>
               </>
             }
             lead="Pennell Road runs south from Media toward Aston, so most patients approach from Baltimore Pike or Providence Road. The practice sits in Delaware County, a short drive from Swarthmore, Wallingford, Springfield and Brookhaven."
@@ -228,7 +228,7 @@ export default function ContactPage() {
             eyebrow="How to reach us"
             title={
               <>
-                Three ways to <span className="text-brand-500">get in touch</span>
+                Three ways to <span className="text-brand-600">get in touch</span>
               </>
             }
           />
@@ -298,7 +298,7 @@ export default function ContactPage() {
             eyebrow="New to the practice?"
             title={
               <>
-                First visits take <span className="text-brand-500">a little longer</span>
+                First visits take <span className="text-brand-600">a little longer</span>
               </>
             }
             lead="The examination is more thorough and there are forms to complete. You can fill those in before you arrive and save yourself the wait."
@@ -340,7 +340,7 @@ export default function ContactPage() {
             eyebrow="Contact questions"
             title={
               <>
-                Quick <span className="text-brand-500">answers</span>
+                Quick <span className="text-brand-600">answers</span>
               </>
             }
           />

@@ -194,7 +194,7 @@ function Blocks({
                       <span
                         className={cn(
                           "grid size-9 place-items-center rounded-full text-xs font-bold tabular-nums",
-                          dark ? "bg-brand-500 text-white" : "bg-brand-50 text-brand-700",
+                          dark ? "bg-brand-700 text-white" : "bg-brand-50 text-brand-700",
                         )}
                       >
                         {String(j + 1).padStart(2, "0")}
@@ -282,7 +282,7 @@ function Blocks({
                       "group inline-flex min-h-11 items-center gap-2 rounded-full px-4 text-sm font-semibold ring-1 transition-colors",
                       dark
                         ? "bg-white/8 text-white ring-white/15 hover:bg-white hover:text-ink"
-                        : "bg-white text-ink ring-line hover:bg-brand-500 hover:text-white hover:ring-brand-500",
+                        : "bg-white text-ink ring-line hover:bg-brand-700 hover:text-white hover:ring-brand-700",
                     )}
                   >
                     {l.text}
@@ -528,7 +528,7 @@ function FeatureCard({ row, j, dark }: { row: { label: string; text: string }; j
       <span
         className={cn(
           "grid size-10 place-items-center rounded-full text-xs font-bold tabular-nums",
-          j === 0 ? "bg-white text-brand-600" : dark ? "bg-brand-500 text-white" : "bg-brand-50 text-brand-700",
+          j === 0 ? "bg-white text-brand-600" : dark ? "bg-brand-700 text-white" : "bg-brand-50 text-brand-700",
         )}
       >
         {String(j + 1).padStart(2, "0")}
@@ -1155,7 +1155,7 @@ export function DraftSectionView({
                     : "bg-white text-ink ring-line hover:shadow-lift hover:ring-brand-300",
                 )}
               >
-                <span className="text-sm font-bold text-brand-500 tabular-nums">{String(j + 1).padStart(2, "0")}</span>
+                <span className="text-sm font-bold text-brand-700 tabular-nums">{String(j + 1).padStart(2, "0")}</span>
                 <span className="min-w-0 flex-1 text-lg leading-snug font-semibold tracking-tight">{l.text}</span>
                 <span className="grid size-11 shrink-0 place-items-center rounded-full bg-brand-50 text-brand-600 transition-[transform,background-color,color] duration-500 group-hover:rotate-45 group-hover:bg-brand-500 group-hover:text-white">
                   <ArrowUpRight className="size-5" />

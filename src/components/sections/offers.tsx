@@ -67,7 +67,7 @@ export function Offers() {
                     <p className="mt-4 flex items-baseline gap-2">
                       <span className="text-6xl font-bold tracking-[-0.05em]">{o.value}</span>
                       <span
-                        className={cn("text-sm font-bold uppercase", featured ? "text-brand-50" : "text-brand-500")}
+                        className={cn("text-sm font-bold uppercase", featured ? "text-brand-50" : "text-brand-700")}
                       >
                         {o.unit}
                       </span>

@@ -38,7 +38,7 @@ export default function LocationsPage() {
             <div className="lg:col-span-7">
               <Eyebrow>Areas We Serve</Eyebrow>
               <SplitReveal as="h1" id="locations-title" immediate className="mt-6 text-display-lg font-bold">
-                One office, <span className="text-brand-500">many</span> neighborhoods
+                One office, <span className="text-brand-600">many</span> neighborhoods
               </SplitReveal>
             </div>
             <Reveal className="lg:col-span-5" delay={0.2}>
@@ -86,7 +86,7 @@ export default function LocationsPage() {
               <div className="flex flex-col justify-center p-7 sm:p-10 lg:p-12">
                 <p className="text-xs font-bold tracking-[0.16em] text-brand-600 uppercase">Our new home</p>
                 <h2 className="mt-3 text-3xl font-bold tracking-tight text-balance sm:text-4xl">
-                  Every town leads to <span className="text-brand-500">{site.address.street}</span>
+                  Every town leads to <span className="text-brand-600">{site.address.street}</span>
                 </h2>
                 <p className="mt-4 flex items-start gap-2 text-lg leading-relaxed">
                   <MapPin className="mt-1 size-5 shrink-0 text-brand-500" aria-hidden="true" />

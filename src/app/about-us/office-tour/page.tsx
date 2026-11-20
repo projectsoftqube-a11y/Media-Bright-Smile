@@ -175,7 +175,7 @@ export default function OfficeTourPage() {
             <div>
               <Eyebrow>Office tour</Eyebrow>
               <SplitReveal as="h1" id="page-title" immediate className="mt-6 text-display-lg font-bold text-balance">
-                Take a look around our <span className="text-brand-500">Media office</span>
+                Take a look around our <span className="text-brand-600">Media office</span>
               </SplitReveal>
             </div>
             <Reveal delay={0.25} y={24}>
@@ -234,7 +234,7 @@ export default function OfficeTourPage() {
         eyebrow="Arriving"
         title={
           <>
-            {site.address.street}, <span className="text-brand-500">Media</span>
+            {site.address.street}, <span className="text-brand-600">Media</span>
           </>
         }
         media={<Photo src="/images/office/office-41.jpg" room="The building on N Pennell Rd" className="aspect-4/3" />}
@@ -256,7 +256,7 @@ export default function OfficeTourPage() {
         flip
         title={
           <>
-            Checked in by people who <span className="text-brand-500">explain the cost</span>
+            Checked in by people who <span className="text-brand-600">explain the cost</span>
           </>
         }
         media={
@@ -280,7 +280,7 @@ export default function OfficeTourPage() {
         eyebrow="Treatment rooms"
         title={
           <>
-            Where you see your <span className="text-brand-500">X-rays on screen</span>
+            Where you see your <span className="text-brand-600">X-rays on screen</span>
           </>
         }
         media={
@@ -377,7 +377,7 @@ export default function OfficeTourPage() {
               eyebrow="Parking and access"
               title={
                 <>
-                  Tell us what you need <span className="text-brand-500">when you book</span>
+                  Tell us what you need <span className="text-brand-600">when you book</span>
                 </>
               }
               lead="Ask about parking or step-free access when you book if either affects your visit, and the team will tell you what to expect."
@@ -417,7 +417,7 @@ export default function OfficeTourPage() {
             align="center"
             title={
               <>
-                Walk through the <span className="text-brand-500">practice</span>
+                Walk through the <span className="text-brand-600">practice</span>
               </>
             }
           />

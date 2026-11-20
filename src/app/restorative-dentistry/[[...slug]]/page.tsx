@@ -308,7 +308,7 @@ export default async function RestorativePage({ params }: PageProps<"/restorativ
               eyebrow="Restorative treatments"
               title={
                 <>
-                  Repair, save or <span className="text-brand-500">replace</span>
+                  Repair, save or <span className="text-brand-600">replace</span>
                 </>
               }
               cards={[

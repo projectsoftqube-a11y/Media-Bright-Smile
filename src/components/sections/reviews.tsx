@@ -18,7 +18,7 @@ type Review = (typeof reviews)[number];
 
 function Stars({ size = "size-5", animate = false }: { size?: string; animate?: boolean }) {
   return (
-    <span className="relative inline-flex gap-1" aria-label="5 out of 5 stars">
+    <span className="relative inline-flex gap-1" role="img" aria-label="5 out of 5 stars">
       {Array.from({ length: 5 }).map((_, i) =>
         animate ? (
           <span key={i} className="relative">
@@ -141,7 +141,7 @@ function Column({
         style={{ animationDuration: `${duration}s`, animationDirection: reverse ? "reverse" : "normal" }}
       >
         {[0, 1].map((copy) => (
-          <div key={copy} className="flex flex-col gap-5" aria-hidden={copy === 1 || undefined}>
+          <div key={copy} className="flex flex-col gap-5" aria-hidden={copy === 1 || undefined} inert={copy === 1 || undefined}>
             {items.map((r, i) => (
               <ReviewCard key={`${copy}-${r.name}`} r={r} i={i + offset} onOpen={onOpen} />
             ))}
@@ -166,7 +166,7 @@ export function Reviews() {
         <div className="lg:col-span-5">
           <Eyebrow>Patient Reviews</Eyebrow>
           <SplitReveal as="h2" id="reviews-heading" className="mt-6 text-display-md font-bold">
-            What do <span className="text-brand-500">patients</span> say?
+            What do <span className="text-brand-600">patients</span> say?
           </SplitReveal>
           {/* Mobile: compact rating card */}
           <div className="mt-8 rounded-3xl bg-pearl p-5 ring-1 ring-line lg:hidden">

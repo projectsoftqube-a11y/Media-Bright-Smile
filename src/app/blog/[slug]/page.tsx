@@ -348,7 +348,7 @@ export default async function BlogPostPage({ params }: PageProps<"/blog/[slug]">
           <div className="container-site">
             <Eyebrow>Keep reading</Eyebrow>
             <h2 id="more-posts" className="mt-6 text-display-md font-bold">
-              More from the <span className="text-brand-500">blog</span>
+              More from the <span className="text-brand-600">blog</span>
             </h2>
             <RevealGroup stagger={0.08} className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {more.map((p, i) => (

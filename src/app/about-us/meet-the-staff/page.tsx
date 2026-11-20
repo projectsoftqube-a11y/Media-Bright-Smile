@@ -65,7 +65,7 @@ export default function MeetTheStaffPage() {
         eyebrow="Our team"
         title={
           <>
-            Meet the dental team at <span className="text-brand-500">Media Brite Smile</span>
+            Meet the dental team at <span className="text-brand-600">Media Brite Smile</span>
           </>
         }
         lead="Three dentists, dental hygienists, dental assistants and the front-desk team. Between them, they look after your visit from the first phone call to the follow-up after treatment."
@@ -116,7 +116,7 @@ export default function MeetTheStaffPage() {
             eyebrow="The clinical team"
             title={
               <>
-                Three dentists, each with their <span className="text-brand-500">own focus</span>
+                Three dentists, each with their <span className="text-brand-600">own focus</span>
               </>
             }
             lead="So the harder work stays in the practice instead of being referred out."
@@ -214,7 +214,7 @@ export default function MeetTheStaffPage() {
             eyebrow="Your appointment"
             title={
               <>
-                Who will you <span className="text-brand-500">see?</span>
+                Who will you <span className="text-brand-600">see?</span>
               </>
             }
             lead="Pick the kind of visit you are booking."

@@ -55,7 +55,7 @@ export function LegalToc({ items }: { items: Item[] }) {
               <span
                 className={cn(
                   "w-5 shrink-0 text-xs font-bold tabular-nums transition-colors duration-300",
-                  on ? "text-brand-500" : "text-muted",
+                  on ? "text-brand-700" : "text-muted",
                 )}
               >
                 {String(i + 1).padStart(2, "0")}

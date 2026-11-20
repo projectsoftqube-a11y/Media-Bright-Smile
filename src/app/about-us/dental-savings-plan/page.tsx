@@ -101,7 +101,7 @@ export default function SavingsPlanPage() {
         eyebrow="Dental savings plan"
         title={
           <>
-            Dental savings plan in <span className="text-brand-500">Media, PA</span>
+            Dental savings plan in <span className="text-brand-600">Media, PA</span>
           </>
         }
         lead="If you have no dental insurance, the in-house membership covers a year of routine care for $300, or $275 for a second member of your household."
@@ -146,7 +146,7 @@ export default function SavingsPlanPage() {
               eyebrow="What the plan includes"
               title={
                 <>
-                  One annual fee for the care most people need <span className="text-brand-500">in a year</span>
+                  One annual fee for the care most people need <span className="text-brand-600">in a year</span>
                 </>
               }
             />
@@ -155,7 +155,7 @@ export default function SavingsPlanPage() {
                 <RevealItem key={p.label}>
                   <div
                     className={
-                      i === 0 ? "rounded-3xl bg-brand-500 p-6 text-white" : "rounded-3xl bg-pearl p-6 ring-1 ring-line"
+                      i === 0 ? "rounded-3xl bg-brand-700 p-6 text-white" : "rounded-3xl bg-pearl p-6 ring-1 ring-line"
                     }
                   >
                     <p className={i === 0 ? "text-sm text-white/75" : "text-sm text-muted"}>{p.label}</p>
@@ -196,7 +196,7 @@ export default function SavingsPlanPage() {
             eyebrow="Who the plan is for"
             title={
               <>
-                Built for patients with <span className="text-brand-500">no dental insurance</span>
+                Built for patients with <span className="text-brand-600">no dental insurance</span>
               </>
             }
             lead="A larger group than most practices admit. As an in-house plan it is only usable at this practice, which is the trade-off for there being no claims to file."
@@ -240,7 +240,7 @@ export default function SavingsPlanPage() {
             eyebrow="Savings plan vs insurance"
             title={
               <>
-                They look similar and <span className="text-brand-500">work quite differently</span>
+                They look similar and <span className="text-brand-600">work quite differently</span>
               </>
             }
             lead="Insurance is usually better value if an employer pays for it. A membership is usually better if you would be buying individual cover yourself."
@@ -367,7 +367,7 @@ export default function SavingsPlanPage() {
             eyebrow="Savings plan questions"
             title={
               <>
-                Straight answers <span className="text-brand-500">before you join</span>
+                Straight answers <span className="text-brand-600">before you join</span>
               </>
             }
           />

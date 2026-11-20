@@ -133,7 +133,7 @@ function ChapterCopy({ blocks, dark }: { blocks: Block[]; dark?: boolean }) {
                   "group inline-flex min-h-11 items-center gap-2 rounded-full px-4 text-sm font-semibold transition-colors",
                   dark
                     ? "bg-white text-ink hover:bg-glow"
-                    : "bg-white text-ink ring-1 ring-line hover:bg-brand-500 hover:text-white hover:ring-brand-500",
+                    : "bg-white text-ink ring-1 ring-line hover:bg-brand-700 hover:text-white hover:ring-brand-700",
                 )}
               >
                 {l.text}
@@ -288,7 +288,7 @@ export function TownGuide({ town }: { town: Town }) {
           <div className="max-w-2xl">
             <Eyebrow>{town.name} patient guide</Eyebrow>
             <SplitReveal as="h2" id="guide-heading" className="mt-5 text-display-md font-bold text-balance">
-              Coming to us from <span className="text-brand-500">{town.name}</span>
+              Coming to us from <span className="text-brand-600">{town.name}</span>
             </SplitReveal>
           </div>
           <Reveal>
@@ -299,7 +299,7 @@ export function TownGuide({ town }: { town: Town }) {
                   href={`#${anchor(i)}`}
                   className="inline-flex min-h-10 items-center gap-2 rounded-full bg-pearl px-3.5 text-sm font-medium text-ink ring-1 ring-line transition-colors hover:text-brand-700 hover:ring-brand-400"
                 >
-                  <span className="text-xs font-bold text-brand-500 tabular-nums">
+                  <span className="text-xs font-bold text-brand-700 tabular-nums">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   {s.heading}

@@ -33,7 +33,8 @@ export function Marquee({
         }
       >
         <div className={cn("flex shrink-0", align)}>{children}</div>
-        <div className={cn("flex shrink-0", align)} aria-hidden="true">
+        {/* the loop's second copy: hidden from screen readers and inert, so its links and buttons can't take focus */}
+        <div className={cn("flex shrink-0", align)} aria-hidden="true" inert>
           {children}
         </div>
       </div>

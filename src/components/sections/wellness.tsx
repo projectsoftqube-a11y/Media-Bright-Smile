@@ -74,7 +74,7 @@ export function Wellness() {
           <div className="lg:sticky lg:top-28">
             <Eyebrow>Your first visit</Eyebrow>
             <SplitReveal as="h2" id="wellness-heading" className="mt-6 text-display-md font-bold">
-              What happens at your <span className="accent-serif text-brand-500">first visit</span>?
+              What happens at your <span className="accent-serif text-brand-600">first visit</span>?
             </SplitReveal>
             <p className="mt-6 max-w-lg text-lg leading-relaxed">
               A first appointment is an examination and a conversation, not treatment on the day.

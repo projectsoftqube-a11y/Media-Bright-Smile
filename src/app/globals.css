@@ -16,7 +16,7 @@
   --color-brand-300: #67cbe8;
   --color-brand-400: #29b3da;
   --color-brand-500: #009ecb; /* logo */
-  --color-brand-600: #0083ac;
+  --color-brand-600: #00769b; /* was #0083ac (3.9-4.3:1 as small text); now 4.6-5.2:1 on white, pearl and mist */
   --color-brand-700: #046a8a;
   --color-brand-800: #0b5670;
   --color-brand-900: #10475c;
@@ -38,7 +38,7 @@
   /* ---------- Semantic ---------- */
   --color-ink: #0c1b22; /* headings: deep teal-black */
   --color-body: #4a5458; /* paragraph text */
-  --color-muted: #7c878c;
+  --color-muted: #5f6b70; /* was #7c878c (3.3-3.7:1, failed WCAG AA); now 4.9-5.5:1 on white, pearl and mist */
   --color-pearl: #f6fafb; /* section surface */
   --color-mist: #eaf4f7; /* soft tinted surface */
   --color-glow: #7ee6f2; /* bright aqua highlight for gradients */
@@ -160,7 +160,7 @@
   }
 
   ::selection {
-    @apply bg-brand-500 text-white;
+    @apply bg-brand-700 text-white;
   }
 
   :focus-visible {

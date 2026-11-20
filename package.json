@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "images": "node scripts/optimize-images.mjs",
+    "predev": "node scripts/optimize-images.mjs",
     "dev": "node node_modules/next/dist/bin/next dev",
+    "prebuild": "node scripts/optimize-images.mjs",
     "build": "node node_modules/next/dist/bin/next build",
     "start": "node node_modules/next/dist/bin/next start",
     "lint": "node node_modules/eslint/bin/eslint.js",

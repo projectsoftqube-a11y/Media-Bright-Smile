@@ -17,7 +17,7 @@ export function TownFaq({ town }: { town: Town }) {
               eyebrow="Questions"
               title={
                 <>
-                  Questions from <span className="text-brand-500">{town.name}</span> patients
+                  Questions from <span className="text-brand-600">{town.name}</span> patients
                 </>
               }
             />

@@ -152,7 +152,7 @@ export default function SmileGalleryPage() {
         eyebrow="Smile gallery"
         title={
           <>
-            Smile makeover <span className="text-brand-500">before and after</span>
+            Smile makeover <span className="text-brand-600">before and after</span>
           </>
         }
         lead="Results from patients treated at Media Brite Smile in Media, PA, published only with their written permission."
@@ -195,7 +195,7 @@ export default function SmileGalleryPage() {
             eyebrow="Cosmetic cases"
             title={
               <>
-                Look at the <span className="text-brand-500">starting point</span>, not just the result
+                Look at the <span className="text-brand-600">starting point</span>, not just the result
               </>
             }
             lead="Veneers, bonding and whitening change the colour, shape and alignment of teeth that are otherwise healthy. The useful question is not “is that a nice smile” but “did they start where I am starting”."
@@ -226,7 +226,7 @@ export default function SmileGalleryPage() {
             eyebrow="Restorative and implant cases"
             title={
               <>
-                A crown that fits is the one <span className="text-brand-500">nobody notices</span>
+                A crown that fits is the one <span className="text-brand-600">nobody notices</span>
               </>
             }
             lead="Restorative work replaces what is missing or repairs what is broken, and the cosmetic result follows from doing that well. It is where the microscopes earn their keep."
@@ -290,7 +290,7 @@ export default function SmileGalleryPage() {
             eyebrow="Gallery questions"
             title={
               <>
-                Before you <span className="text-brand-500">compare</span>
+                Before you <span className="text-brand-600">compare</span>
               </>
             }
           />

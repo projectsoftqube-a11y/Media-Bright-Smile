@@ -658,7 +658,7 @@ function AreasMenu({ group, onNavigate }: { group: NavGroup; onNavigate: () => v
                         {l.label}
                       </span>
                       {l.note && (
-                        <span className="shrink-0 rounded-full bg-mist px-2.5 py-0.5 text-xs font-semibold text-brand-700 tabular-nums transition-colors group-hover:bg-brand-500 group-hover:text-white">
+                        <span className="shrink-0 rounded-full bg-mist px-2.5 py-0.5 text-xs font-semibold text-brand-700 tabular-nums transition-colors group-hover:bg-brand-700 group-hover:text-white">
                           {l.note}
                         </span>
                       )}

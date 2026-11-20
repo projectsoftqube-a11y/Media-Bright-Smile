@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# responsive WebP copies built by scripts/optimize-images.mjs
+/public/_img/

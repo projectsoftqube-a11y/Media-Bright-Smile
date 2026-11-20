@@ -53,7 +53,8 @@ export function PageHero({
             <SplitReveal as="h1" id={id} immediate className="mt-6 text-display-lg font-bold text-balance">
               {title}
             </SplitReveal>
-            <Reveal delay={0.25} y={24}>
+            {/* fade={false}: the lead paragraph is the LCP element on phones, so it must paint without JS */}
+            <Reveal delay={0.25} y={24} fade={false}>
               <p className="mt-6 max-w-2xl text-lg leading-relaxed text-pretty sm:text-xl">{lead}</p>
               {actions && (
                 <div className="mt-9 flex flex-wrap gap-3">
@@ -75,7 +76,7 @@ export function PageHero({
             </Reveal>
           </div>
           {aside && (
-            <Reveal delay={0.15} y={40} className="min-w-0">
+            <Reveal delay={0.15} y={40} fade={false} className="min-w-0">
               {aside}
             </Reveal>
           )}

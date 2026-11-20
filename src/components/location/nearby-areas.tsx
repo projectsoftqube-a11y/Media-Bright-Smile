@@ -34,7 +34,7 @@ export function NearbyAreas({ current }: { current: Location }) {
                 href={l.href}
                 className={
                   l.isHome
-                    ? "group relative flex h-full min-h-36 flex-col justify-between gap-6 overflow-hidden rounded-3xl bg-brand-500 p-5 text-white shadow-glow sm:p-6"
+                    ? "group relative flex h-full min-h-36 flex-col justify-between gap-6 overflow-hidden rounded-3xl bg-brand-700 p-5 text-white shadow-glow sm:p-6"
                     : "group relative flex h-full min-h-36 flex-col justify-between gap-6 overflow-hidden rounded-3xl bg-white p-5 ring-1 ring-line transition-[box-shadow,transform] duration-500 hover:-translate-y-1 hover:shadow-lift sm:p-6"
                 }
               >

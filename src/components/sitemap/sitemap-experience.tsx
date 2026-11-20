@@ -184,7 +184,7 @@ function PageSearch({ index, phone }: { index: Hit[]; phone: { display: string; 
                           <span
                             className={cn(
                               "grid size-9 shrink-0 place-items-center rounded-full transition-colors",
-                              i === cursor ? "bg-brand-500 text-white" : "bg-pearl text-brand-600",
+                              i === cursor ? "bg-brand-700 text-white" : "bg-pearl text-brand-600",
                             )}
                           >
                             {i === cursor ? <CornerDownLeft className="size-4" /> : <ArrowUpRight className="size-4" />}
@@ -378,7 +378,7 @@ function AreasLinks({ links }: { links: SitemapLink[] }) {
           <li key={l.href}>
             <Link
               href={l.href}
-              className="group flex min-h-12 items-center gap-2.5 rounded-2xl bg-pearl px-3.5 py-2 text-ink ring-1 ring-line transition-colors duration-300 hover:bg-brand-500 hover:text-white hover:ring-brand-500"
+              className="group flex min-h-12 items-center gap-2.5 rounded-2xl bg-pearl px-3.5 py-2 text-ink ring-1 ring-line transition-colors duration-300 hover:bg-brand-700 hover:text-white hover:ring-brand-700"
             >
               <MapPin className="size-4 shrink-0 text-brand-500 transition-colors group-hover:text-white" />
               <span className="min-w-0 flex-1 font-medium">{l.text.replace("Dentist in ", "")}</span>
@@ -510,9 +510,9 @@ export function SitemapExperience({
             <div className="relative z-10 max-w-2xl min-w-0">
               <Eyebrow>Sitemap</Eyebrow>
               <SplitReveal as="h1" id="sitemap-title" immediate className="mt-6 text-display-lg font-bold text-balance">
-                Every page, <span className="text-brand-500">mapped out</span>
+                Every page, <span className="text-brand-600">mapped out</span>
               </SplitReveal>
-              <Reveal delay={0.2} y={24}>
+              <Reveal delay={0.2} y={24} fade={false}>
                 <p className="mt-6 max-w-xl text-lg leading-relaxed text-pretty sm:text-xl">{intro}</p>
                 <div className="mt-9">
                   <PageSearch index={index} phone={phone} />
@@ -548,7 +548,7 @@ export function SitemapExperience({
             <div>
               <Eyebrow>Shortcuts</Eyebrow>
               <SplitReveal as="h2" id="shortcuts-title" className="mt-6 text-display-md font-bold text-balance">
-                Most visits start <span className="text-brand-500">right here</span>
+                Most visits start <span className="text-brand-600">right here</span>
               </SplitReveal>
             </div>
             <Reveal className="lg:justify-self-end">
@@ -594,7 +594,7 @@ export function SitemapExperience({
             <div>
               <Eyebrow>All pages</Eyebrow>
               <SplitReveal as="h2" id="all-pages-title" className="mt-6 text-display-md font-bold text-balance">
-                {total} pages in <span className="text-brand-500">{groups.length} sections</span>
+                {total} pages in <span className="text-brand-600">{groups.length} sections</span>
               </SplitReveal>
             </div>
             <Reveal className="lg:justify-self-end">

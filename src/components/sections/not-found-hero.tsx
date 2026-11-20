@@ -127,7 +127,7 @@ export function NotFoundHero() {
                 style={{ visibility: "hidden" }}
               >
                 {i === 1 ? (
-                  <span data-float className="flex h-[0.8em] items-end px-[0.04em] text-brand-500">
+                  <span data-float className="flex h-[0.8em] items-end px-[0.04em] text-brand-600">
                     <ToothWatermark
                       size={1}
                       className="h-[0.8em] w-auto drop-shadow-[0_18px_30px_rgb(0_158_203/0.35)]"
@@ -159,7 +159,7 @@ export function NotFoundHero() {
           className="mt-6 max-w-3xl text-display-md font-bold"
           style={{ visibility: "hidden" }}
         >
-          This page has slipped <span className="text-brand-500">out of place</span>
+          This page has slipped <span className="text-brand-600">out of place</span>
         </h1>
         <p data-copy className="mt-5 max-w-xl text-lg leading-relaxed" style={{ visibility: "hidden" }}>
           The link may be broken or the page may have moved. Let&apos;s get your visit back on track.

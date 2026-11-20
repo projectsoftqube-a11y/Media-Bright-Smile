@@ -28,7 +28,7 @@ export function Services() {
               id="services-heading"
               className="mt-6 max-w-4xl text-display-md font-bold text-balance"
             >
-              What dental <span className="accent-serif text-brand-500">treatments</span> do you offer?
+              What dental <span className="accent-serif text-brand-600">treatments</span> do you offer?
             </SplitReveal>
           </div>
           <Reveal className="lg:col-span-4 lg:justify-self-end">
@@ -39,49 +39,52 @@ export function Services() {
         </div>
         <div className="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-12">
           {/* Tabs */}
-          <div role="tablist" aria-label="Service categories" className="flex flex-col gap-3 lg:col-span-4">
-            {serviceGroups.map((g, i) => (
-              <button
-                key={g.id}
-                role="tab"
-                id={`tab-${g.id}`}
-                aria-selected={active === i}
-                aria-controls={`panel-${g.id}`}
-                onClick={() => setActive(i)}
-                onMouseEnter={() => setActive(i)}
-                className={cn(
-                  "group relative flex items-center gap-5 overflow-hidden rounded-3xl border p-4 pr-6 text-left transition-colors duration-500",
-                  active === i
-                    ? "border-transparent text-white"
-                    : "border-line bg-white text-ink hover:border-brand-200",
-                )}
-              >
-                {active === i && (
-                  <motion.span
-                    layoutId="service-tab"
-                    className="absolute inset-0 bg-linear-to-br from-brand-600 to-brand-800"
-                    transition={{ type: "spring", stiffness: 260, damping: 30 }}
-                  />
-                )}
-                <span className="relative size-16 shrink-0 overflow-hidden rounded-2xl">
-                  <Image src={g.image} alt="" fill sizes="64px" className="object-cover" />
-                </span>
-                <span className="relative flex-1">
-                  <span className="block text-lg font-semibold tracking-tight">{g.title}</span>
-                  <span className={cn("text-sm", active === i ? "text-brand-100" : "text-muted")}>
-                    {g.total} services
-                  </span>
-                </span>
-                <span
+          {/* the tablist holds only the tabs (ARIA requires it); the help card sits after it */}
+          <div className="flex flex-col gap-3 lg:col-span-4">
+            <div role="tablist" aria-label="Service categories" className="flex flex-col gap-3">
+              {serviceGroups.map((g, i) => (
+                <button
+                  key={g.id}
+                  role="tab"
+                  id={`tab-${g.id}`}
+                  aria-selected={active === i}
+                  aria-controls={`panel-${g.id}`}
+                  onClick={() => setActive(i)}
+                  onMouseEnter={() => setActive(i)}
                   className={cn(
-                    "relative grid size-10 place-items-center rounded-full transition-all duration-500",
-                    active === i ? "rotate-45 bg-white text-brand-700" : "bg-pearl text-ink",
+                    "group relative flex items-center gap-5 overflow-hidden rounded-3xl border p-4 pr-6 text-left transition-colors duration-500",
+                    active === i
+                      ? "border-transparent text-white"
+                      : "border-line bg-white text-ink hover:border-brand-200",
                   )}
                 >
-                  <ArrowUpRight className="size-4" />
-                </span>
-              </button>
-            ))}
+                  {active === i && (
+                    <motion.span
+                      layoutId="service-tab"
+                      className="absolute inset-0 bg-linear-to-br from-brand-600 to-brand-800"
+                      transition={{ type: "spring", stiffness: 260, damping: 30 }}
+                    />
+                  )}
+                  <span className="relative size-16 shrink-0 overflow-hidden rounded-2xl">
+                    <Image src={g.image} alt="" fill sizes="64px" className="object-cover" />
+                  </span>
+                  <span className="relative flex-1">
+                    <span className="block text-lg font-semibold tracking-tight">{g.title}</span>
+                    <span className={cn("text-sm", active === i ? "text-brand-100" : "text-muted")}>
+                      {g.total} services
+                    </span>
+                  </span>
+                  <span
+                    className={cn(
+                      "relative grid size-10 place-items-center rounded-full transition-all duration-500",
+                      active === i ? "rotate-45 bg-white text-brand-700" : "bg-pearl text-ink",
+                    )}
+                  >
+                    <ArrowUpRight className="size-4" />
+                  </span>
+                </button>
+              ))}
+            </div>
 
             <div className="mt-3 hidden rounded-3xl border border-dashed border-brand-300 bg-white/60 p-6 lg:block">
               <p className="font-semibold text-ink">Not sure what you need?</p>

@@ -52,7 +52,7 @@ export function DoctorJourney({ doctor, profile }: { doctor: Doctor; profile: Do
           <div className="lg:col-span-7">
             <Eyebrow>Education &amp; training</Eyebrow>
             <SplitReveal as="h2" id="journey-heading" className="mt-6 text-display-md font-bold">
-              The path that shaped <span className="text-brand-500">{doctor.short}</span>
+              The path that shaped <span className="text-brand-600">{doctor.short}</span>
             </SplitReveal>
           </div>
           <p className="text-lg leading-relaxed lg:col-span-5">

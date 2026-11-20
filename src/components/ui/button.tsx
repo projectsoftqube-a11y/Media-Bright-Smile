@@ -13,7 +13,7 @@ type Size = "md" | "lg";
 --------------------------------------------------------------------------- */
 
 const base: Record<Variant, string> = {
-  primary: "bg-brand-500 text-white shadow-glow",
+  primary: "bg-brand-700 text-white shadow-glow",
   dark: "bg-ink text-white",
   outline: "bg-white/85 text-ink ring-1 ring-ink/15",
   "outline-light": "bg-white/10 text-white ring-1 ring-white/30",

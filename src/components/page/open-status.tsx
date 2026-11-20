@@ -95,7 +95,7 @@ export function HoursTable() {
               <th scope="row" className="py-3.5 pl-4 font-semibold text-ink">
                 {h.day}
                 {on && (
-                  <span className="ml-2 rounded-full bg-brand-500 px-2 py-0.5 text-xs font-bold text-white">Today</span>
+                  <span className="ml-2 rounded-full bg-brand-700 px-2 py-0.5 text-xs font-bold text-white">Today</span>
                 )}
               </th>
               <td className="py-3.5 pr-4 text-right text-body tabular-nums">

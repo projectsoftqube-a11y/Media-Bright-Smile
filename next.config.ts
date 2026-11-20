@@ -6,10 +6,14 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   images: {
-    // Serve the files in /public as they are. Vercel image optimisation is a paid allowance on the
-    // Hobby plan and answers 402 once it is used up, which leaves every next/image blank.
-    // The photos are already resized and compressed, so they can be served directly.
-    unoptimized: true,
+    // Vercel image optimisation is a paid allowance on the Hobby plan and answers 402 once it is
+    // used up, which leaves every next/image blank. Instead, scripts/optimize-images.mjs builds
+    // WebP copies of every photo at these widths before `dev` and `build`, and the custom loader
+    // points each srcset entry at the right file. Keep these two lists in step with WIDTHS there.
+    loader: "custom",
+    loaderFile: "./src/lib/image-loader.ts",
+    deviceSizes: [640, 828, 1200, 1920],
+    imageSizes: [128, 256, 384],
   },
   // Old /locations URLs (before the approved sitemap) move to their sitemap addresses.
   redirects() {

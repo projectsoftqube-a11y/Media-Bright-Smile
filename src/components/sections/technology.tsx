@@ -53,7 +53,7 @@ export function Technology() {
           <div className="lg:col-span-7">
             <Eyebrow>Advanced Technology</Eyebrow>
             <SplitReveal as="h2" id="tech-heading" className="mt-6 max-w-3xl text-display-md font-bold text-balance">
-              Why does this practice use <span className="accent-serif text-brand-500">microscopes</span>?
+              Why does this practice use <span className="accent-serif text-brand-600">microscopes</span>?
             </SplitReveal>
           </div>
           <Reveal className="lg:col-span-5 lg:justify-self-end">
@@ -133,7 +133,7 @@ export function Technology() {
 
           <RevealItem className="lg:col-span-4">
             <div className="flex size-full flex-col justify-between rounded-4xl border border-line bg-pearl p-8">
-              <span className="text-5xl font-bold tracking-tighter text-brand-500">No putty.</span>
+              <span className="text-5xl font-bold tracking-tighter text-brand-600">No putty.</span>
               <div>
                 <h3 className="text-xl font-semibold tracking-tight">Intraoral scanner</h3>
                 <p className="mt-2 text-sm">

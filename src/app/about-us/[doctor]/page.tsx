@@ -86,7 +86,7 @@ export default async function DoctorPage({ params }: PageProps<"/about-us/[docto
             eyebrow="Questions"
             title={
               <>
-                Questions about <span className="text-brand-500">{doctor.short}</span>
+                Questions about <span className="text-brand-600">{doctor.short}</span>
               </>
             }
           />

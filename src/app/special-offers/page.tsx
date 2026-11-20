@@ -195,7 +195,7 @@ function Coupon({ d }: { d: (typeof deals)[number] }) {
               <span
                 className={cn(
                   "mt-0.5 grid size-5 shrink-0 place-items-center rounded-full",
-                  dark ? "bg-white text-brand-600" : "bg-brand-500 text-white",
+                  dark ? "bg-white text-brand-600" : "bg-brand-700 text-white",
                 )}
               >
                 <Check className="size-3" strokeWidth={3} />
@@ -231,7 +231,7 @@ function Coupon({ d }: { d: (typeof deals)[number] }) {
               <span
                 className={cn(
                   "grid size-9 shrink-0 place-items-center rounded-full transition-transform duration-500 group-hover:rotate-45",
-                  dark ? "bg-brand-500 text-white" : "bg-white/15 text-white",
+                  dark ? "bg-brand-700 text-white" : "bg-white/15 text-white",
                 )}
               >
                 <ArrowUpRight className="size-4" />
@@ -273,7 +273,7 @@ export default function SpecialOffersPage() {
         eyebrow="Special offers"
         title={
           <>
-            Affordable dentist in Media, PA: <span className="text-brand-500">current offers</span>
+            Affordable dentist in Media, PA: <span className="text-brand-600">current offers</span>
           </>
         }
         lead="Four current offers, each with the regular price beside it so you can see what you are actually saving. The $99 new patient exam is aimed squarely at people with no dental insurance."
@@ -407,7 +407,7 @@ export default function SpecialOffersPage() {
             eyebrow="How to claim an offer"
             title={
               <>
-                Mention it when you book. <span className="text-brand-500">That is the whole process.</span>
+                Mention it when you book. <span className="text-brand-600">That is the whole process.</span>
               </>
             }
           />
@@ -467,7 +467,7 @@ export default function SpecialOffersPage() {
             eyebrow="Offer questions"
             title={
               <>
-                The small print, <span className="text-brand-500">in plain words</span>
+                The small print, <span className="text-brand-600">in plain words</span>
               </>
             }
           />

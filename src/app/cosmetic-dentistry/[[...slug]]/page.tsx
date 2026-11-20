@@ -129,7 +129,7 @@ export default async function CosmeticPage({ params }: PageProps<"/cosmetic-dent
               eyebrow="The treatments"
               title={
                 <>
-                  Five ways to change <span className="text-brand-500">how your smile looks</span>
+                  Five ways to change <span className="text-brand-600">how your smile looks</span>
                 </>
               }
               cards={[

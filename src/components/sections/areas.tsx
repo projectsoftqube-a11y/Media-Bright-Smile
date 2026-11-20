@@ -23,7 +23,7 @@ export function Areas() {
           <div className="lg:col-span-8">
             <Eyebrow>Areas we serve</Eyebrow>
             <SplitReveal as="h2" id="areas-heading" className="mt-6 max-w-4xl text-display-md font-bold text-balance">
-              Which areas around <span className="text-brand-500">Media</span> do you serve?
+              Which areas around <span className="text-brand-600">Media</span> do you serve?
             </SplitReveal>
             <Reveal>
               <p className="mt-6 max-w-2xl text-lg leading-relaxed">

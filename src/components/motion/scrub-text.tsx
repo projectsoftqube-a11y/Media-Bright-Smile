@@ -20,6 +20,8 @@ export function ScrubText({ children, className }: { children: ReactNode; classN
         SplitText.create(el.querySelectorAll("[data-scrub]"), {
           type: "words",
           autoSplit: true,
+          /* no aria-label on the wrapping <span> (not allowed on a plain span); the words stay readable */
+          aria: "none",
           /* own compositor layer per word, so the scrubbed opacity never repaints the paragraph */
           wordsClass: "will-change-[opacity]",
           onSplit(self) {

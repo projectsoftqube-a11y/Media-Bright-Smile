@@ -43,9 +43,9 @@ export function DoctorHero({ doctor, profile }: { doctor: Doctor; profile: Docto
                 {given} <span className="text-gradient-brand">{surname}</span>
               </SplitReveal>
 
-              <Reveal delay={0.15}>
+              <Reveal delay={0.15} fade={false}>
                 <div className="mt-6 flex flex-wrap items-center gap-2.5">
-                  <span className="rounded-full bg-brand-500 px-3.5 py-1.5 text-xs font-bold tracking-[0.14em] text-white">
+                  <span className="rounded-full bg-brand-700 px-3.5 py-1.5 text-xs font-bold tracking-[0.14em] text-white">
                     {doctor.credential}
                   </span>
                   <span className="rounded-full border border-white/15 px-3.5 py-1.5 text-sm font-medium text-white/85">
