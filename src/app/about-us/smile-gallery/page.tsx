@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { topicImages as T } from "@/content/topic-images";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Camera, FileCheck2, Sparkles } from "lucide-react";
+import { ArrowUpRight, Camera, FileCheck2 } from "lucide-react";
 import { site } from "@/content/site";
 import { PageHero, type Crumb } from "@/components/page/page-hero";
 import { SectionHead } from "@/components/page/section-head";
@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   title: { absolute: title },
   description,
   alternates: { canonical: "/about-us/smile-gallery" },
+  // Developer Q&A 19 Nov: out of the index (and the menu and sitemap) until at least one consented
+  // before-and-after case exists. The URL stays live so existing links keep working.
+  // When cases arrive: remove this, add an ImageGallery schema node and put the page back in the menu.
+  robots: { index: false, follow: true },
 };
 
 const crumbs: Crumb[] = [
@@ -40,7 +44,7 @@ const faqs: QA[] = [
   },
   {
     q: "Are these real patients?",
-    a: "Any before-and-after case shown here is a patient treated at this practice, published with their written consent. The photos on the cards today show the treatments themselves, such as shade guides and models, not patients. We never present a stock photo as someone’s result.",
+    a: "Any before-and-after case shown here is a patient treated at this practice, published with their written consent. We never present a stock photo as someone’s result.",
   },
 ];
 
@@ -151,7 +155,7 @@ export default function SmileGalleryPage() {
             Smile makeover <span className="text-brand-500">before and after</span>
           </>
         }
-        lead="Results from patients treated at Media Brite Smile in Media, PA, published only with their written permission. Each card shows the treatment itself, and real cases are added as patients clear them."
+        lead="Results from patients treated at Media Brite Smile in Media, PA, published only with their written permission."
         primary={{ label: "Book a Cosmetic Consultation", href: site.bookingHref }}
         aside={
           <div className="relative pb-8">
@@ -170,7 +174,6 @@ export default function SmileGalleryPage() {
               {[
                 { icon: FileCheck2, t: "Written consent for every case" },
                 { icon: Camera, t: "Patients treated at this practice" },
-                { icon: Sparkles, t: "Never a stand-in result" },
               ].map(({ icon: Icon, t }) => (
                 <span
                   key={t}

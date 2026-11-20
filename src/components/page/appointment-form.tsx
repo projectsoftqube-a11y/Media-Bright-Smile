@@ -43,14 +43,24 @@ const Req = () => (
   </span>
 );
 
+const days = ["Any day", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+
 /**
- * Appointment request form (id="appointment-form"), two steps:
- * 1. existing or new patient, 2. contact details, services and a message.
- * DEVELOPER: not yet connected to an inbox or CRM. Wire `onSubmit` to the practice's
- * endpoint before launch; until then it tells the visitor nothing was sent and to call.
+ * Appointment request form, two steps:
+ * 1. existing or new patient, 2. name, phone, email, preferred day, reason for visit and a message.
+ * Ids (Developer Q&A 19 Nov): "appointment-form" on /patient-information/scheduling/,
+ * "contact-form" on /contact-us/.
+ *
+ * SENDING IS SWITCHED OFF until the practice names a destination. Requests carry health information,
+ * so they may only go to the practice-management / patient-communication system or a form service that
+ * signs a HIPAA BAA, never a plain email inbox. Until then the form tells the visitor nothing was sent
+ * and to call. When it is wired:
+ * - submit with POST; the thank-you state or URL must carry no form data (no ?name=, ?service=)
+ * - fire generate_lead (with form_id) on the success state only, never on click or failed validation
+ * - send no names, phones, emails, message text or reason for visit to GA4, Google Ads or any other tag
  * The hidden "company" field is a spam trap: real visitors never see or fill it.
  */
-export function AppointmentForm() {
+export function AppointmentForm({ id = "appointment-form" }: { id?: "appointment-form" | "contact-form" }) {
   const reduce = useReducedMotion();
   const [patient, setPatient] = useState<Patient | null>(null);
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -84,7 +94,7 @@ export function AppointmentForm() {
     if (!name) next.name = "Please tell us your name.";
     if (phone.length < 10) next.phone = "Please enter a phone number we can call back.";
     if (!/^\S+@\S+\.\S+$/.test(email)) next.email = "Please enter an email address we can reply to.";
-    if (data.getAll("service").length === 0) next.service = "Please choose at least one option.";
+    if (data.getAll("service").length === 0) next.service = "Please choose at least one reason for your visit.";
     setErrors(next);
     const first = Object.keys(next)[0];
     if (first) {
@@ -98,7 +108,8 @@ export function AppointmentForm() {
 
   return (
     <div className="relative">
-      <form id="appointment-form" ref={formRef} noValidate onSubmit={onSubmit}>
+      {/* method="post": if script ever fails, a native submit must never put form data in the URL */}
+      <form id={id} method="post" ref={formRef} noValidate onSubmit={onSubmit}>
         <input type="hidden" name="patient" value={patient ?? ""} />
 
         <AnimatePresence mode="wait" initial={false}>
@@ -201,9 +212,18 @@ export function AppointmentForm() {
                 {errors.email && <span className="mt-1.5 block text-sm text-rose-600">{errors.email}</span>}
               </label>
 
+              <label className="block sm:col-span-2 lg:col-span-1">
+                <span className="text-sm font-semibold text-ink">Preferred Day</span>
+                <select name="preferred_day" defaultValue="Any day" className={cn(field, "cursor-pointer")}>
+                  {days.map((d) => (
+                    <option key={d}>{d}</option>
+                  ))}
+                </select>
+              </label>
+
               <fieldset className="col-span-full" aria-invalid={!!errors.service}>
                 <legend className="text-sm font-semibold text-ink">
-                  Services <Req /> <span className="ml-1 font-normal text-muted">Select all that apply</span>
+                  Reason for Visit <Req /> <span className="ml-1 font-normal text-muted">Select all that apply</span>
                 </legend>
                 <div className="mt-3 grid grid-cols-1 gap-2.5 md:grid-cols-2 lg:grid-cols-3">
                   {services.map((s) => (
@@ -238,12 +258,11 @@ export function AppointmentForm() {
                 <textarea
                   name="message"
                   rows={4}
-                  placeholder="Anything we should know, such as the days and times that suit you"
+                  placeholder="Anything we should know, such as the time of day that suits you"
                   className={cn(field, "resize-y")}
                 />
                 <span className="mt-1.5 block text-sm leading-relaxed text-muted">
-                  Please don&apos;t include medical details. We&apos;ll talk through your health history in person or on
-                  the phone.
+                  Please do not include detailed medical information in this form.
                 </span>
               </label>
 

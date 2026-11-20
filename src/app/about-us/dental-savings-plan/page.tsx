@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { topicImages as T } from "@/content/topic-images";
 import Link from "next/link";
-import { ArrowUpRight, Briefcase, Building, Check, CircleAlert, Hourglass, Minus, Sunset, X } from "lucide-react";
+import { ArrowUpRight, Briefcase, Building, Check, CircleAlert, Minus, Sunset, X } from "lucide-react";
 import { membership, site } from "@/content/site";
 import { PageHero, type Crumb } from "@/components/page/page-hero";
 import { SectionHead } from "@/components/page/section-head";
@@ -59,7 +59,6 @@ const audiences = [
   { icon: Briefcase, title: "Self-employed", text: "No employer plan to fall back on." },
   { icon: Building, title: "No dental cover at work", text: "Your employer does not offer dental insurance." },
   { icon: Sunset, title: "Recently retired", text: "Cover ended when you stopped working." },
-  { icon: Hourglass, title: "Waiting on insurance", text: "Partway through an insurance waiting period." },
 ];
 
 /* Only rows the fact sheet supports. Waiting periods, annual maximums and exclusions are still to be confirmed. */
@@ -70,7 +69,7 @@ const compare: { row: string; plan: string; ins: string; planOk?: boolean; insOk
   { row: "Use at other practices", plan: "No, here only", ins: "Yes, within the network", planOk: false, insOk: true },
   {
     row: "Discount on treatment",
-    plan: "10–15% off fillings, crowns, dentures and more",
+    plan: "10–15% off fillings, crowns and dentures",
     ins: "Depends on your policy",
   },
 ];
@@ -182,7 +181,7 @@ export default function SavingsPlanPage() {
               </ul>
               <p className="mt-6 rounded-2xl bg-white p-5 text-[1.0625rem] leading-relaxed text-ink ring-1 ring-line">
                 <strong className="text-brand-600">Plus 10 to 15% off</strong> additional procedures, including
-                fillings, crowns, dentures and more.
+                fillings, crowns and dentures.
               </p>
             </div>
           </Reveal>
@@ -202,7 +201,7 @@ export default function SavingsPlanPage() {
             }
             lead="A larger group than most practices admit. As an in-house plan it is only usable at this practice, which is the trade-off for there being no claims to file."
           />
-          <RevealGroup className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4" stagger={0.08}>
+          <RevealGroup className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3" stagger={0.08}>
             {audiences.map(({ icon: Icon, title: t, text }) => (
               <RevealItem key={t}>
                 <div className="h-full rounded-4xl bg-white p-7 ring-1 ring-line">
@@ -219,8 +218,8 @@ export default function SavingsPlanPage() {
             <div className="flex flex-col gap-4 rounded-3xl bg-white p-6 ring-1 ring-line sm:flex-row sm:items-center sm:justify-between sm:p-7">
               <p className="flex items-start gap-4 text-lg leading-relaxed text-ink">
                 <CircleAlert className="mt-1 size-5 shrink-0 text-brand-500" />
-                If you do have dental insurance, this plan is not for you and nobody here will sell it to you. Call with
-                your plan name and the team will check what it covers.
+                The plan is built for patients without dental insurance. If you do have insurance, call with your plan
+                name instead and the team will check what it covers.
               </p>
               <Link
                 href="/patient-information/insurance-payment-options"

@@ -62,11 +62,6 @@ export const utilityPages: Record<string, DraftPage> = {
           },
           {
             type: "link",
-            text: "Smile Gallery",
-            href: "/about-us/smile-gallery",
-          },
-          {
-            type: "link",
             text: "Special Offers",
             href: "/special-offers",
           },

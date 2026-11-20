@@ -99,10 +99,10 @@ export default function ContactPage() {
         >
           <div className="flex flex-wrap items-end justify-between gap-x-8 gap-y-2">
             <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Request an appointment</h2>
-            <p className="text-lg text-body">Tell us what is going on and we will call you back with a time.</p>
+            <p className="text-lg text-body">Tell us what is going on and the team will reply to arrange a time.</p>
           </div>
           <div className="mt-8">
-            <AppointmentForm />
+            <AppointmentForm id="contact-form" />
           </div>
         </div>
 

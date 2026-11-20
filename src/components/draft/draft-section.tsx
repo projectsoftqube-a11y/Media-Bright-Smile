@@ -321,6 +321,9 @@ function Blocks({
           case "form":
             return (
               <div key={i} className="rounded-4xl bg-white p-6 shadow-soft ring-1 ring-line sm:rounded-5xl sm:p-10">
+                <p className="mb-6 text-lg text-body">
+                  Tell us what is going on and the team will reply to arrange a time.
+                </p>
                 <AppointmentForm />
               </div>
             );

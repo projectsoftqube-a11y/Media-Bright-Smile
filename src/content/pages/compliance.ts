@@ -202,9 +202,14 @@ export const compliancePages: Record<string, DraftPage> = {
             type: "p",
             text: "The reason for your enquiry and any details you choose to include",
           },
+          // answered in the Developer Q&A, 19 Nov: the approved forms' fields
           {
             type: "p",
-            text: "[CONFIRM: any other fields collected by the site's forms, such as preferred appointment times or insurance details]",
+            text: "Your preferred day for an appointment",
+          },
+          {
+            type: "p",
+            text: "On our offer pages, whether you have dental insurance (yes or no), and on the clear aligner page whether the treatment is for a teen or an adult. No insurance plan details are collected on this website.",
           },
           {
             type: "p",

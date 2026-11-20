@@ -38,7 +38,8 @@ const roles = [
   {
     icon: Sparkles,
     title: "Dental hygienists",
-    text: "If you come in for regular cleanings, the hygienist is often the person you spend most time with.",
+    // approved wording (Developer Q&A 19 Nov): the practice has not confirmed who does cleanings
+    text: "Regular cleanings in Media, PA are done by the practice team, and you will be shown how to look after your teeth and gums at home. If you want to know whether a dental hygienist or a dentist will see you, ask when you book.",
     tasks: ["Cleanings", "Periodontal maintenance", "Showing you how to look after teeth and gums at home"],
   },
   {

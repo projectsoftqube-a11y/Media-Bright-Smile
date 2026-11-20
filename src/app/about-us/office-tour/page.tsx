@@ -271,6 +271,7 @@ export default function OfficeTourPage() {
           When you arrive, the front-desk team checks you in, confirms your details and insurance, and answers any
           questions about cost before you go through.
         </p>
+        <p>If you are nervous, say so when you book, and ask what can be done to make the visit easier.</p>
       </Stop>
 
       <Stop
@@ -334,7 +335,7 @@ export default function OfficeTourPage() {
             </div>
             <RevealGroup className="grid grid-cols-1 gap-3" stagger={0.08}>
               {[
-                { icon: Microscope, t: "High-powered microscopes", d: "For fillings, crowns and veneers" },
+                { icon: Microscope, t: "High-powered microscopes", d: "Used for precise restorative work" },
                 { icon: ScanLine, t: "Intraoral scanner", d: "Digital impressions instead of putty" },
                 { icon: Zap, t: "Digital X-rays", d: "Images on screen in seconds" },
                 { icon: Box, t: "CBCT 3D imaging", d: "For implant planning" },
@@ -469,7 +470,7 @@ export default function OfficeTourPage() {
             See it <span className="text-glow">in person</span>
           </>
         }
-        text="Book a first visit, and tell us if you would like a look around before treatment starts."
+        text="Book a first visit and tell us if you are nervous. Nothing is done without being explained to you first."
         image="/images/office/waiting-room.webp"
         imageAlt={alt("Waiting area")}
       />

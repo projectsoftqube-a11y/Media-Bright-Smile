@@ -368,7 +368,7 @@ export default function SpecialOffersPage() {
                 </h2>
                 <p className="mt-5 max-w-xl text-lg leading-relaxed text-white/75">
                   Separate from the offers above, the in-house Dental Savings Plan covers a year of routine care for a
-                  flat fee, plus {membership.discount.replace(", including fillings, crowns, dentures and more", "")}{" "}
+                  flat fee, plus {membership.discount.replace(", including fillings, crowns and dentures", "")}{" "}
                   such as fillings, crowns and dentures.
                 </p>
                 <Link

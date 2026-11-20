@@ -314,7 +314,7 @@ export const mainNav: (NavLink | NavGroup)[] = [
         { label: "Meet the Staff", href: "/about-us/meet-the-staff" },
         { label: "Office Tour", href: "/about-us/office-tour" },
         { label: "Patient Reviews", href: "/about-us/patient-reviews" },
-        { label: "Smile Gallery", href: "/about-us/smile-gallery" },
+        // Smile Gallery stays out of the menu until a consented before-and-after case exists (Developer Q&A 19 Nov)
       ],
     },
   ]),
@@ -452,7 +452,8 @@ export const membership = {
     "All individual X-rays for 1 year",
     "Full mouth series X-rays or Panorex",
   ],
-  discount: "10-15% off additional procedures, including fillings, crowns, dentures and more",
+  // Developer Q&A 19 Nov: the practice has not confirmed procedures beyond these three, so no "and more"
+  discount: "10-15% off additional procedures, including fillings, crowns and dentures",
 } as const;
 
 /* -------------------------------------------------------------------------- */
