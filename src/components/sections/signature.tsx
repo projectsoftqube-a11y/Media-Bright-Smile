@@ -1,205 +1,166 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
-import { useRef, useState } from "react";
-import { AnimatePresence, motion, useMotionValue, useSpring } from "motion/react";
 import { ArrowUpRight } from "lucide-react";
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { Button } from "@/components/ui/button";
 import { SplitReveal } from "@/components/motion/split-reveal";
 import { Reveal, RevealGroup, RevealItem } from "@/components/motion/reveal";
-import { ease } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 
-const treatments = [
+type Treatment = {
+  title: string;
+  kicker: string;
+  offer: string | null;
+  image: string;
+  position: string;
+  href: string;
+  /** "lg" = top-row feature card (7 + 5 columns), "sm" = bottom-row card (4 columns) */
+  size: "lg" | "sm";
+  span: string;
+};
+
+/* Bento: two feature cards on top (7 + 5 columns), three below (4 + 4 + 4).
+   Tablet: Implants runs full width, then two rows of two. Phone: one column. */
+const treatments: Treatment[] = [
   {
     title: "Dental Implants",
     kicker: "Feel and function like natural teeth",
     offer: "$500 off",
     image: "/images/services/implant-consult.jpg",
+    position: "50% 40%",
     href: "/restorative-dentistry/dental-implants",
+    size: "lg",
+    span: "md:col-span-6 lg:col-span-7",
   },
   {
     title: "Invisalign®",
     kicker: "Straighter teeth, nearly invisible",
     offer: "$1,000 off",
     image: "/images/topics/aligner-smile.jpg",
+    position: "35% 40%",
     href: "/cosmetic-dentistry/invisalign",
+    size: "lg",
+    span: "md:col-span-3 lg:col-span-5",
   },
   {
     title: "Teeth Whitening",
     kicker: "Take-home kit with lifetime refills",
     offer: "$100 off",
     image: "/images/services/whitening-result.jpg",
+    position: "60% 40%",
     href: "/cosmetic-dentistry/teeth-whitening",
+    size: "sm",
+    span: "md:col-span-3 lg:col-span-4",
   },
   {
     title: "Porcelain Veneers",
     kicker: "Natural-looking, metal-free smile design",
     offer: null,
     image: "/images/services/natural-smile.jpg",
+    position: "50% 50%",
     href: "/cosmetic-dentistry/porcelain-veneers",
+    size: "sm",
+    span: "md:col-span-3 lg:col-span-4",
   },
   {
     title: "Family & Kids",
     kicker: "Every generation, one office",
     offer: null,
     image: "/images/hero/young-patient-smile.jpg",
+    position: "62% 40%",
     href: "/preventative-care/child-dentistry",
+    size: "sm",
+    span: "md:col-span-3 lg:col-span-4",
   },
 ];
 
-export function Signature() {
-  const listRef = useRef<HTMLDivElement>(null);
-  const [hovered, setHovered] = useState<number | null>(null);
-
-  // Cursor-following preview photo
-  const x = useSpring(useMotionValue(0), { stiffness: 170, damping: 20, mass: 0.4 });
-  const y = useSpring(useMotionValue(0), { stiffness: 170, damping: 20, mass: 0.4 });
-
-  function onMove(e: React.PointerEvent) {
-    if (e.pointerType !== "mouse" || !listRef.current) return;
-    const r = listRef.current.getBoundingClientRect();
-    x.set(e.clientX - r.left);
-    y.set(e.clientY - r.top);
-  }
-
+function TreatmentCard({ t, index }: { t: Treatment; index: number }) {
+  const lg = t.size === "lg";
   return (
-    <section className="relative overflow-hidden bg-ink section-y text-white" aria-labelledby="signature-heading">
-      <div aria-hidden="true" className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-60 right-0 size-200 rounded-full glow-blob text-brand-500/20" />
-        <div className="absolute -bottom-60 -left-40 size-160 rounded-full glow-blob text-glow/10" />
+    <Link
+      href={t.href}
+      className="group flex h-full flex-col rounded-4xl bg-white/[0.04] p-2.5 ring-1 ring-white/10 transition-colors duration-500 hover:bg-white/[0.07] hover:ring-white/20 focus-visible:ring-2 focus-visible:ring-glow focus-visible:outline-none"
+    >
+      {/* Photo */}
+      <div
+        className={cn(
+          "relative aspect-[16/10] overflow-hidden rounded-3xl bg-brand-950",
+          lg ? "lg:aspect-auto lg:h-[clamp(16rem,19vw,22rem)]" : "lg:aspect-auto lg:h-[clamp(12rem,13vw,15rem)]",
+        )}
+      >
+        <Image
+          src={t.image}
+          alt=""
+          fill
+          sizes={lg ? "(min-width: 1024px) 50vw, (min-width: 768px) 100vw, 100vw" : "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"}
+          className="object-cover transition-transform duration-[1.2s] ease-out-expo group-hover:scale-[1.04]"
+          style={{ objectPosition: t.position }}
+        />
+        {t.offer && (
+          <span className="absolute top-4 left-4 rounded-full bg-glow px-3 py-1 text-sm font-bold text-ink tabular-nums">
+            {t.offer}
+          </span>
+        )}
       </div>
 
-      <div className="relative container-site grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16">
-        {/* ---------------- Left: header ---------------- */}
-        <div className="lg:col-span-5">
-          <div className="lg:sticky lg:top-28">
+      {/* Text */}
+      <div className="flex flex-1 items-start gap-4 px-3 pt-5 pb-3 sm:px-4">
+        <span className="pt-1.5 text-sm font-semibold text-white/40 tabular-nums">
+          {String(index + 1).padStart(2, "0")}
+        </span>
+        <div className="min-w-0 flex-1">
+          <h3
+            className={cn(
+              "font-bold tracking-tight text-balance text-white",
+              lg ? "text-[clamp(1.5rem,1.1rem+1vw,2.25rem)] leading-tight" : "text-[clamp(1.375rem,1.1rem+0.6vw,1.75rem)] leading-snug",
+            )}
+          >
+            {t.title}
+          </h3>
+          <p className="mt-1.5 text-base leading-relaxed text-white/65">{t.kicker}</p>
+        </div>
+        <span
+          aria-hidden="true"
+          className="grid size-11 shrink-0 place-items-center rounded-full border border-white/20 text-white/80 transition-all duration-500 ease-out-expo group-hover:rotate-45 group-hover:border-transparent group-hover:bg-brand-500 group-hover:text-white"
+        >
+          <ArrowUpRight className="size-5" />
+        </span>
+      </div>
+    </Link>
+  );
+}
+
+export function Signature() {
+  return (
+    <section className="relative bg-ink section-y text-white" aria-labelledby="signature-heading">
+      <div className="container-site">
+        {/* ---------------- Header: title left, intro + CTA right ---------------- */}
+        <div className="grid grid-cols-1 items-end gap-6 lg:grid-cols-12 lg:gap-10">
+          <div className="lg:col-span-7">
             <Eyebrow tone="light">Signature Treatments</Eyebrow>
             <SplitReveal as="h2" id="signature-heading" className="mt-6 text-display-md font-bold text-white">
               Treatments our patients <span className="text-gradient-brand">love</span>
             </SplitReveal>
-            <Reveal>
-              <p className="mt-5 max-w-md text-lg leading-relaxed text-white/70">
-                Life-changing implants, invisible aligners and natural-looking cosmetic work, planned with 3D imaging
-                and placed with precision.
-              </p>
-              <Button href="/special-offers" variant="white" className="mt-8">
-                See all special offers
-              </Button>
-            </Reveal>
           </div>
+          <Reveal className="lg:col-span-5">
+            <p className="max-w-md text-lg leading-relaxed text-white/70">
+              Life-changing implants, invisible aligners and natural-looking cosmetic work, planned with 3D imaging and
+              placed with precision.
+            </p>
+            <Button href="/special-offers" variant="white" className="mt-6">
+              See all special offers
+            </Button>
+          </Reveal>
         </div>
 
-        {/* ---------------- Right: compact treatment index ---------------- */}
-        <div
-          ref={listRef}
-          className="relative border-t border-white/20 lg:col-span-7"
-          onPointerMove={onMove}
-          onPointerLeave={() => setHovered(null)}
-        >
-          {/* Floating preview (desktop) */}
-          <motion.div
-            aria-hidden="true"
-            style={{ x, y }}
-            className="pointer-events-none absolute top-0 left-0 z-20 hidden lg:block"
-          >
-            <AnimatePresence>
-              {hovered !== null && (
-                <motion.div
-                  key={hovered}
-                  initial={{ opacity: 0, scale: 0.6, rotate: -8 }}
-                  animate={{ opacity: 1, scale: 1, rotate: -3 }}
-                  exit={{ opacity: 0, scale: 0.7, rotate: 4 }}
-                  transition={{ duration: 0.4, ease: ease.out }}
-                  className="absolute -top-28 -left-72 h-44 w-64 overflow-hidden rounded-2xl shadow-[0_30px_60px_-15px_rgb(0_0_0/0.6)] ring-1 ring-white/20"
-                >
-                  <Image src={treatments[hovered].image} alt="" fill sizes="256px" className="object-cover" />
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </motion.div>
-
-          <RevealGroup stagger={0.07}>
-            {treatments.map((t, i) => {
-              const on = hovered === i;
-              return (
-                <RevealItem key={t.title}>
-                  <Link
-                    href={t.href}
-                    onPointerEnter={(e) => e.pointerType === "mouse" && setHovered(i)}
-                    className="group relative grid grid-cols-[auto_1fr_auto] items-center gap-4 border-b border-white/15 py-5 md:gap-6"
-                  >
-                    {/* sweeping underline */}
-                    <span
-                      aria-hidden="true"
-                      className={cn(
-                        "absolute bottom-[-1px] left-0 h-px w-full origin-left bg-linear-to-r from-brand-400 via-glow to-transparent transition-transform duration-700 ease-out-expo",
-                        on ? "scale-x-100" : "scale-x-0",
-                      )}
-                    />
-
-                    {/* thumb (mobile) / index (desktop) */}
-                    <span className="relative size-14 shrink-0 overflow-hidden rounded-xl lg:hidden">
-                      <Image src={t.image} alt="" fill sizes="56px" className="object-cover" />
-                    </span>
-                    <span
-                      className={cn(
-                        "hidden w-8 text-sm font-semibold tabular-nums transition-colors duration-500 lg:block",
-                        on ? "text-glow" : "text-white/45",
-                      )}
-                    >
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
-
-                    {/* title + kicker */}
-                    <span className="min-w-0">
-                      <span className="flex flex-wrap items-center gap-x-4 gap-y-1.5">
-                        <span
-                          className={cn(
-                            "text-[clamp(1.375rem,1rem+1.1vw,2.25rem)] leading-tight font-bold tracking-tight transition-all duration-500 ease-out-expo",
-                            on ? "translate-x-2 text-white" : "text-white/85",
-                          )}
-                        >
-                          {t.title}
-                        </span>
-                        {t.offer && (
-                          <span
-                            className={cn(
-                              "rounded-full px-2.5 py-0.5 text-xs font-bold transition-colors duration-500",
-                              on ? "bg-glow text-ink" : "bg-white/10 text-glow ring-1 ring-white/15",
-                            )}
-                          >
-                            {t.offer}
-                          </span>
-                        )}
-                      </span>
-                      <span
-                        className={cn(
-                          "mt-1 block text-sm text-white/60 transition-all duration-500",
-                          on && "translate-x-2 text-white/85",
-                        )}
-                      >
-                        {t.kicker}
-                      </span>
-                    </span>
-
-                    {/* arrow */}
-                    <span
-                      className={cn(
-                        "grid size-11 shrink-0 place-items-center rounded-full border transition-all duration-500",
-                        on ? "rotate-45 border-transparent bg-brand-500 text-white" : "border-white/25 text-white/80",
-                      )}
-                    >
-                      <ArrowUpRight className="size-5" />
-                    </span>
-                  </Link>
-                </RevealItem>
-              );
-            })}
-          </RevealGroup>
-        </div>
+        {/* ---------------- Cards ---------------- */}
+        <RevealGroup stagger={0.08} className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-6 lg:mt-16 lg:grid-cols-12 lg:gap-5">
+          {treatments.map((t, i) => (
+            <RevealItem key={t.title} className={t.span}>
+              <TreatmentCard t={t} index={i} />
+            </RevealItem>
+          ))}
+        </RevealGroup>
       </div>
     </section>
   );

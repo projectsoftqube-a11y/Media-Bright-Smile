@@ -1,7 +1,6 @@
 import { Hero } from "@/components/sections/hero";
 import { AtAGlance } from "@/components/sections/at-a-glance";
 import { Intro } from "@/components/sections/intro";
-import { Areas } from "@/components/sections/areas";
 import { Services } from "@/components/sections/services";
 import { Signature } from "@/components/sections/signature";
 import { Wellness } from "@/components/sections/wellness";
@@ -93,7 +92,6 @@ export default function HomePage() {
       <Intro />
       <Services />
       <Signature />
-      <Areas />
       <Wellness />
       <Technology />
       <Doctors />

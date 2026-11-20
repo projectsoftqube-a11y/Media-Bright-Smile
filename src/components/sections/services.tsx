@@ -37,28 +37,6 @@ export function Services() {
             </p>
           </Reveal>
         </div>
-        <Reveal>
-          <ol className="mt-8 flex flex-wrap gap-2.5">
-            {[
-              "Preventative care",
-              "Gum disease treatment",
-              "Cosmetic dentistry",
-              "Restoring and replacing teeth",
-              "Jaw and facial pain",
-            ].map((g, i) => (
-              <li
-                key={g}
-                className="inline-flex min-h-11 items-center gap-2.5 rounded-full bg-white py-1.5 pr-4 pl-1.5 text-[0.9375rem] font-semibold text-ink shadow-soft ring-1 ring-line"
-              >
-                <span className="grid size-8 place-items-center rounded-full bg-brand-50 text-xs font-bold text-brand-700 tabular-nums">
-                  {String(i + 1).padStart(2, "0")}
-                </span>
-                {g}
-              </li>
-            ))}
-          </ol>
-        </Reveal>
-
         <div className="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-12">
           {/* Tabs */}
           <div role="tablist" aria-label="Service categories" className="flex flex-col gap-3 lg:col-span-4">
