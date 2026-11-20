@@ -85,6 +85,8 @@ function TreatmentCard({ t, index }: { t: Treatment; index: number }) {
       <div
         className={cn(
           "relative aspect-[16/10] overflow-hidden rounded-3xl bg-brand-950",
+          // the full-width tablet card (Implants) gets a wider crop so it doesn't tower over the rest
+          index === 0 && "md:aspect-[2/1]",
           lg ? "lg:aspect-auto lg:h-[clamp(16rem,19vw,22rem)]" : "lg:aspect-auto lg:h-[clamp(12rem,13vw,15rem)]",
         )}
       >
