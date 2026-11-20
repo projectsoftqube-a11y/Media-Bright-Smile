@@ -1328,7 +1328,7 @@ export const importedPosts: BlogPost[] = [
         items: [
           "The position of the implant site in the mouth",
           "Experience of the oral surgeon performing the procedure",
-          "The location of the dental practise",
+          "The location of the dental practice",
           "Cost of the replacement crown",
           "Complexity of your case – affects cost of dental services and dental materials consumed",
         ],

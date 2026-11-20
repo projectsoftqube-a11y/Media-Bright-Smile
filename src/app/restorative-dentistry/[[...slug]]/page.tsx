@@ -172,16 +172,7 @@ const looks: Record<string, Look> = {
     name: "Implant-Retained Dentures",
     eyebrow: "Implant-retained dentures",
     hero: T.implant2,
-    images: [
-      null,
-      T.seniorOutdoors,
-      T.dentures,
-      T.xray5,
-      T.dentures5,
-      T.brushing7,
-      T.seniorConsult3,
-      T.piggyBank5,
-    ],
+    images: [null, T.seniorOutdoors, T.dentures, T.xray5, T.dentures5, T.brushing7, T.seniorConsult3, T.piggyBank5],
     dark: 2,
     ...ctaOf(T.happyPatient6),
   },
@@ -314,7 +305,7 @@ export default async function RestorativePage({ params }: PageProps<"/restorativ
               cards={[
                 {
                   title: "Fillings & crowns",
-                  text: "Tooth-coloured fillings, and crowns checked under a microscope.",
+                  text: "Tooth-colored fillings, and crowns checked under a microscope.",
                   href: `${BASE}/dental-crowns`,
                   image: T.crown4,
                 },
@@ -332,7 +323,7 @@ export default async function RestorativePage({ params }: PageProps<"/restorativ
                 },
                 {
                   title: "Dental bridges",
-                  text: "A fixed replacement anchored on the neighbouring teeth.",
+                  text: "A fixed replacement anchored on the neighboring teeth.",
                   href: `${BASE}/dental-bridges`,
                   image: T.models5,
                 },

@@ -2,7 +2,7 @@
    Blog posts carried over from the practice's existing website
    (mediabritesmile.com/blog). Text is kept word for word; each post keeps its
    original slug so links to /blog/<slug> keep working. Images come from the
-   old site and are recorded in docs/image-licenses.md (licence to confirm).
+   old site and are recorded in docs/image-licenses.md (license to confirm).
 -------------------------------------------------------------------------- */
 
 export type BlogBlock =

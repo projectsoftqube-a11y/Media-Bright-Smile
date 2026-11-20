@@ -71,7 +71,9 @@ export function Faq() {
 
             <Reveal delay={0.1} className="mt-8 hidden lg:block">
               <div className="relative aspect-[16/11] overflow-hidden rounded-3xl bg-slate-200">
-                {/* Base layer: every photo preloaded; only the previous one is visible */}
+                {/* Base layer: every photo loaded ahead (lazily, so all of them arrive together as the FAQ
+                    nears the screen, and never on phones, where this panel is hidden); only the previous one
+                    is visible. "eager" here downloaded ~800KB of photos at page start, ahead of the hero. */}
                 {photos.map((ph, i) => (
                   <Image
                     key={ph.src}
@@ -79,7 +81,7 @@ export function Faq() {
                     alt=""
                     aria-hidden="true"
                     fill
-                    loading="eager"
+                    loading="lazy"
                     sizes="34rem"
                     className={cn("object-cover", i === (previous ?? current) ? "opacity-100" : "opacity-0")}
                   />

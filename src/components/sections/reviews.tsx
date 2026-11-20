@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { startTransition, useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { useLenis } from "lenis/react";
 import { ArrowUpRight, BadgeCheck, Star, X } from "lucide-react";
@@ -16,27 +16,50 @@ import { cn } from "@/lib/utils";
 
 type Review = (typeof reviews)[number];
 
-function Stars({ size = "size-5", animate = false }: { size?: string; animate?: boolean }) {
+/* Five stars as ONE svg with one path (lucide's star, repeated every 30 units: 24 + a 6-unit gap).
+   The page shows 20+ review cards, and five separate icons each cost ~1,000 extra elements to
+   render and hydrate. Only the two big rating panels keep the animated per-star version. */
+const STAR =
+  "M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z";
+const FIVE_STARS = Array.from({ length: 5 }, (_, i) =>
+  STAR.replace(/([ML])(\d+(?:\.\d+)?)/g, (_m, cmd: string, x: string) => `${cmd}${+(+x + i * 30).toFixed(3)}`),
+).join("");
+
+function Stars({ size = 16, animate = false }: { size?: number; animate?: boolean }) {
+  if (!animate)
+    return (
+      <svg
+        viewBox="0 0 144 24"
+        width={size * 6}
+        height={size}
+        role="img"
+        aria-label="5 out of 5 stars"
+        className="shrink-0 fill-amber-400 text-amber-400"
+        stroke="currentColor"
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path d={FIVE_STARS} />
+      </svg>
+    );
+  const cls = size >= 24 ? "size-6" : size >= 20 ? "size-5" : "size-4";
   return (
     <span className="relative inline-flex gap-1" role="img" aria-label="5 out of 5 stars">
-      {Array.from({ length: 5 }).map((_, i) =>
-        animate ? (
-          <span key={i} className="relative">
-            <Star className={cn(size, "text-amber-200")} />
-            <motion.span
-              initial={{ clipPath: "inset(0 100% 0 0)" }}
-              whileInView={{ clipPath: "inset(0 0% 0 0)" }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.3 + i * 0.12, ease: ease.out }}
-              className="absolute inset-0"
-            >
-              <Star className={cn(size, "fill-amber-400 text-amber-400")} />
-            </motion.span>
-          </span>
-        ) : (
-          <Star key={i} className={cn(size, "fill-amber-400 text-amber-400")} />
-        ),
-      )}
+      {Array.from({ length: 5 }).map((_, i) => (
+        <span key={i} className="relative">
+          <Star className={cn(cls, "text-amber-200")} />
+          <motion.span
+            initial={{ clipPath: "inset(0 100% 0 0)" }}
+            whileInView={{ clipPath: "inset(0 0% 0 0)" }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.3 + i * 0.12, ease: ease.out }}
+            className="absolute inset-0"
+          >
+            <Star className={cn(cls, "fill-amber-400 text-amber-400")} />
+          </motion.span>
+        </span>
+      ))}
     </span>
   );
 }
@@ -82,7 +105,7 @@ function ReviewCard({
       )}
     >
       <div className="flex items-center justify-between">
-        <Stars size="size-4" />
+        <Stars size={16} />
         <span className="flex items-center gap-1.5 text-xs font-medium text-muted">
           <GoogleIcon size={14} /> Google review
         </span>
@@ -141,7 +164,12 @@ function Column({
         style={{ animationDuration: `${duration}s`, animationDirection: reverse ? "reverse" : "normal" }}
       >
         {[0, 1].map((copy) => (
-          <div key={copy} className="flex flex-col gap-5" aria-hidden={copy === 1 || undefined} inert={copy === 1 || undefined}>
+          <div
+            key={copy}
+            className="flex flex-col gap-5"
+            aria-hidden={copy === 1 || undefined}
+            inert={copy === 1 || undefined}
+          >
             {items.map((r, i) => (
               <ReviewCard key={`${copy}-${r.name}`} r={r} i={i + offset} onOpen={onOpen} />
             ))}
@@ -159,6 +187,24 @@ export function Reviews() {
   const [selected, setSelected] = useState<{ r: Review; i: number } | null>(null);
   const open = (r: Review, i: number) => setSelected({ r, i });
 
+  /* The server sends the reviews once (the phone row). Everything else is decoration built after
+     load, in idle time and as an interruptible transition so it never blocks the main thread:
+     the row's loop copy on phones, the two auto-scrolling columns (and their loop copies) on
+     desktop. Rendering all four copies up front was 2,900 elements, over half the page. */
+  const [layout, setLayout] = useState<"pending" | "row" | "columns">("pending");
+  useEffect(() => {
+    const mq = window.matchMedia("(min-width: 1024px)");
+    const apply = () => startTransition(() => setLayout(mq.matches ? "columns" : "row"));
+    const idle = window.requestIdleCallback
+      ? window.requestIdleCallback(apply, { timeout: 3000 })
+      : window.setTimeout(apply, 600);
+    mq.addEventListener("change", apply);
+    return () => {
+      (window.cancelIdleCallback ?? window.clearTimeout)(idle);
+      mq.removeEventListener("change", apply);
+    };
+  }, []);
+
   return (
     <section className="overflow-hidden bg-white section-y" aria-labelledby="reviews-heading">
       <div className="container-site grid grid-cols-1 items-center gap-6 lg:grid-cols-12 lg:gap-16">
@@ -175,7 +221,7 @@ export function Reviews() {
                 <Counter to={site.rating.score} decimals={1} duration={2.4} />
               </span>
               <div className="min-w-0 flex-1">
-                <Stars size="size-4" animate />
+                <Stars size={16} animate />
                 <p className="mt-1.5 text-sm leading-snug text-body">
                   <strong className="text-ink">{site.rating.count}</strong> Google reviews
                 </p>
@@ -232,7 +278,7 @@ export function Reviews() {
               <span className="pb-1.5 text-base text-muted sm:pb-2 sm:text-lg">/ 5</span>
             </div>
             <div className="mt-4">
-              <Stars size="size-6" animate />
+              <Stars size={24} animate />
             </div>
             <p className="mt-3 text-body">
               Average rating based on <strong className="text-ink">{site.rating.count} patient reviews</strong>
@@ -282,14 +328,18 @@ export function Reviews() {
         {/* Auto-scrolling reviews: two columns on desktop */}
         <Reveal className="hidden lg:col-span-7 lg:block">
           <div className="relative grid h-[44rem] grid-cols-2 gap-5 mask-[linear-gradient(180deg,transparent,#000_12%,#000_88%,transparent)]">
-            <Column items={colA} offset={0} duration={70} onOpen={open} />
-            <Column items={colB} offset={1} duration={80} reverse onOpen={open} />
+            {layout === "columns" && (
+              <>
+                <Column items={colA} offset={0} duration={70} onOpen={open} />
+                <Column items={colB} offset={1} duration={80} reverse onOpen={open} />
+              </>
+            )}
           </div>
         </Reveal>
 
         {/* Mobile / tablet: one horizontal auto-scrolling row */}
         <div className="-mx-4 lg:hidden">
-          <Marquee duration={90} stretch>
+          <Marquee duration={90} stretch loop={layout === "row"}>
             {list.map((r, i) => (
               <ReviewCard
                 key={r.name}
@@ -360,7 +410,7 @@ function ReviewModal({ selected, onClose }: { selected: { r: Review; i: number }
               <span className="text-sm font-semibold text-ink">Google review</span>
             </div>
             <div className="mt-4">
-              <Stars size="size-5" />
+              <Stars size={20} />
             </div>
             <blockquote className="mt-5 text-lg leading-relaxed text-ink sm:text-xl">“{selected.r.quote}”</blockquote>
             <figcaption className="mt-6 flex items-center gap-3 border-t border-line pt-5">

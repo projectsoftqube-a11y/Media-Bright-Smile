@@ -1,6 +1,5 @@
 import { Hero } from "@/components/sections/hero";
 import { AtAGlance } from "@/components/sections/at-a-glance";
-import { Intro } from "@/components/sections/intro";
 import { Services } from "@/components/sections/services";
 import { Signature } from "@/components/sections/signature";
 import { Wellness } from "@/components/sections/wellness";
@@ -11,6 +10,7 @@ import { Offers } from "@/components/sections/offers";
 import { Reviews } from "@/components/sections/reviews";
 import { Faq } from "@/components/sections/faq";
 import { Visit } from "@/components/sections/visit";
+import { Suspense } from "react";
 import type { Metadata } from "next";
 import { doctors, faqs, site } from "@/content/site";
 
@@ -88,18 +88,17 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
       <Hero />
-      <AtAGlance />
-      <Intro />
-      <Services />
-      <Signature />
-      <Wellness />
-      <Technology />
-      <Doctors />
-      <Comfort />
-      <Offers />
-      <Reviews />
-      <Faq />
-      <Visit />
+      {/* Each section below the hero is its own Suspense boundary. Nothing here suspends (the HTML
+          is identical); the boundaries let React hydrate the page section by section, in separate
+          short tasks with the browser free in between, instead of one long block of main-thread work
+          (Total Blocking Time). */}
+      {[AtAGlance, Services, Signature, Wellness, Technology, Doctors, Comfort, Offers, Reviews, Faq, Visit].map(
+        (Section, i) => (
+          <Suspense key={i}>
+            <Section />
+          </Suspense>
+        ),
+      )}
     </>
   );
 }

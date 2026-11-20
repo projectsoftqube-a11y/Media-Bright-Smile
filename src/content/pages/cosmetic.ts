@@ -13,7 +13,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
       "Whitening, Invisalign, veneers and bonding in Media, PA, matched to what bothers you about your smile. Prices published, with $1,000 off Invisalign.",
     h1: "Cosmetic Dentist in Media, PA",
     intro: [
-      "If you are unhappy with how your teeth look, a cosmetic dentist in Media, PA should start with what bothers you, not with a menu of treatments. At Media Brite Smile, the first step is working out whether the issue is colour, position or shape, because each one has a different fix and a different cost.",
+      "If you are unhappy with how your teeth look, a cosmetic dentist in Media, PA should start with what bothers you, not with a menu of treatments. At Media Brite Smile, the first step is working out whether the issue is color, position or shape, because each one has a different fix and a different cost.",
     ],
     sections: [
       {
@@ -22,11 +22,11 @@ export const cosmeticPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Cosmetic dentistry changes three things: the colour of teeth, their position, and their shape.",
+            text: "Cosmetic dentistry changes three things: the color of teeth, their position, and their shape.",
           },
           {
             type: "p",
-            text: "It does not treat decay or gum disease. If either is present, it is dealt with first, because cosmetic work placed on unhealthy teeth or gums does not hold up. That is why a cosmetic consultation here starts with an examination rather than a colour chart.",
+            text: "It does not treat decay or gum disease. If either is present, it is dealt with first, because cosmetic work placed on unhealthy teeth or gums does not hold up. That is why a cosmetic consultation here starts with an examination rather than a color chart.",
           },
         ],
       },
@@ -65,7 +65,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Teeth whitening. Lightens natural tooth colour. It does not change the colour of crowns, veneers or fillings, which matters if you have any at the front. Take-home whitening kits are available.",
+            text: "Teeth whitening. Lightens natural tooth color. It does not change the color of crowns, veneers or fillings, which matters if you have any at the front. Take-home whitening kits are available.",
           },
           {
             type: "p",
@@ -77,11 +77,11 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Porcelain veneers. Thin porcelain facings bonded to the front of teeth to change their shape, size or colour.",
+            text: "Porcelain veneers. Thin porcelain facings bonded to the front of teeth to change their shape, size or color.",
           },
           {
             type: "p",
-            text: "Dental bonding. Tooth-coloured resin shaped onto a tooth to repair a chip or close a small gap, usually in a single visit.",
+            text: "Dental bonding. Tooth-colored resin shaped onto a tooth to repair a chip or close a small gap, usually in a single visit.",
           },
           {
             type: "p",
@@ -172,7 +172,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Which cosmetic treatment do I actually need?",
-        a: "It depends on whether the problem is colour, position or shape. Staining usually points to whitening, crooked or gapped teeth to Invisalign, and chips or worn edges to bonding or veneers. An examination confirms it, and the least invasive option that does the job is usually recommended first.",
+        a: "It depends on whether the problem is color, position or shape. Staining usually points to whitening, crooked or gapped teeth to Invisalign, and chips or worn edges to bonding or veneers. An examination confirms it, and the least invasive option that does the job is usually recommended first.",
       },
       {
         q: "Is cosmetic dentistry covered by insurance?",
@@ -449,7 +449,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
       "Professional teeth whitening in Media, PA with a $249 take-home kit and lifetime refills, now $100 off the regular $550. See what it can and cannot fix.",
     h1: "Teeth Whitening in Media, PA",
     intro: [
-      "Teeth whitening at Media Brite Smile in Media, PA lightens the natural colour of your teeth under a dentist's supervision, with a take-home kit you keep using afterwards. It is currently $100 off the regular $550, and the kit included is worth $249, with lifetime refills.",
+      "Teeth whitening at Media Brite Smile in Media, PA lightens the natural color of your teeth under a dentist's supervision, with a take-home kit you keep using afterwards. It is currently $100 off the regular $550, and the kit included is worth $249, with lifetime refills.",
     ],
     sections: [
       {
@@ -475,7 +475,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Whitening lightens the natural colour of teeth, and how far it goes depends on your starting shade and the kind of staining you have.",
+            text: "Whitening lightens the natural color of teeth, and how far it goes depends on your starting shade and the kind of staining you have.",
           },
           {
             type: "p",
@@ -497,7 +497,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Because the kit comes with lifetime refills, you can top up the colour later rather than paying for whitening again. Ask about the refill terms when you start, so you know how they work.",
+            text: "Because the kit comes with lifetime refills, you can top up the color later rather than paying for whitening again. Ask about the refill terms when you start, so you know how they work.",
           },
           {
             type: "p",
@@ -540,11 +540,11 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Crowns, veneers, fillings and bonding. These keep their colour. If you have one near the front, it may look darker once the teeth around it lighten, so plan for that first.",
+            text: "Crowns, veneers, fillings and bonding. These keep their color. If you have one near the front, it may look darker once the teeth around it lighten, so plan for that first.",
           },
           {
             type: "p",
-            text: "Deep internal staining. Grey or banded discoloration from inside the tooth often responds poorly.",
+            text: "Deep internal staining. Gray or banded discoloration from inside the tooth often responds poorly.",
           },
           {
             type: "p",
@@ -552,7 +552,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Where whitening will not get there, dental bonding or porcelain veneers change colour by covering the tooth instead. The smile gallery shows what each one looks like in practice.",
+            text: "Where whitening will not get there, dental bonding or porcelain veneers change color by covering the tooth instead. The smile gallery shows what each one looks like in practice.",
           },
         ],
       },
@@ -599,7 +599,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Coffee, tea, red wine and tobacco bring staining back fastest. The lifetime refills mean you can top up at home when the colour starts to fade, rather than starting again from the beginning.",
+            text: "Coffee, tea, red wine and tobacco bring staining back fastest. The lifetime refills mean you can top up at home when the color starts to fade, rather than starting again from the beginning.",
           },
         ],
       },
@@ -650,11 +650,11 @@ export const cosmeticPages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "How many shades whiter will my teeth get?",
-        a: "There is no fixed number, because it depends on your starting shade and the type of staining. Yellowish staining from coffee, tea or age usually lightens well, while grey or internal staining responds less. You will be told what is realistic for your teeth at the appointment, before you pay for anything.",
+        a: "There is no fixed number, because it depends on your starting shade and the type of staining. Yellowish staining from coffee, tea or age usually lightens well, while gray or internal staining responds less. You will be told what is realistic for your teeth at the appointment, before you pay for anything.",
       },
       {
         q: "How long does whitening last?",
-        a: "It depends mostly on what you eat, drink and smoke afterwards. Coffee, tea, red wine and tobacco bring staining back fastest. The take-home kit comes with lifetime refills, so you can top the colour up at home when it starts to fade instead of paying for whitening again.",
+        a: "It depends mostly on what you eat, drink and smoke afterwards. Coffee, tea, red wine and tobacco bring staining back fastest. The take-home kit comes with lifetime refills, so you can top the color up at home when it starts to fade instead of paying for whitening again.",
       },
       {
         q: "Does whitening damage enamel?",
@@ -662,11 +662,11 @@ export const cosmeticPages: Record<string, DraftPage> = {
       },
       {
         q: "Is professional whitening better than strips?",
-        a: "The main advantage is the check first. A dentist can tell you whether your staining will respond, flag front fillings or crowns that will not change colour, and help if your teeth become sensitive. Strips work for some people, but they cannot tell you any of that before you buy them.",
+        a: "The main advantage is the check first. A dentist can tell you whether your staining will respond, flag front fillings or crowns that will not change color, and help if your teeth become sensitive. Strips work for some people, but they cannot tell you any of that before you buy them.",
       },
       {
         q: "Will it whiten my crowns and fillings?",
-        a: "No, crowns, veneers, fillings and bonding keep their original colour. If you have one near the front, it can look darker once the teeth around it lighten. The dentist will point these out first, and replacing one to match the new shade can be planned once whitening is finished.",
+        a: "No, crowns, veneers, fillings and bonding keep their original color. If you have one near the front, it can look darker once the teeth around it lighten. The dentist will point these out first, and replacing one to match the new shade can be planned once whitening is finished.",
       },
       {
         q: "Why are my teeth sensitive afterwards?",
@@ -685,7 +685,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
       "Chipped tooth, small gap or worn edge? Dental bonding in Media, PA often fixes it in one visit. How long it lasts, and when a veneer is better.",
     h1: "Dental Bonding in Media, PA",
     intro: [
-      "Dental bonding repairs a chipped, cracked, worn or discoloured tooth by shaping tooth-coloured resin directly onto it. At Media Brite Smile in Media, PA, bonding can often be completed in a single visit, usually without removing any healthy tooth.",
+      "Dental bonding repairs a chipped, cracked, worn or discolored tooth by shaping tooth-colored resin directly onto it. At Media Brite Smile in Media, PA, bonding can often be completed in a single visit, usually without removing any healthy tooth.",
       "It is the lower-cost alternative to a porcelain veneer, and for the right tooth it is the sensible choice.",
     ],
     sections: [
@@ -719,7 +719,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "For chipped tooth repair in Media, PA, bonding is usually the first option the dentist will discuss. Where the problem is decay rather than appearance, the same resin is used as a tooth-coloured filling.",
+            text: "For chipped tooth repair in Media, PA, bonding is usually the first option the dentist will discuss. Where the problem is decay rather than appearance, the same resin is used as a tooth-colored filling.",
           },
         ],
       },
@@ -729,11 +729,11 @@ export const cosmeticPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Tooth bonding usually needs no drilling and often no anaesthetic. The steps are:",
+            text: "Tooth bonding usually needs no drilling and often no anesthetic. The steps are:",
           },
           {
             type: "p",
-            text: "Shade match. The resin colour is chosen to match the teeth either side.",
+            text: "Shade match. The resin color is chosen to match the teeth either side.",
           },
           {
             type: "p",
@@ -779,7 +779,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
               [
                 "Best for",
                 "A small chip, gap or stain on one or a few teeth",
-                "Changing the shape or colour of several front teeth",
+                "Changing the shape or color of several front teeth",
               ],
               ["Visits", "Usually one", "More than one, with a lab"],
               ["Tooth removed", "Usually none", "A thin layer of enamel"],
@@ -790,7 +790,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Bonding is the better buy when the problem is small and you want it fixed quickly at lower cost. A veneer is the better buy when you are changing several teeth, want the colour to stay put, or a bonded tooth keeps chipping.",
+            text: "Bonding is the better buy when the problem is small and you want it fixed quickly at lower cost. A veneer is the better buy when you are changing several teeth, want the color to stay put, or a bonded tooth keeps chipping.",
           },
           {
             type: "link",
@@ -879,7 +879,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
       },
       {
         q: "Does bonding stain over time?",
-        a: "Yes, more than natural enamel or porcelain. Coffee, tea, red wine and smoking discolour resin gradually, and whitening will not lighten it. Polishing at check-ups helps, and a bond that has darkened can be redone.",
+        a: "Yes, more than natural enamel or porcelain. Coffee, tea, red wine and smoking discolor resin gradually, and whitening will not lighten it. Polishing at check-ups helps, and a bond that has darkened can be redone.",
       },
       {
         q: "Can bonding close a gap between my front teeth?",
@@ -1044,7 +1044,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
       "Porcelain veneers in Media, PA, explained honestly: what they fix, how much tooth is removed, how long they last and what affects the cost per tooth.",
     h1: "Porcelain Veneers in Media, PA",
     intro: [
-      "Porcelain veneers are thin facings bonded to the front of your teeth to change their shape, size or colour. At Media Brite Smile in Media, PA, they are planned by dentists who list veneers and smile design among their clinical interests. Every margin is finished under a high-powered microscope.",
+      "Porcelain veneers are thin facings bonded to the front of your teeth to change their shape, size or color. At Media Brite Smile in Media, PA, they are planned by dentists who list veneers and smile design among their clinical interests. Every margin is finished under a high-powered microscope.",
       "This page covers the trade-offs as well as the results, including the part most veneer pages skip: they are permanent.",
     ],
     sections: [
@@ -1056,7 +1056,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
             type: "table",
             rows: [
               [""],
-              ["What they change", "Shape, size, colour and minor gaps on front teeth"],
+              ["What they change", "Shape, size, color and minor gaps on front teeth"],
               ["Is it reversible?", "No. A thin layer of enamel is removed and does not grow back"],
               ["Typical appointments", "A consultation, a preparation visit and a fitting visit"],
               ["Price", "Per tooth, quoted after your consultation"],
@@ -1071,7 +1071,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Veneers suit front teeth that are basically healthy but look wrong in shape, size or colour.",
+            text: "Veneers suit front teeth that are basically healthy but look wrong in shape, size or color.",
           },
           {
             type: "p",
@@ -1087,7 +1087,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Teeth that look too small or oddly shaped next to their neighbours",
+            text: "Teeth that look too small or oddly shaped next to their neighbors",
           },
           {
             type: "p",
@@ -1105,7 +1105,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Some people need one veneer to match a single discoloured or chipped tooth. Others want a consistent look across the teeth that show in a full smile. The dentist will show you where the line falls for your smile, and you can decide from there.",
+            text: "Some people need one veneer to match a single discolored or chipped tooth. Others want a consistent look across the teeth that show in a full smile. The dentist will show you where the line falls for your smile, and you can decide from there.",
           },
           {
             type: "p",
@@ -1135,7 +1135,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Fitting. The veneers are checked for fit and colour, then bonded in place. The margins are refined under the microscope.",
+            text: "Fitting. The veneers are checked for fit and color, then bonded in place. The margins are refined under the microscope.",
           },
           {
             type: "p",
@@ -1181,7 +1181,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
               ["Enamel removed", "A thin layer", "Little or none", "Much more"],
               [
                 "Usually suits",
-                "Healthy front teeth needing a change of shape or colour",
+                "Healthy front teeth needing a change of shape or color",
                 "Small chips and gaps",
                 "Weak, cracked or heavily filled teeth",
               ],
@@ -1318,7 +1318,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
       },
       {
         q: "Should I have veneers or bonding?",
-        a: "Bonding suits small chips, worn edges and minor gaps, usually with little or no enamel removed and often in one visit. Veneers suit bigger changes in shape or colour and resist staining better. If bonding can do the job, the dentist will say so, because it is the less invasive choice.",
+        a: "Bonding suits small chips, worn edges and minor gaps, usually with little or no enamel removed and often in one visit. Veneers suit bigger changes in shape or color and resist staining better. If bonding can do the job, the dentist will say so, because it is the less invasive choice.",
       },
       {
         q: "How many veneers will I need?",

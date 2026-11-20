@@ -269,7 +269,7 @@ export const towns: Town[] = [
     faqs: [
       {
         q: "How long does it take to get to you from Wallingford?",
-        a: "About 8 minutes, covering 3.7 miles north on N Providence Road (PA-252), measured in Google Maps from the centre of Wallingford. There is no highway section, so the time holds up reasonably well outside rush hour on Baltimore Pike.",
+        a: "About 8 minutes, covering 3.7 miles north on N Providence Road (PA-252), measured in Google Maps from the center of Wallingford. There is no highway section, so the time holds up reasonably well outside rush hour on Baltimore Pike.",
       },
       {
         q: "Do you cover Nether Providence Township as well?",
@@ -277,7 +277,7 @@ export const towns: Town[] = [
       },
       {
         q: "Can my whole family be seen on one trip from Wallingford?",
-        a: "Often, yes. Three dentists practise here, so there is usually more than one chair free at a given time. Say you want appointments grouped when you call (610) 566-2711 and the team will arrange it.",
+        a: "Often, yes. Three dentists practice here, so there is usually more than one chair free at a given time. Say you want appointments grouped when you call (610) 566-2711 and the team will arrange it.",
       },
       {
         q: "Are you taking new patients from Wallingford?",
@@ -606,7 +606,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "The practice serves Brookhaven borough and neighbouring Parkside, both in the Penn-Delco School District.",
+            text: "The practice serves Brookhaven borough and neighboring Parkside, both in the Penn-Delco School District.",
           },
           {
             type: "p",
@@ -773,7 +773,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "The practice serves Swarthmore borough and neighbouring Rutledge, a smaller borough just to its east.",
+            text: "The practice serves Swarthmore borough and neighboring Rutledge, a smaller borough just to its east.",
           },
           {
             type: "p",
@@ -790,7 +790,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "That makes two things useful. Urgent care, when something breaks mid-semester and travelling home is not realistic, and short-course cosmetic work such as whitening, which fits into a term.",
+            text: "That makes two things useful. Urgent care, when something breaks mid-semester and traveling home is not realistic, and short-course cosmetic work such as whitening, which fits into a term.",
           },
           {
             type: "p",
@@ -1196,7 +1196,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "This page covers Clifton Heights borough, ZIP 19018, along with neighbouring Aldan and the West Springfield Road corridor towards US-1. You can find other towns on the Areas We Serve page, and family dentistry covers care for every age.",
+            text: "This page covers Clifton Heights borough, ZIP 19018, along with neighboring Aldan and the West Springfield Road corridor towards US-1. You can find other towns on the Areas We Serve page, and family dentistry covers care for every age.",
           },
         ],
       },
@@ -1205,7 +1205,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "If you want a dentist accepting new patients in Clifton Heights, PA, you and your neighbours in Aldan are welcome. A first visit without insurance is $99 under the New Patient Special, versus the regular $315.",
+            text: "If you want a dentist accepting new patients in Clifton Heights, PA, you and your neighbors in Aldan are welcome. A first visit without insurance is $99 under the New Patient Special, versus the regular $315.",
           },
         ],
       },
@@ -1946,7 +1946,7 @@ export const towns: Town[] = [
         a: "Yes. Both sit within Aston Township and the route in is the same Pennell Road run. Patients from both come in for the same mix of family, implant and denture care.",
       },
       {
-        q: "Is it worth travelling past a closer dentist?",
+        q: "Is it worth traveling past a closer dentist?",
         a: "That depends on what you need. For a routine check-up, closer is reasonable. For implants, full-arch work, root canals or denture repairs, having all of it under one roof with three dentists and published prices is what Aston patients usually travel for.",
       },
     ],

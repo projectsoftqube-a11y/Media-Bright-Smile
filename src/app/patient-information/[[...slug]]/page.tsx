@@ -201,5 +201,10 @@ export default async function PatientInfoPage({ params }: PageProps<"/patient-in
     { label: look.name },
   ];
 
-  return <DraftPageView page={page} look={{ ...look, crumbs, image: look.hero.src, imageAlt: look.hero.alt, images: sectionImages[url] }} />;
+  return (
+    <DraftPageView
+      page={page}
+      look={{ ...look, crumbs, image: look.hero.src, imageAlt: look.hero.alt, images: sectionImages[url] }}
+    />
+  );
 }

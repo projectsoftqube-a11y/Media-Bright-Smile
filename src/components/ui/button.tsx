@@ -9,7 +9,7 @@ type Size = "md" | "lg";
 /* ---------------------------------------------------------------------------
    One clear pill with the icon in a small circle at its right end.
    Hover: that circle grows from behind the icon until it floods the whole
-   button with the contrasting colour; the label rolls and the icon turns.
+   button with the contrasting color; the label rolls and the icon turns.
 --------------------------------------------------------------------------- */
 
 const base: Record<Variant, string> = {

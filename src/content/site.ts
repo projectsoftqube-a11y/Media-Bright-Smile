@@ -617,13 +617,13 @@ export const faqs: {
   },
   {
     q: "What are your opening hours?",
-    a: `The practice opens at 8am every weekday. Monday it closes at 3pm, Tuesday to Thursday at 5pm, and Friday at 2pm on alternate Fridays. Because Friday alternates, call ${site.phone.display} to check the date before travelling.`,
+    a: `The practice opens at 8am every weekday. Monday it closes at 3pm, Tuesday to Thursday at 5pm, and Friday at 2pm on alternate Fridays. Because Friday alternates, call ${site.phone.display} to check the date before traveling.`,
     category: "visit",
     link: { label: "Directions, map and opening hours", href: "/contact-us" },
   },
   {
     q: "How many dentists work at the practice?",
-    a: "Three. Dr. Zan Chaudhary DMD, Dr. Sanketkumar Suvagiya DMD and Dr. Bhadresh Makani DDS all practise at Media Brite Smile. That gives more appointment slots across the week and keeps complex cases inside the practice instead of being referred out.",
+    a: "Three. Dr. Zan Chaudhary DMD, Dr. Sanketkumar Suvagiya DMD and Dr. Bhadresh Makani DDS all practice at Media Brite Smile. That gives more appointment slots across the week and keeps complex cases inside the practice instead of being referred out.",
     category: "visit",
     link: { label: "About the practice and the team", href: "/about-us" },
   },
@@ -665,7 +665,7 @@ export const faqs: {
   },
   {
     q: "Do you treat children as well as adults?",
-    a: "Yes. Children's dentistry is provided by the general dentists at the practice, covering first visits, check-ups, fluoride and sealants. Families often book children alongside an adult appointment. Cases needing a paediatric specialist are referred on.",
+    a: "Yes. Children's dentistry is provided by the general dentists at the practice, covering first visits, check-ups, fluoride and sealants. Families often book children alongside an adult appointment. Cases needing a pediatric specialist are referred on.",
     category: "care",
     link: { label: "What new patients need to know", href: "/patient-information/new-patients" },
   },

@@ -7,7 +7,7 @@ import { ArrowUpRight, BadgeDollarSign, HeartHandshake, ListChecks, MessageCircl
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { SplitReveal } from "@/components/motion/split-reveal";
 import { ImageReveal } from "@/components/motion/image-reveal";
-import { gsap, useGSAP } from "@/lib/gsap";
+import { gsap, useGSAP, whenIdle } from "@/lib/gsap";
 
 /* "What Happens at Your First Visit?" from the approved Home draft. */
 const pillars = [
@@ -42,26 +42,32 @@ export function Wellness() {
   const root = useRef<HTMLElement>(null);
 
   useGSAP(
-    () => {
+    (context) => {
       const el = root.current;
       if (!el) return;
-      const mm = gsap.matchMedia();
-      mm.add("(prefers-reduced-motion: no-preference)", () => {
-        gsap.utils.toArray<HTMLElement>("[data-pillar]", el).forEach((row) => {
-          const tl = gsap.timeline({
-            scrollTrigger: { trigger: row, start: "top 82%", toggleActions: "play none none none" },
+      return whenIdle(context, () => {
+        const mm = gsap.matchMedia();
+        mm.add("(prefers-reduced-motion: no-preference)", () => {
+          gsap.utils.toArray<HTMLElement>("[data-pillar]", el).forEach((row) => {
+            const tl = gsap.timeline({
+              scrollTrigger: { trigger: row, start: "top 82%", toggleActions: "play none none none" },
+            });
+            tl.from(row.querySelector("[data-line]"), { scaleX: 0, duration: 1.2, ease: "brite.inOut" })
+              .from(
+                row.querySelector("[data-icon]"),
+                { scale: 0, rotate: -45, duration: 0.8, ease: "back.out(2)" },
+                0.2,
+              )
+              .from(row.querySelectorAll("[data-fade]"), { y: 24, opacity: 0, stagger: 0.08, duration: 0.9 }, 0.25);
           });
-          tl.from(row.querySelector("[data-line]"), { scaleX: 0, duration: 1.2, ease: "brite.inOut" })
-            .from(row.querySelector("[data-icon]"), { scale: 0, rotate: -45, duration: 0.8, ease: "back.out(2)" }, 0.2)
-            .from(row.querySelectorAll("[data-fade]"), { y: 24, opacity: 0, stagger: 0.08, duration: 0.9 }, 0.25);
+          const floatCards = el.querySelectorAll("[data-float-card]");
+          if (floatCards.length)
+            gsap.to(floatCards, {
+              y: -60,
+              ease: "none",
+              scrollTrigger: { trigger: el, start: "top bottom", end: "bottom top", scrub: true },
+            });
         });
-        const floatCards = el.querySelectorAll("[data-float-card]");
-        if (floatCards.length)
-          gsap.to(floatCards, {
-            y: -60,
-            ease: "none",
-            scrollTrigger: { trigger: el, start: "top bottom", end: "bottom top", scrub: true },
-          });
       });
     },
     { scope: root },

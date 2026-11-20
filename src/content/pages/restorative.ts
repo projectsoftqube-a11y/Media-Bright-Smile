@@ -129,7 +129,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Choose an implant if you want the replacement to stand on its own without touching the neighbouring teeth, and you can allow several months for healing.",
+            text: "Choose an implant if you want the replacement to stand on its own without touching the neighboring teeth, and you can allow several months for healing.",
           },
           {
             type: "p",
@@ -224,7 +224,7 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "Is an implant always better than a bridge?",
-        a: "Not always. An implant avoids touching the neighbouring teeth and replaces the root, but it needs enough bone and several months of healing. A bridge can be the better choice when the teeth beside the gap already need crowns, and the CBCT scan and examination decide which suits your mouth.",
+        a: "Not always. An implant avoids touching the neighboring teeth and replaces the root, but it needs enough bone and several months of healing. A bridge can be the better choice when the teeth beside the gap already need crowns, and the CBCT scan and examination decide which suits your mouth.",
       },
       {
         q: "How much does restorative work cost?",
@@ -308,7 +308,7 @@ export const restorativePages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "Choosing the Material and Matching the Colour",
+        heading: "Choosing the Material and Matching the Color",
         kind: null,
         items: [
           {
@@ -321,7 +321,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "For a visible tooth, the crown's shade is matched to your neighbouring teeth. If you are thinking about teeth whitening, do it before the crown is made, because a crown keeps its colour and will not lighten later.",
+            text: "For a visible tooth, the crown's shade is matched to your neighboring teeth. If you are thinking about teeth whitening, do it before the crown is made, because a crown keeps its color and will not lighten later.",
           },
         ],
       },
@@ -339,7 +339,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Fitting. The temporary comes off, the permanent crown is checked for fit, bite and colour, and it is cemented in place.",
+            text: "Fitting. The temporary comes off, the permanent crown is checked for fit, bite and color, and it is cemented in place.",
           },
           {
             type: "p",
@@ -480,7 +480,7 @@ export const restorativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "How many visits does a crown take?",
-        a: "Usually two: at the first, the tooth is numbed, shaped and recorded, and a temporary crown is fitted. At the second, the permanent crown is checked for fit, bite and colour and cemented in place. The gap between the visits allows the crown to be made, and you will be told it when you book.",
+        a: "Usually two: at the first, the tooth is numbed, shaped and recorded, and a temporary crown is fitted. At the second, the permanent crown is checked for fit, bite and color and cemented in place. The gap between the visits allows the crown to be made, and you will be told it when you book.",
       },
       {
         q: "How much does a crown cost?",
@@ -500,7 +500,7 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "Will it match my other teeth?",
-        a: "For a visible tooth, the crown's shade is matched to the teeth around it. If you want whiter teeth, whiten before the crown is made, because a crown keeps its colour and will not lighten afterwards. Back-tooth crowns are chosen for strength first, with appearance considered alongside.",
+        a: "For a visible tooth, the crown's shade is matched to the teeth around it. If you want whiter teeth, whiten before the crown is made, because a crown keeps its color and will not lighten afterwards. Back-tooth crowns are chosen for strength first, with appearance considered alongside.",
       },
     ],
     cta: {
@@ -512,10 +512,10 @@ export const restorativePages: Record<string, DraftPage> = {
     url: "/restorative-dentistry/dental-fillings",
     title: "Dental Fillings in Media, PA | Media Brite Smile",
     description:
-      "Tooth-coloured fillings in Media, PA, shade-matched and placed under high-powered microscopes. What the visit is like, what it costs and how long it lasts.",
+      "Tooth-colored fillings in Media, PA, shade-matched and placed under high-powered microscopes. What the visit is like, what it costs and how long it lasts.",
     h1: "Dental Fillings in Media, PA",
     intro: [
-      "A dental filling repairs a tooth damaged by decay, a chip or a small crack. At Media Brite Smile in Media, PA, fillings are tooth-coloured composite, shade-matched to your own tooth and usually completed in a single visit.",
+      "A dental filling repairs a tooth damaged by decay, a chip or a small crack. At Media Brite Smile in Media, PA, fillings are tooth-colored composite, shade-matched to your own tooth and usually completed in a single visit.",
       "If you have just been told you have a cavity, this page covers what happens, whether it hurts and what it costs.",
     ],
     sections: [
@@ -527,9 +527,9 @@ export const restorativePages: Record<string, DraftPage> = {
             type: "table",
             rows: [
               [""],
-              ["Material", "Tooth-coloured composite resin, shade-matched"],
+              ["Material", "Tooth-colored composite resin, shade-matched"],
               ["Typical visits", "Usually one"],
-              ["Numbing", "Local anaesthetic, so you feel pressure rather than pain"],
+              ["Numbing", "Local anesthetic, so you feel pressure rather than pain"],
               ["Precision", "Restorations placed under high-powered microscopes"],
               ["Savings Plan members", "10 to 15% off fillings"],
             ],
@@ -555,12 +555,12 @@ export const restorativePages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "Tooth-Coloured Composite Fillings",
+        heading: "Tooth-Colored Composite Fillings",
         kind: null,
         items: [
           {
             type: "p",
-            text: "Composite is a tooth-coloured filling material made of resin reinforced with fine glass filler, and it is what the practice uses for white fillings in Media, PA.",
+            text: "Composite is a tooth-colored filling material made of resin reinforced with fine glass filler, and it is what the practice uses for white fillings in Media, PA.",
           },
           {
             type: "p",
@@ -582,7 +582,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Numbing. A local anaesthetic numbs the tooth and the gum around it.",
+            text: "Numbing. A local anesthetic numbs the tooth and the gum around it.",
           },
           {
             type: "p",
@@ -756,7 +756,7 @@ export const restorativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Does getting a filling hurt?",
-        a: "For most patients it feels like pressure and vibration rather than pain, because the tooth is numbed with a local anaesthetic first. The dentist checks the tooth is numb before starting. You may feel some sensitivity to cold for a few days afterwards, which usually settles without treatment.",
+        a: "For most patients it feels like pressure and vibration rather than pain, because the tooth is numbed with a local anesthetic first. The dentist checks the tooth is numb before starting. You may feel some sensitivity to cold for a few days afterwards, which usually settles without treatment.",
       },
       {
         q: "How much does a filling cost?",
@@ -777,7 +777,7 @@ export const restorativePages: Record<string, DraftPage> = {
     ],
     cta: {
       title: "Fix the Cavity While It Is Still Small",
-      text: "A tooth-coloured filling, usually in one visit, with the cost explained first.",
+      text: "A tooth-colored filling, usually in one visit, with the cost explained first.",
     },
   },
   "/restorative-dentistry/dental-sealants": {
@@ -787,7 +787,7 @@ export const restorativePages: Record<string, DraftPage> = {
       "Dental sealants protect the grooves in back teeth from decay. Who benefits, how they are applied in Media, PA and how long they last.",
     h1: "Dental Sealants",
     intro: [
-      "A dental sealant is a thin, tooth-coloured coating painted onto the chewing surfaces of the back teeth to seal the deep grooves where decay most often starts. At Media Brite Smile in Media, PA, sealants take a few minutes per tooth, involve no drilling, and are used for children and for some adults.",
+      "A dental sealant is a thin, tooth-colored coating painted onto the chewing surfaces of the back teeth to seal the deep grooves where decay most often starts. At Media Brite Smile in Media, PA, sealants take a few minutes per tooth, involve no drilling, and are used for children and for some adults.",
     ],
     sections: [
       {
@@ -932,7 +932,7 @@ export const restorativePages: Record<string, DraftPage> = {
     h1: "Dental Bridges in Media, PA",
     intro: [
       "A dental bridge replaces one or more missing teeth with a false tooth held in place by the teeth on either side of the gap. At Media Brite Smile in Media, PA, bridges are made at a dental lab and fitted over two or three appointments.",
-      "This page is honest about the trade-off: a bridge relies on the neighbouring teeth, and that matters when you compare it with an implant.",
+      "This page is honest about the trade-off: a bridge relies on the neighboring teeth, and that matters when you compare it with an implant.",
     ],
     sections: [
       {
@@ -980,7 +980,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The neighbouring teeth already have large fillings or are weakened. Crowning them for a bridge protects them at the same time as filling the gap.",
+            text: "The neighboring teeth already have large fillings or are weakened. Crowning them for a bridge protects them at the same time as filling the gap.",
           },
           {
             type: "p",
@@ -1006,7 +1006,7 @@ export const restorativePages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "What a Bridge Involves for the Neighbouring Teeth",
+        heading: "What a Bridge Involves for the Neighboring Teeth",
         kind: null,
         items: [
           {
@@ -1019,7 +1019,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The neighbouring teeth also carry the load of the missing tooth, which is why keeping them clean and healthy decides how long the bridge lasts.",
+            text: "The neighboring teeth also carry the load of the missing tooth, which is why keeping them clean and healthy decides how long the bridge lasts.",
           },
         ],
       },
@@ -1041,7 +1041,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Fitting. The temporary comes off, the bridge is checked for fit, bite and colour, and it is cemented in place.",
+            text: "Fitting. The temporary comes off, the bridge is checked for fit, bite and color, and it is cemented in place.",
           },
           {
             type: "p",
@@ -1101,7 +1101,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "You are given the cost before treatment starts. For comparison, a single implant, abutment and crown starts at $3,999 at the practice, currently with $500 off and a free consultation. Which is better value depends on the state of the neighbouring teeth, not just the price.",
+            text: "You are given the cost before treatment starts. For comparison, a single implant, abutment and crown starts at $3,999 at the practice, currently with $500 off and a free consultation. Which is better value depends on the state of the neighboring teeth, not just the price.",
           },
           {
             type: "p",
@@ -1288,7 +1288,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Placement. The post is placed, usually under local anaesthetic, with nitrous oxide or oral sedation if you want it.",
+            text: "Placement. The post is placed, usually under local anesthetic, with nitrous oxide or oral sedation if you want it.",
           },
           {
             type: "p",
@@ -1321,7 +1321,7 @@ export const restorativePages: Record<string, DraftPage> = {
             rows: [
               ["", "Implant", "Bridge", "Partial denture"],
               ["Replaces the root", "Yes", "No", "No"],
-              ["Affects neighbouring teeth", "No", "Yes, they are prepared", "No"],
+              ["Affects neighboring teeth", "No", "Yes, they are prepared", "No"],
               ["Fixed or removable", "Fixed", "Fixed", "Removable"],
               ["Treatment time", "Several months", "Weeks", "Weeks"],
               ["Upfront cost", "Highest", "Middle", "Lowest"],
@@ -1329,7 +1329,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "An implant is usually the better long-term answer for a single gap with healthy teeth either side, because it leaves those teeth alone. A bridge can be the better call when the neighbouring teeth already need crowns.",
+            text: "An implant is usually the better long-term answer for a single gap with healthy teeth either side, because it leaves those teeth alone. A bridge can be the better call when the neighboring teeth already need crowns.",
           },
           {
             type: "link",
@@ -1419,7 +1419,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If you are comparing dental implants in Delaware County, there are pages for patients travelling from Swarthmore, Springfield and Brookhaven. There is a county-wide overview too.",
+            text: "If you are comparing dental implants in Delaware County, there are pages for patients traveling from Swarthmore, Springfield and Brookhaven. There is a county-wide overview too.",
           },
         ],
       },
@@ -1440,7 +1440,7 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "Do dental implants hurt?",
-        a: "Placement is done under local anaesthetic, so you should not feel pain during it. Nitrous oxide and oral sedation are available if you are anxious. Afterwards most people describe soreness rather than severe pain, managed with ordinary pain relief for a few days.",
+        a: "Placement is done under local anesthetic, so you should not feel pain during it. Nitrous oxide and oral sedation are available if you are anxious. Afterwards most people describe soreness rather than severe pain, managed with ordinary pain relief for a few days.",
       },
       {
         q: "Am I a candidate for a dental implant?",
@@ -1448,7 +1448,7 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "Is an implant better than a bridge?",
-        a: "Usually, for a single gap with healthy teeth on either side, because an implant leaves those teeth untouched while a bridge requires preparing them. A bridge can be the better choice if the neighbouring teeth already need crowns, or if bone volume rules out an implant.",
+        a: "Usually, for a single gap with healthy teeth on either side, because an implant leaves those teeth untouched while a bridge requires preparing them. A bridge can be the better choice if the neighboring teeth already need crowns, or if bone volume rules out an implant.",
       },
       {
         q: "What if I have been missing the tooth for years?",
@@ -1561,7 +1561,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Impressions and bite. Moulds or digital scans of your mouth, and a record of how your jaws meet.",
+            text: "Impressions and bite. Molds or digital scans of your mouth, and a record of how your jaws meet.",
           },
           {
             type: "p",
@@ -1780,7 +1780,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "That matters whether you are in Media or travelling in from elsewhere in the county. You get a denture dentist in Delaware County, PA who can also offer the implant route if a conventional denture is not enough.",
+            text: "That matters whether you are in Media or traveling in from elsewhere in the county. You get a denture dentist in Delaware County, PA who can also offer the implant route if a conventional denture is not enough.",
           },
         ],
       },
@@ -2080,7 +2080,7 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "Will I be asleep for the surgery?",
-        a: "No. Treatment is carried out under local anaesthetic, with nitrous oxide or oral sedation available to keep you relaxed. Deeper hospital-level sedation is not provided at this practice. Tell us when you book if anxiety is a concern.",
+        a: "No. Treatment is carried out under local anesthetic, with nitrous oxide or oral sedation available to keep you relaxed. Deeper hospital-level sedation is not provided at this practice. Tell us when you book if anxiety is a concern.",
       },
       {
         q: "Is this the same as All-on-4?",
@@ -2150,7 +2150,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Bleach or household cleaners: they can damage the denture and discolour the pink base",
+            text: "Bleach or household cleaners: they can damage the denture and discolor the pink base",
           },
           {
             type: "p",
@@ -2718,7 +2718,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Extraction appointment. The teeth are removed under local anaesthetic, and the immediate denture is placed straight away.",
+            text: "Extraction appointment. The teeth are removed under local anesthetic, and the immediate denture is placed straight away.",
           },
           {
             type: "p",
@@ -2926,7 +2926,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Implant placement. The implants are placed under local anaesthetic, with nitrous oxide and oral sedation available through Dr. Makani if you are anxious.",
+            text: "Implant placement. The implants are placed under local anesthetic, with nitrous oxide and oral sedation available through Dr. Makani if you are anxious.",
           },
           {
             type: "p",
@@ -3096,7 +3096,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Keeping the gaps filled also helps stop the neighbouring teeth drifting or tipping into the space.",
+            text: "Keeping the gaps filled also helps stop the neighboring teeth drifting or tipping into the space.",
           },
         ],
       },
@@ -3143,7 +3143,7 @@ export const restorativePages: Record<string, DraftPage> = {
             rows: [
               ["", "Partial denture", "Bridge", "Implant"],
               ["Fixed or removable", "Removable", "Fixed", "Fixed"],
-              ["Neighbouring teeth", "Used for support, not cut down", "Prepared for crowns", "Left alone"],
+              ["Neighboring teeth", "Used for support, not cut down", "Prepared for crowns", "Left alone"],
               ["Number of gaps", "Several, on either side", "One gap, with teeth either side", "One per implant"],
               ["Cost", "Lowest", "Middle", "Highest"],
             ],
@@ -3413,7 +3413,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The tooth is numbed with local anaesthetic, with nitrous oxide available if indicated.",
+            text: "The tooth is numbed with local anesthetic, with nitrous oxide available if indicated.",
           },
           {
             type: "p",
@@ -3508,7 +3508,7 @@ export const restorativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "What is a non-surgical root canal?",
-        a: "It is the standard root canal: the infected pulp is removed through a small opening in the top of the tooth, and the canals are cleaned and sealed, with no cutting of the gum. It is done under local anaesthetic in one or more visits, followed by a restoration such as a crown.",
+        a: "It is the standard root canal: the infected pulp is removed through a small opening in the top of the tooth, and the canals are cleaned and sealed, with no cutting of the gum. It is done under local anesthetic in one or more visits, followed by a restoration such as a crown.",
       },
       {
         q: "When would surgery be needed instead?",
@@ -3614,7 +3614,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Numbing. The tooth and the gum around it are anaesthetised.",
+            text: "Numbing. The tooth and the gum around it are anesthetized.",
           },
           {
             type: "p",
@@ -3850,7 +3850,7 @@ export const restorativePages: Record<string, DraftPage> = {
       "Tooth extraction in Media, PA, after trying to save the tooth first. What the appointment feels like, healing day by day and options to replace it.",
     h1: "Tooth Extractions in Media, PA",
     intro: [
-      "A tooth extraction removes a tooth that cannot be saved, under local anaesthetic, so you feel pressure rather than pain. At Media Brite Smile in Media, PA, the first question is always whether the tooth can be kept, and the options for replacing it are discussed before it comes out.",
+      "A tooth extraction removes a tooth that cannot be saved, under local anesthetic, so you feel pressure rather than pain. At Media Brite Smile in Media, PA, the first question is always whether the tooth can be kept, and the options for replacing it are discussed before it comes out.",
       "If a tooth is broken or hurting now, call (610) 566-2711. Urgent problems are triaged on the phone, and you will be told how soon you need to be seen.",
     ],
     sections: [
@@ -3917,7 +3917,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Numbing. The tooth, the gum and the bone around it are numbed with a local anaesthetic.",
+            text: "Numbing. The tooth, the gum and the bone around it are numbed with a local anesthetic.",
           },
           {
             type: "p",
@@ -3933,7 +3933,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If you feel pain rather than pressure at any point, say so straight away and more anaesthetic can be given.",
+            text: "If you feel pain rather than pressure at any point, say so straight away and more anesthetic can be given.",
           },
         ],
       },
@@ -4064,7 +4064,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Replacing a removed tooth stops the neighbouring teeth drifting into the gap and keeps your bite even, especially for back teeth.",
+            text: "Replacing a removed tooth stops the neighboring teeth drifting into the gap and keeps your bite even, especially for back teeth.",
           },
           {
             type: "p",
@@ -4072,7 +4072,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Dental bridge: a replacement tooth held by crowns on the neighbouring teeth",
+            text: "Dental bridge: a replacement tooth held by crowns on the neighboring teeth",
           },
           {
             type: "p",
@@ -4148,7 +4148,7 @@ export const restorativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Does an extraction hurt?",
-        a: "For most patients the main sensation is firm pressure rather than pain, because the tooth, gum and bone are numbed first. If you feel pain at any point, say so and more anaesthetic can be given. The area is sore for a few days afterwards, and the pain relief you are advised to take usually manages it.",
+        a: "For most patients the main sensation is firm pressure rather than pain, because the tooth, gum and bone are numbed first. If you feel pain at any point, say so and more anesthetic can be given. The area is sore for a few days afterwards, and the pain relief you are advised to take usually manages it.",
       },
       {
         q: "How long does it take to heal?",
@@ -4164,7 +4164,7 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "Do I have to replace the tooth?",
-        a: "Not always, but replacing it usually helps. Neighbouring teeth can drift into the gap and the bite can change, especially after losing a back tooth. An implant, a bridge or an immediate denture are the usual options, and they are best planned before the extraction rather than after.",
+        a: "Not always, but replacing it usually helps. Neighboring teeth can drift into the gap and the bite can change, especially after losing a back tooth. An implant, a bridge or an immediate denture are the usual options, and they are best planned before the extraction rather than after.",
       },
       {
         q: "Can you try to save it first?",
@@ -4278,7 +4278,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The tooth, gum and bone are numbed with a local anaesthetic, so for most patients the main sensation is pressure rather than pain. A firmly anchored tooth may be divided into sections and removed piece by piece, which is a routine step.",
+            text: "The tooth, gum and bone are numbed with a local anesthetic, so for most patients the main sensation is pressure rather than pain. A firmly anchored tooth may be divided into sections and removed piece by piece, which is a routine step.",
           },
           {
             type: "p",
@@ -4407,7 +4407,7 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "Does it hurt?",
-        a: "For most patients the removal feels like firm pressure rather than pain, because the area is numbed with a local anaesthetic first. The aim is to keep you as comfortable as possible. Expect soreness and some swelling for a few days, which the pain relief you are advised to take usually manages.",
+        a: "For most patients the removal feels like firm pressure rather than pain, because the area is numbed with a local anesthetic first. The aim is to keep you as comfortable as possible. Expect soreness and some swelling for a few days, which the pain relief you are advised to take usually manages.",
       },
       {
         q: "How long is the recovery?",

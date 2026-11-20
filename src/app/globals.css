@@ -300,6 +300,36 @@
   margin-block: -0.12em -0.24em;
 }
 
+/* Headline + hero entrances, pure CSS so they play from the first paint (no JavaScript needed).
+   .line-mask: a headline chunk (line or word) sliding up out of its own mask, the look of a
+   SplitText line reveal. Used by the home hero and by page titles (splitWords()).
+   .hero-rise: a block rising 22px into place. Stagger with --d (the animation delay). */
+@keyframes hero-line-in {
+  from {
+    transform: translateY(115%) rotate(3deg);
+  }
+}
+@keyframes hero-rise-in {
+  from {
+    transform: translateY(22px);
+  }
+}
+.line-mask {
+  display: inline-block;
+  overflow: clip;
+  vertical-align: top;
+  /* room for ascenders and descenders inside the mask; the negative margins keep the layout identical */
+  padding-block: 0.12em 0.24em;
+  margin-block: -0.12em -0.24em;
+}
+.line-mask > span {
+  display: inline-block;
+  animation: hero-line-in 1.25s var(--ease-out-expo) var(--d, 0s) both;
+}
+.hero-rise {
+  animation: hero-rise-in 0.9s var(--ease-out-expo) var(--d, 0s) both;
+}
+
 /* ==========================================================================
    Reduced motion: respect OS preference everywhere
    ========================================================================== */

@@ -54,7 +54,7 @@ const toId = (s: string) =>
     .replace(/^-|-$/g, "");
 
 /** "Specialized training: Not all dentists..." -> the label in bold, the rest as normal text */
-function Labelled({ text }: { text: string }) {
+function Labeled({ text }: { text: string }) {
   const m = text.match(/^([A-Z][^:.?!]{2,48}):\s+(.+)$/);
   if (!m) return <>{text}</>;
   return (
@@ -89,7 +89,7 @@ function Block({ block, n }: { block: BlogBlock; n?: number }) {
                   <Check className="size-3.5" strokeWidth={3} />
                 </span>
                 <span>
-                  <Labelled text={item} />
+                  <Labeled text={item} />
                 </span>
               </li>
             ))}
@@ -111,7 +111,7 @@ function Block({ block, n }: { block: BlogBlock; n?: number }) {
                 </span>
               </span>
               <span className="text-lg leading-snug font-semibold text-ink">
-                <Labelled text={item} />
+                <Labeled text={item} />
               </span>
             </li>
           ))}
@@ -120,7 +120,7 @@ function Block({ block, n }: { block: BlogBlock; n?: number }) {
     default: {
       return (
         <p className="mt-5 text-lg leading-relaxed text-pretty">
-          <Labelled text={block.text} />
+          <Labeled text={block.text} />
           {block.call && (
             <>
               {" "}

@@ -48,7 +48,7 @@ const faqs: QA[] = [
   },
   {
     q: "Are you open on Fridays?",
-    a: `Friday opening runs on alternate weeks, 8am to 2pm. Because it alternates, call ${site.phone.display} to check the date you want before travelling. Monday to Thursday the practice is open every week from 8am.`,
+    a: `Friday opening runs on alternate weeks, 8am to 2pm. Because it alternates, call ${site.phone.display} to check the date you want before traveling. Monday to Thursday the practice is open every week from 8am.`,
   },
   {
     q: "Can I text the practice?",
@@ -205,7 +205,7 @@ export default function ContactPage() {
                   <HoursTable />
                 </div>
                 <p className="mt-4 px-1 text-sm leading-relaxed text-body">
-                  Friday opening runs on alternate weeks. Call before travelling on a Friday if you have not already
+                  Friday opening runs on alternate weeks. Call before traveling on a Friday if you have not already
                   confirmed the date.
                 </p>
                 <Link

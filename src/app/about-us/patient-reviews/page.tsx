@@ -36,7 +36,7 @@ const themes: { icon: typeof Clock; title: string; quote: string | null }[] = [
   },
   {
     icon: ShieldCheck,
-    title: "No judgement about the gap",
+    title: "No judgment about the gap",
     quote: "did not make me feel judged for leaving it so long",
   },
   { icon: Clock, title: "Appointments close to their booked time", quote: null },

@@ -18,7 +18,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
     ],
     sections: [
       {
-        heading: "Implants for Patients Travelling From Brookhaven",
+        heading: "Implants for Patients Traveling From Brookhaven",
         kind: null,
         items: [
           {
@@ -88,7 +88,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Placement: under local anaesthetic, with nitrous oxide or oral sedation available",
+            text: "Placement: under local anesthetic, with nitrous oxide or oral sedation available",
           },
           {
             type: "p",
@@ -199,15 +199,15 @@ export const serviceLocationPages: Record<string, DraftPage> = {
     url: "/dental-implants-delaware-county-pa",
     title: "Dental Implants in Delaware County, PA | Media, PA",
     description:
-      "Dental implants in Delaware County, PA from a Media practice 6 to 12 minutes from most of the county. Implant centre or general practice? An honest answer.",
+      "Dental implants in Delaware County, PA from a Media practice 6 to 12 minutes from most of the county. Implant center or general practice? An honest answer.",
     h1: "Dental Implants in Delaware County, PA",
     intro: [
       "Media Brite Smile places dental implants for patients across Delaware County, PA from its practice in Media, the county seat. Most of eastern and central Delaware County is 6 to 12 minutes away by car.",
-      "If you are deciding between a dedicated implant centre and a general practice that places implants, this page gives you an honest comparison, including the cases where the specialist centre is the better call.",
+      "If you are deciding between a dedicated implant center and a general practice that places implants, this page gives you an honest comparison, including the cases where the specialist center is the better call.",
     ],
     sections: [
       {
-        heading: "Implants for Patients Travelling From Across Delaware County",
+        heading: "Implants for Patients Traveling From Across Delaware County",
         kind: null,
         items: [
           {
@@ -226,7 +226,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "Implant Centre or General Practice: An Honest Comparison",
+        heading: "Implant Center or General Practice: An Honest Comparison",
         kind: null,
         items: [
           {
@@ -236,13 +236,13 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           {
             type: "table",
             rows: [
-              ["", "Dedicated implant centre", "Media Brite Smile"],
+              ["", "Dedicated implant center", "Media Brite Smile"],
               [
                 "What the practice does",
                 "Implants and related surgery, often only that",
                 "General, family, cosmetic and implant dentistry",
               ],
-              ["Who places the implant", "Depends on the centre", "Dr. Bhadresh Makani DDS, implant-focused"],
+              ["Who places the implant", "Depends on the center", "Dr. Bhadresh Makani DDS, implant-focused"],
               ["Complex oral or maxillofacial surgery", "Often available", "Not offered here; referred on"],
               [
                 "Check-ups and cleanings afterwards",
@@ -251,14 +251,14 @@ export const serviceLocationPages: Record<string, DraftPage> = {
               ],
               [
                 "Fixing a problem with the crown later",
-                "May mean going back to the centre",
+                "May mean going back to the center",
                 "Handled by the same team",
               ],
             ],
           },
           {
             type: "p",
-            text: "When a dedicated centre or specialist is likely to be the right call: if your case involves complex surgery, or a condition that needs an oral surgeon or periodontist. A general practice should tell you that plainly instead of keeping the case, and this one refers those cases on.",
+            text: "When a dedicated center or specialist is likely to be the right call: if your case involves complex surgery, or a condition that needs an oral surgeon or periodontist. A general practice should tell you that plainly instead of keeping the case, and this one refers those cases on.",
           },
           {
             type: "p",
@@ -284,7 +284,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Placement of the post, usually under local anaesthetic, with nitrous oxide or oral sedation available",
+            text: "Placement of the post, usually under local anesthetic, with nitrous oxide or oral sedation available",
           },
           {
             type: "p",
@@ -431,7 +431,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
     ],
     sections: [
       {
-        heading: "Implants for Patients Travelling From Springfield, Delaware County",
+        heading: "Implants for Patients Traveling From Springfield, Delaware County",
         kind: null,
         items: [
           {
@@ -503,7 +503,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Placement. Usually under local anaesthetic, with nitrous oxide or oral sedation if you would like it.",
+            text: "Placement. Usually under local anesthetic, with nitrous oxide or oral sedation if you would like it.",
           },
           {
             type: "p",
@@ -636,7 +636,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "Implants for Patients Travelling From Swarthmore",
+        heading: "Implants for Patients Traveling From Swarthmore",
         kind: null,
         items: [
           {
@@ -671,7 +671,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
             rows: [
               ["Stage", "What happens", "Trips from Swarthmore"],
               ["1. Consultation", "Examination, CBCT 3D scan, plan and costs", "One"],
-              ["2. Placement", "The post is placed under local anaesthetic", "One"],
+              ["2. Placement", "The post is placed under local anesthetic", "One"],
               ["Healing", "The bone integrates with the post over several months", "Mostly at home"],
               [
                 "3. Abutment and crown",
@@ -777,7 +777,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
       },
       {
         q: "Can I drive myself home to Swarthmore after placement?",
-        a: "If you choose oral sedation, plan for someone else to drive you home. After local anaesthetic or nitrous oxide alone, the team will tell you on the day whether you are fine to drive. Either way, ask what to arrange when the placement visit is booked.",
+        a: "If you choose oral sedation, plan for someone else to drive you home. After local anesthetic or nitrous oxide alone, the team will tell you on the day whether you are fine to drive. Either way, ask what to arrange when the placement visit is booked.",
       },
       {
         q: "What does a single tooth implant cost?",
@@ -1302,7 +1302,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
       },
       {
         q: "Will one visit be enough?",
-        a: "The first visit relieves the pain and stabilises the tooth. Some problems, such as a root canal or a crown, need a second appointment. You will be told what is needed and what it costs, and whether it can safely wait until you are home.",
+        a: "The first visit relieves the pain and stabilizes the tooth. Some problems, such as a root canal or a crown, need a second appointment. You will be told what is needed and what it costs, and whether it can safely wait until you are home.",
       },
       {
         q: "What does it cost if I am not insured?",

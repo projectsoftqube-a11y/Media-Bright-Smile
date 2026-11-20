@@ -389,7 +389,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "First visits, check-ups, fluoride, sealants and fillings in baby teeth are all handled. Children who need a paediatric specialist, or complex care under general anaesthetic, are referred on, and you would be told that at the assessment.",
+            text: "First visits, check-ups, fluoride, sealants and fillings in baby teeth are all handled. Children who need a pediatric specialist, or complex care under general anesthetic, are referred on, and you would be told that at the assessment.",
           },
           {
             type: "p",
@@ -493,7 +493,7 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "Do you see children of all ages?",
-        a: "Children are treated by the general dentists here, which covers routine care from first visits onward. Cases needing a paediatric specialist or treatment under general anaesthetic are referred on. You would be told that at the assessment rather than later.",
+        a: "Children are treated by the general dentists here, which covers routine care from first visits onward. Cases needing a pediatric specialist or treatment under general anesthetic are referred on. You would be told that at the assessment rather than later.",
       },
       {
         q: "Can the whole family see the same dentist?",
@@ -706,7 +706,7 @@ export const preventativePages: Record<string, DraftPage> = {
             type: "table",
             rows: [
               ["If you have", "The general treatment"],
-              ["A cavity or a chipped tooth", "A tooth-coloured filling"],
+              ["A cavity or a chipped tooth", "A tooth-colored filling"],
               ["A cracked or heavily filled tooth", "A crown, inlay or onlay"],
               ["An infected tooth", "Root canal treatment"],
               ["A tooth that cannot be saved", "An extraction, then a bridge, implant or denture"],
@@ -791,7 +791,7 @@ export const preventativePages: Record<string, DraftPage> = {
     h1: "Looking After Your Teeth at Home",
     intro: [
       'Good oral hygiene comes down to removing plaque every day, at the gumline and between the teeth, where most problems start. This oral hygiene advice from Media Brite Smile in Media, PA covers the technique most adults get slightly wrong, not just "brush twice a day".',
-      "Plaque is a colourless, sticky film that forms on your teeth constantly. It causes both decay and gum disease, and if it is not removed it hardens into tartar that only a professional cleaning can shift.",
+      "Plaque is a colorless, sticky film that forms on your teeth constantly. It causes both decay and gum disease, and if it is not removed it hardens into tartar that only a professional cleaning can shift.",
     ],
     sections: [
       {
@@ -1019,7 +1019,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Hardened tartar is the reason the cleaning matters. Once plaque mineralises onto the tooth it cannot be brushed off. That is what inflames the gum around it.",
+            text: "Hardened tartar is the reason the cleaning matters. Once plaque mineralizes onto the tooth it cannot be brushed off. That is what inflames the gum around it.",
           },
         ],
       },
@@ -1367,7 +1367,7 @@ export const preventativePages: Record<string, DraftPage> = {
               [""],
               ["What it treats", "Gum disease with tartar and bacteria below the gumline"],
               ["How it is decided", "Pocket depth measurements, X-rays and how far the disease has progressed"],
-              ["Numbing", "Local anaesthetic where needed, usually used"],
+              ["Numbing", "Local anesthetic where needed, usually used"],
               ["Visits", "Often split across two or more appointments"],
               ["Afterwards", "Periodontal maintenance cleanings to keep it under control"],
             ],
@@ -1458,7 +1458,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Numbing. The area being treated is numbed with a local anaesthetic.",
+            text: "Numbing. The area being treated is numbed with a local anesthetic.",
           },
           {
             type: "p",
@@ -1489,7 +1489,7 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "For most patients, a deep cleaning with local anaesthetic feels like pressure and scraping rather than pain.",
+            text: "For most patients, a deep cleaning with local anesthetic feels like pressure and scraping rather than pain.",
           },
           {
             type: "p",
@@ -1568,7 +1568,7 @@ export const preventativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Does a deep cleaning hurt?",
-        a: "For most patients it feels like pressure and scraping rather than pain, because the area is numbed with a local anaesthetic first. Only one section of the mouth is treated at a time. Gums are usually tender and teeth more sensitive for a few days afterwards, which settles as the gums heal.",
+        a: "For most patients it feels like pressure and scraping rather than pain, because the area is numbed with a local anesthetic first. Only one section of the mouth is treated at a time. Gums are usually tender and teeth more sensitive for a few days afterwards, which settles as the gums heal.",
       },
       {
         q: "How many visits will I need?",
@@ -1858,7 +1858,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The foundation of gum treatment. Plaque and tartar are removed from below the gumline and the root surface is smoothed so the gum can reattach. Usually done under local anaesthetic, often across more than one appointment.",
+            text: "The foundation of gum treatment. Plaque and tartar are removed from below the gumline and the root surface is smoothed so the gum can reattach. Usually done under local anesthetic, often across more than one appointment.",
           },
           {
             type: "link",
@@ -2790,7 +2790,7 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "The first appointment is about getting you out of pain and stabilising the tooth, not completing the whole treatment plan.",
+            text: "The first appointment is about getting you out of pain and stabilizing the tooth, not completing the whole treatment plan.",
           },
           {
             type: "p",
@@ -2848,7 +2848,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If you are travelling in for urgent care, there are pages for Springfield, Swarthmore and the wider Delaware County area. Directions and opening hours are on the contact page.",
+            text: "If you are traveling in for urgent care, there are pages for Springfield, Swarthmore and the wider Delaware County area. Directions and opening hours are on the contact page.",
           },
         ],
       },
@@ -3162,7 +3162,7 @@ export const preventativePages: Record<string, DraftPage> = {
         a: "It is far less likely than with putty, because there is no tray of material pressed against the back of your mouth. The wand is small and moves around the teeth, and you can pause whenever you need to. Tell the team beforehand if you have a strong gag reflex.",
       },
       {
-        q: "Is a digital impression more accurate than a mould?",
+        q: "Is a digital impression more accurate than a mold?",
         a: "Digital scans are highly accurate, and they avoid problems such as a putty impression distorting when it is removed. If part of a scan is unclear, only that area needs rescanning rather than starting again, which helps aligners and retainers fit precisely.",
       },
       {
@@ -3427,7 +3427,7 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Orofacial pain is a recognised area of advanced dental training, separate from routine general dentistry.",
+            text: "Orofacial pain is a recognized area of advanced dental training, separate from routine general dentistry.",
           },
           {
             type: "p",
@@ -3435,7 +3435,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Dr. Suvagiya graduated from Nova Southeastern University with the highest honors and was recognised by Omicron Kappa Upsilon, the national dental honor society.",
+            text: "Dr. Suvagiya graduated from Nova Southeastern University with the highest honors and was recognized by Omicron Kappa Upsilon, the national dental honor society.",
           },
           {
             type: "p",
@@ -3579,7 +3579,7 @@ export const preventativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Can a dentist treat TMJ?",
-        a: "Yes. The jaw joint, the chewing muscles and the bite are all dental territory, and orofacial pain is a recognised area of advanced dental training. Dr. Suvagiya holds a fellowship in orofacial pain from Rutgers University. Where pain turns out to be neurological or ENT-related, you are referred on.",
+        a: "Yes. The jaw joint, the chewing muscles and the bite are all dental territory, and orofacial pain is a recognized area of advanced dental training. Dr. Suvagiya holds a fellowship in orofacial pain from Rutgers University. Where pain turns out to be neurological or ENT-related, you are referred on.",
       },
       {
         q: "What causes TMD?",

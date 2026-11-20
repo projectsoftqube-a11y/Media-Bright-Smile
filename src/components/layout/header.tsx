@@ -52,6 +52,18 @@ export function Header() {
   const [hidden, setHidden] = useState(false);
   const [open, setOpen] = useState<string | null>(null);
   const [mobile, setMobile] = useState(false);
+  /* The mobile menu (~270 elements) is built after load, in idle time, or at once on the first tap,
+     rather than during hydration, where it only added main-thread work to every page load. */
+  const [menuReady, setMenuReady] = useState(false);
+  useEffect(() => {
+    const ready = () => setMenuReady(true);
+    if (typeof window.requestIdleCallback === "function") {
+      const id = window.requestIdleCallback(ready, { timeout: 4000 });
+      return () => window.cancelIdleCallback(id);
+    }
+    const id = window.setTimeout(ready, 1500);
+    return () => window.clearTimeout(id);
+  }, []);
   const lenis = useLenis();
   const headerRef = useRef<HTMLElement>(null);
   const closeTimer = useRef<number | undefined>(undefined);
@@ -273,7 +285,7 @@ export function Header() {
         </div>
       </motion.header>
 
-      <MobileMenu open={mobile} onClose={() => setMobile(false)} />
+      {(menuReady || mobile) && <MobileMenu open={mobile} onClose={() => setMobile(false)} />}
       <Suspense fallback={null}>
         <RouteChange onChange={onRouteChange} />
       </Suspense>
@@ -570,7 +582,7 @@ function AboutMenu({ group, onNavigate }: { group: NavGroup; onNavigate: () => v
 }
 
 /* ---------------------------------------------------------------------------
-   Patients: four labelled columns (new patients, paying, comfort, resources).
+   Patients: four labeled columns (new patients, paying, comfort, resources).
 --------------------------------------------------------------------------- */
 const patientIcons: Record<string, LucideIcon> = {
   "New patients": UserPlus,

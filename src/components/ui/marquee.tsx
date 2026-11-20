@@ -10,12 +10,15 @@ export function Marquee({
   duration = 40,
   reverse = false,
   stretch = false,
+  loop = true,
   className,
 }: {
   children: ReactNode;
   duration?: number;
   reverse?: boolean;
   stretch?: boolean;
+  /** false leaves out the loop's second copy (a caller can add it after load to keep hydration light) */
+  loop?: boolean;
   className?: string;
 }) {
   const align = stretch ? "items-stretch" : "items-center";
@@ -34,9 +37,11 @@ export function Marquee({
       >
         <div className={cn("flex shrink-0", align)}>{children}</div>
         {/* the loop's second copy: hidden from screen readers and inert, so its links and buttons can't take focus */}
-        <div className={cn("flex shrink-0", align)} aria-hidden="true" inert>
-          {children}
-        </div>
+        {loop && (
+          <div className={cn("flex shrink-0", align)} aria-hidden="true" inert>
+            {children}
+          </div>
+        )}
       </div>
     </div>
   );

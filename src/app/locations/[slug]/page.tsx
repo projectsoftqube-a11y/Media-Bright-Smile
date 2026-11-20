@@ -72,12 +72,7 @@ export default async function TownPage({ params }: PageProps<"/locations/[slug]"
       <Offers />
       <TownFaq town={town} />
       <NearbyAreas current={loc} />
-      <CtaBand
-        title={town.cta.title}
-        text={town.cta.text}
-        image={ctaPhoto.src}
-        imageAlt={ctaPhoto.alt}
-      />
+      <CtaBand title={town.cta.title} text={town.cta.text} image={ctaPhoto.src} imageAlt={ctaPhoto.alt} />
     </>
   );
 }

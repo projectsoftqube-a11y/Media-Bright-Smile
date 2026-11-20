@@ -48,4 +48,29 @@ const useGSAP: typeof useGSAPBase = (func, dependencies) => {
   return useGSAPBase(safe, dependencies);
 };
 
+/**
+ * Builds a below-the-fold animation in its own idle task instead of during hydration.
+ * SplitText and ScrollTrigger measure layout when they are created; doing that for every
+ * section inside React's hydration commit made one long main-thread task (Total Blocking
+ * Time). Each section now sets up separately once the browser is free (at most 2.5s later).
+ * The work is added to the same gsap context, so it is still reverted on unmount.
+ * Use it for anything that starts off-screen; never for content visible on first paint.
+ */
+export function whenIdle(context: gsap.Context | undefined, setup: () => void): () => void {
+  const run = () => {
+    try {
+      if (context) context.add(setup);
+      else setup();
+    } catch (error) {
+      if (process.env.NODE_ENV !== "production") console.warn("[animation skipped]", error);
+    }
+  };
+  if (typeof window.requestIdleCallback === "function") {
+    const id = window.requestIdleCallback(run, { timeout: 2500 });
+    return () => window.cancelIdleCallback(id);
+  }
+  const id = window.setTimeout(run, 300);
+  return () => window.clearTimeout(id);
+}
+
 export { gsap, ScrollTrigger, SplitText, CustomEase, useGSAP };

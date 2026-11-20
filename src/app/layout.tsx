@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { SmoothScroll } from "@/components/providers/smooth-scroll";
@@ -60,10 +61,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <SmoothScroll>
           <Header />
           <main id="main">{children}</main>
-          <Footer year={<CurrentYear />} />
-          <MobileCta />
-          <OfferTab />
-          <BackToTop />
+          {/* Own Suspense boundaries (nothing suspends): React hydrates these separately, in short tasks */}
+          <Suspense>
+            <Footer year={<CurrentYear />} />
+          </Suspense>
+          <Suspense>
+            <MobileCta />
+            <OfferTab />
+            <BackToTop />
+          </Suspense>
         </SmoothScroll>
       </body>
     </html>

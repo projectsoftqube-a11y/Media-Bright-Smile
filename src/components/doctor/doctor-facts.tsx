@@ -25,7 +25,7 @@ const iconFor: Record<string, LucideIcon> = {
   certification: BadgeCheck,
   membership: Users,
   fellowship: Award,
-  honour: Medal,
+  honor: Medal,
   experience: Sparkles,
   "advanced training": Award,
   technology: ScanLine,

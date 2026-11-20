@@ -261,7 +261,7 @@ export const compliancePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "We use physical, electronic and administrative safeguards to protect the information we collect online and to prevent unauthorised access or disclosure.",
+            text: "We use physical, electronic and administrative safeguards to protect the information we collect online and to prevent unauthorized access or disclosure.",
           },
           {
             type: "p",

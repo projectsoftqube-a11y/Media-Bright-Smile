@@ -53,7 +53,7 @@ const cosmetic = [
   {
     title: "Porcelain veneers",
     href: "/cosmetic-dentistry/porcelain-veneers",
-    note: "Shape, colour and alignment",
+    note: "Shape, color and alignment",
     image: "/images/gallery/gallery-veneers.jpg",
     alt: "A row of porcelain tooth shade samples",
   },
@@ -62,7 +62,7 @@ const cosmetic = [
     href: "/cosmetic-dentistry/dental-bonding",
     note: "A chipped front tooth",
     image: "/images/gallery/gallery-bonding.jpg",
-    alt: "Gloved hands holding a tooth shade guide used to match colour",
+    alt: "Gloved hands holding a tooth shade guide used to match color",
   },
   {
     title: "Teeth whitening",
@@ -198,7 +198,7 @@ export default function SmileGalleryPage() {
                 Look at the <span className="text-brand-600">starting point</span>, not just the result
               </>
             }
-            lead="Veneers, bonding and whitening change the colour, shape and alignment of teeth that are otherwise healthy. The useful question is not “is that a nice smile” but “did they start where I am starting”."
+            lead="Veneers, bonding and whitening change the color, shape and alignment of teeth that are otherwise healthy. The useful question is not “is that a nice smile” but “did they start where I am starting”."
             aside={
               <Link
                 href="/cosmetic-dentistry"

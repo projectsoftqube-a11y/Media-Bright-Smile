@@ -5,39 +5,54 @@ import { GraduationCap } from "lucide-react";
 import type { Doctor, DoctorProfile } from "@/content/doctors";
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { SplitReveal } from "@/components/motion/split-reveal";
-import { gsap, useGSAP } from "@/lib/gsap";
+import { gsap, useGSAP, whenIdle } from "@/lib/gsap";
 
 /** Education & credentials as a path that draws itself as you scroll. */
 export function DoctorJourney({ doctor, profile }: { doctor: Doctor; profile: DoctorProfile }) {
   const root = useRef<HTMLElement>(null);
 
   useGSAP(
-    () => {
+    (context) => {
       const el = root.current;
       if (!el) return;
-      const mm = gsap.matchMedia();
-      mm.add({ desktop: "(min-width: 1024px)", reduce: "(prefers-reduced-motion: reduce)" }, (ctx) => {
-        const { desktop, reduce } = ctx.conditions as { desktop: boolean; reduce: boolean };
-        if (reduce) return;
-        const line = el.querySelector("[data-line]");
-        const steps = gsap.utils.toArray<HTMLElement>("[data-step]", el);
-        gsap.fromTo(line, desktop ? { scaleX: 0 } : { scaleY: 0 }, {
-          ...(desktop ? { scaleX: 1 } : { scaleY: 1 }),
-          ease: "none",
-          scrollTrigger: { trigger: el.querySelector("[data-track]"), start: "top 75%", end: "bottom 55%", scrub: 0.6 },
-        });
-        steps.forEach((s) => {
-          gsap.from(s.querySelector("[data-dot]"), {
-            scale: 0,
-            duration: 0.6,
-            ease: "back.out(2.4)",
-            scrollTrigger: { trigger: s, start: desktop ? "top 70%" : "top 80%", toggleActions: "play none none none" },
+      return whenIdle(context, () => {
+        const mm = gsap.matchMedia();
+        mm.add({ desktop: "(min-width: 1024px)", reduce: "(prefers-reduced-motion: reduce)" }, (ctx) => {
+          const { desktop, reduce } = ctx.conditions as { desktop: boolean; reduce: boolean };
+          if (reduce) return;
+          const line = el.querySelector("[data-line]");
+          const steps = gsap.utils.toArray<HTMLElement>("[data-step]", el);
+          gsap.fromTo(line, desktop ? { scaleX: 0 } : { scaleY: 0 }, {
+            ...(desktop ? { scaleX: 1 } : { scaleY: 1 }),
+            ease: "none",
+            scrollTrigger: {
+              trigger: el.querySelector("[data-track]"),
+              start: "top 75%",
+              end: "bottom 55%",
+              scrub: 0.6,
+            },
           });
-          gsap.from(s.querySelector("[data-card]"), {
-            y: 30,
-            opacity: 0,
-            duration: 0.9,
-            scrollTrigger: { trigger: s, start: desktop ? "top 70%" : "top 80%", toggleActions: "play none none none" },
+          steps.forEach((s) => {
+            gsap.from(s.querySelector("[data-dot]"), {
+              scale: 0,
+              duration: 0.6,
+              ease: "back.out(2.4)",
+              scrollTrigger: {
+                trigger: s,
+                start: desktop ? "top 70%" : "top 80%",
+                toggleActions: "play none none none",
+              },
+            });
+            gsap.from(s.querySelector("[data-card]"), {
+              y: 30,
+              opacity: 0,
+              duration: 0.9,
+              scrollTrigger: {
+                trigger: s,
+                start: desktop ? "top 70%" : "top 80%",
+                toggleActions: "play none none none",
+              },
+            });
           });
         });
       });
@@ -56,7 +71,7 @@ export function DoctorJourney({ doctor, profile }: { doctor: Doctor; profile: Do
             </SplitReveal>
           </div>
           <p className="text-lg leading-relaxed lg:col-span-5">
-            Degrees, honours and advanced training behind the care you receive at our Media office.
+            Degrees, honors and advanced training behind the care you receive at our Media office.
           </p>
         </div>
 

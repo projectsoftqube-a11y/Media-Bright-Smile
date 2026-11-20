@@ -468,7 +468,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Treatment is done under local anaesthetic where needed, so for most procedures you feel pressure rather than pain. The aim is to keep you as comfortable as possible throughout, and if you can feel something, say so and more numbing can be given.",
+            text: "Treatment is done under local anesthetic where needed, so for most procedures you feel pressure rather than pain. The aim is to keep you as comfortable as possible throughout, and if you can feel something, say so and more numbing can be given.",
           },
           {
             type: "p",
@@ -491,7 +491,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "The practice follows the infection-control procedures recommended by OSHA, the EPA and the CDC. That includes gloves and face masks, disinfection of surfaces between patients, disposable materials, and sterilisation of all reusable equipment, including dental handpieces, in an autoclave before every use.",
+            text: "The practice follows the infection-control procedures recommended by OSHA, the EPA and the CDC. That includes gloves and face masks, disinfection of surfaces between patients, disposable materials, and sterilization of all reusable equipment, including dental handpieces, in an autoclave before every use.",
           },
           {
             type: "p",
@@ -521,7 +521,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
       },
       {
         q: "Will it hurt?",
-        a: "Most treatment is done under local anaesthetic, so you should feel pressure rather than pain, and the aim is to keep you as comfortable as possible. If you feel anything during treatment, say so and more numbing can be given. Some tenderness afterwards is common and usually settles within a few days.",
+        a: "Most treatment is done under local anesthetic, so you should feel pressure rather than pain, and the aim is to keep you as comfortable as possible. If you feel anything during treatment, say so and more numbing can be given. Some tenderness afterwards is common and usually settles within a few days.",
       },
     ],
     cta: {
@@ -545,7 +545,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "CareCredit is a credit card for health costs, run by a finance company rather than by the practice. Once approved, you use it to pay for treatment and then repay CareCredit in monthly instalments.",
+            text: "CareCredit is a credit card for health costs, run by a finance company rather than by the practice. Once approved, you use it to pay for treatment and then repay CareCredit in monthly installments.",
           },
           {
             type: "p",
@@ -656,7 +656,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "How does CareCredit work for dental treatment?",
-        a: "CareCredit is a health credit card. Once approved, you use it to pay for your treatment and repay CareCredit in monthly instalments. You can apply online at carecredit.com or at the practice, and you are given the treatment cost first so you know how much to finance.",
+        a: "CareCredit is a health credit card. Once approved, you use it to pay for your treatment and repay CareCredit in monthly installments. You can apply online at carecredit.com or at the practice, and you are given the treatment cost first so you know how much to finance.",
       },
       {
         q: "Can I finance dental implants or dentures?",
@@ -680,10 +680,10 @@ export const patientInfoPages: Record<string, DraftPage> = {
     url: "/patient-information/care-and-comfort/infection-control",
     title: "Dental Infection Control | Media Brite Smile, Media PA",
     description:
-      "The sterilisation and infection control procedures followed at Media Brite Smile in Media, PA, and what happens between every patient.",
+      "The sterilization and infection control procedures followed at Media Brite Smile in Media, PA, and what happens between every patient.",
     h1: "How We Keep Treatment Rooms Safe",
     intro: [
-      "Dental infection control at Media Brite Smile in Media, PA follows the procedures recommended by three federal agencies: the Occupational Safety and Health Administration (OSHA), the Environmental Protection Agency (EPA) and the Centers for Disease Control and Prevention (CDC). Every reusable instrument is sterilised before every use.",
+      "Dental infection control at Media Brite Smile in Media, PA follows the procedures recommended by three federal agencies: the Occupational Safety and Health Administration (OSHA), the Environmental Protection Agency (EPA) and the Centers for Disease Control and Prevention (CDC). Every reusable instrument is sterilized before every use.",
       "If you are immunocompromised, or simply want to know, you are welcome to ask any member of the team about it.",
     ],
     sections: [
@@ -719,21 +719,21 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Reusable equipment is sterilised before it is used again",
+            text: "Reusable equipment is sterilized before it is used again",
           },
         ],
       },
       {
-        heading: "Instrument Sterilisation",
+        heading: "Instrument Sterilization",
         kind: null,
         items: [
           {
             type: "p",
-            text: "All reusable equipment is sterilised before every use, including dental handpieces, the dental term for drills. The practice uses an autoclave, a device that kills bacteria and viruses using steam, heat and pressure.",
+            text: "All reusable equipment is sterilized before every use, including dental handpieces, the dental term for drills. The practice uses an autoclave, a device that kills bacteria and viruses using steam, heat and pressure.",
           },
           {
             type: "p",
-            text: "How do dentists sterilise instruments? In short: reusable instruments go through the autoclave before every use, so each one reaches you sterile.",
+            text: "How do dentists sterilize instruments? In short: reusable instruments go through the autoclave before every use, so each one reaches you sterile.",
           },
         ],
       },
@@ -976,7 +976,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         a: "You remain responsible for the practice's fees regardless of what your insurer decides. The practice tracks the claim and can tell you why it was denied, which is often a missing detail or a frequency limit rather than a refusal of the treatment itself.",
       },
       {
-        q: "Can I pay in instalments?",
+        q: "Can I pay in installments?",
         a: "Yes, through CareCredit, which spreads larger treatment over monthly payments. You can apply online at carecredit.com or at the practice. Payment for routine treatment is due at the time of service.",
       },
       {
@@ -1149,7 +1149,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Three dentists practise here, and each has a different focus, so you can pick rather than take whoever is free.",
+            text: "Three dentists practice here, and each has a different focus, so you can pick rather than take whoever is free.",
           },
           {
             type: "p",
@@ -1327,7 +1327,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Cosmetic treatment changes how teeth look: their colour, their position or their shape.",
+            text: "Cosmetic treatment changes how teeth look: their color, their position or their shape.",
           },
           {
             type: "p",
@@ -1512,7 +1512,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Specialists on staff. There is no periodontist, endodontist, prosthodontist or paediatric specialist. Gum, root canal, denture and children's care are all carried out by the general dentists.",
+            text: "Specialists on staff. There is no periodontist, endodontist, prosthodontist or pediatric specialist. Gum, root canal, denture and children's care are all carried out by the general dentists.",
           },
           {
             type: "p",
@@ -1537,7 +1537,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
       },
       {
         q: "Are there specialists at the practice?",
-        a: "No periodontist, endodontist, prosthodontist or paediatric specialist is on staff. Instead, each of the three general dentists has a focus, from cosmetic work and Invisalign to restorative care, orofacial pain and implants. You can ask for the dentist whose focus fits your treatment when you book.",
+        a: "No periodontist, endodontist, prosthodontist or pediatric specialist is on staff. Instead, each of the three general dentists has a focus, from cosmetic work and Invisalign to restorative care, orofacial pain and implants. You can ask for the dentist whose focus fits your treatment when you book.",
       },
     ],
     cta: {
@@ -1996,11 +1996,11 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Tooth-coloured fillings. After a filling, here is what to expect. Your lips and tongue may be numb for several hours. Avoid chewing and hot drinks until the numbness has fully worn off, because it is easy to bite or burn your lip or tongue. Composite fillings are fully set when you leave, so you can chew on them once the numbness has gone. Some sensitivity to hot, cold and pressure is normal, and the injection site may be sore.",
+            text: "Tooth-colored fillings. After a filling, here is what to expect. Your lips and tongue may be numb for several hours. Avoid chewing and hot drinks until the numbness has fully worn off, because it is easy to bite or burn your lip or tongue. Composite fillings are fully set when you leave, so you can chew on them once the numbness has gone. Some sensitivity to hot, cold and pressure is normal, and the injection site may be sore.",
           },
           {
             type: "p",
-            text: "Crowns and bridges. These usually take two or three appointments. Between visits you wear a temporary, which protects the tooth and stops neighbouring teeth moving.",
+            text: "Crowns and bridges. These usually take two or three appointments. Between visits you wear a temporary, which protects the tooth and stops neighboring teeth moving.",
           },
           {
             type: "p",
@@ -2110,7 +2110,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
       },
       {
         q: "How long will the numbness last?",
-        a: "Usually several hours after a filling or other treatment with local anaesthetic. Until it has fully worn off, avoid chewing and hot drinks, because it is easy to bite or burn your lip, tongue or cheek without noticing.",
+        a: "Usually several hours after a filling or other treatment with local anesthetic. Until it has fully worn off, avoid chewing and hot drinks, because it is easy to bite or burn your lip, tongue or cheek without noticing.",
       },
       {
         q: "Is some bleeding normal after an extraction?",
@@ -2147,7 +2147,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
               ["Prophylaxis", "A routine cleaning", "Cleaning and check-ups"],
               ["Scaling and root planing", "A deep cleaning below the gumline", "Deep teeth cleaning"],
               ["Periodontal maintenance", "Ongoing cleanings after gum treatment", "Periodontal maintenance"],
-              ["Composite restoration", "A tooth-coloured filling", "Dental fillings"],
+              ["Composite restoration", "A tooth-colored filling", "Dental fillings"],
               ["Onlay", "A lab-made restoration covering part of the biting surface", "Inlays and onlays"],
               ["Endodontic treatment", "A root canal", "Root canal"],
               ["Implant, abutment and crown", "The three parts of a dental implant", "Dental implants"],

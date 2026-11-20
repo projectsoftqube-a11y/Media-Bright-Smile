@@ -64,8 +64,8 @@ const PENDING = /^\[CONFIRM:?\s*/;
 const isPending = (t: string) => t.includes("[CONFIRM");
 /** "[CONFIRM: x]" -> x;  "Effective date: [CONFIRM: ...]" -> "Effective date" (a labelled value still to come) */
 const pendingBlock = (t: string): LegalBlock => {
-  const labelled = t.match(/^(.+?):?\s*\[CONFIRM/);
-  if (labelled && !PENDING.test(t)) return { pending: labelled[1].replace(/:\s*$/, "") };
+  const labeled = t.match(/^(.+?):?\s*\[CONFIRM/);
+  if (labeled && !PENDING.test(t)) return { pending: labeled[1].replace(/:\s*$/, "") };
   return { pending: t.replace(PENDING, "").replace(/\]\s*$/, "") };
 };
 const toId = (s: string) =>

@@ -98,7 +98,7 @@ export function Doctors() {
             </SplitReveal>
             <Reveal>
               <p className="mt-6 max-w-2xl text-lg leading-relaxed">
-                Three dentists practise at Media Brite Smile, and each brings a different focus: cosmetic work and
+                Three dentists practice at Media Brite Smile, and each brings a different focus: cosmetic work and
                 Invisalign, restorative care and jaw pain, and dental implants.
               </p>
             </Reveal>

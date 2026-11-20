@@ -105,7 +105,13 @@ const profiles: DoctorProfile[] = [
         ],
       },
     ],
-    personal: ["Time with his parents", "Reading fiction", "Traveling", "Family in Dallas, TX", "Visiting South Florida"],
+    personal: [
+      "Time with his parents",
+      "Reading fiction",
+      "Traveling",
+      "Family in Dallas, TX",
+      "Visiting South Florida",
+    ],
     faqs: [
       {
         q: "Is Dr. Zan Chaudhary accepting new patients?",
@@ -145,7 +151,7 @@ const profiles: DoctorProfile[] = [
       { label: "Dental school", value: "Nova Southeastern University, graduated with the highest honors" },
       { label: "Earlier training", value: "AMC Dental College, India" },
       { label: "Fellowship", value: "Orofacial Pain, Rutgers University" },
-      { label: "Honour", value: "Omicron Kappa Upsilon (OKU), the national dental honor society" },
+      { label: "Honor", value: "Omicron Kappa Upsilon (OKU), the national dental honor society" },
       {
         label: "Focus",
         value: "Restorative dentistry, crowns and bridges, veneers, root canals, extractions, TMD",
@@ -154,7 +160,7 @@ const profiles: DoctorProfile[] = [
     story: [
       {
         title: "Education and Training",
-        text: "Dr. Suvagiya was born and raised in India, where he began his dental training at AMC Dental College. He moved to the United States to continue his education.\n\nHe earned his Doctor of Dental Medicine at Nova Southeastern University, graduating with the highest honors. He was also recognised by Omicron Kappa Upsilon, the national dental honor society.\n\nHe then completed a fellowship in orofacial pain at Rutgers University, training in the management of temporomandibular disorder, jaw muscle pain and headaches.",
+        text: "Dr. Suvagiya was born and raised in India, where he began his dental training at AMC Dental College. He moved to the United States to continue his education.\n\nHe earned his Doctor of Dental Medicine at Nova Southeastern University, graduating with the highest honors. He was also recognized by Omicron Kappa Upsilon, the national dental honor society.\n\nHe then completed a fellowship in orofacial pain at Rutgers University, training in the management of temporomandibular disorder, jaw muscle pain and headaches.",
       },
       {
         title: "Why the Orofacial Pain Fellowship Matters",
@@ -244,11 +250,11 @@ const profiles: DoctorProfile[] = [
     story: [
       {
         title: "Education and Training",
-        text: "Dr. Makani earned his Doctor of Dental Surgery at New York University College of Dentistry. He had completed advanced dental training before that.\n\nSince then he has done extensive continuing education in implant dentistry, full-mouth reconstruction and digital dentistry. That has included full-arch rehabilitation programmes in the US and abroad, among them training at implant centres in Portugal and Brazil.",
+        text: "Dr. Makani earned his Doctor of Dental Surgery at New York University College of Dentistry. He had completed advanced dental training before that.\n\nSince then he has done extensive continuing education in implant dentistry, full-mouth reconstruction and digital dentistry. That has included full-arch rehabilitation programs in the US and abroad, among them training at implant centers in Portugal and Brazil.",
       },
       {
         title: "What Dr. Makani Does",
-        text: "Implant dentistry is the centre of his work, across the full range of cases.\n\n- Single dental implants to replace one missing tooth\n- Implant-supported bridges where several teeth are missing together\n- Implant overdentures for a denture that stays put\n- Full-mouth implant reconstruction\n- All-on-X “Teeth-in-a-Day” full-arch solutions\n\nHe works with several implant systems and techniques, so the plan follows your anatomy, not whichever system the practice happens to stock.",
+        text: "Implant dentistry is the center of his work, across the full range of cases.\n\n- Single dental implants to replace one missing tooth\n- Implant-supported bridges where several teeth are missing together\n- Implant overdentures for a denture that stays put\n- Full-mouth implant reconstruction\n- All-on-X “Teeth-in-a-Day” full-arch solutions\n\nHe works with several implant systems and techniques, so the plan follows your anatomy, not whichever system the practice happens to stock.",
       },
       {
         title: "How He Plans a Case",
@@ -302,7 +308,7 @@ const profiles: DoctorProfile[] = [
       },
       {
         q: "Where did Dr. Makani train?",
-        a: "He earned his Doctor of Dental Surgery at New York University College of Dentistry. Since then he has completed advanced training in implant dentistry and full-arch rehabilitation, in the US and abroad. That includes implant centres in Portugal and Brazil.",
+        a: "He earned his Doctor of Dental Surgery at New York University College of Dentistry. Since then he has completed advanced training in implant dentistry and full-arch rehabilitation, in the US and abroad. That includes implant centers in Portugal and Brazil.",
       },
       {
         q: "Does he offer sedation?",
@@ -325,7 +331,6 @@ const profiles: DoctorProfile[] = [
 ];
 
 export type Doctor = (typeof doctors)[number];
-
 
 export const doctorSlug = (d: Doctor) => d.href.split("/").pop()!;
 

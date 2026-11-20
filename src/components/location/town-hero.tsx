@@ -8,7 +8,8 @@ import { SplitReveal } from "@/components/motion/split-reveal";
 import { Reveal } from "@/components/motion/reveal";
 
 /** Highlights the town name inside the draft's H1 ("Your Dentist Near Aston, PA"). */
-function Headline({ h1, name }: { h1: string; name: string }) {
+/* A plain function (not a component) so the page-title word reveal can split its words */
+function headline(h1: string, name: string) {
   const i = h1.indexOf(name);
   if (i < 0) return <>{h1}</>;
   return (
@@ -39,7 +40,7 @@ export function TownHero({ location, town }: { location: Location; town: Town })
             Serving {town.name}, PA · {town.zip}
           </Eyebrow>
           <SplitReveal as="h1" id="location-title" immediate className="mt-6 text-display-lg font-bold text-balance">
-            <Headline h1={town.h1} name={town.name} />
+            {headline(town.h1, town.name)}
           </SplitReveal>
 
           <Reveal delay={0.15} fade={false}>

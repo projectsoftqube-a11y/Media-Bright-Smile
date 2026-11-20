@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, type ReactNode } from "react";
-import { gsap, useGSAP } from "@/lib/gsap";
+import { gsap, useGSAP, whenIdle } from "@/lib/gsap";
 import { cn } from "@/lib/utils";
 
 /**
@@ -31,23 +31,27 @@ export function ImageReveal({
   } as const;
 
   useGSAP(
-    () => {
+    (context) => {
       const el = ref.current;
       if (!el) return;
-      const mm = gsap.matchMedia();
-      mm.add("(prefers-reduced-motion: no-preference)", () => {
-        const tl = gsap.timeline({
-          delay,
-          scrollTrigger: immediate
-            ? undefined
-            : { trigger: el, start: "top 85%", toggleActions: "play none none none" },
+      const setup = () => {
+        const mm = gsap.matchMedia();
+        mm.add("(prefers-reduced-motion: no-preference)", () => {
+          const tl = gsap.timeline({
+            delay,
+            scrollTrigger: immediate
+              ? undefined
+              : { trigger: el, start: "top 85%", toggleActions: "play none none none" },
+          });
+          tl.fromTo(
+            el,
+            { clipPath: clips[direction] },
+            { clipPath: "inset(0% 0% 0% 0% round 0rem)", duration: 1.6, ease: "brite.inOut" },
+          ).from(el.querySelector("[data-reveal-media]"), { scale: 1.35, duration: 2, ease: "brite.out" }, 0);
         });
-        tl.fromTo(
-          el,
-          { clipPath: clips[direction] },
-          { clipPath: "inset(0% 0% 0% 0% round 0rem)", duration: 1.6, ease: "brite.inOut" },
-        ).from(el.querySelector("[data-reveal-media]"), { scale: 1.35, duration: 2, ease: "brite.out" }, 0);
-      });
+      };
+      if (immediate) setup();
+      else return whenIdle(context, setup);
     },
     { scope: ref },
   );
