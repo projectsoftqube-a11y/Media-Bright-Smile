@@ -45,6 +45,8 @@ export const topicImages = {
   brushingMan: t("brushing-man", "A man brushing his teeth at the bathroom mirror"),
   brushingWoman: t("brushing-woman", "A woman brushing her teeth with a bamboo toothbrush"),
   childCheckup: t("child-checkup", "A smiling child at a dental check-up"),
+  /* Mirrored copy: puts the child on the left, clear of the right-hand text card in wide overlay sections */
+  childCheckupLeft: t("child-checkup-left", "A smiling child at a dental check-up"),
   childExam: t("child-exam", "A dentist examining a boy's teeth"),
   childMirror: t("child-mirror", "A child looking at her teeth in a hand mirror"),
   familyBrushing: t("family-brushing", "A parent helping a child brush her teeth"),

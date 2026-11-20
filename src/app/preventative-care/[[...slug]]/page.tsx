@@ -44,7 +44,7 @@ const looks: Record<string, Look> = {
     name: "Family Dentistry",
     eyebrow: "Family dentistry",
     hero: T.familyBrushing,
-    images: [T.patientRelaxed, null, T.calendar, T.checkupLight, T.childMirror, T.seniorCheckup, T.cardPayment2],
+    images: [T.patientRelaxed, null, T.calendar, T.checkupLight, T.childCheckupLeft, T.seniorCheckup, T.cardPayment2],
     dark: 3,
     ...ctaOf(T.familyCare3),
   },

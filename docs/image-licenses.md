@@ -65,6 +65,7 @@
 | public/images/topics/brushing-man.jpg | Section images, Patient Info and town pages | https://www.pexels.com/photo/7608362/ | Pexels | see source page | 2026-11-16 |
 | public/images/topics/brushing-woman.jpg | Section images, Patient Info and town pages | https://www.pexels.com/photo/9475383/ | Pexels | see source page | 2026-11-16 |
 | public/images/topics/child-checkup.jpg | Section images, Patient Info and town pages | https://www.pexels.com/photo/7800560/ | Pexels | see source page | 2026-11-16 |
+| public/images/topics/child-checkup-left.jpg | Family Dentistry page, section 05 (Children at the Practice) | https://www.pexels.com/photo/7800560/ (mirrored copy of child-checkup.jpg) | Pexels | see source page | 2026-11-20 |
 | public/images/topics/child-exam.jpg | Section images, Patient Info and town pages | https://www.pexels.com/photo/8224633/ | Pexels | see source page | 2026-11-16 |
 | public/images/topics/child-mirror.jpg | Section images, Patient Info and town pages | https://www.pexels.com/photo/6502554/ | Pexels | see source page | 2026-11-16 |
 | public/images/topics/family-brushing.jpg | Section images, Patient Info and town pages | https://www.pexels.com/photo/10566162/ | Pexels | see source page | 2026-11-16 |
