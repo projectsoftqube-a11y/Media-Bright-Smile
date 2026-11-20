@@ -114,6 +114,7 @@
 | topics/dental-casts.jpg | Restorative Dentistry pages, crown, bridge and denture lab sections | https://www.pexels.com/photo/6627601/ | Pexels | see source page | 2026-11-16 |
 | topics/panoramic-xray.jpg | Restorative Dentistry pages, wisdom teeth and implant planning sections | https://www.pexels.com/photo/6812456/ | Pexels | see source page | 2026-11-16 |
 | topics/whitening-shade-match.jpg | Teeth Whitening page hero | https://www.pexels.com/photo/6627570/ | Pexels | see source page | 2026-11-17 |
+| hero/family-hero-828.webp, -1280.webp, -1920.webp | Home: hero photo (right side, faded left edge) | Original AI-generated image, made for this site in the client's Higgsfield account (model gpt_image_2_6, job ea0c58f5-9629-4d9e-908e-e5506a34c71f). Not stock; depicts no real person; never to be captioned as a patient | Higgsfield (AI) | n/a | 2026-11-20 |
 <!-- kavan-image-finding: new rows go above this line -->
 
 ## 4. Extra proof worth keeping
@@ -160,12 +161,12 @@ Replaced: 8 hero/service images carried over from the old website with no licenc
 
 | File | Used on | Source | Licence | Date |
 |---|---|---|---|---|
-| public/images/hero/young-patient-smile.jpg | Home: hero photo wall, comfort, FAQ, signature treatments (Family & Kids); Preventative category card | https://www.pexels.com/photo/3845808/ | Pexels License (free for commercial use, no attribution required; downloaded from images.pexels.com) | 2026-11-17 |
-| public/images/hero/mother-daughter.jpg | Home: hero photo wall, intro, comfort, FAQ | https://www.pexels.com/photo/8489720/ | Pexels License (free for commercial use, no attribution required; downloaded from images.pexels.com) | 2026-11-17 |
-| public/images/hero/woman-smiling.jpg | Home: hero photo wall, Visit section; header menu | https://www.pexels.com/photo/35555197/ | Pexels License (free for commercial use, no attribution required; downloaded from images.pexels.com) | 2026-11-17 |
-| public/images/hero/family-sofa.jpg | Home: hero photo wall | https://www.pexels.com/photo/7492987/ | Pexels License (free for commercial use, no attribution required; downloaded from images.pexels.com) | 2026-11-17 |
-| public/images/services/natural-smile.jpg | Home: hero photo wall, signature treatments (Porcelain Veneers); Cosmetic category card | https://www.pexels.com/photo/3402510/ | Pexels License (free for commercial use, no attribution required; downloaded from images.pexels.com) | 2026-11-17 |
-| public/images/services/whitening-result.jpg | Home: hero photo wall, signature treatments (Teeth Whitening) | https://www.pexels.com/photo/6627574/ | Pexels License (free for commercial use, no attribution required; downloaded from images.pexels.com) | 2026-11-17 |
+| public/images/hero/young-patient-smile.jpg | Home: comfort, FAQ, signature treatments (Family & Kids); Preventative category card | https://www.pexels.com/photo/3845808/ | Pexels License (free for commercial use, no attribution required; downloaded from images.pexels.com) | 2026-11-17 |
+| public/images/hero/mother-daughter.jpg | Home: intro, comfort, FAQ | https://www.pexels.com/photo/8489720/ | Pexels License (free for commercial use, no attribution required; downloaded from images.pexels.com) | 2026-11-17 |
+| public/images/hero/woman-smiling.jpg | Home: Visit section; header menu | https://www.pexels.com/photo/35555197/ | Pexels License (free for commercial use, no attribution required; downloaded from images.pexels.com) | 2026-11-17 |
+| public/images/hero/family-sofa.jpg | Not in use (was the home hero photo wall, replaced 2026-11-20) | https://www.pexels.com/photo/7492987/ | Pexels License (free for commercial use, no attribution required; downloaded from images.pexels.com) | 2026-11-17 |
+| public/images/services/natural-smile.jpg | Home: signature treatments (Porcelain Veneers); Cosmetic category card | https://www.pexels.com/photo/3402510/ | Pexels License (free for commercial use, no attribution required; downloaded from images.pexels.com) | 2026-11-17 |
+| public/images/services/whitening-result.jpg | Home: signature treatments (Teeth Whitening) | https://www.pexels.com/photo/6627574/ | Pexels License (free for commercial use, no attribution required; downloaded from images.pexels.com) | 2026-11-17 |
 | public/images/services/implant-consult.jpg | Home: signature treatments (Dental Implants); Restorative category card | https://www.pexels.com/photo/14052564/ | Pexels License (free for commercial use, no attribution required; downloaded from images.pexels.com) | 2026-11-17 |
 | public/images/topics/sleep-bedroom.jpg | Preventative Care pages, night-time grinding sections | https://www.pexels.com/photo/7640997/ | Pexels License (free for commercial use, no attribution required; downloaded from images.pexels.com) | 2026-11-17 |
 | public/images/topics/paperwork-home.jpg | Section images, Patient Info and town pages | https://www.pexels.com/photo/8062280/ | Pexels License (free for commercial use, no attribution required; downloaded from images.pexels.com) | 2026-11-17 |
