@@ -292,11 +292,6 @@
   }
 }
 
-/* While the intro plays, the header logo is hidden: the intro logo flies into its place. */
-html[data-intro="playing"] [data-header-logo] {
-  opacity: 0;
-}
-
 /* SplitText line masks (GSAP adds `${linesClass}-mask` with overflow:clip).
    Extra room above/below keeps ascenders & descenders (g, y, p) from being cut;
    matching negative margins keep the layout identical. */

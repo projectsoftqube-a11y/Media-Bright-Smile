@@ -162,7 +162,6 @@ export function Header() {
           <div className="container-site flex h-20 items-center justify-between gap-6">
             <Link href="/" aria-label={`${site.name} home`} className="shrink-0">
               <Image
-                data-header-logo
                 src="/images/brand/logo.svg"
                 alt={`${site.name}, ${site.tagline}`}
                 width={892}

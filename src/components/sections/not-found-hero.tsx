@@ -8,7 +8,6 @@ import { Button } from "@/components/ui/button";
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { ToothWatermark } from "@/components/ui/icons";
 import { gsap, useGSAP } from "@/lib/gsap";
-import { useIntroReady } from "@/lib/intro";
 
 const quickLinks = [
   { label: "Our services", href: servicesHref, icon: Stethoscope },
@@ -23,7 +22,6 @@ const quickLinks = [
  */
 export function NotFoundHero() {
   const root = useRef<HTMLElement>(null);
-  const ready = useIntroReady();
 
   const { contextSafe } = useGSAP(
     () => {
@@ -40,7 +38,6 @@ export function NotFoundHero() {
         gsap.set(glyphs, { yPercent: -320, rotation: (i) => [-28, 18, 24][i] ?? 0 });
         gsap.set(shadows, { scaleX: 0.15, autoAlpha: 0 });
         gsap.set(copy, { y: 30, autoAlpha: 0 });
-        if (!ready) return;
 
         // created up front (paused) so the context cleans them up on unmount
         const drift = floats.flatMap((f, i) => {
@@ -78,7 +75,7 @@ export function NotFoundHero() {
         gsap.set([...glyphs, ...shadows, ...copy], { autoAlpha: 1 });
       });
     },
-    { scope: root, dependencies: [ready] },
+    { scope: root },
   );
 
   const hop = contextSafe((g: HTMLElement, i: number) => {

@@ -20,7 +20,7 @@ Built with Next.js 16 (App Router, Cache Components), Tailwind CSS v4, GSAP, Len
 - `src/app/`: routes (home, `about-us/[doctor]`, `locations`, `locations/[slug]`, `privacy-policy`, `terms-of-use`, `disclaimer`, 404)
 - `src/content/`: all copy and data. `site.ts` (practice details, services, locations, FAQs), `doctors.ts` (doctor profiles), `legal.ts` (legal pages)
 - `src/components/`: `layout/` (header, footer, menus, floating buttons), `sections/` (home page sections), `doctor/`, `location/`, `legal/`, `motion/` (animation wrappers), `ui/` (shared pieces)
-- `src/lib/`: GSAP setup, motion presets, preloader/intro timing, utilities
+- `src/lib/`: GSAP setup, motion presets, utilities
 - `public/images`, `public/videos`: photos and the office tour video
 
 ## Content rules

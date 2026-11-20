@@ -9,7 +9,6 @@ import { Eyebrow } from "@/components/ui/eyebrow";
 import { BrandTooth } from "@/components/ui/icons";
 import { Marquee } from "@/components/ui/marquee";
 import { gsap, SplitText, useGSAP } from "@/lib/gsap";
-import { introDone, useIntroReady } from "@/lib/intro";
 import { ease } from "@/lib/motion";
 
 /* Hero photo: an original AI-generated image made for this site (see docs/image-licenses.md).
@@ -26,7 +25,6 @@ const heroPhoto = {
 
 export function Hero() {
   const root = useRef<HTMLElement>(null);
-  const ready = useIntroReady();
 
   useGSAP(
     () => {
@@ -38,7 +36,8 @@ export function Hero() {
         let split: SplitText | undefined;
         let cancelled = false;
 
-        introDone.then(() => {
+        // Split once the web font has loaded, so the lines break where they will finally sit
+        document.fonts.ready.then(() => {
           if (cancelled) return;
           split = SplitText.create(title, { type: "lines", mask: "lines", linesClass: "split-line" });
           gsap.set(title, { visibility: "visible" });
@@ -76,7 +75,7 @@ export function Hero() {
 
   const appear = (delay: number) => ({
     initial: { opacity: 0, y: 22 },
-    animate: ready ? { opacity: 1, y: 0 } : undefined,
+    animate: { opacity: 1, y: 0 },
     transition: { duration: 0.9, ease: ease.out, delay },
   });
 

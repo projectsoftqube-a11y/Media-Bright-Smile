@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { SmoothScroll } from "@/components/providers/smooth-scroll";
-import { Preloader } from "@/components/layout/preloader";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { CurrentYear } from "@/components/layout/current-year";
@@ -59,7 +58,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           Skip to main content
         </a>
         <SmoothScroll>
-          <Preloader />
           <Header />
           <main id="main">{children}</main>
           <Footer year={<CurrentYear />} />
