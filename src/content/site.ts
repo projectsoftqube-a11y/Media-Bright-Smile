@@ -128,10 +128,6 @@ const serviceSections = {
         { label: "Digital X-Rays", href: "/preventative-care/digital-x-rays" },
       ],
     },
-    {
-      title: "Jaw & facial pain",
-      links: [{ label: "TMJ & TMD Treatment", href: "/tmj-tmd-treatment-media-pa" }],
-    },
   ],
   cosmetic: [
     {
@@ -163,7 +159,6 @@ const serviceSections = {
       title: "Replace missing teeth",
       links: [
         { label: "Dental Implants", href: "/restorative-dentistry/dental-implants" },
-        { label: "Full-Arch Implants (All-on-X)", href: "/restorative-dentistry/full-arch-dental-implants" },
         { label: "Dental Bridges", href: "/restorative-dentistry/dental-bridges" },
         { label: "Dentures", href: "/restorative-dentistry/dentures" },
       ],
@@ -195,6 +190,14 @@ const serviceSections = {
   ],
 } satisfies Record<string, NavSection[]>;
 
+/**
+ * Service pages hidden at the client's request (Nov 2026): TMJ & jaw pain and Full-Arch Implants
+ * (All-on-X). They are left out of every menu and link list, and search engines are asked not to
+ * index them. The pages themselves still exist, so they can be brought back by deleting a line here.
+ */
+export const hiddenPages = new Set(["/tmj-tmd-treatment-media-pa", "/restorative-dentistry/full-arch-dental-implants"]);
+export const isHidden = (href: string) => hiddenPages.has(href.split(/[?#]/)[0]);
+
 /** Pick links by label from a category's sections (keeps one source of URLs). */
 const pick = (sections: NavSection[], labels: string[]) =>
   labels.map((label) => sections.flatMap((s) => s.links).find((l) => l.label === label)!);
@@ -221,7 +224,6 @@ export const serviceGroups = [
       "Gum Disease Treatment",
       "Deep Teeth Cleaning",
       "Night Guards",
-      "TMJ & TMD Treatment",
       "Fluoride Treatment",
       "Oral Cancer Screening",
     ]),
@@ -248,7 +250,6 @@ export const serviceGroups = [
     total: serviceSections.restorative.flatMap((s) => s.links).length,
     links: pick(serviceSections.restorative, [
       "Dental Implants",
-      "Full-Arch Implants (All-on-X)",
       "Dental Crowns",
       "Dental Bridges",
       "Dentures",

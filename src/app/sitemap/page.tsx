@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { site } from "@/content/site";
+import { isHidden, site } from "@/content/site";
 import { utilityPages } from "@/content/pages/utility";
 import { topicImages as T } from "@/content/topic-images";
 import {
@@ -77,7 +77,7 @@ const groups: SitemapGroup[] = page.sections.flatMap((s) => {
     {
       title: s.heading,
       ...look,
-      links: s.items.flatMap((i) => (i.type === "link" ? [{ text: i.text, href: i.href }] : [])),
+      links: s.items.flatMap((i) => (i.type === "link" && !isHidden(i.href) ? [{ text: i.text, href: i.href }] : [])),
     },
   ];
 });

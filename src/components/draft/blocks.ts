@@ -1,4 +1,4 @@
-import { mainNav, serviceGroups } from "@/content/site";
+import { isHidden, mainNav, serviceGroups } from "@/content/site";
 import type { DraftItem } from "@/content/pages/types";
 
 /* ---------------------------------------------------------------------------
@@ -57,6 +57,7 @@ export function toBlocks(items: DraftItem[]): Block[] {
     const last = out[out.length - 1];
     switch (it.type) {
       case "link":
+        if (isHidden(it.href)) break;
         if (last?.kind === "links") last.links.push({ text: it.text, href: it.href });
         else out.push({ kind: "links", links: [{ text: it.text, href: it.href }] });
         break;

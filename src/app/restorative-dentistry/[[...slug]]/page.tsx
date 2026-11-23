@@ -1,3 +1,4 @@
+import { isHidden } from "@/content/site";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { restorativePages } from "@/content/pages/restorative";
@@ -276,6 +277,8 @@ export async function generateMetadata({ params }: PageProps<"/restorative-denti
     description: page.description,
     alternates: { canonical: page.url },
     openGraph: { title: page.title, description: page.description, url: page.url },
+    // hidden services stay reachable by URL but out of search results (see hiddenPages in site.ts)
+    ...(isHidden(page.url) && { robots: { index: false, follow: true } }),
   };
 }
 

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import type { Doctor, DoctorProfile } from "@/content/doctors";
+import { isHidden } from "@/content/site";
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { SplitReveal } from "@/components/motion/split-reveal";
 import { Reveal } from "@/components/motion/reveal";
@@ -12,6 +13,12 @@ function BioText({ text }: { text: string }) {
   let last = 0;
   for (let m = re.exec(text); m; m = re.exec(text)) {
     parts.push(text.slice(last, m.index));
+    // a link to a hidden page (see hiddenPages in site.ts) is shown as plain text
+    if (isHidden(m[2])) {
+      parts.push(m[1]);
+      last = m.index + m[0].length;
+      continue;
+    }
     parts.push(
       <Link
         key={m.index}

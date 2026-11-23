@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight, Building2, CalendarDays, Check, Clock, ListOrdered, Phone } from "lucide-react";
-import { site } from "@/content/site";
+import { isHidden, site } from "@/content/site";
 import { blogPosts, formatDate, getPost, readingMinutes, relatedPosts, type BlogBlock } from "@/content/blog";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -324,7 +324,7 @@ export default async function BlogPostPage({ params }: PageProps<"/blog/[slug]">
               <div className="rounded-4xl bg-white p-6 ring-1 ring-line sm:p-7">
                 <p className="text-xs font-bold tracking-[0.14em] text-brand-600 uppercase">Related treatments</p>
                 <ul className="mt-3">
-                  {post.related.map((r) => (
+                  {post.related.filter((r) => !isHidden(r.href)).map((r) => (
                     <li key={r.href}>
                       <Link
                         href={r.href}

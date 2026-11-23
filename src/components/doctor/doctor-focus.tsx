@@ -1,4 +1,4 @@
-import { servicesHref } from "@/content/site";
+import { isHidden, servicesHref } from "@/content/site";
 import Link from "next/link";
 import { ArrowUpRight, Check } from "lucide-react";
 import type { Doctor, DoctorProfile } from "@/content/doctors";
@@ -46,7 +46,7 @@ export function DoctorFocus({ doctor, profile }: { doctor: Doctor; profile: Doct
 
         <Reveal className="lg:col-span-7">
           <ul className="border-t border-white/10">
-            {profile.focus.map((f, i) => (
+            {profile.focus.filter((f) => !f.href || !isHidden(f.href)).map((f, i) => (
               <li key={f.label} className="border-b border-white/10">
                 <Link
                   href={f.href ?? servicesHref}

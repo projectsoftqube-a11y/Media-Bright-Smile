@@ -1,3 +1,4 @@
+import { isHidden } from "@/content/site";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
@@ -27,6 +28,7 @@ function toBlocks(items: TownItem[]): Block[] {
   for (const it of items) {
     const last = out[out.length - 1];
     if (it.type === "link") {
+      if (isHidden(it.href)) continue;
       if (last?.kind === "links") last.links.push({ text: it.text, href: it.href });
       else out.push({ kind: "links", links: [{ text: it.text, href: it.href }] });
       continue;
