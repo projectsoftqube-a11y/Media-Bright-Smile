@@ -4,7 +4,7 @@ import { site } from "@/content/site";
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { Button } from "@/components/ui/button";
 import { ToothWatermark } from "@/components/ui/icons";
-import { SplitReveal } from "@/components/motion/split-reveal";
+import { WordReveal } from "@/components/motion/split-words";
 import { Reveal } from "@/components/motion/reveal";
 import { cn } from "@/lib/utils";
 
@@ -50,9 +50,9 @@ export function PageHero({
         >
           <div className="min-w-0">
             <Eyebrow>{eyebrow}</Eyebrow>
-            <SplitReveal as="h1" id={id} immediate className="mt-6 text-display-lg font-bold text-balance">
+            <WordReveal as="h1" id={id} className="mt-6 text-display-lg font-bold text-balance">
               {title}
-            </SplitReveal>
+            </WordReveal>
             {/* fade={false}: the lead paragraph is the LCP element on phones, so it must paint without JS */}
             <Reveal delay={0.25} y={24} fade={false}>
               <p className="mt-6 max-w-2xl text-lg leading-relaxed text-pretty sm:text-xl">{lead}</p>

@@ -36,7 +36,7 @@ const looks: Record<string, Look> = {
       T.toothache3,
       T.shadeGuide,
       T.dentalCasts,
-      T.microscope,
+      T.crown4,
       T.scan3d,
       T.xrayTablet,
       T.smileGrin,
@@ -196,7 +196,7 @@ const looks: Record<string, Look> = {
     name: "Non-Surgical Root Canal",
     eyebrow: "Non-surgical root canal",
     hero: T.treatmentProcedure,
-    images: [T.microscope, T.xray6, T.xrayLightbox, T.seniorConsult2],
+    images: [T.crown5, T.xray6, T.xrayLightbox, T.seniorConsult2],
     dark: 2,
     ...ctaOf(T.booking3),
   },
@@ -305,7 +305,7 @@ export default async function RestorativePage({ params }: PageProps<"/restorativ
               cards={[
                 {
                   title: "Fillings & crowns",
-                  text: "Tooth-colored fillings, and crowns checked under a microscope.",
+                  text: "Tooth-colored fillings, and crowns made to fit precisely.",
                   href: `${BASE}/dental-crowns`,
                   image: T.crown4,
                 },

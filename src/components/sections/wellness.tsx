@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useRef } from "react";
 import Link from "next/link";
-import { ArrowUpRight, BadgeDollarSign, HeartHandshake, ListChecks, MessageCircle, ScanLine } from "lucide-react";
+import { ArrowUpRight, BadgeDollarSign, HeartHandshake, ListChecks, MessageCircle } from "lucide-react";
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { SplitReveal } from "@/components/motion/split-reveal";
 import { ImageReveal } from "@/components/motion/image-reveal";
@@ -11,11 +11,6 @@ import { gsap, useGSAP, whenIdle } from "@/lib/gsap";
 
 /* "What Happens at Your First Visit?" from the approved Home draft. */
 const pillars = [
-  {
-    icon: ScanLine,
-    title: "An examination, not treatment",
-    text: "A dentist examines your teeth and gums and takes any X-rays you are due. A first appointment is an examination and a conversation, not treatment on the day.",
-  },
   {
     icon: MessageCircle,
     title: "Findings in plain words",
@@ -83,7 +78,7 @@ export function Wellness() {
               What happens at your <span className="accent-serif text-brand-600">first visit</span>?
             </SplitReveal>
             <p className="mt-6 max-w-lg text-lg leading-relaxed">
-              A first appointment is an examination and a conversation, not treatment on the day.
+              A thorough examination and a clear conversation, with same-day treatment if you need it.
             </p>
             <Link
               href="/patient-information/new-patients"

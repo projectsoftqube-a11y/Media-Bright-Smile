@@ -25,7 +25,7 @@ export function Visit() {
                   Book a check-up in <span className="accent-serif text-glow">Media, PA</span>
                 </SplitReveal>
                 <p className="mt-6 max-w-md text-lg text-brand-50/85">
-                  One practice for check-ups, gum care, cosmetic work and implants. Three dentists, appointments from
+                  One practice for check-ups, gum care, cosmetic work and implants. Several dentists, appointments from
                   8am, and the cost explained before treatment starts.
                 </p>
                 <div className="mt-10 flex flex-wrap gap-3">

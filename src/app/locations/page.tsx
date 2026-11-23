@@ -4,7 +4,7 @@ import { MapPin, Phone, Star } from "lucide-react";
 import { locations, site } from "@/content/site";
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { Button } from "@/components/ui/button";
-import { SplitReveal } from "@/components/motion/split-reveal";
+import { WordReveal } from "@/components/motion/split-words";
 import { Reveal } from "@/components/motion/reveal";
 import { AreaFinder } from "@/components/location/area-finder";
 import { Visit } from "@/components/sections/visit";
@@ -18,7 +18,6 @@ export const metadata: Metadata = {
 const stats = [
   { value: String(locations.length), label: "Communities served" },
   { value: site.rating.score.toFixed(1), label: `Rating from ${site.rating.count} reviews`, star: true },
-  { value: "3", label: "Dentists under one roof" },
 ];
 
 export default function LocationsPage() {
@@ -37,9 +36,9 @@ export default function LocationsPage() {
           <div className="grid grid-cols-1 items-end gap-8 lg:grid-cols-12 lg:gap-10">
             <div className="lg:col-span-7">
               <Eyebrow>Areas We Serve</Eyebrow>
-              <SplitReveal as="h1" id="locations-title" immediate className="mt-6 text-display-lg font-bold">
+              <WordReveal as="h1" id="locations-title" className="mt-6 text-display-lg font-bold">
                 One office, <span className="text-brand-600">many</span> neighborhoods
-              </SplitReveal>
+              </WordReveal>
             </div>
             <Reveal className="lg:col-span-5" delay={0.2}>
               <p className="text-lg leading-relaxed">
@@ -50,7 +49,7 @@ export default function LocationsPage() {
           </div>
 
           <Reveal delay={0.25}>
-            <dl className="mt-10 grid grid-cols-1 gap-px overflow-hidden rounded-3xl bg-line ring-1 ring-line min-[480px]:grid-cols-3">
+            <dl className="mt-10 grid grid-cols-1 gap-px overflow-hidden rounded-3xl bg-line ring-1 ring-line min-[480px]:grid-cols-2">
               {stats.map((s) => (
                 <div key={s.label} className="flex items-center gap-4 bg-white px-6 py-5">
                   <dt className="text-sm leading-snug text-body">{s.label}</dt>

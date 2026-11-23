@@ -46,7 +46,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "The practice is in Media, not in Rose Valley, and it is one of the closest dental practices to the borough. Three dentists cover routine family care, gum treatment, implants, dentures, cosmetic work and urgent appointments.",
+            text: "The practice is in Media, not in Rose Valley, and it is one of the closest dental practices to the borough. Several dentists cover routine family care, gum treatment, implants, dentures, cosmetic work and urgent appointments.",
           },
         ],
       },
@@ -144,10 +144,10 @@ export const towns: Town[] = [
     },
     title: "Dentist Near Wallingford, PA | Media Brite Smile",
     description:
-      "Dental care for Wallingford and Nether Providence, PA. About 8 minutes up Providence Road. Three dentists, $99 new patient exam.",
+      "Dental care for Wallingford and Nether Providence, PA. About 8 minutes up Providence Road. Several dentists, $99 new patient exam.",
     h1: "Your Dentist Near Wallingford, PA",
     intro: [
-      "Media Brite Smile is about 8 minutes from Wallingford, 3.7 miles straight up Providence Road. Three dentists, and the whole family can usually be booked together.",
+      "Media Brite Smile is about 8 minutes from Wallingford, 3.7 miles straight up Providence Road. Several dentists, and the whole family can usually be booked together.",
     ],
     sections: [
       {
@@ -190,7 +190,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "Wallingford households tend to book as a household: children's check-ups alongside an adult appointment, and often a grandparent too. Having three dentists is what makes grouping those appointments realistic rather than three separate trips.",
+            text: "Wallingford households tend to book as a household: children's check-ups alongside an adult appointment, and often a grandparent too. Having several dentists is what makes grouping those appointments realistic rather than three separate trips.",
           },
           {
             type: "p",
@@ -245,7 +245,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "Doors open at 8am, which from Wallingford means arriving before work with the Providence Road run taking under ten minutes. Friday hours alternate, so check before booking a Friday.",
+            text: "Doors open at 8am, which from Wallingford means arriving before work with the Providence Road run taking under ten minutes.",
           },
           {
             type: "link",
@@ -277,7 +277,7 @@ export const towns: Town[] = [
       },
       {
         q: "Can my whole family be seen on one trip from Wallingford?",
-        a: "Often, yes. Three dentists practice here, so there is usually more than one chair free at a given time. Say you want appointments grouped when you call (610) 566-2711 and the team will arrange it.",
+        a: "Often, yes. Several dentists practice here, so there is usually more than one chair free at a given time. Say you want appointments grouped when you call (610) 566-2711 and the team will arrange it.",
       },
       {
         q: "Are you taking new patients from Wallingford?",
@@ -286,7 +286,7 @@ export const towns: Town[] = [
     ],
     cta: {
       title: "Book From Wallingford",
-      text: "Eight minutes up Providence Road, three dentists, costs published up front.",
+      text: "Eight minutes up Providence Road, several dentists, costs published up front.",
     },
   },
   {
@@ -301,7 +301,7 @@ export const towns: Town[] = [
     },
     title: "Dentist Near Upper Providence, PA | Media Brite Smile",
     description:
-      "Dentist for Upper Providence Township, Delaware County, right next door in Media. Jaw pain, TMD and family care from a three-dentist practice.",
+      "Dentist for Upper Providence Township, Delaware County, right next door in Media. Jaw pain, TMD and family care from a multi-dentist practice.",
     h1: "Your Dentist Near Upper Providence, PA",
     intro: [
       "Media Brite Smile sits right next to Upper Providence Township, on N Pennell Road in Media, so for most of the township there is no meaningful drive at all. Alongside family dentistry, the practice has a dentist with a fellowship in orofacial pain, for jaw pain, clicking and TMD.",
@@ -312,7 +312,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "The practice is in Media rather than in the township itself, but it borders Upper Providence. It serves township households with three dentists covering check-ups and cleanings, gum treatment, implants, dentures, cosmetic work and urgent appointments.",
+            text: "The practice is in Media rather than in the township itself, but it borders Upper Providence. It serves township households with several dentists covering check-ups and cleanings, gum treatment, implants, dentures, cosmetic work and urgent appointments.",
           },
         ],
       },
@@ -421,7 +421,7 @@ export const towns: Town[] = [
     },
     title: "Dentist Near Springfield, Delaware County PA",
     description:
-      "Dental care for Springfield, Delaware County (19064), about 7 minutes up US-1. Three dentists, implants, emergencies, $99 new patient exam.",
+      "Dental care for Springfield, Delaware County (19064), about 7 minutes up US-1. Several dentists, implants, emergencies, $99 new patient exam.",
     h1: "Your Dentist Near Springfield, Delaware County, PA",
     intro: [
       "Media Brite Smile is about 7 minutes from Springfield, 4.1 miles along US-1. Of every town the practice serves, Springfield in Delaware County is among the quickest to reach.",
@@ -467,7 +467,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "It is also well served by dentists, including a multi-location group with a Springfield office. What this practice offers is three dentists with distinct focuses, published prices, and implant and full-arch work handled in house.",
+            text: "It is also well served by dentists, including a multi-location group with a Springfield office. What this practice offers is several dentists with distinct focuses, published prices, and implant and full-arch work handled in house.",
           },
         ],
       },
@@ -831,7 +831,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "Both get the same three-dentist practice, where implants, root canals and dentures are handled on site rather than referred out.",
+            text: "Both get the same multi-dentist practice, where implants, root canals and dentures are handled on site rather than referred out.",
           },
           {
             type: "link",
@@ -902,7 +902,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "Morton is a small borough, and the practice in Media is a short trip from it rather than inside it. Three dentists there handle routine family care alongside the treatment that often means a referral elsewhere: implants, root canals, extractions and dentures.",
+            text: "Morton is a small borough, and the practice in Media is a short trip from it rather than inside it. Several dentists there handle routine family care alongside the treatment that often means a referral elsewhere: implants, root canals, extractions and dentures.",
           },
         ],
       },
@@ -1037,7 +1037,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "The practice is in Media; there is no Ridley Park office. Three dentists provide family check-ups and cleanings, the restorative work that keeps natural teeth in place, and implants or dentures when a tooth cannot be kept.",
+            text: "The practice is in Media; there is no Ridley Park office. Several dentists provide family check-ups and cleanings, the restorative work that keeps natural teeth in place, and implants or dentures when a tooth cannot be kept.",
           },
         ],
       },
@@ -1068,7 +1068,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "Restorations are placed under high-powered microscopes. If a tooth has to go, dental implants are placed in house by Dr. Bhadresh Makani DDS, and cosmetic dentist work for Ridley Park patients, such as whitening and veneers, is done here too. For anything sudden, such as a broken tooth or swelling, see emergency dentistry.",
+            text: "If a tooth has to go, dental implants are placed in house by Dr. Bhadresh Makani DDS, and cosmetic dentist work for Ridley Park patients, such as whitening and veneers, is done here too. For anything sudden, such as a broken tooth or swelling, see emergency dentistry.",
           },
           {
             type: "link",
@@ -1145,10 +1145,10 @@ export const towns: Town[] = [
     },
     title: "Dentist Near Clifton Heights, PA | Media Brite Smile",
     description:
-      "Dentist for Clifton Heights and Aldan, PA (19018), about 12 minutes via US-1. Gum disease treatment, from deep cleaning to laser therapy.",
+      "Dentist for Clifton Heights and Aldan, PA (19018), about 12 minutes via US-1. Gum disease treatment, from deep cleaning to ongoing maintenance.",
     h1: "Your Dentist Near Clifton Heights, PA",
     intro: [
-      "Media Brite Smile is about 12 minutes from Clifton Heights, 5.7 miles via West Springfield Road and US-1. If your gums bleed, feel tender or have started to pull back, the practice treats gum disease at every stage, from a first deep cleaning to laser therapy and ongoing maintenance.",
+      "Media Brite Smile is about 12 minutes from Clifton Heights, 5.7 miles via West Springfield Road and US-1. If your gums bleed, feel tender or have started to pull back, the practice treats gum disease at every stage, from a first deep cleaning to ongoing maintenance.",
     ],
     sections: [
       {
@@ -1156,7 +1156,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "The practice is in Media, with no office in Clifton Heights. Three dentists provide family check-ups and cleanings, gum treatment, implants, dentures, cosmetic work and urgent care, so most treatment stays with one team.",
+            text: "The practice is in Media, with no office in Clifton Heights. Several dentists provide family check-ups and cleanings, gum treatment, implants, dentures, cosmetic work and urgent care, so most treatment stays with one team.",
           },
         ],
       },
@@ -1266,7 +1266,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "The practice is based in Media rather than Glen Mills. It is a three-dentist family practice, so children, parents and grandparents can all be seen in one place.",
+            text: "The practice is based in Media rather than Glen Mills. It is a multi-dentist family practice, so children, parents and grandparents can all be seen in one place.",
           },
           {
             type: "p",
@@ -1410,7 +1410,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "The practice is in Media, not in Newtown Square, and serves the township from there with three dentists: general and family care, cosmetic treatment, and implants placed in house.",
+            text: "The practice is in Media, not in Newtown Square, and serves the township from there with several dentists: general and family care, cosmetic treatment, and implants placed in house.",
           },
           {
             type: "p",
@@ -1460,7 +1460,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "This page covers Newtown Township and the 19073 ZIP code, including the area around Ellis Preserve. Families in the Marple Newtown School District can book children and adults together, with three dentists making grouped appointments realistic.",
+            text: "This page covers Newtown Township and the 19073 ZIP code, including the area around Ellis Preserve. Families in the Marple Newtown School District can book children and adults together, with several dentists making grouped appointments realistic.",
           },
           {
             type: "p",
@@ -1534,7 +1534,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "The practice is in Media and has no Broomall office. It serves Broomall from there with three dentists covering check-ups, fillings and crowns, implants, dentures, cosmetic work and urgent care.",
+            text: "The practice is in Media and has no Broomall office. It serves Broomall from there with several dentists covering check-ups, fillings and crowns, implants, dentures, cosmetic work and urgent care.",
           },
           {
             type: "p",
@@ -1687,7 +1687,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "The practice is in Media and has no office in Garnet Valley. Its three dentists see families for check-ups and cleanings, straighten teeth with Invisalign, and handle crowns, implants and emergencies on site.",
+            text: "The practice is in Media and has no office in Garnet Valley. Its several dentists see families for check-ups and cleanings, straighten teeth with Invisalign, and handle crowns, implants and emergencies on site.",
           },
         ],
       },
@@ -1815,7 +1815,7 @@ export const towns: Town[] = [
     },
     title: "Dentist Near Aston, PA | Straight Up Pennell Road",
     description:
-      "Dental care for Aston, PA, about 11 minutes straight up Pennell Road. Three dentists, implants, dentures, $99 new patient exam.",
+      "Dental care for Aston, PA, about 11 minutes straight up Pennell Road. Several dentists, implants, dentures, $99 new patient exam.",
     h1: "Your Dentist Near Aston, PA",
     intro: [
       "Media Brite Smile sits on N Pennell Road in Media, which is the same road that runs through Aston. About 11 minutes, 4.6 miles, and barely a turn in it.",
@@ -1861,7 +1861,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "Family care. Check-ups, cleanings, children's dentistry and fillings, with household appointments grouped where the three diaries allow.",
+            text: "Family care. Check-ups, cleanings, children's dentistry and fillings, with household appointments grouped where the dentists' schedules allow.",
           },
           {
             type: "p",
@@ -1921,7 +1921,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "What is worth comparing is what each one handles in house. Here, implants, full-arch reconstruction, root canals, extractions and denture repairs are all done on site by three dentists with different focuses, so a treatment plan does not become a referral. The prices are published too, which is unusual locally.",
+            text: "What is worth comparing is what each one handles in house. Here, implants, full-arch reconstruction, root canals, extractions and denture repairs are all done on site by several dentists with different focuses, so a treatment plan does not become a referral. The prices are published too, which is unusual locally.",
           },
           {
             type: "link",
@@ -1947,7 +1947,7 @@ export const towns: Town[] = [
       },
       {
         q: "Is it worth traveling past a closer dentist?",
-        a: "That depends on what you need. For a routine check-up, closer is reasonable. For implants, full-arch work, root canals or denture repairs, having all of it under one roof with three dentists and published prices is what Aston patients usually travel for.",
+        a: "That depends on what you need. For a routine check-up, closer is reasonable. For implants, full-arch work, root canals or denture repairs, having all of it under one roof with several dentists and published prices is what Aston patients usually travel for.",
       },
     ],
     cta: {

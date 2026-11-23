@@ -204,7 +204,7 @@ export function Header() {
                         onClick={closeNow}
                         onFocus={() => (isGroup(item) ? openMenu(item.label) : closeNow())}
                         className={cn(
-                          "flex items-center gap-1 rounded-full px-3 py-2.5 text-[0.9375rem] font-medium whitespace-nowrap text-ink transition-colors hover:bg-brand-50 hover:text-brand-700 2xl:px-4",
+                          "flex items-center gap-1 rounded-full px-3 py-2.5 text-[0.9375rem] font-medium whitespace-nowrap text-ink transition-colors hover:bg-brand-50 hover:text-brand-700 max-[1679px]:px-2",
                           open === item.label && "bg-brand-50 text-brand-700",
                         )}
                         aria-expanded={isGroup(item) ? open === item.label : undefined}
@@ -485,7 +485,7 @@ function CategoryMenu({ group: g, onNavigate }: { group: (typeof serviceGroups)[
 }
 
 /* ---------------------------------------------------------------------------
-   About: the three dentists, then the team and proof pages.
+   About: our dentists, then the team and proof pages.
 --------------------------------------------------------------------------- */
 const aboutMeta: Record<string, { icon: LucideIcon; desc: string }> = {
   "/about-us/meet-the-staff": { icon: Users, desc: "The people you meet at the front desk and in the chair." },
@@ -573,7 +573,7 @@ function AboutMenu({ group, onNavigate }: { group: NavGroup; onNavigate: () => v
         href="/about-us/office-tour"
         image="/images/office/office-5.jpg"
         eyebrow="Office tour"
-        title="Three dentists under one roof in Media"
+        title="Several dentists under one roof in Media"
         cta="Take the office tour"
         onNavigate={onNavigate}
       />

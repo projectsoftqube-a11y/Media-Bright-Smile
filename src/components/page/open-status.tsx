@@ -13,7 +13,7 @@ const toMinutes = (t: string) => {
   return h * 60 + Number(m[2]);
 };
 
-/** Opening status in Media's time zone. Friday alternates, so it never claims "open" on a Friday. */
+/** Opening status in Media's time zone. */
 function getStatus(): Status {
   const now = new Date();
   const parts = new Intl.DateTimeFormat("en-US", {
@@ -30,13 +30,6 @@ function getStatus(): Status {
   const h = site.hours.find((x) => x.day === day)!;
 
   if (h.closed) return { label: "Closed today", detail: "We open Monday at 8:00am", tone: "closed", today: day };
-  if (h.note)
-    return {
-      label: "Alternate Friday",
-      detail: `8:00am – 2:00pm on open Fridays. Call to check today.`,
-      tone: "check",
-      today: day,
-    };
   const open = toMinutes(h.open!);
   const close = toMinutes(h.close!);
   if (mins < open) return { label: "Opens today", detail: `${h.open} – ${h.close}`, tone: "check", today: day };

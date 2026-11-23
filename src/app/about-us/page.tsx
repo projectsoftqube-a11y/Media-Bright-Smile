@@ -7,7 +7,7 @@ import {
   CalendarClock,
   HeartHandshake,
   MapPin,
-  Microscope,
+  Rotate3d,
   PiggyBank,
   ScanLine,
   Stethoscope,
@@ -25,7 +25,7 @@ import { Counter } from "@/components/motion/counter";
 import { JsonLd, pageSchema } from "@/lib/schema";
 
 const title = "About Media Brite Smile | Dentist in Media, PA";
-const description = `Meet the team at Media Brite Smile in Media, PA: three dentists, microscope-assisted restorations and ${site.rating.score} stars from ${site.rating.count} Google reviews.`;
+const description = `Meet the team at Media Brite Smile in Media, PA: several dentists, modern digital technology and ${site.rating.score} stars from ${site.rating.count} Google reviews.`;
 
 export const metadata: Metadata = {
   title: { absolute: title },
@@ -43,7 +43,7 @@ const pillars = [
   },
   {
     icon: Users,
-    title: "Three dentists, not one",
+    title: "More than one dentist",
     text: "More appointment times, cover when someone is away, and a colleague to look at a difficult case without sending you elsewhere.",
   },
   {
@@ -55,11 +55,6 @@ const pillars = [
 
 const tech = [
   {
-    icon: Microscope,
-    title: "High-powered microscopes",
-    text: "Fillings and crowns are prepared and checked magnified, at the margin where restorations usually fail.",
-  },
-  {
     icon: ScanLine,
     title: "Intraoral scanner",
     text: "Teeth are scanned digitally rather than with impression putty. It fits better and avoids the gag reflex.",
@@ -68,6 +63,11 @@ const tech = [
     icon: Zap,
     title: "Digital X-rays",
     text: "Images appear on screen in seconds, so the dentist can show you what they are looking at.",
+  },
+  {
+    icon: Rotate3d,
+    title: "CBCT 3D imaging",
+    text: "Implant cases are planned in 3D, so the position, angle and depth are worked out before the appointment.",
   },
 ];
 
@@ -83,7 +83,7 @@ export default function AboutPage() {
             About <span className="text-brand-600">Media Brite Smile</span>
           </>
         }
-        lead="A three-dentist practice on N Pennell Road in Media, treating families, nervous patients and anyone who has been told they need work done and wants a second look at it."
+        lead="A multi-dentist practice on N Pennell Road in Media, treating families, nervous patients and anyone who has been told they need work done and wants a second look at it."
         aside={
           <div className="relative pb-10 sm:pb-12">
             <ImageReveal className="aspect-4/3 rounded-4xl shadow-lift sm:rounded-5xl" immediate delay={0.2}>
@@ -101,7 +101,7 @@ export default function AboutPage() {
             <div className="absolute top-4 right-4 flex items-center gap-3 rounded-full bg-white/95 py-2 pr-4 pl-2 shadow-lift sm:top-6 sm:right-6">
               <DoctorStack size="size-9" />
               <span className="text-sm leading-tight font-semibold text-ink">
-                3 dentists
+                Our dentists
                 <span className="block text-xs font-medium text-muted">one practice</span>
               </span>
             </div>
@@ -125,7 +125,7 @@ export default function AboutPage() {
             <Reveal y={24}>
               <div className="mt-6 space-y-4 text-lg leading-relaxed">
                 <p>
-                  {site.name} is a family, cosmetic and implant practice at {site.address.full}. Three dentists work
+                  {site.name} is a family, cosmetic and implant practice at {site.address.full}. Several dentists work
                   here, and between them they cover routine care, gum treatment, cosmetic work, implants, dentures and
                   root canals.
                 </p>
@@ -205,9 +205,8 @@ export default function AboutPage() {
       <section className="bg-white pb-[clamp(2.5rem,1.5rem+3vw,4.5rem)]" aria-label="The practice in numbers">
         <div className="container-site">
           <Reveal>
-            <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-4xl bg-white/10 bg-linear-to-br from-ink to-brand-950 text-white lg:grid-cols-4">
+            <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-4xl bg-white/10 bg-linear-to-br from-ink to-brand-950 text-white lg:grid-cols-3">
               {[
-                { to: 3, label: "Dentists under one roof" },
                 { to: site.rating.score, decimals: 1, label: "Google rating", suffix: "★" },
                 { to: site.rating.count, label: "Google reviews" },
                 { to: 40, label: "Dental plans billed directly", suffix: "+" },
@@ -274,15 +273,14 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ---------- Microscopes ---------- */}
+      {/* ---------- Technology ---------- */}
       <section className="relative isolate overflow-hidden bg-ink section-y text-white" aria-labelledby="micro-heading">
         <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10">
           <div className="absolute -top-40 right-0 size-160 rounded-full glow-blob text-brand-500/25" />
         </div>
         <div className="container-site grid grid-cols-1 items-center gap-14 lg:grid-cols-2 lg:gap-16 xl:gap-24">
-          {/* the room, with a "lens" that magnifies part of it: the idea of the section in one picture */}
           <Reveal>
-            <div className="relative pb-10 sm:pb-14 lg:pb-0">
+            <div className="relative">
               <div className="relative aspect-4/3 overflow-hidden rounded-4xl ring-1 ring-white/10 lg:aspect-4/5">
                 <Image
                   src="/images/office/operatory-1.webp"
@@ -296,28 +294,8 @@ export default function AboutPage() {
                   className="absolute inset-0 bg-linear-to-t from-ink/50 via-transparent to-transparent"
                 />
                 <span className="absolute top-4 left-4 inline-flex items-center gap-2 rounded-full bg-ink/80 px-3.5 py-1.5 text-sm font-semibold text-white ring-1 ring-white/15">
-                  <Microscope className="size-4 text-glow" /> Treatment room, Media PA
+                  <ScanLine className="size-4 text-glow" /> Treatment room, Media PA
                 </span>
-              </div>
-
-              {/* magnifier: the same photo, zoomed in on the chair and light */}
-              <div
-                aria-hidden="true"
-                className="absolute right-4 bottom-0 size-36 rounded-full bg-ink p-2 shadow-lift sm:right-8 sm:size-48 lg:-right-6 lg:-bottom-6 lg:size-56"
-              >
-                <div className="relative size-full overflow-hidden rounded-full ring-2 ring-glow/70">
-                  <Image
-                    src="/images/office/operatory-1.webp"
-                    alt=""
-                    fill
-                    sizes="240px"
-                    className="origin-[18%_50%] scale-[2.4] object-cover"
-                  />
-                  {/* reticle */}
-                  <span className="absolute inset-x-1/2 top-3 bottom-3 w-px -translate-x-1/2 bg-white/35" />
-                  <span className="absolute inset-y-1/2 right-3 left-3 h-px -translate-y-1/2 bg-white/35" />
-                  <span className="absolute inset-[22%] rounded-full ring-1 ring-white/40" />
-                </div>
               </div>
             </div>
           </Reveal>
@@ -326,13 +304,13 @@ export default function AboutPage() {
             <SectionHead
               id="micro-heading"
               tone="light"
-              eyebrow="Why we work under a microscope"
+              eyebrow="The technology we use"
               title={
                 <>
-                  A filling fails where it <span className="text-glow">meets</span> your tooth
+                  Modern tools for <span className="text-glow">precise</span>, comfortable care
                 </>
               }
-              lead="A margin that looks fine to the naked eye can still leave a gap for bacteria. Restorative work here is prepared and checked under magnification. It is slower. It is also the difference between a restoration that lasts and one you are back for."
+              lead="Digital tools let the team plan treatment precisely and explain it clearly, from a scan instead of impression putty to implant planning in 3D."
             />
             <RevealGroup className="mt-10" stagger={0.1}>
               <ol className="border-b border-white/10">

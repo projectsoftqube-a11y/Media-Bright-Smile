@@ -4,7 +4,7 @@ import type { Town } from "@/content/towns";
 import { Button } from "@/components/ui/button";
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { BrandTooth } from "@/components/ui/icons";
-import { SplitReveal } from "@/components/motion/split-reveal";
+import { WordReveal } from "@/components/motion/split-words";
 import { Reveal } from "@/components/motion/reveal";
 
 /** Highlights the town name inside the draft's H1 ("Your Dentist Near Aston, PA"). */
@@ -39,9 +39,9 @@ export function TownHero({ location, town }: { location: Location; town: Town })
           <Eyebrow>
             Serving {town.name}, PA · {town.zip}
           </Eyebrow>
-          <SplitReveal as="h1" id="location-title" immediate className="mt-6 text-display-lg font-bold text-balance">
+          <WordReveal as="h1" id="location-title" className="mt-6 text-display-lg font-bold text-balance">
             {headline(town.h1, town.name)}
-          </SplitReveal>
+          </WordReveal>
 
           <Reveal delay={0.15} fade={false}>
             {town.intro.map((p) => (
@@ -73,7 +73,7 @@ export function TownHero({ location, town }: { location: Location; town: Town })
                 </span>
               </a>
               <ul className="flex flex-wrap gap-2">
-                {["Three dentists under one roof", "$99 new patient exam if uninsured"].map((t) => (
+                {["Several dentists under one roof", "$99 new patient exam if uninsured"].map((t) => (
                   <li
                     key={t}
                     className="rounded-full bg-white px-3.5 py-1.5 text-sm font-medium text-ink ring-1 ring-line"

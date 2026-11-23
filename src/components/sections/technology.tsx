@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { useLenis } from "lenis/react";
-import { ArrowUpRight, Microscope, Navigation, Play, Volume2, X } from "lucide-react";
+import { ArrowUpRight, MonitorCheck, Navigation, Play, Volume2, X } from "lucide-react";
 import { site } from "@/content/site";
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { Button } from "@/components/ui/button";
@@ -53,14 +53,13 @@ export function Technology() {
           <div className="lg:col-span-7">
             <Eyebrow>Advanced Technology</Eyebrow>
             <SplitReveal as="h2" id="tech-heading" className="mt-6 max-w-3xl text-display-md font-bold text-balance">
-              Why does this practice use <span className="accent-serif text-brand-600">microscopes</span>?
+              What <span className="accent-serif text-brand-600">technology</span> does this practice use?
             </SplitReveal>
           </div>
           <Reveal className="lg:col-span-5 lg:justify-self-end">
             <p className="max-w-lg text-lg leading-relaxed">
-              A crown or filling usually fails at the margin, where the restoration meets the tooth. A gap too small to
-              see with the naked eye is large enough for bacteria. Restorative work here is prepared and checked under
-              high-powered microscopes, so that join is worked on magnified.
+              Modern equipment makes treatment more precise and more comfortable. Implants are planned in 3D with CBCT
+              imaging, impressions are taken with an intraoral scanner instead of putty, and X-rays are digital.
             </p>
           </Reveal>
         </div>
@@ -116,16 +115,16 @@ export function Technology() {
 
           <RevealItem className="lg:col-span-5">
             <div className="relative flex size-full flex-col justify-between overflow-hidden rounded-4xl bg-linear-to-br from-brand-500 to-brand-800 p-8 text-white">
-              <Microscope className="size-10 text-brand-100" strokeWidth={1.5} />
+              <MonitorCheck className="size-10 text-brand-100" strokeWidth={1.5} />
               <div
                 aria-hidden="true"
                 className="absolute -right-10 -bottom-16 size-60 rounded-full border-[28px] border-white/10"
               />
               <div className="relative">
-                <h3 className="text-2xl font-semibold tracking-tight text-white">High-power microscopes</h3>
+                <h3 className="text-2xl font-semibold tracking-tight text-white">Digital X-rays</h3>
                 <p className="mt-2 max-w-sm text-sm text-brand-50/85">
-                  Fillings, crowns and other restorations are prepared and checked magnified, right where they meet the
-                  tooth.
+                  Images appear on screen in seconds, so the dentist can show you exactly what was found and why it
+                  matters.
                 </p>
               </div>
             </div>

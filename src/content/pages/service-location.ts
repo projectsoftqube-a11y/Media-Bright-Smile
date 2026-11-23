@@ -212,7 +212,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Media Brite Smile is a three-dentist general and family practice. Implants are one part of the work, and they are planned and placed by Dr. Bhadresh Makani DDS, whose focus is implant dentistry.",
+            text: "Media Brite Smile is a multi-dentist general and family practice. Implants are one part of the work, and they are planned and placed by Dr. Bhadresh Makani DDS, whose focus is implant dentistry.",
           },
           {
             type: "p",
@@ -700,7 +700,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The practice opens at 8am Monday to Friday, so an early slot before work or classes is realistic. Friday opening alternates, so check before booking a Friday.",
+            text: "The practice opens at 8am Monday to Friday, so an early slot before work or classes is realistic.",
           },
           {
             type: "p",
@@ -832,15 +832,14 @@ export const serviceLocationPages: Record<string, DraftPage> = {
             type: "table",
             rows: [
               ["Day", "Open"],
-              ["Monday", "8am to 3pm"],
-              ["Tuesday, Wednesday, Thursday", "8am to 5pm"],
-              ["Friday", "8am to 2pm on alternate Fridays"],
+              ["Monday to Thursday", "8am to 5pm"],
+              ["Friday", "8am to 2pm"],
               ["Saturday and Sunday", "Closed"],
             ],
           },
           {
             type: "p",
-            text: "The practice closes at 3pm on Mondays, 2pm on the Fridays it opens, and does not open at weekends.",
+            text: "The practice closes at 5pm Monday to Thursday and 2pm on Friday, and does not open at weekends.",
           },
           {
             type: "h3",
@@ -979,7 +978,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
       },
       {
         q: "Can I be seen the same day?",
-        a: "Call (610) 566-2711 as early as possible. Urgent problems are triaged by phone and seen the same day whenever possible. Late on a Monday, or on a Friday the practice is closed, the team will tell you how to manage the problem until the next appointment.",
+        a: "Call (610) 566-2711 as early as possible. Urgent problems are triaged by phone and seen the same day whenever possible. Late in the day, or at the weekend, the team will tell you how to manage the problem until the next appointment.",
       },
       {
         q: "What does an emergency dental visit cost without insurance?",
@@ -1088,9 +1087,8 @@ export const serviceLocationPages: Record<string, DraftPage> = {
             type: "table",
             rows: [
               ["Day", "Hours"],
-              ["Monday", "8am to 3pm"],
-              ["Tuesday to Thursday", "8am to 5pm"],
-              ["Friday", "8am to 2pm, alternate Fridays"],
+              ["Monday to Thursday", "8am to 5pm"],
+              ["Friday", "8am to 2pm"],
             ],
           },
           {
@@ -1257,7 +1255,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "The practice opens at 8am Monday to Friday. It closes at 3pm on Monday, 5pm Tuesday to Thursday, and 2pm on Friday, opening on alternate Fridays only. It is closed at weekends.",
+            text: "The practice opens at 8am Monday to Friday. It closes at 5pm Monday to Thursday and at 2pm on Friday. It is closed at weekends.",
           },
           {
             type: "p",
@@ -1385,7 +1383,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The practice opens at 8am, so a review before school or work fits. Friday opening alternates, so check before booking a Friday.",
+            text: "The practice opens at 8am, so a review before school or work fits.",
           },
           {
             type: "link",

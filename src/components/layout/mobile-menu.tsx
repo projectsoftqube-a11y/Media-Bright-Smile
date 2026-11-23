@@ -18,7 +18,7 @@ type Entry =
   | { kind: "services" }
   | { kind: "group"; label: string; links: readonly NavLink[] };
 
-/** Same order as the desktop header (sitemap): About, the three treatment categories, Patients, Blog, Special Offers, Contact */
+/** Same order as the desktop header (sitemap): Home, About, the three treatment categories, Patients, Blog, Special Offers, Contact */
 const entries: Entry[] = mainNav.map<Entry>((item) => {
   if (item.label === "Services") return { kind: "services" };
   if (isGroup(item) && item.links.length) return { kind: "group", label: item.label, links: item.links };

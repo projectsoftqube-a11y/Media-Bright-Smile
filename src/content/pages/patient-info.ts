@@ -53,7 +53,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "New patients are welcome, and the first visit is an examination and a conversation rather than treatment.",
+            text: "New patients are welcome. The first visit starts with an examination and a conversation, and same-day treatment is available if you need it.",
           },
           {
             type: "p",
@@ -144,7 +144,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Nitrous oxide and oral sedation are available through Dr. Makani for patients who need more than reassurance. Diagnosis uses digital X-rays and an intraoral scanner, and restorations are done under high-powered microscopes.",
+            text: "Nitrous oxide and oral sedation are available through Dr. Makani for patients who need more than reassurance. Diagnosis uses digital X-rays and an intraoral scanner.",
           },
           {
             type: "link",
@@ -164,20 +164,19 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Send a request online or call (610) 566-2711, and the team will offer times across the three dentists.",
+            text: "Send a request online or call (610) 566-2711, and the team will offer times across our dentists.",
           },
           {
             type: "table",
             rows: [
               ["Day", "Hours"],
-              ["Monday", "8am to 3pm"],
-              ["Tuesday to Thursday", "8am to 5pm"],
-              ["Friday", "8am to 2pm, alternate Fridays"],
+              ["Monday to Thursday", "8am to 5pm"],
+              ["Friday", "8am to 2pm"],
             ],
           },
           {
             type: "p",
-            text: "Friday opening alternates week to week, so call to check before planning a Friday visit. If something hurts right now, call us and describe it, and we will tell you whether it needs to be seen today.",
+            text: "If something hurts right now, call us and describe it, and we will tell you whether it needs to be seen today.",
           },
           {
             type: "link",
@@ -237,40 +236,12 @@ export const patientInfoPages: Record<string, DraftPage> = {
     url: "/patient-information/care-and-comfort/advanced-technology",
     title: "Dental Technology | Media Brite Smile, Media PA",
     description:
-      "Microscopes, intraoral scanning, digital X-rays and CBCT at Media Brite Smile in Media, PA, and what each one changes about your treatment.",
+      "Intraoral scanning, digital X-rays and CBCT at Media Brite Smile in Media, PA, and what each one changes about your treatment.",
     h1: "The Technology We Use, and Why It Matters to You",
     intro: [
       "Digital dentistry in Media, PA is only worth having if it changes something for you: a better fit, a more accurate diagnosis or a more comfortable visit. This page explains the dental technology at Media Brite Smile in Media, PA by what it does for the patient.",
     ],
     sections: [
-      {
-        heading: "High-Powered Microscopes for Restorations",
-        kind: null,
-        items: [
-          {
-            type: "p",
-            text: "What it changes for you: a closer fit where your tooth meets the filling, crown or veneer.",
-          },
-          {
-            type: "p",
-            text: "The practice uses high-powered dental microscopes, similar to those used in eye surgery, for restorative work. Under magnification, the dentist can see the edge where a restoration meets the tooth, which is where a poor fit lets bacteria back in and decay start again. The microscope also shines light directly on the tooth, so there is less glare in your eyes.",
-          },
-          {
-            type: "p",
-            text: "For the most precise restorative steps, electric handpieces are used instead of older air-driven drills. They run more smoothly, with less vibration and noise.",
-          },
-          {
-            type: "link",
-            text: "Dental crowns",
-            href: "/restorative-dentistry/dental-crowns",
-          },
-          {
-            type: "link",
-            text: "Dental fillings",
-            href: "/restorative-dentistry/dental-fillings",
-          },
-        ],
-      },
       {
         heading: "Intraoral Scanning Instead of Putty Impressions",
         kind: null,
@@ -350,10 +321,6 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Restorations fitted under magnification",
-          },
-          {
-            type: "p",
             text: "Less drill noise and vibration for restorative work",
           },
           {
@@ -377,10 +344,6 @@ export const patientInfoPages: Record<string, DraftPage> = {
       {
         q: "Are digital X-rays safer than film?",
         a: "Digital X-rays use less radiation than traditional film X-rays, and they are taken only when clinically needed. The images appear on screen straight away, so the dentist can show you what they see and send them securely to a specialist or insurer if required.",
-      },
-      {
-        q: "Why does a dentist use a microscope?",
-        a: "A microscope magnifies the tooth so the dentist can see the edge where a filling, crown or veneer meets it. That edge is where a poor fit lets bacteria back in, so working under magnification gives a more precise fit than working by eye.",
       },
     ],
     cta: {
@@ -476,7 +439,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "High-powered microscopes and electric handpieces used for restorative work create less vibration and noise than the older air-driven drills many people remember.",
+            text: "Electric handpieces used for restorative work create less vibration and noise than the older air-driven drills many people remember.",
           },
           {
             type: "link",
@@ -1011,8 +974,8 @@ export const patientInfoPages: Record<string, DraftPage> = {
               ["First exam, uninsured", "$99 (regular $315)"],
               ["With insurance", "Billed directly, claim tracked for you"],
               ["Where", "8 N Pennell Rd, Media, PA 19063"],
-              ["Hours", "Mon 8am–3pm · Tue–Thu 8am–5pm · Fri 8am–2pm (alternate)"],
-              ["Dentists", "Three, so you can ask for the right one"],
+              ["Hours", "Mon–Thu 8am–5pm · Fri 8am–2pm"],
+              ["Dentists", "Several, so you can ask for the right one"],
             ],
           },
         ],
@@ -1023,7 +986,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Your first appointment is an examination and a conversation. Treatment comes later, once you have agreed to it.",
+            text: "Your first appointment is an examination and a conversation. If something needs attention, same-day treatment is available when necessary.",
           },
           {
             type: "p",
@@ -1149,7 +1112,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Three dentists practice here, and each has a different focus, so you can pick rather than take whoever is free.",
+            text: "Several dentists practice here, and each has a different focus, so you can pick rather than take whoever is free.",
           },
           {
             type: "p",
@@ -1179,7 +1142,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Is Media Brite Smile accepting new patients?",
-        a: "Yes, new patients are welcome. Call (610) 566-2711 or send an appointment request, and you will get a reply with the closest available times across the three dentists. Uninsured new patients can use the $99 New Patient Special against a regular price of $315.",
+        a: "Yes, new patients are welcome. Call (610) 566-2711 or send an appointment request, and you will get a reply with the closest available times across our dentists. Uninsured new patients can use the $99 New Patient Special against a regular price of $315.",
       },
       {
         q: "What should I expect at my first dental appointment?",
@@ -1230,7 +1193,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
                 "Check-ups, cleanings, children's care, night guards, screenings",
                 "Preventative care",
               ],
-              ["Gum disease", "Deep cleaning, laser therapy, Arestin, maintenance", "Gum disease treatment"],
+              ["Gum disease", "Deep cleaning, Arestin, maintenance", "Gum disease treatment"],
               ["Cosmetic", "Whitening, Invisalign, veneers, bonding, inlays and onlays", "Cosmetic dentistry"],
               ["Restorative", "Fillings, crowns, bridges, root canals, extractions, implants", "Restorative dentistry"],
               ["Dentures", "Full, partial, immediate and implant-retained, plus repairs", "Dentures"],
@@ -1295,16 +1258,11 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Gum disease treatment runs from a deep cleaning through to laser therapy and ongoing maintenance, depending on how far it has gone.",
+            text: "Gum disease treatment runs from a deep cleaning through to ongoing maintenance, depending on how far it has gone.",
           },
           {
             type: "p",
             text: "Deep teeth cleaning, also called scaling and root planing",
-          },
-          {
-            type: "link",
-            text: "Gum disease laser therapy",
-            href: "/preventative-care/gum-disease-treatment/gum-disease-laser-therapy",
           },
           {
             type: "link",
@@ -1372,7 +1330,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Dental fillings and dental crowns, placed under high-powered microscopes",
+            text: "Dental fillings and dental crowns",
           },
           {
             type: "p",
@@ -1537,12 +1495,12 @@ export const patientInfoPages: Record<string, DraftPage> = {
       },
       {
         q: "Are there specialists at the practice?",
-        a: "No periodontist, endodontist, prosthodontist or pediatric specialist is on staff. Instead, each of the three general dentists has a focus, from cosmetic work and Invisalign to restorative care, orofacial pain and implants. You can ask for the dentist whose focus fits your treatment when you book.",
+        a: "No periodontist, endodontist, prosthodontist or pediatric specialist is on staff. Instead, each of our general dentists has a focus, from cosmetic work and Invisalign to restorative care, orofacial pain and implants. You can ask for the dentist whose focus fits your treatment when you book.",
       },
     ],
     cta: {
       title: "Have the Whole Treatment in One Place",
-      text: "Three dentists, one address, and an honest answer up front if anything needs to go elsewhere.",
+      text: "Several dentists, one address, and an honest answer up front if anything needs to go elsewhere.",
     },
   },
   "/patient-information/why-choose-us": {
@@ -1557,16 +1515,16 @@ export const patientInfoPages: Record<string, DraftPage> = {
     ],
     sections: [
       {
-        heading: "Three Dentists Means Appointments That Fit Your Week",
+        heading: "Several Dentists Means Appointments That Fit Your Week",
         kind: null,
         items: [
           {
             type: "p",
-            text: "A practice with one dentist has one diary. Media Brite Smile has three dentists, Dr. Zan Chaudhary DMD, Dr. Sanketkumar Suvagiya DMD and Dr. Bhadresh Makani DDS, which makes it easier to find a time, and to book family members together.",
+            text: "A practice with one dentist has one diary. Media Brite Smile has several dentists: Dr. Zan Chaudhary DMD, Dr. Sanketkumar Suvagiya DMD and Dr. Bhadresh Makani DDS, which makes it easier to find a time, and to book family members together.",
           },
           {
             type: "p",
-            text: "The practice opens at 8am on weekdays, so an appointment before work is realistic. Friday hours alternate, so check before booking a Friday.",
+            text: "The practice opens at 8am on weekdays, so an appointment before work is realistic.",
           },
         ],
       },
@@ -1586,21 +1544,6 @@ export const patientInfoPages: Record<string, DraftPage> = {
             type: "link",
             text: "Every service we offer",
             href: "/patient-information/services",
-          },
-        ],
-      },
-      {
-        heading: "Microscope-Assisted Restorative Work",
-        kind: null,
-        items: [
-          {
-            type: "p",
-            text: "Fillings, crowns, veneers and inlays are placed under high-powered microscopes, similar to the ones eye surgeons use. Magnification lets the dentist see where a restoration meets the tooth, which is where a poor fit lets decay back in.",
-          },
-          {
-            type: "link",
-            text: "The technology we use",
-            href: "/patient-information/care-and-comfort/advanced-technology",
           },
         ],
       },
@@ -1796,7 +1739,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
     url: "/patient-information/scheduling",
     title: "Book a Dentist Appointment in Media, PA",
     description:
-      "Request a dentist appointment in Media, PA. Send the form or call (610) 566-2711 and we will come back with the closest times across three dentists.",
+      "Request a dentist appointment in Media, PA. Send the form or call (610) 566-2711 and we will come back with the closest times across our dentists.",
     h1: "Request a Dentist Appointment in Media, PA",
     intro: [
       "Send the form and our scheduling coordinator will come back to you with the closest available times. Or call (610) 566-2711 and book it in one go.",
@@ -1821,7 +1764,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Having three dentists means there is usually more than one option, so tell us if mornings or a particular day work better and we will fit around it.",
+            text: "Having several dentists means there is usually more than one option, so tell us if mornings or a particular day work better and we will fit around it.",
           },
           {
             type: "p",
@@ -1837,16 +1780,12 @@ export const patientInfoPages: Record<string, DraftPage> = {
             type: "table",
             rows: [
               ["Day", "Hours"],
-              ["Monday", "8:00am – 3:00pm"],
+              ["Monday", "8:00am – 5:00pm"],
               ["Tuesday", "8:00am – 5:00pm"],
               ["Wednesday", "8:00am – 5:00pm"],
               ["Thursday", "8:00am – 5:00pm"],
-              ["Friday", "8:00am – 2:00pm (alternate Fridays)"],
+              ["Friday", "8:00am – 2:00pm"],
             ],
-          },
-          {
-            type: "p",
-            text: "Friday runs on alternate weeks, so call to check the date before you travel.",
           },
           {
             type: "p",
@@ -1912,7 +1851,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "How soon can I get an appointment?",
-        a: "It depends on the week and on which dentist you need. Because three dentists work here, there are usually more slots than at a single-dentist practice. Send the form or call (610) 566-2711 and you will be given actual available times rather than a callback promise.",
+        a: "It depends on the week and on which dentist you need. Because several dentists work here, there are usually more slots than at a single-dentist practice. Send the form or call (610) 566-2711 and you will be given actual available times rather than a callback promise.",
       },
       {
         q: "Can I ask for a specific dentist?",
@@ -1929,7 +1868,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
     ],
     cta: {
       title: "Pick a Time That Works",
-      text: "Three dentists, appointments from 8am, and a real reply rather than an automated one.",
+      text: "Several dentists, appointments from 8am, and a real reply rather than an automated one.",
     },
   },
   "/patient-information/care-and-comfort/home-instructions": {

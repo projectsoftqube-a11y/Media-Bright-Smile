@@ -94,7 +94,11 @@ function TreatmentCard({ t, index }: { t: Treatment; index: number }) {
           src={t.image}
           alt=""
           fill
-          sizes={lg ? "(min-width: 1024px) 50vw, (min-width: 768px) 100vw, 100vw" : "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"}
+          sizes={
+            lg
+              ? "(min-width: 1024px) 50vw, (min-width: 768px) 100vw, 100vw"
+              : "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+          }
           className="object-cover transition-transform duration-[1.2s] ease-out-expo group-hover:scale-[1.04]"
           style={{ objectPosition: t.position }}
         />
@@ -114,7 +118,9 @@ function TreatmentCard({ t, index }: { t: Treatment; index: number }) {
           <h3
             className={cn(
               "font-bold tracking-tight text-balance text-white",
-              lg ? "text-[clamp(1.5rem,1.1rem+1vw,2.25rem)] leading-tight" : "text-[clamp(1.375rem,1.1rem+0.6vw,1.75rem)] leading-snug",
+              lg
+                ? "text-[clamp(1.5rem,1.1rem+1vw,2.25rem)] leading-tight"
+                : "text-[clamp(1.375rem,1.1rem+0.6vw,1.75rem)] leading-snug",
             )}
           >
             {t.title}
@@ -156,7 +162,10 @@ export function Signature() {
         </div>
 
         {/* ---------------- Cards ---------------- */}
-        <RevealGroup stagger={0.08} className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-6 lg:mt-16 lg:grid-cols-12 lg:gap-5">
+        <RevealGroup
+          stagger={0.08}
+          className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-6 lg:mt-16 lg:grid-cols-12 lg:gap-5"
+        >
           {treatments.map((t, i) => (
             <RevealItem key={t.title} className={t.span}>
               <TreatmentCard t={t} index={i} />

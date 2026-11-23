@@ -25,6 +25,12 @@ const nextConfig: NextConfig = {
       { source: "/locations/:town([a-z-]+)-pa", destination: "/dentist-:town-pa", permanent: true },
       { source: "/preventative-care/tmj", destination: "/tmj-tmd-treatment-media-pa", permanent: true },
       { source: "/privacy-policy", destination: "/patient-information/privacy", permanent: true },
+      // Laser therapy is not offered (client feedback, Nov 2026); the page was removed.
+      {
+        source: "/preventative-care/gum-disease-treatment/gum-disease-laser-therapy",
+        destination: "/preventative-care/gum-disease-treatment",
+        permanent: true,
+      },
     ];
   },
   // Sitemap URLs (approved 12-13 Nov 2026) are served by the routes under /locations.

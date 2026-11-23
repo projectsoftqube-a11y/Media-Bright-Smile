@@ -49,7 +49,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The examination includes an oral cancer screening every time. For families, children and adults can be booked together across the three dentists.",
+            text: "The examination includes an oral cancer screening every time. For families, children and adults can be booked together across our dentists.",
           },
           {
             type: "link",
@@ -78,7 +78,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Treatment starts with a deep cleaning below the gumline. Laser therapy, Arestin antibiotic treatment and periodontal maintenance follow only if the gums need them.",
+            text: "Treatment starts with a deep cleaning below the gumline. Arestin antibiotic treatment and periodontal maintenance follow only if the gums need them.",
           },
           {
             type: "link",
@@ -241,7 +241,7 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "Can children and adults be seen at the same practice?",
-        a: "Yes, children are seen by the general dentists for check-ups, cleanings, fluoride and sealants, and parents can be booked in alongside them. With three dentists, grouping a household's appointments is often possible. Say you want them together when you call (610) 566-2711.",
+        a: "Yes, children are seen by the general dentists for check-ups, cleanings, fluoride and sealants, and parents can be booked in alongside them. With several dentists, grouping a household's appointments is often possible. Say you want them together when you call (610) 566-2711.",
       },
     ],
     cta: {
@@ -253,10 +253,10 @@ export const preventativePages: Record<string, DraftPage> = {
     url: "/preventative-care/family-dentistry",
     title: "Family Dentist in Media, PA | Media Brite Smile",
     description:
-      "One family dentist in Media, PA for children through grandparents. Three dentists, $99 new patient exam, $300 savings plan. Call (610) 566-2711.",
+      "One family dentist in Media, PA for children through grandparents. Several dentists, $99 new patient exam, $300 savings plan. Call (610) 566-2711.",
     h1: "Family Dentist in Media, PA",
     intro: [
-      "One practice for everyone in the house, from a child's first check-up to a grandparent's denture reline. Three dentists at 8 N Pennell Rd, so appointments fit around school and work.",
+      "One practice for everyone in the house, from a child's first check-up to a grandparent's denture reline. Several dentists at 8 N Pennell Rd, so appointments fit around school and work.",
     ],
     sections: [
       {
@@ -278,12 +278,12 @@ export const preventativePages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "Three Dentists, Three Different Strengths",
+        heading: "Several Dentists, Different Strengths",
         kind: null,
         items: [
           {
             type: "p",
-            text: "This is the part that separates a three-dentist practice from three of the same dentist.",
+            text: "This is the part that separates this practice from one where every dentist does the same thing.",
           },
           {
             type: "p",
@@ -318,11 +318,11 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Say when you call that you want appointments grouped, and the team will work it around the three diaries.",
+            text: "Say when you call that you want appointments grouped, and the team will work it around our dentists' schedules.",
           },
           {
             type: "p",
-            text: "Having three dentists is what makes this realistic. A single-dentist practice can only offer one slot at a time. That is why family appointments so often end up spread across three separate trips.",
+            text: "Having several dentists is what makes this realistic. A single-dentist practice can only offer one slot at a time. That is why family appointments so often end up spread across three separate trips.",
           },
           {
             type: "p",
@@ -416,7 +416,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Gum disease is where most tooth loss starts. Treatment runs from deep cleaning through to laser therapy and ongoing maintenance.",
+            text: "Gum disease is where most tooth loss starts. Treatment runs from deep cleaning through to ongoing maintenance.",
           },
           {
             type: "link",
@@ -477,7 +477,7 @@ export const preventativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Can my children and I be seen on the same visit?",
-        a: "Often, yes. Three dentists work here, so there is usually more than one chair available at a given time. Say you want appointments grouped when you call (610) 566-2711 and the team will arrange it around the three diaries.",
+        a: "Often, yes. Several dentists work here, so there is usually more than one chair available at a given time. Say you want appointments grouped when you call (610) 566-2711 and the team will arrange it around the three diaries.",
       },
       {
         q: "What age should my child first see a dentist?",
@@ -497,12 +497,12 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "Can the whole family see the same dentist?",
-        a: "Yes, if you want that. You can also split across the three depending on what each person needs. Say which you prefer when you book and the team will arrange it.",
+        a: "Yes, if you want that. You can also split across our dentists depending on what each person needs. Say which you prefer when you book and the team will arrange it.",
       },
     ],
     cta: {
       title: "Book the Whole Family In",
-      text: "One practice, three dentists, appointments from 8am, and the costs published rather than quoted on request.",
+      text: "One practice, several dentists, appointments from 8am, and the costs published rather than quoted on request.",
     },
   },
   "/preventative-care/fluoride": {
@@ -640,7 +640,7 @@ export const preventativePages: Record<string, DraftPage> = {
       "General dentistry in Media, PA: exams, X-rays, cleanings, fillings, crowns and extractions, plus an honest answer on when you would see a specialist.",
     h1: "General Dentistry in Media, PA",
     intro: [
-      "A general dentist prevents, diagnoses and treats the everyday problems that affect your teeth and gums. At Media Brite Smile in Media, PA, that work is done by three general dentists: Dr. Zan Chaudhary DMD, Dr. Sanketkumar Suvagiya DMD and Dr. Bhadresh Makani DDS.",
+      "A general dentist prevents, diagnoses and treats the everyday problems that affect your teeth and gums. At Media Brite Smile in Media, PA, that work is done by our general dentists: Dr. Zan Chaudhary DMD, Dr. Sanketkumar Suvagiya DMD and Dr. Bhadresh Makani DDS.",
       "If you are looking for a regular dentist in Media, PA, this is the care you would come back for year after year.",
     ],
     sections: [
@@ -716,7 +716,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Restorations are placed under high-powered microscopes, and impressions can be taken with an intraoral scanner instead of trays of impression material.",
+            text: "Impressions can be taken with an intraoral scanner instead of trays of impression material.",
           },
         ],
       },
@@ -767,7 +767,7 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "What is the difference between a general and a cosmetic dentist?",
-        a: "A general dentist focuses on keeping teeth and gums healthy and working, while cosmetic treatment changes how the smile looks. At this practice the same three dentists do both. Your mouth is checked for decay and gum disease before any cosmetic work begins, so the result lasts.",
+        a: "A general dentist focuses on keeping teeth and gums healthy and working, while cosmetic treatment changes how the smile looks. At this practice the same several dentists do both. Your mouth is checked for decay and gum disease before any cosmetic work begins, so the result lasts.",
       },
       {
         q: "General dentist vs specialist: will I be referred?",
@@ -780,7 +780,7 @@ export const preventativePages: Record<string, DraftPage> = {
     ],
     cta: {
       title: "Book a Check-Up in Media",
-      text: "Three general dentists, with most treatment handled under one roof.",
+      text: "Experienced general dentists, with most treatment handled under one roof.",
     },
   },
   "/preventative-care/oral-hygiene": {
@@ -1592,167 +1592,11 @@ export const preventativePages: Record<string, DraftPage> = {
       text: "A proper examination, your pocket numbers and X-rays explained, and the cost before treatment starts.",
     },
   },
-  "/preventative-care/gum-disease-treatment/gum-disease-laser-therapy": {
-    url: "/preventative-care/gum-disease-treatment/gum-disease-laser-therapy",
-    title: "Laser Gum Disease Treatment | Media, PA",
-    description:
-      "Laser gum treatment at Media Brite Smile in Media, PA: what the laser adds, when it is used, and how it compares with a deep cleaning on its own.",
-    h1: "Laser Therapy for Gum Disease",
-    intro: [
-      "Media Brite Smile in Media, PA offers laser therapy as part of gum disease treatment. Laser gum treatment uses a dental laser to treat infected gum tissue inside the pockets around the teeth, usually alongside a deep cleaning rather than instead of one.",
-      "This page explains what the laser adds, when it is the right choice, and what it cannot do.",
-    ],
-    sections: [
-      {
-        heading: "What Laser Therapy Does",
-        kind: null,
-        items: [
-          {
-            type: "p",
-            text: "Gum disease is driven by bacteria living in the pockets that form between the gum and the tooth. Treatment has one main job: clean those pockets thoroughly enough for the gum to heal and tighten back around the tooth.",
-          },
-          {
-            type: "p",
-            text: "A dental laser is a tool for part of that job. Its light energy is used on the inflamed tissue lining the pocket, which can reduce bacteria in the area and help with removing diseased tissue.",
-          },
-          {
-            type: "p",
-            text: "People searching for laser gum surgery in Media, PA are often hoping to avoid a scalpel. What a laser does not do is replace the cleaning of the root surface. Hardened tartar below the gumline still has to be removed by scaling and root planing.",
-          },
-        ],
-      },
-      {
-        heading: "When We Use It",
-        kind: null,
-        items: [
-          {
-            type: "p",
-            text: "Laser therapy is considered once a gum assessment has shown active gum disease, using pocket measurements and X-rays.",
-          },
-          {
-            type: "p",
-            text: "It may be suggested:",
-          },
-          {
-            type: "p",
-            text: "Alongside scaling and root planing, for pockets that are inflamed or bleeding",
-          },
-          {
-            type: "p",
-            text: "For areas that have not settled after an earlier deep cleaning",
-          },
-          {
-            type: "p",
-            text: "As part of a wider plan that can also include antibiotic treatment such as Arestin placed in the pockets",
-          },
-          {
-            type: "p",
-            text: "It is not used in place of a cleaning, and it is not the answer for every patient. The dentist will explain why it is or is not being recommended for you.",
-          },
-          {
-            type: "link",
-            text: "Gum disease treatment",
-            href: "/preventative-care/gum-disease-treatment",
-          },
-          {
-            type: "link",
-            text: "Arestin antibiotic treatment",
-            href: "/preventative-care/arestin",
-          },
-        ],
-      },
-      {
-        heading: "Laser Therapy vs Deep Cleaning",
-        kind: null,
-        items: [
-          {
-            type: "table",
-            rows: [
-              ["", "Deep cleaning on its own", "Deep cleaning with laser therapy"],
-              ["Removes tartar from the roots", "Yes", "Yes, the cleaning still does this"],
-              ["Treats the inflamed pocket lining", "Partly, through the cleaning", "The laser is used on it directly"],
-              ["Needed for most gum disease", "Yes", "Only where the dentist recommends it"],
-              ["Evidence", "Long-established standard treatment", "Research on the added benefit is still mixed"],
-            ],
-          },
-          {
-            type: "p",
-            text: 'That last row is the honest answer to "is this just gimmick technology?" Lasers have a real role in gum treatment, but published studies do not all agree on how much they add to a thorough deep cleaning. That is why the laser is offered as an addition for the right case rather than sold as a replacement.',
-          },
-          {
-            type: "link",
-            text: "Deep teeth cleaning",
-            href: "/preventative-care/gum-disease-treatment/deep-teeth-cleaning",
-          },
-        ],
-      },
-      {
-        heading: "What the Appointment Is Like",
-        kind: null,
-        items: [
-          {
-            type: "p",
-            text: "The area is numbed first where needed, so you should feel pressure and some warmth rather than pain. Most patients find it more comfortable than they expect.",
-          },
-          {
-            type: "p",
-            text: "The pockets are cleaned, the laser is used on the treated areas, and you are given instructions for the next few days.",
-          },
-          {
-            type: "p",
-            text: "If you are anxious, say so when you book, and ask about nitrous oxide or oral sedation.",
-          },
-        ],
-      },
-      {
-        heading: "Recovery",
-        kind: null,
-        items: [
-          {
-            type: "p",
-            text: "Most patients are back to their normal routine within a day or so. Expect some tenderness in the treated gums for a few days, and follow the home care you are given, including gentle brushing around the area.",
-          },
-          {
-            type: "p",
-            text: "The result is checked at a follow-up visit, when the pockets are measured again. Long term, you move on to periodontal maintenance visits to keep the disease controlled.",
-          },
-          {
-            type: "link",
-            text: "Periodontal maintenance",
-            href: "/preventative-care/gum-disease-treatment/periodontal-maintenance",
-          },
-        ],
-      },
-    ],
-    faqHeading: "Questions",
-    faqs: [
-      {
-        q: "Is laser gum treatment painful?",
-        a: "For most patients it is not, because the area is numbed first where needed. You may feel pressure and some warmth during treatment, and the gums are usually tender for a few days afterwards. Anxious patients can ask for nitrous oxide or oral sedation.",
-      },
-      {
-        q: "Does laser treatment work better than a deep cleaning?",
-        a: "It works alongside a deep cleaning rather than instead of one. The cleaning removes tartar from the roots, and the laser is used on the inflamed pocket lining. Research on how much the laser adds is mixed, so it is recommended only where the dentist thinks it will help your case.",
-      },
-      {
-        q: "How long is recovery after laser gum treatment?",
-        a: "Usually short: most people are back to normal within a day or so, with some tenderness for a few days. Healing is checked at a follow-up visit, when the pockets are measured again.",
-      },
-      {
-        q: "Is laser gum treatment covered by insurance?",
-        a: "It depends on your plan, and some plans treat laser therapy differently from standard gum treatment. We are not able to confirm what your plan covers from a website. Send us the plan name and we will check it for you.",
-      },
-    ],
-    cta: {
-      title: "Find Out Whether Laser Therapy Suits Your Gums",
-      text: "A gum assessment measures the pockets and gives you the options, with the cost explained first.",
-    },
-  },
   "/preventative-care/gum-disease-treatment": {
     url: "/preventative-care/gum-disease-treatment",
     title: "Gum Disease Treatment in Media, PA | Media Brite Smile",
     description:
-      "Bleeding or receding gums? Gum disease treatment in Media, PA: deep cleaning, laser therapy, Arestin and ongoing maintenance. Call (610) 566-2711.",
+      "Bleeding or receding gums? Gum disease treatment in Media, PA: deep cleaning, Arestin and ongoing maintenance. Call (610) 566-2711.",
     h1: "Gum Disease Treatment in Media, PA",
     intro: [
       "Looking for a gum disease dentist in Media, PA? Gum disease is an infection of the tissue and bone holding your teeth in place. It is the leading cause of adult tooth loss, and in its early stages it is reversible.",
@@ -1867,20 +1711,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "h3",
-            text: "2. Laser therapy",
-          },
-          {
-            type: "p",
-            text: "Used alongside deep cleaning in appropriate cases to treat the infected tissue lining the pocket. Not every case needs it, and it is not a replacement for the deep cleaning itself.",
-          },
-          {
-            type: "link",
-            text: "Laser therapy for gum disease",
-            href: "/preventative-care/gum-disease-treatment/gum-disease-laser-therapy",
-          },
-          {
-            type: "h3",
-            text: "3. Arestin antibiotic treatment",
+            text: "2. Arestin antibiotic treatment",
           },
           {
             type: "p",
@@ -1893,7 +1724,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "h3",
-            text: "4. Periodontal maintenance",
+            text: "3. Periodontal maintenance",
           },
           {
             type: "p",
@@ -2378,11 +2209,11 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "With three dentists at the practice, children and adults can often be booked into the same visit.",
+            text: "With several dentists at the practice, children and adults can often be booked into the same visit.",
           },
           {
             type: "p",
-            text: "Say you want appointments grouped when you call, and the team will work around the three diaries. The practice opens at 8am, which suits a before-school appointment. Friday hours alternate, so check before booking a Friday.",
+            text: "Say you want appointments grouped when you call, and the team will work around our dentists' schedules. The practice opens at 8am, which suits a before-school appointment.",
           },
           {
             type: "link",
@@ -2412,7 +2243,7 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "Can my child and I be seen on the same visit?",
-        a: "Often, yes. With three dentists at the practice, appointments can usually be grouped so the family comes in together. Say you want them grouped when you call (610) 566-2711, and the team will arrange the times around the three dentists' schedules.",
+        a: "Often, yes. With several dentists at the practice, appointments can usually be grouped so the family comes in together. Say you want them grouped when you call (610) 566-2711, and the team will arrange the times around our dentists' schedules.",
       },
       {
         q: "Is there a pediatric specialist at the practice?",
@@ -2668,7 +2499,7 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "The practice is open 8am to 3pm Monday, 8am to 5pm Tuesday to Thursday, and 8am to 2pm on alternate Fridays.",
+            text: "The practice is open 8am to 5pm Monday to Thursday, and 8am to 2pm on Friday.",
           },
           {
             type: "p",

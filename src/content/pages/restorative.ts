@@ -37,7 +37,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Broken tooth repair in Media, PA is done here under high-powered microscopes. Seeing the tooth magnified is what lets a filling or crown edge sit tight against it, which is where decay would otherwise get back in.",
+            text: "Broken tooth repair in Media, PA is done here, with the filling or crown edge fitted tight against the tooth, which is where decay would otherwise get back in.",
           },
           {
             type: "p",
@@ -237,17 +237,17 @@ export const restorativePages: Record<string, DraftPage> = {
     ],
     cta: {
       title: "Get Your Options and Costs Before Anything Starts",
-      text: "Three dentists, every restorative option in one practice, and the price explained before you decide.",
+      text: "Several dentists, every restorative option in one practice, and the price explained before you decide.",
     },
   },
   "/restorative-dentistry/dental-crowns": {
     url: "/restorative-dentistry/dental-crowns",
     title: "Dental Crowns in Media, PA | Media Brite Smile",
     description:
-      "Dental crowns in Media, PA, fitted under high-powered microscopes for a tight edge. How many visits, how long they last and what affects the cost.",
+      "Dental crowns in Media, PA, fitted for a tight edge. How many visits, how long they last and what affects the cost.",
     h1: "Dental Crowns in Media, PA",
     intro: [
-      "A dental crown is a cap that covers a cracked, weakened or root-canal-treated tooth to protect it and restore its shape. At Media Brite Smile in Media, PA, crowns are fitted under high-powered microscopes, because the fit at the edge is what decides how long a crown lasts.",
+      "A dental crown is a cap that covers a cracked, weakened or root-canal-treated tooth to protect it and restore its shape. At Media Brite Smile in Media, PA, crowns are fitted with close attention to the edge, because the fit at the edge is what decides how long a crown lasts.",
       "Crowns and bridges are among the listed clinical interests of Dr. Sanketkumar Suvagiya.",
     ],
     sections: [
@@ -262,7 +262,6 @@ export const restorativePages: Record<string, DraftPage> = {
               ["What it is", "A cap covering the whole visible part of a tooth"],
               ["Typical visits", "Two: preparation, then fitting"],
               ["Records", "Taken with the intraoral scanner or an impression"],
-              ["Precision", "Margins checked under high-powered microscopes"],
               ["Savings Plan members", "10 to 15% off crowns"],
             ],
           },
@@ -348,7 +347,7 @@ export const restorativePages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "Why the Margin Is Checked Under a Microscope",
+        heading: "Why the Fit at the Edge Matters",
         kind: null,
         items: [
           {
@@ -357,7 +356,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If the edge does not sit tight against the tooth, bacteria can get underneath and decay can start beneath the crown, often without symptoms until it is advanced. Restorations at Media Brite Smile are placed and checked under high-powered microscopes, so the edge can be seen magnified rather than judged by eye.",
+            text: "If the edge does not sit tight against the tooth, bacteria can get underneath and decay can start beneath the crown, often without symptoms until it is advanced. That is why the fit at the edge is checked carefully before a crown is cemented.",
           },
           {
             type: "p",
@@ -422,7 +421,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "How well the margin fits, which is why it is checked under the microscope",
+            text: "How well the margin fits",
           },
           {
             type: "p",
@@ -488,7 +487,7 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "How long will a crown last?",
-        a: "No lifespan can be promised, but crowns are commonly quoted as lasting 10 to 15 years or longer with good care. How well the margin fits, grinding, cleaning at the gumline and regular check-ups all make a difference. That is why the margin is checked under a microscope before the crown is cemented.",
+        a: "No lifespan can be promised, but crowns are commonly quoted as lasting 10 to 15 years or longer with good care. How well the margin fits, grinding, cleaning at the gumline and regular check-ups all make a difference. That is why the fit at the edge is checked before the crown is cemented.",
       },
       {
         q: "Does it hurt?",
@@ -512,7 +511,7 @@ export const restorativePages: Record<string, DraftPage> = {
     url: "/restorative-dentistry/dental-fillings",
     title: "Dental Fillings in Media, PA | Media Brite Smile",
     description:
-      "Tooth-colored fillings in Media, PA, shade-matched and placed under high-powered microscopes. What the visit is like, what it costs and how long it lasts.",
+      "Tooth-colored fillings in Media, PA, shade-matched to your teeth. What the visit is like, what it costs and how long it lasts.",
     h1: "Dental Fillings in Media, PA",
     intro: [
       "A dental filling repairs a tooth damaged by decay, a chip or a small crack. At Media Brite Smile in Media, PA, fillings are tooth-colored composite, shade-matched to your own tooth and usually completed in a single visit.",
@@ -530,7 +529,6 @@ export const restorativePages: Record<string, DraftPage> = {
               ["Material", "Tooth-colored composite resin, shade-matched"],
               ["Typical visits", "Usually one"],
               ["Numbing", "Local anesthetic, so you feel pressure rather than pain"],
-              ["Precision", "Restorations placed under high-powered microscopes"],
               ["Savings Plan members", "10 to 15% off fillings"],
             ],
           },
@@ -568,7 +566,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Fillings at Media Brite Smile are placed under high-powered microscopes. Seeing the tooth magnified helps the dentist remove all of the decay and seal the edges tightly, which is where a filling most often fails.",
+            text: "Fillings at Media Brite Smile are placed with care: the dentist removes all of the decay and seals the edges tightly, which is where a filling most often fails.",
           },
         ],
       },
@@ -1044,10 +1042,6 @@ export const restorativePages: Record<string, DraftPage> = {
             text: "Fitting. The temporary comes off, the bridge is checked for fit, bite and color, and it is cemented in place.",
           },
           {
-            type: "p",
-            text: "Restorations at the practice are placed under high-powered microscopes, which helps the crown edges on the supporting teeth sit tightly.",
-          },
-          {
             type: "link",
             text: "Dental crowns",
             href: "/restorative-dentistry/dental-crowns",
@@ -1266,7 +1260,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Impressions are taken with an intraoral scanner, and the crown is fitted under magnification.",
+            text: "Impressions are taken with an intraoral scanner, so there is no impression putty.",
           },
           {
             type: "p",

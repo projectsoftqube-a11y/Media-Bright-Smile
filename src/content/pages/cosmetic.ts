@@ -87,10 +87,6 @@ export const cosmeticPages: Record<string, DraftPage> = {
             type: "p",
             text: "Inlays and onlays. Custom-made restorations for back teeth that are too damaged for a filling but do not need a full crown.",
           },
-          {
-            type: "p",
-            text: "Restorations here are placed under high-powered microscopes, which is what lets a bonded edge or a veneer margin sit precisely against the tooth.",
-          },
         ],
       },
       {
@@ -287,23 +283,23 @@ export const cosmeticPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Clear aligners handle a wide range of cases, but not every case.",
+            text: "Clear aligners can treat a wide range of orthodontic concerns, but they are not suitable for every case.",
           },
           {
             type: "p",
-            text: "For teeth straightening in Media, they work well for crowding, spacing, mild to moderate bite problems, and relapse after previous orthodontics.",
+            text: "Clear aligners work well for crowding, spacing, mild to moderate bite problems, and teeth that have shifted after previous orthodontic treatment.",
           },
           {
             type: "p",
-            text: "Some cases need fixed braces: severe crowding, significant skeletal bite discrepancies, and certain movements aligners cannot achieve predictably.",
+            text: "Some cases may require traditional braces, particularly those involving severe crowding, significant skeletal bite discrepancies, or complex tooth movements that aligners cannot reliably achieve.",
           },
           {
             type: "p",
-            text: "Fixed braces are not offered at this practice. If your case needs them you will be told at the consultation and referred to an orthodontist, rather than started on treatment that will not deliver.",
+            text: "Traditional braces are not offered at our practice. If your case requires them, we will discuss this during your consultation and refer you to an orthodontist to ensure you receive the most appropriate treatment.",
           },
           {
             type: "p",
-            text: "That is the main reason the consultation is free and comes first.",
+            text: "This is why we offer a complimentary consultation to evaluate your needs and determine whether clear aligners are the right option for you.",
           },
         ],
       },
@@ -313,19 +309,19 @@ export const cosmeticPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Both are treated here.",
+            text: "We offer Invisalign treatment for both teens and adults.",
           },
           {
             type: "p",
-            text: "Adults are often people who had braces as a teenager and whose teeth have shifted since, or who never had treatment and have decided now is the time.",
+            text: "Many adults seek Invisalign treatment because their teeth have shifted after previously wearing braces or because they are considering orthodontic treatment for the first time.",
           },
           {
             type: "p",
-            text: "If you are comparing Invisalign in Delaware County, PA, the free consultation tells you whether aligners suit your case before you commit to anything.",
+            text: "If you are considering Invisalign, our complimentary consultation will help determine whether clear aligners are suitable for your needs before you commit to treatment.",
           },
           {
             type: "p",
-            text: "Teens suit aligners when they will reliably wear them. That is the honest condition: aligners only work while they are in the mouth, so compliance matters more than it does with fixed braces.",
+            text: "Invisalign can also be an effective option for teens who are committed to wearing their aligners consistently. Since aligners are removable, successful treatment depends on following the recommended wear schedule. Consistent use is essential for achieving the best possible results.",
           },
         ],
       },
@@ -339,7 +335,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If you have gagged on an impression tray before, that is the part you were dreading and it is not part of this.",
+            text: "If you’ve experienced discomfort or gagging with traditional impression trays in the past, you can rest assured that this step is not part of our process.",
           },
           {
             type: "link",
@@ -413,7 +409,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
         a: "Between 6 and 18 months, depending on how far your teeth need to move. Simple spacing or mild crowding sits at the shorter end. You change aligners every two weeks and come in every 6 to 8 weeks for a review.",
       },
       {
-        q: "How much does Invisalign cost in Media, PA?",
+        q: "How much does Invisalign cost at Media Brite Smile?",
         a: "The regular price is $5,800, and there is currently $1,000 off. That includes a free consultation and a free take-home whitening kit when you start treatment. CareCredit can spread the cost monthly if you prefer.",
       },
       {
@@ -988,7 +984,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "The practice uses porcelain inlays and onlays, made at a dental lab and shade-matched so they blend with your teeth. They are fitted under high-powered microscopes, so the edge where the restoration meets the tooth is checked closely. A precise edge is what keeps bacteria from getting underneath.",
+            text: "The practice uses porcelain inlays and onlays, made at a dental lab and shade-matched so they blend with your teeth. Each one is checked carefully for fit, because a precise edge is what keeps bacteria from getting underneath.",
           },
           {
             type: "link",
@@ -1044,7 +1040,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
       "Porcelain veneers in Media, PA, explained honestly: what they fix, how much tooth is removed, how long they last and what affects the cost per tooth.",
     h1: "Porcelain Veneers in Media, PA",
     intro: [
-      "Porcelain veneers are thin facings bonded to the front of your teeth to change their shape, size or color. At Media Brite Smile in Media, PA, they are planned by dentists who list veneers and smile design among their clinical interests. Every margin is finished under a high-powered microscope.",
+      "Porcelain veneers are thin, custom-made shells that are bonded to the front surfaces of teeth to improve their shape, size, color, and overall appearance. They can address cosmetic concerns such as discoloration, chipped or worn teeth, uneven spacing, and minor misalignment. At Media Brite Smile, our dentists carefully design each veneer to complement your natural teeth and facial features, creating a balanced, natural-looking smile.",
       "This page covers the trade-offs as well as the results, including the part most veneer pages skip: they are permanent.",
     ],
     sections: [
@@ -1060,7 +1056,6 @@ export const cosmeticPages: Record<string, DraftPage> = {
               ["Is it reversible?", "No. A thin layer of enamel is removed and does not grow back"],
               ["Typical appointments", "A consultation, a preparation visit and a fitting visit"],
               ["Price", "Per tooth, quoted after your consultation"],
-              ["Precision", "Margins finished under high-powered microscopes"],
             ],
           },
         ],
@@ -1096,24 +1091,6 @@ export const cosmeticPages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "How Many Teeth Usually Need Treating",
-        kind: null,
-        items: [
-          {
-            type: "p",
-            text: "The number depends on how many teeth show when you smile, not on a package.",
-          },
-          {
-            type: "p",
-            text: "Some people need one veneer to match a single discolored or chipped tooth. Others want a consistent look across the teeth that show in a full smile. The dentist will show you where the line falls for your smile, and you can decide from there.",
-          },
-          {
-            type: "p",
-            text: "It is worth considering teeth whitening first if the teeth next to the veneers are going to stay natural. Veneers are matched to the shade of the teeth around them, and that shade cannot be changed afterwards.",
-          },
-        ],
-      },
-      {
         heading: "What the Process Involves, Visit by Visit",
         kind: null,
         items: [
@@ -1135,7 +1112,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Fitting. The veneers are checked for fit and color, then bonded in place. The margins are refined under the microscope.",
+            text: "Fitting. The veneers are checked for fit and color, then bonded in place.",
           },
           {
             type: "p",
@@ -1216,7 +1193,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Restorations at Media Brite Smile are placed and finished under high-powered microscopes. Seeing the margin magnified lets the dentist get the edge sitting tight against the tooth, which matters both for appearance at the gumline and for keeping the joint clean.",
+            text: "The edge where a veneer meets the tooth is finished with care so it sits tight against the tooth. That matters both for appearance at the gumline and for keeping the joint clean.",
           },
           {
             type: "link",

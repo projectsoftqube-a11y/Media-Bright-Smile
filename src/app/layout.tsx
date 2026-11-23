@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: `%s | ${site.name}`,
   },
   description:
-    "Family, cosmetic and implant dentistry in Media, PA. Three dentists, 4.9 stars from 375 Google reviews. Call (610) 566-2711 to book.",
+    "Family, cosmetic and implant dentistry in Media, PA. Several dentists, 4.9 stars from 375 Google reviews. Call (610) 566-2711 to book.",
   keywords: [
     "dentist Media PA",
     "family dentist Media",

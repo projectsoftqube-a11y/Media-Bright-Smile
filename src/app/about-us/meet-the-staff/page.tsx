@@ -68,7 +68,7 @@ export default function MeetTheStaffPage() {
             Meet the dental team at <span className="text-brand-600">Media Brite Smile</span>
           </>
         }
-        lead="Three dentists, dental hygienists, dental assistants and the front-desk team. Between them, they look after your visit from the first phone call to the follow-up after treatment."
+        lead="Our dedicated team of experienced dentists, dental hygienists, dental assistants, and front-desk professionals works together to provide a seamless patient experience. From scheduling your first appointment to treatment and follow-up care, our team is committed to making sure every part of your visit is handled with professionalism, attention, and care."
         aside={
           <div className="grid grid-cols-3 items-end gap-3 sm:gap-4">
             {doctors.map((d, i) => (
@@ -94,16 +94,6 @@ export default function MeetTheStaffPage() {
                 />
               </ImageReveal>
             ))}
-            <div className="col-span-3 flex flex-wrap justify-center gap-2 pt-2">
-              {["3 dentists", "Hygienists", "Assistants", "Front desk"].map((t) => (
-                <span
-                  key={t}
-                  className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-ink shadow-soft ring-1 ring-line"
-                >
-                  {t}
-                </span>
-              ))}
-            </div>
           </div>
         }
       />
@@ -116,10 +106,10 @@ export default function MeetTheStaffPage() {
             eyebrow="The clinical team"
             title={
               <>
-                Three dentists, each with their <span className="text-brand-600">own focus</span>
+                Meet the Doctors, each with their <span className="text-brand-600">own focus</span>
               </>
             }
-            lead="So the harder work stays in the practice instead of being referred out."
+            lead="Individual expertise, working together for your dental care"
           />
           <RevealGroup className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-3" stagger={0.1}>
             {doctors.map((d) => (

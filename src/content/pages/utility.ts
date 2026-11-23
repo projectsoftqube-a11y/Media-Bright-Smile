@@ -194,11 +194,6 @@ export const utilityPages: Record<string, DraftPage> = {
           },
           {
             type: "link",
-            text: "Gum Disease Laser Therapy",
-            href: "/preventative-care/gum-disease-treatment/gum-disease-laser-therapy",
-          },
-          {
-            type: "link",
             text: "Periodontal Maintenance",
             href: "/preventative-care/gum-disease-treatment/periodontal-maintenance",
           },

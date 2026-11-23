@@ -106,14 +106,6 @@ const looks: Record<string, Look> = {
     dark: 4,
     ...ctaOf(T.hygiene9),
   },
-  [`${GUM}/gum-disease-laser-therapy`]: {
-    name: "Gum Disease Laser Therapy",
-    eyebrow: "Gum disease laser therapy",
-    hero: T.treatmentCloseup,
-    images: [T.glovesMask, T.hygiene9, T.hygiene10, T.treatmentPatient, T.coldCompress],
-    dark: 1,
-    ...ctaOf(T.happyPatient5),
-  },
   [GUM]: {
     name: "Gum Disease Treatment",
     eyebrow: "Gum disease treatment",
@@ -257,7 +249,7 @@ export default async function PreventativePage({ params }: PageProps<"/preventat
                 },
                 {
                   title: "Gum disease treatment",
-                  text: "Deep cleaning, laser therapy, Arestin and maintenance visits.",
+                  text: "Deep cleaning, Arestin and maintenance visits.",
                   href: GUM,
                   image: T.hygiene8,
                 },

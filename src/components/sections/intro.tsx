@@ -44,9 +44,9 @@ export function Intro() {
           </ScrubText>
           <p className="mt-10 max-w-3xl text-lg leading-relaxed text-pretty">
             Implants, root canals, extractions, dentures and gum treatment are all carried out on site. That is possible
-            because the three dentists have different areas of focus: one is an implant dentist who has placed thousands
-            of implants, one holds a Rutgers University fellowship in orofacial pain, and one is Invisalign certified
-            with a cosmetic focus.
+            because our dentists have different areas of focus: one is an implant dentist who has placed thousands of
+            implants, one holds a Rutgers University fellowship in orofacial pain, and one is Invisalign certified with
+            a cosmetic focus.
           </p>
         </div>
 

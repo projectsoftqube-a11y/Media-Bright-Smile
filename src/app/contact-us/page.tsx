@@ -40,7 +40,7 @@ const crumbs: Crumb[] = [{ label: "Home", href: "/" }, { label: "Contact Us" }];
 const faqs: QA[] = [
   {
     q: "What is the phone number for Media Brite Smile?",
-    a: `The practice number is ${site.phone.display}. Calls are answered during opening hours: 8am to 3pm Monday, 8am to 5pm Tuesday to Thursday, and 8am to 2pm on alternate Fridays. Outside those hours, send an appointment request through the website and we will reply.`,
+    a: `The practice number is ${site.phone.display}. Calls are answered during opening hours: 8am to 5pm Monday to Thursday, and 8am to 2pm on Friday. Outside those hours, send an appointment request through the website and we will reply.`,
   },
   {
     q: "Where is Media Brite Smile located?",
@@ -48,7 +48,7 @@ const faqs: QA[] = [
   },
   {
     q: "Are you open on Fridays?",
-    a: `Friday opening runs on alternate weeks, 8am to 2pm. Because it alternates, call ${site.phone.display} to check the date you want before traveling. Monday to Thursday the practice is open every week from 8am.`,
+    a: `Yes. The practice is open every Friday from 8am to 2pm, and Monday to Thursday from 8am to 5pm.`,
   },
   {
     q: "Can I text the practice?",
@@ -66,13 +66,13 @@ const ways = [
   {
     icon: Globe,
     title: "Online",
-    text: "Send an appointment request at any hour and we will reply with the closest available times across the three dentists.",
+    text: "Send an appointment request at any hour and we will reply with the closest available times across our dentists.",
     action: { label: "Request a time", href: "#appointment-form" },
   },
   {
     icon: Footprints,
     title: "In person",
-    text: "Come in during opening hours if you would rather talk to someone at the desk before booking.",
+    text: "Come in Monday to Thursday 8am to 5pm, or Friday 8am to 2pm, if you would rather talk to someone at the desk before booking.",
     action: { label: "Get directions", href: site.address.directions, external: true },
   },
 ];
@@ -204,10 +204,6 @@ export default function ContactPage() {
                 <div className="overflow-hidden rounded-3xl bg-white ring-1 ring-line">
                   <HoursTable />
                 </div>
-                <p className="mt-4 px-1 text-sm leading-relaxed text-body">
-                  Friday opening runs on alternate weeks. Call before traveling on a Friday if you have not already
-                  confirmed the date.
-                </p>
                 <Link
                   href="/areas-we-serve"
                   className="mt-3 inline-flex min-h-11 items-center gap-2 px-1 font-semibold text-brand-600 hover:text-brand-700"
@@ -356,7 +352,7 @@ export default function ContactPage() {
             Book a time that <span className="text-glow">works for you</span>
           </>
         }
-        text="Three dentists, appointments from 8am, and a reply with real times rather than a callback promise."
+        text="Several dentists, appointments from 8am, and a reply with real times rather than a callback promise."
         image={T.kids7.src}
         imageAlt={T.kids7.alt}
       />

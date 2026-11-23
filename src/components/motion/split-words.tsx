@@ -4,6 +4,7 @@ import {
   Fragment,
   isValidElement,
   type CSSProperties,
+  type ElementType,
   type ReactElement,
   type ReactNode,
 } from "react";
@@ -42,4 +43,30 @@ export function splitWords(node: ReactNode, { step = 0.04, start = 0 } = {}): Re
   };
 
   return walk(node, "w");
+}
+
+/**
+ * Page title with the word reveal. Not a client component on purpose: the words are split where the
+ * title is written (usually a server component), so server and browser render identical HTML.
+ * Splitting inside a client component failed hydration, because elements passed from a server
+ * component reach it in a different form during server rendering than in the browser.
+ */
+export function WordReveal({
+  as: Tag = "h1",
+  id,
+  className,
+  delay = 0,
+  children,
+}: {
+  as?: ElementType;
+  id?: string;
+  className?: string;
+  delay?: number;
+  children: ReactNode;
+}) {
+  return (
+    <Tag id={id} className={className}>
+      {splitWords(children, { start: delay })}
+    </Tag>
+  );
 }

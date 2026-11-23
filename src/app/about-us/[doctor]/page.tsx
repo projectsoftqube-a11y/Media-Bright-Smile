@@ -5,9 +5,7 @@ import { doctorSlugs, getDoctor } from "@/content/doctors";
 import { DoctorHero } from "@/components/doctor/doctor-hero";
 import { DoctorFacts } from "@/components/doctor/doctor-facts";
 import { DoctorStory } from "@/components/doctor/doctor-story";
-import { DoctorJourney } from "@/components/doctor/doctor-journey";
 import { DoctorFocus } from "@/components/doctor/doctor-focus";
-import { DoctorPersonal } from "@/components/doctor/doctor-personal";
 import { Reviews } from "@/components/sections/reviews";
 import { SectionHead } from "@/components/page/section-head";
 import { FaqAccordion } from "@/components/page/faq-accordion";
@@ -76,9 +74,7 @@ export default async function DoctorPage({ params }: PageProps<"/about-us/[docto
       <DoctorHero doctor={doctor} profile={profile} />
       <DoctorFacts doctor={doctor} profile={profile} />
       <DoctorStory doctor={doctor} profile={profile} />
-      <DoctorJourney doctor={doctor} profile={profile} />
       <DoctorFocus doctor={doctor} profile={profile} />
-      <DoctorPersonal doctor={doctor} profile={profile} />
       <section className="bg-pearl section-y" aria-labelledby="doctor-faq-heading">
         <div className="container-site grid grid-cols-1 gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
           <SectionHead

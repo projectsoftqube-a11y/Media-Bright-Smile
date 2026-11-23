@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const sections: Record<string, { chapter: string; blurb: string; image: SitemapImage; tile?: SitemapImage }> = {
   "Core Pages": {
     chapter: "core-pages",
-    blurb: "The practice, the three dentists, the office, reviews, offers and how to reach us.",
+    blurb: "The practice, our dentists, the office, reviews, offers and how to reach us.",
     image: T.writingDocuments,
     tile: T.kids5,
   },

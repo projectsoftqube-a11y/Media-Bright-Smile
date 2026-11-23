@@ -16,7 +16,7 @@ import { doctors, faqs, site } from "@/content/site";
 
 /* Title and description word for word from the approved Home draft v2. */
 const description =
-  "Family, cosmetic and implant dentistry in Media, PA. Three dentists, 4.9 stars from 375 Google reviews. Call (610) 566-2711 to book.";
+  "Family, cosmetic and implant dentistry in Media, PA. Several dentists, 4.9 stars from 375 Google reviews. Call (610) 566-2711 to book.";
 export const metadata: Metadata = {
   title: { absolute: "Dentist in Media, PA | Media Brite Smile" },
   description,
@@ -46,15 +46,14 @@ const jsonLd = {
       geo: { "@type": "GeoCoordinates", latitude: site.address.geo.lat, longitude: site.address.geo.lng },
       description:
         "Media Brite Smile is a family, cosmetic and implant dental practice at 8 N Pennell Rd in Media, Pennsylvania, serving Delaware County.",
-      /* Friday is every other week, which openingHours cannot express, so it is shown as visible text only. */
       openingHoursSpecification: [
-        { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday"], opens: "08:00", closes: "15:00" },
         {
           "@type": "OpeningHoursSpecification",
-          dayOfWeek: ["Tuesday", "Wednesday", "Thursday"],
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday"],
           opens: "08:00",
           closes: "17:00",
         },
+        { "@type": "OpeningHoursSpecification", dayOfWeek: ["Friday"], opens: "08:00", closes: "14:00" },
       ],
       areaServed: [
         { "@type": "AdministrativeArea", name: "Delaware County, Pennsylvania" },

@@ -9,9 +9,8 @@ import { RevealGroup, RevealItem } from "@/components/motion/reveal";
 
 /* "AT A GLANCE" from the approved Home draft v2, as a bento: the facts answer engines lift first. */
 const hours = [
-  { day: "Monday", time: "8am–3pm" },
-  { day: "Tue–Thu", time: "8am–5pm" },
-  { day: "Friday", time: "8am–2pm, alternate Fridays" },
+  { day: "Monday–Thursday", time: "8am–5pm" },
+  { day: "Friday", time: "8am–2pm" },
 ];
 const pay = [
   { icon: Landmark, text: "Dental insurance billed directly", href: "/patient-information/insurance-payment-options" },
@@ -113,7 +112,7 @@ export function AtAGlance() {
                 <ArrowUpRight className="size-5 transition-transform duration-500 group-hover:rotate-45" />
               </span>
               <span>
-                <span className="text-xs font-bold tracking-[0.14em] text-brand-100 uppercase">3 dentists</span>
+                <span className="text-xs font-bold tracking-[0.14em] text-brand-100 uppercase">Meet the team</span>
                 <span className="mt-2 block space-y-0.5 font-semibold">
                   {doctors.map((d) => (
                     <span key={d.name} className="block">

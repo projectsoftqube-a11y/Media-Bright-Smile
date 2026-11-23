@@ -77,7 +77,7 @@
 | public/images/topics/aligner-smile.jpg | Section images, Cosmetic and Service + Location pages, home page signature treatments (Invisalign card) | https://www.pexels.com/photo/11887613/ | Pexels | see source page | 2026-11-16 |
 | public/images/topics/aligners-hands.jpg | Section images, Cosmetic and Service + Location pages | https://www.pexels.com/photo/28407748/ | Pexels | see source page | 2026-11-16 |
 | public/images/topics/smile-closeup.jpg | Section images, Cosmetic and Service + Location pages | https://www.pexels.com/photo/12474261/ | Pexels | see source page | 2026-11-16 |
-| public/images/topics/smile-portrait.jpg | Section images, Cosmetic and Service + Location pages | https://www.pexels.com/photo/20130737/ | Pexels | see source page | 2026-11-16 |
+| public/images/topics/smile-portrait.jpg | Not in use (replaced Nov 2026: too low-resolution for wide banners) | https://www.pexels.com/photo/20130737/ | Pexels | see source page | 2026-11-16 |
 | public/images/topics/smile-lips.jpg | Section images, Cosmetic and Service + Location pages | https://www.pexels.com/photo/3762453/ | Pexels | see source page | 2026-11-16 |
 | public/images/topics/smile-young.jpg | Section images, Cosmetic and Service + Location pages | https://www.pexels.com/photo/3812720/ | Pexels | see source page | 2026-11-16 |
 | public/images/topics/smile-joy.jpg | Section images, Cosmetic and Service + Location pages | https://www.pexels.com/photo/4906289/ | Pexels | see source page | 2026-11-16 |
@@ -115,7 +115,7 @@
 | topics/dental-casts.jpg | Restorative Dentistry pages, crown, bridge and denture lab sections | https://www.pexels.com/photo/6627601/ | Pexels | see source page | 2026-11-16 |
 | topics/panoramic-xray.jpg | Restorative Dentistry pages, wisdom teeth and implant planning sections | https://www.pexels.com/photo/6812456/ | Pexels | see source page | 2026-11-16 |
 | topics/whitening-shade-match.jpg | Teeth Whitening page hero | https://www.pexels.com/photo/6627570/ | Pexels | see source page | 2026-11-17 |
-| hero/family-hero-828.webp, -1280.webp, -1920.webp | Home: hero photo (right side, faded left edge) | Original AI-generated image, made for this site in the client's Higgsfield account (model gpt_image_2_6, job ea0c58f5-9629-4d9e-908e-e5506a34c71f). Not stock; depicts no real person; never to be captioned as a patient | Higgsfield (AI) | n/a | 2026-11-20 |
+| hero/family-hero-828.webp, -1280.webp, -1920.webp | Not in use (Nov 2026: the hero now rotates the practice's own office photos, at the client's request) | Original AI-generated image, made for this site in the client's Higgsfield account (model gpt_image_2_6, job ea0c58f5-9629-4d9e-908e-e5506a34c71f). Not stock; depicts no real person; never to be captioned as a patient | Higgsfield (AI) | n/a | 2026-11-20 |
 <!-- kavan-image-finding: new rows go above this line -->
 
 ## 4. Extra proof worth keeping

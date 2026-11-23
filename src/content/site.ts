@@ -26,13 +26,13 @@ export const site = {
   rating: { score: 4.9, count: 375 },
   /** Google Business Profile: where patients read and leave reviews. */
   gbp: "https://share.google/Z17lNb61NwzjEhpLz",
-  /** From /contact-us/. Friday alternates, so it is shown as text and never put in structured data. */
+  /** Office hours confirmed by the practice (client feedback, Nov 2026): Mon–Thu 8–5, every Friday 8–2. */
   hours: [
-    { day: "Monday", short: "Mon", open: "8:00am", close: "3:00pm" },
+    { day: "Monday", short: "Mon", open: "8:00am", close: "5:00pm" },
     { day: "Tuesday", short: "Tue", open: "8:00am", close: "5:00pm" },
     { day: "Wednesday", short: "Wed", open: "8:00am", close: "5:00pm" },
     { day: "Thursday", short: "Thu", open: "8:00am", close: "5:00pm" },
-    { day: "Friday", short: "Fri", open: "8:00am", close: "2:00pm", note: "Alternate Fridays" },
+    { day: "Friday", short: "Fri", open: "8:00am", close: "2:00pm" },
     { day: "Saturday", short: "Sat", closed: true },
     { day: "Sunday", short: "Sun", closed: true },
   ] as { day: string; short: string; open?: string; close?: string; note?: string; closed?: boolean }[],
@@ -102,10 +102,6 @@ const serviceSections = {
       links: [
         { label: "Gum Disease Treatment", href: "/preventative-care/gum-disease-treatment" },
         { label: "Deep Teeth Cleaning", href: "/preventative-care/gum-disease-treatment/deep-teeth-cleaning" },
-        {
-          label: "Gum Disease Laser Therapy",
-          href: "/preventative-care/gum-disease-treatment/gum-disease-laser-therapy",
-        },
         {
           label: "Periodontal Maintenance",
           href: "/preventative-care/gum-disease-treatment/periodontal-maintenance",
@@ -299,6 +295,7 @@ export const areasNav = group("Areas We Serve", "/areas-we-serve", [
 ]);
 
 export const mainNav: (NavLink | NavGroup)[] = [
+  { label: "Home", href: "/" },
   group("About", "/about-us", [
     {
       title: "Meet our dentists",
@@ -617,13 +614,13 @@ export const faqs: {
   },
   {
     q: "What are your opening hours?",
-    a: `The practice opens at 8am every weekday. Monday it closes at 3pm, Tuesday to Thursday at 5pm, and Friday at 2pm on alternate Fridays. Because Friday alternates, call ${site.phone.display} to check the date before traveling.`,
+    a: `The practice opens at 8am every weekday: 8am to 5pm Monday to Thursday, and 8am to 2pm every Friday. It is closed on weekends. Call ${site.phone.display} to book.`,
     category: "visit",
     link: { label: "Directions, map and opening hours", href: "/contact-us" },
   },
   {
-    q: "How many dentists work at the practice?",
-    a: "Three. Dr. Zan Chaudhary DMD, Dr. Sanketkumar Suvagiya DMD and Dr. Bhadresh Makani DDS all practice at Media Brite Smile. That gives more appointment slots across the week and keeps complex cases inside the practice instead of being referred out.",
+    q: "Who are the dentists at the practice?",
+    a: "Dr. Zan Chaudhary DMD, Dr. Sanketkumar Suvagiya DMD and Dr. Bhadresh Makani DDS all practice at Media Brite Smile. Having several dentists gives more appointment slots across the week and keeps complex cases inside the practice instead of being referred out.",
     category: "visit",
     link: { label: "About the practice and the team", href: "/about-us" },
   },
@@ -653,7 +650,7 @@ export const faqs: {
   },
   {
     q: "Is Media Brite Smile accepting new patients?",
-    a: `Yes, new patients are welcome at the practice. Call ${site.phone.display} or send an appointment request and you will get a reply with the closest available times across the three dentists. First appointments run longer than a routine check-up because the examination is more thorough.`,
+    a: `Yes, new patients are welcome at the practice. Call ${site.phone.display} or send an appointment request and you will get a reply with the closest available times across our dentists. First appointments run longer than a routine check-up because the examination is more thorough.`,
     category: "visit",
     link: { label: "Request an appointment", href: site.bookingHref },
   },

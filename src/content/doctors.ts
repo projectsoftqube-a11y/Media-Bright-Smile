@@ -16,6 +16,9 @@ export type DoctorProfile = {
   seo: { title: string; description: string };
   /** hero paragraph */
   lead: string;
+  /** the bio from the practice's current website (client feedback, Nov 2026), one paragraph per entry.
+      [text](/href) makes an inline link. */
+  bio: string[];
   /** primary hero button */
   bookLabel: string;
   /** a sentence from the draft, shown as the scroll statement */
@@ -44,7 +47,13 @@ const profiles: DoctorProfile[] = [
       description:
         "Meet Dr. Zan Chaudhary DMD at Media Brite Smile in Media, PA. Nova Southeastern trained, Invisalign certified, ADA member. Call (610) 566-2711.",
     },
-    lead: "Dr. Zan is a general and cosmetic dentist at Media Brite Smile in Media, Pennsylvania. He is Invisalign certified and an active member of the American Dental Association.",
+    lead: "Dr. Zan is a general and cosmetic dentist at Media Brite Smile. He is Invisalign certified and an active member of the American Dental Association.",
+    bio: [
+      "Dr. Zan was born and raised in West Chester, PA and has been committed to providing comprehensive care to patients of all ages. Dr. Zan completed his Bachelor of Science at West Chester University, and received his Doctorate of Dental Medicine from Nova Southeastern University College of Dental Medicine in Fort Lauderdale, Florida.",
+      "While attending Nova Southeastern University, Dr. Zan worked with rural and underserved populations as part of the Remote Area Medical missions group and the Ryan White Foundation. Alongside his own dental training, Dr. Zan mentored masters students seeking to pursue dentistry, and also enjoyed teaching human anatomy on cadavers to medical, nursing and fellow dental students, and other post-graduate professionals.",
+      "Since returning home to Pennsylvania, Dr. Zan has completed numerous continuing education courses, is [Invisalign®](/cosmetic-dentistry/invisalign) certified, and is an active member of the American Dental Association (ADA). Dr. Zan enjoys smile design and providing cosmetic transformations as much as routine, comprehensive, and preventative care.",
+      "In his free time, Dr. Zan spends a lot of time with his parents, reading fiction novels, and traveling. Half of his family lives in Dallas, TX, and he also enjoys visiting South Florida.",
+    ],
     bookLabel: "Book With Dr. Zan",
     statement:
       "Teaching anatomy is relevant to the chair, not just the CV. It is the same knowledge that tells a dentist where a nerve runs before an injection goes in.",
@@ -127,7 +136,7 @@ const profiles: DoctorProfile[] = [
       },
       {
         q: "Can I request a specific dentist?",
-        a: "Yes. Say so when you call, or on the appointment request form. Three dentists work here and each has a different focus. Tell us what you are coming in for and we will match you to the right one.",
+        a: "Yes. Say so when you call, or on the appointment request form. Several dentists work here and each has a different focus. Tell us what you are coming in for and we will match you to the right one.",
       },
     ],
     cta: {
@@ -142,7 +151,12 @@ const profiles: DoctorProfile[] = [
       description:
         "Meet Dr. Sanketkumar Suvagiya DMD at Media Brite Smile, Media PA. Rutgers orofacial pain fellowship, restorative dentistry. Call (610) 566-2711.",
     },
-    lead: "Dr. Suvagiya is a restorative dentist at Media Brite Smile in Media, Pennsylvania. He holds a fellowship in orofacial pain from Rutgers University and treats TMD, jaw muscle pain and headaches alongside general restorative work.",
+    lead: "Dr. Suvagiya is a restorative dentist at Media Brite Smile. He holds a fellowship in orofacial pain from Rutgers University and treats TMD, jaw muscle pain and headaches alongside general restorative work.",
+    bio: [
+      "Dr. Sanketkumar Suvagiya was born and raised in India, where he began his journey in dentistry at AMC Dental College. Driven by a passion for advancing his skills and providing high-quality care, he moved to the United States to pursue further education. He earned his Doctor of Dental Medicine (DMD) degree from Nova Southeastern University, graduating with the highest honors and receiving recognition from Omicron Kappa Upsilon (OKU), the national dental honor society. He also has a fellowship in orofacial pain from Rutgers University, where he learned how to manage patients with [TMD](/tmj-tmd-treatment-media-pa), muscle pain and headaches.",
+      "Dr. Suvagiya is committed to delivering compassionate, patient-centered care. He has been actively involved in community dental outreach and takes pride in helping patients achieve healthier, more confident smiles while alleviating pain and discomfort. His clinical interests include restorative dentistry, crowns and bridges, veneers, root canal therapy, and extractions.",
+      "Outside the office, Dr. Suvagiya enjoys staying active by working out, playing pickleball, and exploring a variety of cuisines.",
+    ],
     bookLabel: "Book With Dr. Suvagiya",
     statement:
       "Orofacial pain is a distinct area of advanced dental training, and most general dentists have not done it.",
@@ -232,7 +246,15 @@ const profiles: DoctorProfile[] = [
       description:
         "Meet Dr. Bhadresh Makani DDS at Media Brite Smile, Media PA. NYU trained, thousands of implants placed, All-on-X and CBCT-guided surgery.",
     },
-    lead: "Dr. Makani is an implant-focused dentist at Media Brite Smile in Media, Pennsylvania. He trained at New York University College of Dentistry and has placed thousands of implants, from single teeth to full-arch reconstruction.",
+    lead: "Dr. Makani is an implant-focused dentist at Media Brite Smile. He trained at New York University College of Dentistry and has placed thousands of implants, from single teeth to full-arch reconstruction.",
+    bio: [
+      "Dr. Bhadresh Makani is an implant-focused dentist dedicated to helping patients restore their smiles, confidence, and quality of life through advanced dental implant treatment and full-mouth rehabilitation. After completing his advanced dental training and earning his Doctor of Dental Surgery (DDS) degree from New York University College of Dentistry, Dr. Makani has continued to pursue extensive education and advanced training in implant dentistry, full-mouth reconstruction, and digital dentistry.",
+      "With years of experience and thousands of implants placed, Dr. Makani performs a [wide range of implant procedures](/restorative-dentistry/dental-implants) including single dental implants, implant-supported bridges, overdentures, full-mouth implant reconstruction, and advanced All-on-X “Teeth-in-a-Day” solutions. He has completed advanced continuing education programs both nationally and internationally, including implant and full-arch rehabilitation training in Portugal, Brazil, and other leading centers for implant education.",
+      "Dr. Makani stays at the forefront of modern implant dentistry by utilizing [advanced technology](/patient-information/care-and-comfort/advanced-technology) including CBCT 3D imaging, digital implant planning, guided surgery, intraoral scanning, and photogrammetry for full-arch implant cases. His experience with multiple implant systems and techniques allows him to provide personalized treatment solutions tailored to each patient’s needs, anatomy, and long-term goals.",
+      "Patient comfort is an important part of Dr. Makani’s approach to care. He offers nitrous oxide and oral sedation options to help patients feel relaxed and comfortable throughout treatment while focusing on delivering functional, natural-looking, and long-lasting results.",
+      "Known for his compassionate approach and attention to detail, Dr. Makani believes in educating patients thoroughly and developing individualized treatment plans that help patients regain the ability to smile, chew, and live confidently again.",
+      "Outside of dentistry, Dr. Makani enjoys spending time with family, traveling, continuing advanced education, and staying current with the latest advancements in implant and [restorative dentistry](/restorative-dentistry).",
+    ],
     bookLabel: "Book a Free Implant Consultation",
     statement:
       "Implant outcomes depend on planning, and Dr. Makani plans digitally before anyone picks up an instrument.",

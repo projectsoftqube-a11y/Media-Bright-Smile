@@ -3,7 +3,6 @@
 import { useRef, type ElementType, type ReactNode } from "react";
 import { gsap, SplitText, useGSAP, whenIdle } from "@/lib/gsap";
 import { cn } from "@/lib/utils";
-import { splitWords } from "./split-words";
 
 type SplitRevealProps = {
   as?: ElementType;
@@ -11,9 +10,6 @@ type SplitRevealProps = {
   className?: string;
   /** "lines" = masked line slide-up, "words" = staggered word rise + blur */
   mode?: "lines" | "words";
-  /** Page-title mode: a CSS word reveal that plays from the first paint (no JavaScript, never hidden),
-      instead of the GSAP line reveal on scroll */
-  immediate?: boolean;
   delay?: number;
   stagger?: number;
   id?: string;
@@ -28,7 +24,6 @@ export function SplitReveal({
   children,
   className,
   mode = "lines",
-  immediate = false,
   delay = 0,
   stagger,
   id,
@@ -40,7 +35,6 @@ export function SplitReveal({
       const el = ref.current;
       if (!el) return;
 
-      if (immediate) return; // pure CSS, see splitWords()
       const setup = () => {
         const mm = gsap.matchMedia();
         mm.add("(prefers-reduced-motion: no-preference)", () => {
@@ -60,9 +54,7 @@ export function SplitReveal({
                 stagger: stagger ?? (mode === "lines" ? 0.1 : 0.04),
                 delay,
                 ease: "brite.out",
-                scrollTrigger: immediate
-                  ? undefined
-                  : { trigger: el, start: "top 85%", toggleActions: "play none none none" },
+                scrollTrigger: { trigger: el, start: "top 85%", toggleActions: "play none none none" },
                 // Restore plain text once revealed: no masks left to clip descenders, and
                 // the heading reflows naturally on resize.
                 onComplete: () => self.revert(),
@@ -80,13 +72,6 @@ export function SplitReveal({
     },
     { scope: ref },
   );
-
-  if (immediate)
-    return (
-      <Tag id={id} className={className}>
-        {splitWords(children, { start: delay })}
-      </Tag>
-    );
 
   return (
     <Tag ref={ref} id={id} className={cn("gsap-hidden", className)}>

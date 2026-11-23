@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Seal } from "@/components/ui/seal";
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { ToothWatermark } from "@/components/ui/icons";
-import { SplitReveal } from "@/components/motion/split-reveal";
+import { WordReveal } from "@/components/motion/split-words";
 import { Reveal } from "@/components/motion/reveal";
 import { ImageReveal } from "@/components/motion/image-reveal";
 import { cn } from "@/lib/utils";
@@ -34,14 +34,14 @@ export function DoctorHero({ doctor, profile }: { doctor: Doctor; profile: Docto
             {/* copy */}
             <div className="flex flex-col p-6 pt-10 sm:p-10 lg:col-span-7 lg:self-center lg:py-16 lg:pr-6 lg:pl-14 xl:pl-16">
               <Eyebrow tone="light">Meet the doctor</Eyebrow>
-              <SplitReveal
+              <WordReveal
                 as="h1"
                 id="doctor-name"
-                immediate
+
                 className="mt-6 text-display-lg font-bold wrap-anywhere text-white max-[375px]:text-[2.125rem]"
               >
                 {given} <span className="text-gradient-brand">{surname}</span>
-              </SplitReveal>
+              </WordReveal>
 
               <Reveal delay={0.15} fade={false}>
                 <div className="mt-6 flex flex-wrap items-center gap-2.5">

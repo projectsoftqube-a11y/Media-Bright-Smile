@@ -10,6 +10,7 @@ import { Eyebrow } from "@/components/ui/eyebrow";
 import { Button } from "@/components/ui/button";
 import { ToothWatermark } from "@/components/ui/icons";
 import { SplitReveal } from "@/components/motion/split-reveal";
+import { WordReveal } from "@/components/motion/split-words";
 import { Reveal } from "@/components/motion/reveal";
 import { ease } from "@/lib/motion";
 import { cn } from "@/lib/utils";
@@ -509,9 +510,9 @@ export function SitemapExperience({
           <div className="grid grid-cols-1 items-center gap-12 xl:grid-cols-[0.9fr_1.1fr] xl:gap-16">
             <div className="relative z-10 max-w-2xl min-w-0">
               <Eyebrow>Sitemap</Eyebrow>
-              <SplitReveal as="h1" id="sitemap-title" immediate className="mt-6 text-display-lg font-bold text-balance">
+              <WordReveal as="h1" id="sitemap-title" className="mt-6 text-display-lg font-bold text-balance">
                 Every page, <span className="text-brand-600">mapped out</span>
-              </SplitReveal>
+              </WordReveal>
               <Reveal delay={0.2} y={24} fade={false}>
                 <p className="mt-6 max-w-xl text-lg leading-relaxed text-pretty sm:text-xl">{intro}</p>
                 <div className="mt-9">

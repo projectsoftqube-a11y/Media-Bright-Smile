@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { ToothWatermark } from "@/components/ui/icons";
-import { SplitReveal } from "@/components/motion/split-reveal";
+import { WordReveal } from "@/components/motion/split-words";
 import { ImageReveal } from "@/components/motion/image-reveal";
 import { Reveal, RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { CtaBand } from "@/components/page/cta-band";
@@ -207,9 +207,9 @@ export default async function BlogPostPage({ params }: PageProps<"/blog/[slug]">
                 <Eyebrow>{post.category}</Eyebrow>
               </div>
             </Reveal>
-            <SplitReveal as="h1" id="post-title" immediate className="mt-6 text-display-lg font-bold text-balance">
+            <WordReveal as="h1" id="post-title" className="mt-6 text-display-lg font-bold text-balance">
               {post.title}
-            </SplitReveal>
+            </WordReveal>
             <Reveal delay={0.2} y={20}>
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-pretty sm:text-xl">{post.description}</p>
               <ul className="mt-8 flex flex-wrap gap-2">

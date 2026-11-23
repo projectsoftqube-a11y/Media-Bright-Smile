@@ -229,7 +229,7 @@ export default function SmileGalleryPage() {
                 A crown that fits is the one <span className="text-brand-600">nobody notices</span>
               </>
             }
-            lead="Restorative work replaces what is missing or repairs what is broken, and the cosmetic result follows from doing that well. It is where the microscopes earn their keep."
+            lead="Restorative work replaces what is missing or repairs what is broken, and the cosmetic result follows from doing that well."
             aside={
               <Link
                 href="/restorative-dentistry"

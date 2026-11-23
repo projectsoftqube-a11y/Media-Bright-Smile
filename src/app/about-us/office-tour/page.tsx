@@ -6,7 +6,6 @@ import {
   CalendarClock,
   HeartHandshake,
   MapPin,
-  Microscope,
   Phone,
   PlayCircle,
   ScanLine,
@@ -23,7 +22,7 @@ import { CtaBand } from "@/components/page/cta-band";
 import { LinkTile } from "@/components/page/bits";
 import { Button } from "@/components/ui/button";
 import { Eyebrow } from "@/components/ui/eyebrow";
-import { SplitReveal } from "@/components/motion/split-reveal";
+import { WordReveal } from "@/components/motion/split-words";
 import { ImageReveal } from "@/components/motion/image-reveal";
 import { Reveal, RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { JsonLd, pageSchema } from "@/lib/schema";
@@ -174,9 +173,9 @@ export default function OfficeTourPage() {
           <div className="grid grid-cols-1 items-end gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
             <div>
               <Eyebrow>Office tour</Eyebrow>
-              <SplitReveal as="h1" id="page-title" immediate className="mt-6 text-display-lg font-bold text-balance">
+              <WordReveal as="h1" id="page-title" className="mt-6 text-display-lg font-bold text-balance">
                 Take a look around our <span className="text-brand-600">Media office</span>
-              </SplitReveal>
+              </WordReveal>
             </div>
             <Reveal delay={0.25} y={24}>
               <p className="text-lg leading-relaxed text-pretty sm:text-xl">
@@ -335,7 +334,6 @@ export default function OfficeTourPage() {
             </div>
             <RevealGroup className="grid grid-cols-1 gap-3" stagger={0.08}>
               {[
-                { icon: Microscope, t: "High-powered microscopes", d: "Used for precise restorative work" },
                 { icon: ScanLine, t: "Intraoral scanner", d: "Digital impressions instead of putty" },
                 { icon: Zap, t: "Digital X-rays", d: "Images on screen in seconds" },
                 { icon: Box, t: "CBCT 3D imaging", d: "For implant planning" },
