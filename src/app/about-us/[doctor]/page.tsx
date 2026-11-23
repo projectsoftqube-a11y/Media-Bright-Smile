@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import { site } from "@/content/site";
 import { doctorSlugs, getDoctor } from "@/content/doctors";
 import { DoctorHero } from "@/components/doctor/doctor-hero";
-import { DoctorFacts } from "@/components/doctor/doctor-facts";
 import { DoctorStory } from "@/components/doctor/doctor-story";
 import { DoctorFocus } from "@/components/doctor/doctor-focus";
 import { Reviews } from "@/components/sections/reviews";
@@ -72,7 +71,6 @@ export default async function DoctorPage({ params }: PageProps<"/about-us/[docto
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
       <DoctorHero doctor={doctor} profile={profile} />
-      <DoctorFacts doctor={doctor} profile={profile} />
       <DoctorStory doctor={doctor} profile={profile} />
       <DoctorFocus doctor={doctor} profile={profile} />
       <section className="bg-pearl section-y" aria-labelledby="doctor-faq-heading">
@@ -97,6 +95,7 @@ export default async function DoctorPage({ params }: PageProps<"/about-us/[docto
         title={profile.cta.title}
         text={profile.cta.text}
         image={doctor.image}
+        imagePosition={doctor.position}
         imageAlt={`${doctor.name}, ${doctor.credential}`}
       />
     </>

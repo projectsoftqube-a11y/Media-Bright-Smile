@@ -42,3 +42,8 @@ next-env.d.ts
 
 # responsive WebP copies built by scripts/optimize-images.mjs
 /public/_img/
+
+# Responsive / performance audit output (screenshots and reports)
+/responsive-audit/
+/section-review/
+/perf-audit/

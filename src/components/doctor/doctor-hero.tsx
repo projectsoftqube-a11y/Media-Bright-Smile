@@ -1,7 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Phone } from "lucide-react";
-import { doctors, site } from "@/content/site";
+import { site } from "@/content/site";
 import type { Doctor, DoctorProfile } from "@/content/doctors";
 import { Button } from "@/components/ui/button";
 import { Seal } from "@/components/ui/seal";
@@ -10,7 +9,6 @@ import { ToothWatermark } from "@/components/ui/icons";
 import { WordReveal } from "@/components/motion/split-words";
 import { Reveal } from "@/components/motion/reveal";
 import { ImageReveal } from "@/components/motion/image-reveal";
-import { cn } from "@/lib/utils";
 
 /** Rotating credential seal (SVG text on a circle). */
 export function DoctorHero({ doctor, profile }: { doctor: Doctor; profile: DoctorProfile }) {
@@ -29,7 +27,7 @@ export function DoctorHero({ doctor, profile }: { doctor: Doctor; profile: Docto
             <ToothWatermark size={620} className="absolute -right-40 -bottom-40 text-white/3" />
           </div>
 
-          {/* hero keeps only the essentials; the full credentials list sits in the section below */}
+          {/* hero keeps only the essentials: name, credential, focus, lead and the two actions */}
           <div className="grid grid-cols-1 lg:grid-cols-12 lg:items-end">
             {/* copy */}
             <div className="flex flex-col p-6 pt-10 sm:p-10 lg:col-span-7 lg:self-center lg:py-16 lg:pr-6 lg:pl-14 xl:pl-16">
@@ -89,51 +87,6 @@ export function DoctorHero({ doctor, profile }: { doctor: Doctor; profile: Docto
             </div>
           </div>
         </div>
-
-        {/* doctor switcher */}
-        <nav aria-label="Our dentists" className="mt-4">
-          <ul className="grid grid-cols-1 gap-2 sm:grid-cols-3">
-            {doctors.map((d, i) => {
-              const active = d.href === doctor.href;
-              return (
-                <li key={d.href}>
-                  <Link
-                    href={d.href}
-                    aria-current={active ? "page" : undefined}
-                    className={cn(
-                      "group flex items-center gap-3 rounded-3xl p-2.5 pr-4 transition-colors duration-300",
-                      active ? "bg-white shadow-soft ring-1 ring-line" : "hover:bg-white/70",
-                    )}
-                  >
-                    <span className="relative size-12 shrink-0 overflow-hidden rounded-2xl bg-mist">
-                      <Image
-                        src={d.image}
-                        alt=""
-                        fill
-                        sizes="48px"
-                        className="object-cover"
-                        style={{ objectPosition: d.position }}
-                      />
-                    </span>
-                    <span className="min-w-0 flex-1">
-                      <span className="block text-xs font-semibold text-muted tabular-nums">
-                        {String(i + 1).padStart(2, "0")} {active && "· You're viewing"}
-                      </span>
-                      <span
-                        className={cn(
-                          "block truncate font-semibold",
-                          active ? "text-brand-600" : "text-ink group-hover:text-brand-600",
-                        )}
-                      >
-                        {d.name}
-                      </span>
-                    </span>
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-        </nav>
       </div>
     </section>
   );

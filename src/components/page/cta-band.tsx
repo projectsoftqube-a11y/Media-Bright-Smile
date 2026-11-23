@@ -14,6 +14,7 @@ export function CtaBand({
   primary = { label: "Request an Appointment", href: site.bookingHref },
   image = "/images/office/office-5.jpg",
   imageAlt = `Reception at ${site.name}, ${site.address.city} PA`,
+  imagePosition,
   id = "cta-heading",
 }: {
   title: ReactNode;
@@ -21,6 +22,8 @@ export function CtaBand({
   primary?: { label: string; href: string };
   image?: string;
   imageAlt?: string;
+  /** object-position for the photo, e.g. a portrait's focal point so the face is never cut off */
+  imagePosition?: string;
   id?: string;
 }) {
   return (
@@ -55,6 +58,7 @@ export function CtaBand({
                 alt={imageAlt}
                 fill
                 sizes="(min-width:1024px) 45vw, 100vw"
+                style={imagePosition ? { objectPosition: imagePosition } : undefined}
                 className="object-cover max-lg:mask-[linear-gradient(0deg,transparent,#000_40%)] lg:mask-[linear-gradient(90deg,transparent,#000_35%)]"
               />
             </div>
