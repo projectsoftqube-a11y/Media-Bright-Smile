@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 import { AnimatePresence, motion, useMotionValueEvent, useScroll } from "motion/react";
 import { useLenis } from "lenis/react";
 import {
+  ArrowRight,
   ArrowUpRight,
   BookOpen,
   Building2,
@@ -148,13 +149,22 @@ export function Header() {
                 We&apos;ve moved! Visit us at <strong className="font-semibold text-white">{site.address.full}</strong>
               </span>
             </p>
-            <p className="hidden items-center gap-2 md:flex">
-              <span className="relative flex size-2">
+            <Link
+              href="/patient-information/insurance-payment-options"
+              className="group hidden min-h-6 items-center gap-2 rounded-full py-0.5 font-medium text-white focus-visible:ring-2 focus-visible:ring-glow focus-visible:outline-none md:flex"
+            >
+              <span aria-hidden="true" className="relative flex size-2">
                 <span className="absolute inline-flex size-full animate-ping rounded-full bg-glow opacity-75" />
                 <span className="relative inline-flex size-2 rounded-full bg-glow" />
               </span>
-              Use your insurance benefits before your coverage expires!
-            </p>
+              <span className="underline decoration-glow/60 decoration-1 underline-offset-4 transition-colors group-hover:text-glow group-hover:decoration-glow">
+                Use your insurance benefits before your coverage expires!
+              </span>
+              <ArrowRight
+                aria-hidden="true"
+                className="size-3.5 text-glow transition-transform duration-300 group-hover:translate-x-0.5"
+              />
+            </Link>
             <a
               href={site.phone.href}
               className="hidden min-h-6 items-center gap-2 py-0.5 font-medium text-white lg:flex"

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { patientInfoPages } from "@/content/pages/patient-info";
 import { DraftPageView, type DraftLook } from "@/components/draft/draft-page";
+import { SavingsAndPayment } from "@/components/page/savings-payment";
 import { topicImages as T, ctaOf, type TopicImage } from "@/content/topic-images";
 
 /** All 13 Patient Info pages (sitemap section 02), rendered from their approved drafts. */
@@ -58,7 +59,10 @@ const looks: Record<string, Look> = {
     eyebrow: "Insurance & payment",
     hero: T.cardPayment,
     ...ctaOf(T.smile14),
-    dark: 4,
+    dark: 2,
+    // section 2: Dental Savings Plan + payment options (client copy, Nov 2026); it replaced the
+    // "How Billing Works" and "Dentist Payment Options" text sections, which said the same things
+    extras: { 0: <SavingsAndPayment /> },
   },
   [`${BASE}/care-credit`]: {
     name: "CareCredit",
@@ -150,7 +154,7 @@ const sectionImages: Record<string, (TopicImage | null)[]> = {
   ],
   [`${BASE}/why-choose-us`]: [T.consultXray6, T.treatmentPatient, T.piggyBank4, null],
   [`${BASE}/new-patients`]: [null, T.consultDesk2, T.comfort3, T.medications, T.cardPayment9, T.consultXray7],
-  [`${BASE}/insurance-payment-options`]: [null, T.paperwork, T.cardPayment2, T.piggyBank5, T.readingDocuments],
+  [`${BASE}/insurance-payment-options`]: [null, T.piggyBank5, T.readingDocuments],
   [`${BASE}/care-credit`]: [T.cardPayment3, T.models7, T.writingDocuments, T.insurance3, T.piggyBank6],
   [`${BASE}/care-and-comfort`]: [T.phoneCall4, T.consultDesk3, T.comfort4, T.dentistHandpiece, T.infection3],
   [`${BASE}/care-and-comfort/infection-control`]: [T.infection4, null, T.dentistMask, T.treatmentChair4],
