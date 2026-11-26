@@ -342,6 +342,7 @@ The logo, the three dentists' portraits and the office photos belong to Media Br
 | public/images/office/cbct-scanner.webp | Home, About and practice pages | Media Brite Smile (the practice's own image) | Owned by the practice | 2026-11-17 |
 | public/images/office/in-house-lab.webp | Home, About and practice pages | Media Brite Smile (the practice's own image) | Owned by the practice | 2026-11-17 |
 | public/images/office/office-41.jpg | Home, About and practice pages | Media Brite Smile (the practice's own image) | Owned by the practice | 2026-11-17 |
+| public/images/office/office-sign.jpg | Home hero slideshow, outside photo (Nov 2026: the building with the roadside sign, replacing office-41 in the hero) | Media Brite Smile (the practice's own image, "Logo.jpg" in the practice's shared Google Drive photo folder) | Owned by the practice | 2026-11-26 |
 | public/images/office/office-5.jpg | Home, About and practice pages | Media Brite Smile (the practice's own image) | Owned by the practice | 2026-11-17 |
 | public/images/office/operatory-1.webp | Home, About and practice pages | Media Brite Smile (the practice's own image) | Owned by the practice | 2026-11-17 |
 | public/images/office/operatory-3.jpg | Home, About and practice pages | Media Brite Smile (the practice's own image) | Owned by the practice | 2026-11-17 |

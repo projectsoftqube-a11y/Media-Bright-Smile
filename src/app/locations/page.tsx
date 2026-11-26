@@ -78,12 +78,9 @@ export default function LocationsPage() {
                   sizes="(min-width:768px) 55vw, 100vw"
                   className="object-cover object-[50%_45%]"
                 />
-                <span className="absolute top-5 left-5 inline-flex items-center gap-2 rounded-full bg-white/90 px-4 py-2 text-xs font-bold tracking-[0.14em] text-brand-700 uppercase shadow-soft">
-                  <span className="size-2 rounded-full bg-brand-500" /> We&apos;ve moved!
-                </span>
               </div>
               <div className="flex flex-col justify-center p-7 sm:p-10 lg:p-12">
-                <p className="text-xs font-bold tracking-[0.16em] text-brand-600 uppercase">Our new home</p>
+                <p className="text-xs font-bold tracking-[0.16em] text-brand-600 uppercase">Our office</p>
                 <h2 className="mt-3 text-3xl font-bold tracking-tight text-balance sm:text-4xl">
                   Every town leads to <span className="text-brand-600">{site.address.street}</span>
                 </h2>

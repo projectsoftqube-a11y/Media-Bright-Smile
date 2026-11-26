@@ -94,7 +94,7 @@ export function Technology() {
                 <div>
                   <p className="text-xs font-bold tracking-[0.18em] text-brand-200 uppercase">Office Tour</p>
                   <h3 className="mt-2 text-2xl font-bold tracking-tight text-white sm:text-3xl md:text-4xl">
-                    Step inside our new office
+                    Step inside our office
                   </h3>
                 </div>
                 <span className="hidden items-center gap-2 rounded-full bg-white/15 px-4 py-2 text-sm md:flex">
@@ -148,7 +148,7 @@ export function Technology() {
               src="/images/office/waiting-room-2.webp"
               alt="Our comfortable waiting area"
               title="Calm, modern spaces"
-              text="The new office on N Pennell Rd, open from 8am every weekday."
+              text="Our office on N Pennell Rd, open from 8am every weekday."
             />
           </RevealItem>
 
@@ -172,7 +172,7 @@ export function Technology() {
               </span>
               <div className="absolute inset-x-6 bottom-6 text-white">
                 <p className="flex items-center gap-2 text-xs font-bold tracking-[0.18em] text-brand-200 uppercase">
-                  <Navigation className="size-3.5" /> Our new home
+                  <Navigation className="size-3.5" /> Find us
                 </p>
                 <h3 className="mt-1 text-xl font-semibold tracking-tight text-white">{site.address.full}</h3>
               </div>

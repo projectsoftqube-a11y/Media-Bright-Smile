@@ -144,10 +144,8 @@ export function Header() {
         >
           <div className="container-site flex h-10 items-center justify-between gap-6">
             <p className="flex items-center gap-2">
-              <MapPin className="size-3.5 text-glow" />
-              <span>
-                We&apos;ve moved! Visit us at <strong className="font-semibold text-white">{site.address.full}</strong>
-              </span>
+              <MapPin className="size-3.5 text-glow" aria-hidden="true" />
+              <span className="font-semibold text-white">{site.address.full}</span>
             </p>
             <Link
               href="/patient-information/insurance-payment-options"

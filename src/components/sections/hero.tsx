@@ -24,7 +24,11 @@ const officeSlide = (file: string, alt: string, position: string) => ({
 });
 const slides = [
   officeSlide("office-5", "The Media Brite Smile reception desk and logo wall", "object-[70%_50%]"),
-  officeSlide("office-41", "The Media Brite Smile building at 8 N Pennell Rd, Media, PA", "object-[55%_50%]"),
+  officeSlide(
+    "office-sign",
+    "The Media Brite Smile building and roadside sign at 6-8 North Pennell Road, Media, PA",
+    "object-[78%_45%]",
+  ),
   officeSlide("operatory-1", "A bright treatment room at Media Brite Smile", "object-[60%_50%]"),
   {
     // AI-generated for this site (see docs/image-licenses.md): never to be captioned as a patient
