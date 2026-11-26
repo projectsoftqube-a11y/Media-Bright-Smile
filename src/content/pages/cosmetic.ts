@@ -894,7 +894,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
       "When a filling is not enough but a crown is too much: inlays and onlays at Media Brite Smile in Media, PA, and how they compare with both.",
     h1: "Inlays and Onlays",
     intro: [
-      "Inlays and onlays are custom-made restorations for a back tooth that has too much damage for a filling but not enough to need a crown. At Media Brite Smile in Media, PA, they are made from porcelain at a dental lab and bonded to the tooth over two visits.",
+      "Inlays and onlays are custom-made dental restorations designed to repair back teeth that are too damaged for a traditional filling but do not require a full crown. At Media Brite Smile, these restorations are crafted from porcelain in a dental laboratory and securely bonded to the tooth over the course of two visits, restoring its strength, function, and natural appearance.",
       "They keep more of your natural tooth than a crown, and they are stronger than a large filling.",
     ],
     sections: [

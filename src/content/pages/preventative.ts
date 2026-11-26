@@ -256,7 +256,7 @@ export const preventativePages: Record<string, DraftPage> = {
       "One family dentist in Media, PA for children through grandparents. Several dentists, $99 new patient exam, $300 savings plan. Call (610) 566-2711.",
     h1: "Family Dentist in Media, PA",
     intro: [
-      "One practice for everyone in the house, from a child's first check-up to a grandparent's denture reline. Several dentists at 8 N Pennell Rd, so appointments fit around school and work.",
+      "At Media Brite Smile, we provide comprehensive dental care for every member of your family, from a child's first dental checkup to the ongoing oral health needs of older adults. Our dedicated dental team offers a range of services in one convenient location, with flexible scheduling to accommodate your family's school, work, and daily routines.",
     ],
     sections: [
       {
@@ -1353,7 +1353,7 @@ export const preventativePages: Record<string, DraftPage> = {
       "Told you need a deep cleaning in Media, PA? What scaling and root planing involves, the measurements that decide it, how many visits and what it costs.",
     h1: "Deep Teeth Cleaning (Scaling and Root Planing) in Media, PA",
     intro: [
-      "A deep teeth cleaning, called scaling and root planing, removes tartar and bacteria from below the gumline where a routine cleaning cannot reach. At Media Brite Smile in Media, PA, it is only recommended after an examination shows gum disease, using pocket measurements and X-rays you can ask to see.",
+      "Deep teeth cleaning, also known as scaling and root planing, is a specialized treatment that removes plaque, tartar, and bacteria from beneath the gumline in areas that routine cleanings cannot reach. At Media Brite Smile in Media, PA, we recommend this treatment only when a comprehensive examination, including gum pocket measurements and dental X-rays, identifies signs of gum disease. Our team takes the time to review these findings with you, helping you understand your oral health and the purpose of your recommended treatment.",
       "If you have just been told you need one and wonder whether it is an upsell, this page sets out exactly how that decision is made.",
     ],
     sections: [
@@ -1852,7 +1852,7 @@ export const preventativePages: Record<string, DraftPage> = {
       "Why gum disease needs ongoing periodontal maintenance in Media, PA, how often visits are needed and how they differ from a regular cleaning.",
     h1: "Periodontal Maintenance After Gum Treatment",
     intro: [
-      "Periodontal maintenance is the ongoing cleaning schedule that keeps gum disease under control after treatment. At Media Brite Smile in Media, PA, it replaces the standard cleaning for patients who have had gum disease, because once the gums have pulled away from the teeth, an ordinary cleaning no longer reaches where the bacteria live.",
+      "Periodontal maintenance is a specialized cleaning program designed to manage gum disease and maintain oral health following treatment. At Media Brite Smile in Media, PA, periodontal maintenance replaces routine cleanings for patients with a history of gum disease. These appointments focus on removing bacteria and plaque from deeper pockets beneath the gumline that standard cleanings may not reach, helping prevent further damage and maintain healthy gums.",
     ],
     sections: [
       {
@@ -2480,7 +2480,7 @@ export const preventativePages: Record<string, DraftPage> = {
       "Broken tooth or severe toothache in Media, PA? Call (610) 566-2711. Problems are triaged by phone and seen the same day whenever possible.",
     h1: "Emergency Dentist in Media, PA",
     intro: [
-      "Call (610) 566-2711 now and describe what has happened. Urgent problems are triaged on the phone, and you will be seen the same day whenever possible.",
+      "Dental emergencies can happen unexpectedly, and receiving timely care is important. At Media Brite Smile in Media, PA, our team is here to help. If you are experiencing a dental emergency, call (610) 566-2711 to discuss your symptoms. Our team will assess the urgency of your situation, provide guidance on the next steps, and arrange a same-day appointment whenever possible.",
     ],
     sections: [
       {

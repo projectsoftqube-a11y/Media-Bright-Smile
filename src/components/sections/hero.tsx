@@ -10,10 +10,12 @@ import { Marquee } from "@/components/ui/marquee";
 import { gsap, useGSAP, whenIdle } from "@/lib/gsap";
 import { cn } from "@/lib/utils";
 
-/* Hero photos: a crossfading slideshow of the practice's own office photos, like the slider on its
-   previous site (client request, Nov 2026), opening on the same reception photo. WebP sizes come from
-   scripts/optimize-images.mjs. The first photo is the LCP element: plain img, loaded first at high
-   priority; the others are added after the page has loaded, so they never compete with it. */
+/* Hero photos: a crossfading slideshow, like the slider on the practice's previous site. The client
+   asked (feedback doc, Nov 2026) for four pictures: inside the office, outside the office, a treatment
+   room and a family. It opens on the reception photo. WebP sizes come from scripts/optimize-images.mjs
+   (office) or were exported at three widths (family). The first photo is the LCP element: plain img,
+   loaded first at high priority; the others are added after the page has loaded, so they never
+   compete with it. */
 const officeSlide = (file: string, alt: string, position: string) => ({
   src: `/_img/office/${file}-1920.webp`,
   srcSet: [828, 1200, 1920].map((w) => `/_img/office/${file}-${w}.webp ${w}w`).join(", "),
@@ -22,17 +24,21 @@ const officeSlide = (file: string, alt: string, position: string) => ({
 });
 const slides = [
   officeSlide("office-5", "The Media Brite Smile reception desk and logo wall", "object-[70%_50%]"),
-  officeSlide("waiting-room", "The waiting area at Media Brite Smile", "object-[65%_50%]"),
-  officeSlide("operatory-1", "A bright treatment room at Media Brite Smile", "object-[60%_50%]"),
   officeSlide("office-41", "The Media Brite Smile building at 8 N Pennell Rd, Media, PA", "object-[55%_50%]"),
-  officeSlide("operatory-3", "A second treatment room at Media Brite Smile", "object-[55%_50%]"),
-  officeSlide("waiting-room-2", "The front desk and waiting area at Media Brite Smile", "object-[60%_50%]"),
+  officeSlide("operatory-1", "A bright treatment room at Media Brite Smile", "object-[60%_50%]"),
+  {
+    // AI-generated for this site (see docs/image-licenses.md): never to be captioned as a patient
+    src: "/images/hero/family-hero-1920.webp",
+    srcSet: [828, 1280, 1920].map((w) => `/images/hero/family-hero-${w}.webp ${w}w`).join(", "),
+    alt: "A smiling family: mom, dad and their daughter",
+    position: "object-[100%_25%] lg:object-[100%_0%]",
+  },
 ];
 // Desktop: the photo covers the right 62-66% of the screen. Below 1024px: full width.
 const SIZES = "(min-width: 1024px) 66vw, 100vw";
 const INTERVAL = 6000;
 
-/** Rotates the hero photos. Waits for idle time before adding slides 2-5, pauses while the hero is
+/** Rotates the hero photos. Waits for idle time before adding the other slides, pauses while the hero is
     off screen or the tab is hidden, and stays on the first photo for reduced-motion users. */
 function useSlideshow(count: number, root: RefObject<HTMLElement | null>) {
   const [loaded, setLoaded] = useState(false);

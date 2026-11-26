@@ -115,7 +115,7 @@
 | topics/dental-casts.jpg | Restorative Dentistry pages, crown, bridge and denture lab sections | https://www.pexels.com/photo/6627601/ | Pexels | see source page | 2026-11-16 |
 | topics/panoramic-xray.jpg | Restorative Dentistry pages, wisdom teeth and implant planning sections | https://www.pexels.com/photo/6812456/ | Pexels | see source page | 2026-11-16 |
 | topics/whitening-shade-match.jpg | Teeth Whitening page hero | https://www.pexels.com/photo/6627570/ | Pexels | see source page | 2026-11-17 |
-| hero/family-hero-828.webp, -1280.webp, -1920.webp | Not in use (Nov 2026: the hero now rotates the practice's own office photos, at the client's request) | Original AI-generated image, made for this site in the client's Higgsfield account (model gpt_image_2_6, job ea0c58f5-9629-4d9e-908e-e5506a34c71f). Not stock; depicts no real person; never to be captioned as a patient | Higgsfield (AI) | n/a | 2026-11-20 |
+| hero/family-hero-828.webp, -1280.webp, -1920.webp | Home hero slideshow, 4th photo (client feedback doc, Nov 2026: inside office, outside office, treatment room and a family) | Original AI-generated image, made for this site in the client's Higgsfield account (model gpt_image_2_6, job ea0c58f5-9629-4d9e-908e-e5506a34c71f). Not stock; depicts no real person; never to be captioned as a patient | Higgsfield (AI) | n/a | 2026-11-20 |
 <!-- kavan-image-finding: new rows go above this line -->
 
 ## 4. Extra proof worth keeping

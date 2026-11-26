@@ -1435,7 +1435,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
       "Looking for the best dentist in Media, PA? Here are the questions worth asking any practice, and how Media Brite Smile answers them.",
     h1: "Why Patients Choose Media Brite Smile",
     intro: [
-      "If you are searching for the best dentist in Media, PA, every practice website will tell you it is the one. This page gives you the questions worth asking instead, and how Media Brite Smile answers each of them, with the facts behind every answer.",
+      "Choosing the right dental practice is an important part of maintaining your oral health. At Media Brite Smile, we focus on personalized care, clear communication, and patient comfort. From routine checkups to advanced dental treatments, our team is dedicated to helping you make informed decisions about your dental care and achieve a healthy, confident smile.",
       "Media Brite Smile holds 4.9 stars from 375 Google reviews.",
     ],
     sections: [
