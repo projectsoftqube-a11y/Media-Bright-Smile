@@ -18,7 +18,7 @@ import { cn } from "@/lib/utils";
  * pages that already answer those questions. With no posts, an honest empty state shows instead.
  */
 export const PER_PAGE = 10;
-export const blogTitle = "Dental Blog | Media Brite Smile, Media PA";
+export const blogTitle = "Dental Blog | Media Brite Smile, Media, PA";
 export const blogDescription =
   "Plain-English answers to the questions patients ask most, from the dental team at Media Brite Smile in Media, PA.";
 export const blogPageCount = () => Math.max(1, Math.ceil(latestPosts().length / PER_PAGE));
@@ -164,7 +164,7 @@ export function BlogHub({ page = 1 }: { page?: number }) {
             Dental Advice and <span className="text-brand-600">Updates</span>
           </>
         }
-        lead="This dental blog from Media Brite Smile in Media, PA answers the questions patients actually ask in the chair and on the phone, in plain English and without a sales pitch. Each article links to the treatment page it relates to, so you can see what the practice offers and what it costs."
+        lead="This dental blog from Media Brite Smile in Media, PA, answers the questions patients actually ask in the chair and on the phone, in plain English and without a sales pitch. Each article links to the treatment page it relates to, so you can see what the practice offers and what it costs."
         primary={{ label: "Request an Appointment", href: site.bookingHref }}
         aside={
           <RevealGroup stagger={0.08} className="grid grid-cols-2 gap-3">

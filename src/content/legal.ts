@@ -57,7 +57,7 @@ export type LegalDoc = {
   pending?: boolean;
 };
 
-const contact = `${site.name}, ${site.address.full}. Phone ${site.phone.display}.`;
+const contact = `${site.name}, ${site.address.full}. Call ${site.phone.display}.`;
 const UPDATED = "November 12, 2026";
 
 const PENDING = /^\[CONFIRM:?\s*/;
@@ -175,7 +175,7 @@ export const termsOfUse: LegalDoc = {
     },
     {
       icon: "calendar",
-      title: "Requests need confirming",
+      title: "Requests need to be confirmed",
       text: "A booking is set once our team contacts you to confirm it.",
     },
     {

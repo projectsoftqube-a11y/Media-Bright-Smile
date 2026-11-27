@@ -37,6 +37,10 @@ import { Reveal, RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { cn } from "@/lib/utils";
 import { LegalToc } from "./legal-toc";
 
+/** A document title as it reads mid-sentence: "Web Accessibility" -> "web accessibility statement" (acronyms such as HIPAA keep their capitals). */
+const docName = (title: string) =>
+  (/accessibility$/i.test(title) ? `${title} statement` : title).replace(/\b[A-Z][a-z]+\b/g, (w) => w.toLowerCase());
+
 const icons: Record<LegalIcon, LucideIcon> = {
   shield: ShieldCheck,
   file: FileText,
@@ -314,7 +318,7 @@ function Glance({ doc }: { doc: LegalDoc }) {
           </div>
           <p className="max-w-md text-lg leading-relaxed">
             {doc.glance.length === 4 ? "The four" : `The ${doc.glance.length}`} things worth knowing. The full{" "}
-            {doc.title.toLowerCase()} follows below.
+            {docName(doc.title)} {/^terms\b/i.test(doc.title) ? "follow" : "follows"} below.
           </p>
         </div>
         <RevealGroup
@@ -393,7 +397,9 @@ function Block({ block }: { block: LegalBlock }) {
         </span>
         <div className="min-w-0">
           <p className="font-semibold text-ink">Awaiting the practice&apos;s approved wording</p>
-          <p className="mt-1 text-[0.9375rem] leading-relaxed text-body">{block.pending}</p>
+          <p className="mt-1 text-[0.9375rem] leading-relaxed text-body">
+            {block.pending.charAt(0).toUpperCase() + block.pending.slice(1)}
+          </p>
         </div>
       </div>
     );

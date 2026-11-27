@@ -338,7 +338,7 @@ export default async function RestorativePage({ params }: PageProps<"/restorativ
                 },
                 {
                   title: "Extractions",
-                  text: "Tooth and wisdom teeth removal, with replacement options explained.",
+                  text: "Tooth extractions and wisdom teeth removal, with replacement options explained.",
                   href: `${BASE}/tooth-extractions`,
                   image: T.surgery3,
                 },

@@ -27,7 +27,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Sort out how you will pay. Send your insurance plan name for checking, or pick an uninsured option.",
+            text: "Decide how you will pay. Send your insurance plan name for checking, or pick an uninsured option.",
           },
           {
             type: "p",
@@ -35,7 +35,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Fill in the registration forms at home. It shortens the check-in on the day.",
+            text: "Fill out the registration forms at home. It shortens check-in when you arrive.",
           },
           {
             type: "p",
@@ -80,7 +80,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If you are looking for a dentist in Media, PA who works with your insurance, send the plan name before you book. We are not able to confirm what your plan covers from a website. Send us the plan name and we will check it for you.",
+            text: "If you are looking for a dentist in Media, PA, who works with your insurance, send the plan name before you book. We are not able to confirm what your plan covers from a website. Send us the plan name and we will check it for you.",
           },
           {
             type: "p",
@@ -116,7 +116,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "Dental Forms to Fill In Before You Arrive",
+        heading: "Dental Forms to Fill Out Before You Arrive",
         kind: null,
         items: [
           {
@@ -125,7 +125,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Have your insurance card and medication list beside you when you fill them in. Those are the two details people most often have to come back to.",
+            text: "Have your insurance card and medication list beside you when you fill them out. Those are the two details people most often have to come back to.",
           },
           {
             type: "link",
@@ -170,7 +170,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
             type: "table",
             rows: [
               ["Day", "Hours"],
-              ["Monday to Thursday", "8am to 5pm"],
+              ["Monday through Thursday", "8am to 5pm"],
               ["Friday", "8am to 2pm"],
             ],
           },
@@ -215,8 +215,8 @@ export const patientInfoPages: Record<string, DraftPage> = {
     faqHeading: "Patient Information Questions",
     faqs: [
       {
-        q: "Do I need to fill in forms before my first visit?",
-        a: "It helps but is not required. The registration forms can be completed at home before you arrive, which shortens check-in and leaves more of the appointment for your questions. If you cannot get to them beforehand, they can be filled in at the practice instead.",
+        q: "Do I need to fill out forms before my first visit?",
+        a: "It helps but is not required. The registration forms can be completed at home before you arrive, which shortens check-in and leaves more of the appointment for your questions. If you cannot get to them beforehand, they can be filled out at the practice instead.",
       },
       {
         q: "Which dental insurance plans do you work with?",
@@ -228,18 +228,18 @@ export const patientInfoPages: Record<string, DraftPage> = {
       },
     ],
     cta: {
-      title: "Get Booked In and Arrive Ready",
+      title: "Get Scheduled and Arrive Ready",
       text: "One call books the appointment and starts the insurance check. Media Brite Smile, 8 N Pennell Rd, Media, PA 19063. Call (610) 566-2711.",
     },
   },
   "/patient-information/care-and-comfort/advanced-technology": {
     url: "/patient-information/care-and-comfort/advanced-technology",
-    title: "Dental Technology | Media Brite Smile, Media PA",
+    title: "Dental Technology | Media Brite Smile, Media, PA",
     description:
       "Intraoral scanning, digital X-rays and CBCT at Media Brite Smile in Media, PA, and what each one changes about your treatment.",
     h1: "The Technology We Use, and Why It Matters to You",
     intro: [
-      "Digital dentistry in Media, PA is only worth having if it changes something for you: a better fit, a more accurate diagnosis or a more comfortable visit. This page explains the dental technology at Media Brite Smile in Media, PA by what it does for the patient.",
+      "Digital dentistry in Media, PA, is only worth having if it changes something for you: a better fit, a more accurate diagnosis or a more comfortable visit. This page explains the dental technology at Media Brite Smile in Media, PA, by what it does for the patient.",
     ],
     sections: [
       {
@@ -275,7 +275,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Because the images are digital, they appear on a monitor straight away so the dentist can show you what they see, and they can be sent securely to a specialist or your insurer if needed.",
+            text: "Because the images are digital, they appear on a monitor immediately so the dentist can show you what they see, and they can be sent securely to a specialist or your insurer if needed.",
           },
           {
             type: "p",
@@ -343,7 +343,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
       },
       {
         q: "Are digital X-rays safer than film?",
-        a: "Digital X-rays use less radiation than traditional film X-rays, and they are taken only when clinically needed. The images appear on screen straight away, so the dentist can show you what they see and send them securely to a specialist or insurer if required.",
+        a: "Digital X-rays use less radiation than traditional film X-rays, and they are taken only when clinically needed. The images appear on screen immediately, so the dentist can show you what they see and send them securely to a specialist or insurer if required.",
       },
     ],
     cta: {
@@ -355,10 +355,10 @@ export const patientInfoPages: Record<string, DraftPage> = {
     url: "/patient-information/care-and-comfort",
     title: "Gentle Dentist for Nervous Patients | Media, PA",
     description:
-      "Nervous about the dentist? How appointments at Media Brite Smile in Media, PA are paced around anxiety, what you can ask for, and the sedation options.",
+      "Nervous about the dentist? How appointments at Media Brite Smile in Media, PA, are paced around anxiety, what you can ask for, and the sedation options.",
     h1: "Care and Comfort for Nervous Patients",
     intro: [
-      "If you are looking for a gentle dentist in Media, PA because the thought of the dentist makes you anxious, you are far from alone. At Media Brite Smile, a nervous patient's appointment is paced around them, nothing happens without being explained first, and nitrous oxide and oral sedation are available.",
+      "If you are looking for a gentle dentist in Media, PA, because the thought of the dentist makes you anxious, you are far from alone. At Media Brite Smile, a nervous patient's appointment is paced around them, nothing happens without being explained first, and nitrous oxide and oral sedation are available.",
       "If you have put off a visit for years, nobody here will lecture you about it.",
     ],
     sections: [
@@ -409,7 +409,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "A pause. Ask the dentist to agree a signal, such as raising a hand, so you can stop for a break during treatment.",
+            text: "A pause. Ask the dentist to agree on a signal, such as raising a hand, so you can stop for a break during treatment.",
           },
           {
             type: "p",
@@ -476,15 +476,15 @@ export const patientInfoPages: Record<string, DraftPage> = {
       },
       {
         q: "Can I stop treatment partway through?",
-        a: "Yes, you can ask for a pause at any point. Agree a signal with the dentist before you start, such as raising a hand. If a longer treatment is too much in one go, it can usually be split over more than one visit.",
+        a: "Yes, you can ask for a pause at any point. Agree on a signal with the dentist before you start, such as raising a hand. If a longer treatment is too much in one sitting, it can usually be split over more than one visit.",
       },
       {
         q: "Do you offer sedation?",
-        a: "Yes. Dr. Bhadresh Makani offers nitrous oxide and oral sedation, a tablet taken before treatment. Deeper forms of sedation are not offered at the practice. If you choose oral sedation, arrange for someone to drive you home afterwards.",
+        a: "Yes. Dr. Bhadresh Makani offers nitrous oxide and oral sedation, a tablet taken before treatment. Deeper forms of sedation are not offered at the practice. If you choose oral sedation, arrange for someone to drive you home afterward.",
       },
       {
         q: "Will it hurt?",
-        a: "Most treatment is done under local anesthetic, so you should feel pressure rather than pain, and the aim is to keep you as comfortable as possible. If you feel anything during treatment, say so and more numbing can be given. Some tenderness afterwards is common and usually settles within a few days.",
+        a: "Most treatment is done under local anesthetic, so you should feel pressure rather than pain, and the aim is to keep you as comfortable as possible. If you feel anything during treatment, say so and more numbing can be given. Some tenderness afterward is common and usually settles within a few days.",
       },
     ],
     cta: {
@@ -499,7 +499,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
       "How CareCredit dental financing works at Media Brite Smile in Media, PA: what it covers, how to apply and what to check before you sign.",
     h1: "Spreading the Cost With CareCredit",
     intro: [
-      "Media Brite Smile in Media, PA accepts CareCredit, a health and wellness credit card that lets you pay for dental treatment in monthly payments. It is most useful for larger treatment plans, such as implants, dentures or Invisalign, where paying in one go is not realistic.",
+      "Media Brite Smile in Media, PA, accepts CareCredit, a health and wellness credit card that lets you pay for dental treatment in monthly payments. It is most useful for larger treatment plans, such as implants, dentures or Invisalign, where paying all at once is not realistic.",
     ],
     sections: [
       {
@@ -522,7 +522,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "As a dentist with payment plans in Media, PA, the practice accepts CareCredit for out-of-pocket treatment costs, including:",
+            text: "As a practice that offers payment plans in Media, PA, Media Brite Smile accepts CareCredit for out-of-pocket treatment costs, including:",
           },
           {
             type: "p",
@@ -641,12 +641,12 @@ export const patientInfoPages: Record<string, DraftPage> = {
   },
   "/patient-information/care-and-comfort/infection-control": {
     url: "/patient-information/care-and-comfort/infection-control",
-    title: "Dental Infection Control | Media Brite Smile, Media PA",
+    title: "Dental Infection Control | Media Brite Smile, Media, PA",
     description:
       "The sterilization and infection control procedures followed at Media Brite Smile in Media, PA, and what happens between every patient.",
     h1: "How We Keep Treatment Rooms Safe",
     intro: [
-      "Dental infection control at Media Brite Smile in Media, PA follows the procedures recommended by three federal agencies: the Occupational Safety and Health Administration (OSHA), the Environmental Protection Agency (EPA) and the Centers for Disease Control and Prevention (CDC). Every reusable instrument is sterilized before every use.",
+      "Dental infection control at Media Brite Smile in Media, PA, follows the procedures recommended by three federal agencies: the Occupational Safety and Health Administration (OSHA), the Environmental Protection Agency (EPA) and the Centers for Disease Control and Prevention (CDC). Every reusable instrument is sterilized before every use.",
       "If you are immunocompromised, or simply want to know, you are welcome to ask any member of the team about it.",
     ],
     sections: [
@@ -742,12 +742,12 @@ export const patientInfoPages: Record<string, DraftPage> = {
   },
   "/patient-information/insurance-payment-options": {
     url: "/patient-information/insurance-payment-options",
-    title: "Dentist That Takes Insurance in Media, PA",
+    title: "Dentist Who Takes Insurance in Media, PA",
     description:
       "We work with 40+ dental plans including Delta Dental, Aetna, Cigna and MetLife. Plus a $300 savings plan for uninsured patients. Media, PA.",
-    h1: "Dentist That Takes Insurance in Media, PA",
+    h1: "Dentist Who Takes Insurance in Media, PA",
     intro: [
-      "Looking for a dentist that takes insurance in Media, PA? Media Brite Smile works with more than 40 dental plans, bills your insurer directly and tracks the claim for you. If you have no insurance, the in-house savings plan covers a year of routine care for $300.",
+      "Looking for a dentist who takes insurance in Media, PA? Media Brite Smile works with more than 40 dental plans, bills your insurer directly and tracks the claim for you. If you have no insurance, the in-house savings plan covers a year of routine care for $300.",
     ],
     sections: [
       {
@@ -780,7 +780,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If you are specifically looking for a dentist that accepts Delta Dental in Media, or a dentist that accepts PPO plans, both are on that list.",
+            text: "If you are specifically looking for a dentist who accepts Delta Dental in Media, or a dentist who accepts PPO plans, both are on that list.",
           },
           {
             type: "p",
@@ -798,11 +798,11 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "For a one-off visit: the $99 New Patient Special covers a new patient examination, against a regular price of $315.",
+            text: "For a one-time visit: the $99 New Patient Special covers a new patient examination, against a regular price of $315.",
           },
           {
             type: "p",
-            text: "For the year: the Dental Savings Plan at $300 covers two annual exams, one emergency exam, two oral cancer screenings and your X-rays for the year, including a full mouth series or Panorex. It also takes 10 to 15% off additional treatment.",
+            text: "For the year: the Dental Savings Plan at $300 covers two annual exams, one emergency exam, two oral cancer screenings and your X-rays for the year, including a full mouth series or Panorex. It also takes 10% to 15% off additional treatment.",
           },
           {
             type: "p",
@@ -873,7 +873,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
       },
     ],
     cta: {
-      title: "Check Your Cover Before You Book",
+      title: "Check Your Coverage Before You Book",
       text: "Call with your plan name and you will know where you stand before the appointment, not after.",
     },
   },
@@ -984,7 +984,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Your completed registration forms, if you filled them in beforehand",
+            text: "Your completed registration forms, if you filled them out beforehand",
           },
           {
             type: "link",
@@ -1075,11 +1075,11 @@ export const patientInfoPages: Record<string, DraftPage> = {
       },
       {
         q: "How long will my first visit take?",
-        a: "Longer than a routine check-up, because the examination is more thorough and there are forms to complete. Filling the registration forms in beforehand saves time at the practice. Ask for a time estimate when you book, since it depends on what you need.",
+        a: "Longer than a routine check-up, because the examination is more thorough and there are forms to complete. Filling out the registration forms beforehand saves time at the practice. Ask for a time estimate when you book, since it depends on what you need.",
       },
       {
         q: "What do I need to bring?",
-        a: "Your dental insurance details if you have them, a list of your medications including anything over-the-counter, any recent X-rays from a previous dentist, and your completed registration forms if you filled them in at home.",
+        a: "Your dental insurance details if you have them, a list of your medications including anything over-the-counter, any recent X-rays from a previous dentist, and your completed registration forms if you filled them out at home.",
       },
       {
         q: "I have not been to a dentist in years. Will I be judged?",
@@ -1102,7 +1102,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
       "Every treatment at Media Brite Smile in Media, PA: check-ups, gum care, cosmetic, implants, dentures and emergencies, plus what is referred out.",
     h1: "Dental Services in Media, PA",
     intro: [
-      "Media Brite Smile provides dental services in Media, PA from a child's first check-up to full-arch implants, all at 8 N Pennell Rd. The list below is complete, and it ends with the few things the practice does not do.",
+      "Media Brite Smile provides dental services in Media, PA, from a child's first check-up to full-arch implants, all at 8 N Pennell Rd. The list below is complete, and it ends with the few things the practice does not do.",
     ],
     sections: [
       {
@@ -1138,7 +1138,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Routine care is the check-ups, cleanings and small treatments that stop a problem becoming an expensive one.",
+            text: "Routine care is the check-ups, cleanings and small treatments that stop a problem from becoming an expensive one.",
           },
           {
             type: "link",
@@ -1294,7 +1294,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Implant work is led by Dr. Bhadresh Makani, who has placed thousands of implants and plans each case on CBCT 3D imaging. So you see one general, cosmetic and implant dentist in Media, PA, not a separate surgeon for the implant.",
+            text: "Implant work is led by Dr. Bhadresh Makani, who has placed thousands of implants and plans each case on CBCT 3D imaging. That means you see one general, cosmetic and implant dentist in Media, PA, not a separate surgeon for the implant.",
           },
         ],
       },
@@ -1312,7 +1312,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Immediate dentures, fitted on the day teeth are removed",
+            text: "Immediate dentures, placed the day teeth are removed",
           },
           {
             type: "link",
@@ -1440,12 +1440,12 @@ export const patientInfoPages: Record<string, DraftPage> = {
     ],
     sections: [
       {
-        heading: "Several Dentists Means Appointments That Fit Your Week",
+        heading: "Having Several Dentists Means Appointments That Fit Your Week",
         kind: null,
         items: [
           {
             type: "p",
-            text: "A practice with one dentist has one diary. Media Brite Smile has several dentists: Dr. Zan Chaudhary DMD, Dr. Sanketkumar Suvagiya DMD and Dr. Bhadresh Makani DDS, which makes it easier to find a time, and to book family members together.",
+            text: "A practice with one dentist has one schedule. Media Brite Smile has several dentists (Dr. Zan Chaudhary DMD, Dr. Sanketkumar Suvagiya DMD and Dr. Bhadresh Makani DDS), and that makes it easier to find a time and to book family members together.",
           },
           {
             type: "p",
@@ -1478,7 +1478,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Costs are explained before treatment starts, so you can decide with the figure in front of you. The practice works with more than 40 insurance plans, and for patients with no cover there is the in-house Dental Savings Plan and CareCredit financing.",
+            text: "Costs are explained before treatment starts, so you can decide with the figure in front of you. The practice works with more than 40 insurance plans, and for patients with no coverage there is the in-house Dental Savings Plan and CareCredit financing.",
           },
           {
             type: "p",
@@ -1516,7 +1516,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
               ],
               [
                 "What if I have no insurance?",
-                "Cover shapes what you can afford",
+                "Coverage shapes what you can afford",
                 "Savings plan, CareCredit and published offers",
               ],
               ["What do other patients say?", "Reviews are independent evidence", "4.9 stars from 375 Google reviews"],
@@ -1548,7 +1548,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "How do I know if a dentist is any good?",
-        a: "Look for independent reviews, a clear answer on who will do your treatment and their training, and costs explained before treatment starts. A good dentist also tells you plainly when something is outside what they do and refers you on, rather than keeping every case.",
+        a: "Look for independent reviews, a clear answer on who will do your treatment and their training, and costs explained before treatment starts. A good dentist also tells you plainly when something is outside what they do and refers you to a specialist, rather than keeping every case.",
       },
       {
         q: "Should I pick a practice with more than one dentist?",
@@ -1566,12 +1566,12 @@ export const patientInfoPages: Record<string, DraftPage> = {
   },
   "/patient-information/patient-registration": {
     url: "/patient-information/patient-registration",
-    title: "Dental Patient Forms | Media Brite Smile, Media PA",
+    title: "Dental Patient Forms | Media Brite Smile, Media, PA",
     description:
-      "Complete your registration and medical history forms before your visit to Media Brite Smile in Media, PA to save time at your appointment.",
+      "Complete your registration and medical history forms before your visit to Media Brite Smile in Media, PA, to save time at your appointment.",
     h1: "Patient Registration Forms",
     intro: [
-      "Filling in your new patient dental forms at home means less time in the waiting room at Media Brite Smile in Media, PA. Complete them before your appointment, and you can be seen sooner after you arrive.",
+      "Filling out your new patient dental forms at home means less time in the waiting room at Media Brite Smile in Media, PA. Complete them before your appointment, and you can be seen sooner after you arrive.",
     ],
     sections: [
       {
@@ -1633,7 +1633,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "If You Would Rather Fill Them In at the Practice",
+        heading: "If You Would Rather Fill Them Out at the Practice",
         kind: null,
         items: [
           {
@@ -1667,7 +1667,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
       "Request a dentist appointment in Media, PA. Send the form or call (610) 566-2711 and we will come back with the closest times across our dentists.",
     h1: "Request a Dentist Appointment in Media, PA",
     intro: [
-      "Send the form and our scheduling coordinator will come back to you with the closest available times. Or call (610) 566-2711 and book it in one go.",
+      "Send the form and our scheduling coordinator will come back to you with the closest available times. Or call (610) 566-2711 and book it in one call.",
     ],
     sections: [
       {
@@ -1685,7 +1685,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Our scheduling coordinator reads every request and contacts you to confirm a time. Nothing is booked until you have agreed it.",
+            text: "Our scheduling coordinator reads every request and contacts you to confirm a time. Nothing is booked until you have agreed to it.",
           },
           {
             type: "p",
@@ -1714,7 +1714,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "There is no out-of-hours service, so if you are searching for a dentist open now outside these times, the form is the fastest way to get the next available slot.",
+            text: "There is no after-hours service, so if you are searching for a dentist open now outside these times, the form is the fastest way to get the next available slot.",
           },
         ],
       },
@@ -1747,7 +1747,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "You can fill those in beforehand and save yourself the wait.",
+            text: "You can fill those out beforehand and save yourself the wait.",
           },
           {
             type: "link",
@@ -1800,10 +1800,10 @@ export const patientInfoPages: Record<string, DraftPage> = {
     url: "/patient-information/care-and-comfort/home-instructions",
     title: "Dental Aftercare Instructions | Media, PA",
     description:
-      "Dental aftercare instructions from Media Brite Smile in Media, PA for extractions, fillings, crowns, root canals and cosmetic work, and when to call us.",
+      "Dental aftercare instructions from Media Brite Smile in Media, PA, for extractions, fillings, crowns, root canals and cosmetic work, and when to call us.",
     h1: "After Your Treatment: Home Care Instructions",
     intro: [
-      "These dental aftercare instructions from Media Brite Smile in Media, PA cover what is normal after common treatments, what to do at home, and the signs that mean you should call. If anything here differs from what your dentist told you on the day, follow your dentist's instructions.",
+      "These dental aftercare instructions from Media Brite Smile in Media, PA, cover what is normal after common treatments, what to do at home, and the signs that mean you should call. If anything here differs from what your dentist told you at your appointment, follow your dentist's instructions.",
       "If you are worried, call (610) 566-2711.",
       "If you have severe facial swelling, trouble breathing or trouble swallowing, go to an emergency room or call 911. That is beyond what a dental office can treat.",
     ],
@@ -1826,7 +1826,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Eating. Drink plenty of fluids and eat soft, nutritious food on the day. You can return to normal food as soon as you are comfortable.",
+            text: "Eating. Drink plenty of fluids and eat soft, nutritious food for the rest of the day. You can return to normal food as soon as you are comfortable.",
           },
           {
             type: "p",
@@ -1845,7 +1845,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "You can usually drive yourself home and return to normal activity straight away. The tooth may feel tender for a few days. Avoid chewing hard food on it until the final restoration, often a crown, is placed within a few weeks, because the tooth is more fragile until then. Keep brushing and flossing as normal.",
+            text: "You can usually drive yourself home and return to normal activity right away. The tooth may feel tender for a few days. Avoid chewing hard food on it until the final restoration, often a crown, is placed within a few weeks, because the tooth is more fragile until then. Keep brushing and flossing as normal.",
           },
           {
             type: "link",
@@ -1864,7 +1864,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Crowns and bridges. These usually take two or three appointments. Between visits you wear a temporary, which protects the tooth and stops neighboring teeth moving.",
+            text: "Crowns and bridges. These usually take two or three appointments. Between visits you wear a temporary, which protects the tooth and stops neighboring teeth from moving.",
           },
           {
             type: "p",
@@ -1876,7 +1876,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If a temporary comes off, call and bring it with you so it can be re-cemented",
+            text: "If a temporary comes off, call and bring it with you so it can be recemented",
           },
           {
             type: "p",
@@ -1914,7 +1914,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "When to Call Us Straight Away",
+        heading: "When to Call Us Right Away",
         kind: null,
         items: [
           {
@@ -1970,7 +1970,7 @@ export const patientInfoPages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "What should I eat after an extraction?",
-        a: "Soft, nutritious food and plenty of fluids on the day, such as yogurt, soup that is not hot, eggs or mashed potato. Avoid using a straw for 72 hours. You can go back to normal food as soon as you are comfortable, chewing on the other side at first.",
+        a: "Soft, nutritious food and plenty of fluids for the rest of the day, such as yogurt, soup that is not hot, eggs or mashed potatoes. Avoid using a straw for 72 hours. You can go back to normal food as soon as you are comfortable, chewing on the other side at first.",
       },
       {
         q: "How long will the numbness last?",
@@ -1992,12 +1992,12 @@ export const patientInfoPages: Record<string, DraftPage> = {
   },
   "/patient-information/patient-education": {
     url: "/patient-information/patient-education",
-    title: "Dental Health Information | Media Brite Smile, Media PA",
+    title: "Dental Health Information | Media Brite Smile, Media, PA",
     description:
       "Plain-English explanations of common dental treatments and terms from Media Brite Smile in Media, PA, so you know what is being recommended and why.",
     h1: "Patient Education Library",
     intro: [
-      "This dental health information library from Media Brite Smile in Media, PA explains common treatments and terms in plain English. If a word on your treatment plan is new to you, start here, then ask the dentist anything that is still unclear.",
+      "This dental health information library from Media Brite Smile in Media, PA, explains common treatments and terms in plain English. If a word on your treatment plan is new to you, start here, then ask the dentist anything that is still unclear.",
     ],
     sections: [
       {

@@ -32,7 +32,7 @@ const welcomePost: BlogPost[] = [
     slug: "welcome-to-your-dentist-in-media",
     title: "Welcome to Your Dentist in Media",
     description:
-      "At Media Brite Smile, we understand the importance of having a dental practice that provides you with exceptional care. Our staff is committed to serving each and every patient with attentive care and quality dental work.",
+      "At Media Brite Smile, we understand the importance of having a dental practice that provides you with exceptional care. Our staff is committed to serving every patient with attentive care and quality dental work.",
     date: "2025-12-08",
     category: "Media, PA Dental Care",
     image: {
@@ -51,13 +51,13 @@ const welcomePost: BlogPost[] = [
       { type: "h2", text: "Dentist in Media" },
       {
         type: "p",
-        text: "At Media Brite Smile, we understand the importance of having a dental practice that provides you with exceptional care. Our staff is committed to serving each and every patient with attentive care and quality dental work.",
+        text: "At Media Brite Smile, we understand the importance of having a dental practice that provides you with exceptional care. Our staff is committed to serving every patient with attentive care and quality dental work.",
       },
       {
         type: "p",
         text: "Our practice provides general dentistry services including the prevention, diagnosis, and treatment of a wide variety of conditions and diseases that affect your teeth, gums, and oral health.",
       },
-      { type: "h3", text: "Our Practice’s Mission:" },
+      { type: "h3", text: "Our Practice’s Mission" },
       {
         type: "p",
         text: "To fulfill our mission of providing quality dental care to you and your family, we are committed to:",
@@ -65,7 +65,7 @@ const welcomePost: BlogPost[] = [
       {
         type: "list",
         items: [
-          "Staying up to date with latest techniques and equipment.",
+          "Staying up to date with the latest techniques and equipment.",
           "Ensuring a comfortable, relaxing environment.",
           "Exceeding your expectations with our professionalism.",
         ],

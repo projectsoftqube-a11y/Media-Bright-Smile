@@ -44,7 +44,7 @@ const pillars = [
   {
     icon: Users,
     title: "More than one dentist",
-    text: "More appointment times, cover when someone is away, and a colleague to look at a difficult case without sending you elsewhere.",
+    text: "More appointment times, coverage when someone is away, and a colleague to look at a difficult case without sending you elsewhere.",
   },
   {
     icon: PiggyBank,
@@ -57,7 +57,7 @@ const tech = [
   {
     icon: ScanLine,
     title: "Intraoral scanner",
-    text: "Teeth are scanned digitally rather than with impression putty. It fits better and avoids the gag reflex.",
+    text: "Teeth are scanned digitally rather than with impression putty. The digital scan fits better and avoids the gag reflex.",
   },
   {
     icon: Zap,
@@ -230,7 +230,7 @@ export default function AboutPage() {
             <Image
               data-reveal-media
               src="/images/office/waiting-room.webp"
-              alt={`Waiting area at ${site.name}, Media PA`}
+              alt={`Waiting area at ${site.name}, Media, PA`}
               fill
               sizes="(min-width:1024px) 50vw, 100vw"
               className="object-cover"
@@ -250,7 +250,7 @@ export default function AboutPage() {
             <RevealGroup className="mt-8 space-y-3" stagger={0.08}>
               {[
                 "The first visit can be a look and a conversation rather than treatment.",
-                "You can agree a signal to stop at any point.",
+                "You can agree on a signal to stop at any point.",
                 "If it has been years since your last visit, you get the findings and the options without a lecture about the gap.",
               ].map((t) => (
                 <RevealItem key={t}>
@@ -284,7 +284,7 @@ export default function AboutPage() {
               <div className="relative aspect-4/3 overflow-hidden rounded-4xl ring-1 ring-white/10 lg:aspect-4/5">
                 <Image
                   src="/images/office/operatory-1.webp"
-                  alt={`Treatment room at ${site.name}, Media PA`}
+                  alt={`Treatment room at ${site.name}, Media, PA`}
                   fill
                   sizes="(min-width:1024px) 45vw, 100vw"
                   className="object-cover"
@@ -294,7 +294,7 @@ export default function AboutPage() {
                   className="absolute inset-0 bg-linear-to-t from-ink/50 via-transparent to-transparent"
                 />
                 <span className="absolute top-4 left-4 inline-flex items-center gap-2 rounded-full bg-ink/80 px-3.5 py-1.5 text-sm font-semibold text-white ring-1 ring-white/15">
-                  <ScanLine className="size-4 text-glow" /> Treatment room, Media PA
+                  <ScanLine className="size-4 text-glow" /> Treatment room, Media, PA
                 </span>
               </div>
             </div>
@@ -352,7 +352,7 @@ export default function AboutPage() {
             eyebrow="What makes us different"
             title={
               <>
-                Three things, and none of them are <span className="text-brand-600">slogans</span>
+                Three things, and none of them is a <span className="text-brand-600">slogan</span>
               </>
             }
             aside={
@@ -422,7 +422,7 @@ export default function AboutPage() {
                   {site.address.street}, <span className="text-brand-600">Media</span>
                 </>
               }
-              lead="Open from 8am Monday to Friday. Patients travel in from across eastern and central Delaware County, including Swarthmore, Wallingford, Springfield, Brookhaven and Aston."
+              lead="Open from 8am Monday through Friday. Patients travel in from across eastern and central Delaware County, including Swarthmore, Wallingford, Springfield, Brookhaven and Aston."
             />
             <RevealGroup className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3" stagger={0.08}>
               <RevealItem>

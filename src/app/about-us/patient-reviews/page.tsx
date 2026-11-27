@@ -12,8 +12,8 @@ import { Reveal, RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { JsonLd, pageSchema } from "@/lib/schema";
 import { cn } from "@/lib/utils";
 
-const title = "Patient Reviews | Media Brite Smile, Media PA";
-const description = `Media Brite Smile holds ${site.rating.score} stars from ${site.rating.count} Google reviews. Read what patients in Media, PA say, and leave a review of your own visit.`;
+const title = "Patient Reviews | Media Brite Smile, Media, PA";
+const description = `Media Brite Smile holds ${site.rating.score} stars from ${site.rating.count} Google reviews. Read what patients in Media, PA, say, and leave a review of your own visit.`;
 
 export const metadata: Metadata = {
   title: { absolute: title },
@@ -137,8 +137,8 @@ export default function PatientReviewsPage() {
             <Reveal y={20}>
               <div className="mt-6 space-y-4 text-lg leading-relaxed">
                 <p>
-                  You will find them on our Google Business Profile. Anyone treated here can leave one, and they stay up
-                  whether they are flattering or not. That is why this page links out instead of pasting a hand-picked
+                  You will find them on our Google Business Profile. Anyone treated here can leave a review, and reviews stay
+                  up whether they are flattering or not. That is why this page links out instead of pasting a hand-picked
                   selection of quotes.
                 </p>
                 <p>

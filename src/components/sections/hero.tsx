@@ -38,7 +38,7 @@ const slides = [
     position: "object-[100%_25%] lg:object-[100%_0%]",
   },
 ];
-// Desktop: the photo covers the right 62-66% of the screen. Below 1024px: full width.
+// Desktop: the photo covers the right 62–66% of the screen. Below 1024px: full width.
 const SIZES = "(min-width: 1024px) 66vw, 100vw";
 const INTERVAL = 6000;
 

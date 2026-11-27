@@ -8,7 +8,7 @@ const t = (file: string, alt: string) => ({ src: `/images/topics/${file}.jpg`, a
 /* The practice's own photos, kept for pages about the practice itself. */
 const o = (file: string, room: string) => ({
   src: `/images/office/${file}`,
-  alt: `${room} at Media Brite Smile, Media PA`,
+  alt: `${room} at Media Brite Smile, Media, PA`,
 });
 
 export const topicImages = {
@@ -30,7 +30,7 @@ export const topicImages = {
   digitalLab: t("digital-lab", "A technician designing a restoration on screen beside a digital scanner"),
   toothache: t("toothache", "A woman holding her cheek because of tooth pain"),
   coldCompress: t("cold-compress", "A woman holding a cold compress against her cheek"),
-  formSigning: t("form-signing", "A patient filling in a form on a clipboard"),
+  formSigning: t("form-signing", "A patient filling out a form on a clipboard"),
   formReview: t("form-review", "A dentist and a patient going through a form together"),
   paperwork: t("paperwork", "Hands holding a form and a pen"),
   treatmentChair: t("treatment-chair", "A dentist treating a relaxed patient in the dental chair"),
@@ -167,8 +167,8 @@ export const topicImages = {
     "insurance-4",
     "Two people reviewing printed statements with a calculator and laptop on a wooden table",
   ),
-  insurance5: t("insurance-5", "Close-up of a person filling in a printed form with a pen on a wooden table"),
-  forms4: t("forms-4", "Woman seated in a bright lounge filling in a form on a clipboard"),
+  insurance5: t("insurance-5", "Close-up of a person filling out a printed form with a pen on a wooden table"),
+  forms4: t("forms-4", "Woman seated in a bright lounge filling out a form on a clipboard"),
   forms5: t("forms-5", "Patient checking in with staff at the front desk of a bright, modern clinic"),
   forms6: t("forms-6", "Person sitting in a clear chair writing on a clipboard form in a light-filled room"),
   calendar2: t("calendar-2", "Hand circling a date on a desk calendar with a pen"),

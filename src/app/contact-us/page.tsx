@@ -41,7 +41,7 @@ const crumbs: Crumb[] = [{ label: "Home", href: "/" }, { label: "Contact Us" }];
 const faqs: QA[] = [
   {
     q: "What is the phone number for Media Brite Smile?",
-    a: `The practice number is ${site.phone.display}. Calls are answered during opening hours: 8am to 5pm Monday to Thursday, and 8am to 2pm on Friday. Outside those hours, send an appointment request through the website and we will reply.`,
+    a: `The practice number is ${site.phone.display}. Calls are answered during opening hours: 8am to 5pm Monday through Thursday, and 8am to 2pm on Friday. Outside those hours, send an appointment request through the website and we will reply.`,
   },
   {
     q: "Where is Media Brite Smile located?",
@@ -49,7 +49,7 @@ const faqs: QA[] = [
   },
   {
     q: "Are you open on Fridays?",
-    a: `Yes. The practice is open every Friday from 8am to 2pm, and Monday to Thursday from 8am to 5pm.`,
+    a: `Yes. The practice is open every Friday from 8am to 2pm, and Monday through Thursday from 8am to 5pm.`,
   },
   {
     q: "Can I email the practice?",
@@ -83,7 +83,7 @@ const ways = [
   {
     icon: Footprints,
     title: "In person",
-    text: "Come in Monday to Thursday 8am to 5pm, or Friday 8am to 2pm, if you would rather talk to someone at the desk before booking.",
+    text: "Come in Monday through Thursday 8am to 5pm, or Friday 8am to 2pm, if you would rather talk to someone at the desk before booking.",
     action: { label: "Get directions", href: site.address.directions, external: true },
   },
 ];
@@ -100,7 +100,7 @@ export default function ContactPage() {
             Contact our dental office in <span className="text-brand-600">Media, PA</span>
           </>
         }
-        lead={`Our dental office in Media, PA is at ${site.address.street}. Call ${site.phone.display}, or send an appointment request and we will come back to you with a time.`}
+        lead={`Our dental office in Media, PA, is at ${site.address.street}. Call ${site.phone.display}, or send an appointment request and we will come back to you with a time.`}
         actions={false}
       >
         {/* one column across the full container: the form first, contact details under it */}
@@ -308,7 +308,7 @@ export default function ContactPage() {
                 First visits take <span className="text-brand-600">a little longer</span>
               </>
             }
-            lead="The examination is more thorough and there are forms to complete. You can fill those in before you arrive and save yourself the wait."
+            lead="The examination is more thorough and there are forms to complete. You can fill those out before you arrive and save yourself the wait."
           />
           <RevealGroup className="grid grid-cols-1 gap-3" stagger={0.08}>
             <RevealItem>

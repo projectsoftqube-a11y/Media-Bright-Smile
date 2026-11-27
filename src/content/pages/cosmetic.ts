@@ -13,7 +13,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
       "Whitening, Invisalign, veneers and bonding in Media, PA, matched to what bothers you about your smile. Prices published, with $1,000 off Invisalign.",
     h1: "Cosmetic Dentist in Media, PA",
     intro: [
-      "If you are unhappy with how your teeth look, a cosmetic dentist in Media, PA should start with what bothers you, not with a menu of treatments. At Media Brite Smile, the first step is working out whether the issue is color, position or shape, because each one has a different fix and a different cost.",
+      "If you are unhappy with how your teeth look, a cosmetic dentist in Media, PA, should start with what bothers you, not with a menu of treatments. At Media Brite Smile, the first step is working out whether the issue is color, position or shape, because each one has a different fix and a different cost.",
     ],
     sections: [
       {
@@ -192,7 +192,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
     url: "/cosmetic-dentistry/invisalign",
     title: "Invisalign in Media, PA | $1,000 Off | Media Brite Smile",
     description:
-      "Invisalign in Media, PA with $1,000 off, regular $5,800. Treatment in 6 to 18 months. Free consultation with an Invisalign certified dentist.",
+      "Invisalign in Media, PA, with $1,000 off, regular $5,800. Treatment in 6 to 18 months. Free consultation with an Invisalign certified dentist.",
     h1: "Invisalign in Media, PA",
     intro: [
       "Invisalign straightens teeth with a series of clear removable aligners instead of fixed metal braces. Treatment usually takes 6 to 18 months, and Dr. Zan Chaudhary is Invisalign certified.",
@@ -227,7 +227,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Each set moves your teeth a small amount over two weeks, then you change to the next set in the series. The sequence continues until treatment finishes, which takes 6 to 18 months depending on how far your teeth have to move.",
+            text: "Each set moves your teeth a small amount over two weeks; then you change to the next set in the series. The sequence continues until treatment finishes, which takes 6 to 18 months depending on how far your teeth have to move.",
           },
           {
             type: "p",
@@ -273,7 +273,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Fewer appointments than fixed braces is one of the genuine advantages: six to eight weeks between visits rather than monthly tightening.",
+            text: "Having fewer appointments than fixed braces is one of the genuine advantages: six to eight weeks between visits rather than monthly tightening.",
           },
         ],
       },
@@ -393,7 +393,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Teeth move back. That is not a failure of the treatment, it is how teeth behave.",
+            text: "Teeth move back. That is not a failure of the treatment; it is how teeth behave.",
           },
           {
             type: "p",
@@ -421,7 +421,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
         a: "Yes, Dr. Zan Chaudhary is Invisalign certified. He assesses whether aligners suit your case, plans the movements using the Invisalign software, and sees treatment through to retainers.",
       },
       {
-        q: "Invisalign or braces, which is better for me?",
+        q: "Invisalign or braces: which is better for me?",
         a: "It depends on your case rather than preference. Aligners handle crowding, spacing and mild to moderate bite problems well. Severe crowding and skeletal bite problems usually need fixed braces. Those are not offered here, so such cases are referred to an orthodontist.",
       },
       {
@@ -429,7 +429,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
         a: "Aligners only move teeth while they are in your mouth, so they are worn almost all day and taken out to eat and clean your teeth. Dr. Zan will give you the specific target for your plan at the consultation.",
       },
       {
-        q: "Will I need a retainer afterwards?",
+        q: "Will I need a retainer afterward?",
         a: "Yes. Teeth drift back over time without retention, so retainers are part of the treatment rather than an optional extra. What retention involves for your case is explained at the consultation and costed in from the start.",
       },
     ],
@@ -442,10 +442,10 @@ export const cosmeticPages: Record<string, DraftPage> = {
     url: "/cosmetic-dentistry/teeth-whitening",
     title: "Teeth Whitening in Media, PA | Media Brite Smile",
     description:
-      "Professional teeth whitening in Media, PA with a $249 take-home kit and lifetime refills, now $100 off the regular $550. See what it can and cannot fix.",
+      "Professional teeth whitening in Media, PA, with a $249 take-home kit and lifetime refills, now $100 off the regular $550. See what it can and cannot fix.",
     h1: "Teeth Whitening in Media, PA",
     intro: [
-      "Teeth whitening at Media Brite Smile in Media, PA lightens the natural color of your teeth under a dentist's supervision, with a take-home kit you keep using afterwards. It is currently $100 off the regular $550, and the kit included is worth $249, with lifetime refills.",
+      "Teeth whitening at Media Brite Smile in Media, PA, lightens the natural color of your teeth under a dentist's supervision, with a take-home kit you keep using afterward. It is currently $100 off the regular $550, and the kit included is worth $249, with lifetime refills.",
     ],
     sections: [
       {
@@ -475,7 +475,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "That is why no honest practice can promise a set number of shades. Yellowish staining from coffee, tea or age usually responds well. Greyer, deeper discoloration tends to respond less, and that is worth knowing before you spend anything.",
+            text: "That is why no honest practice can promise a set number of shades. Yellowish staining from coffee, tea or age usually responds well. Grayer, deeper discoloration tends to respond less, and that is worth knowing before you spend anything.",
           },
           {
             type: "p",
@@ -493,11 +493,11 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Because the kit comes with lifetime refills, you can top up the color later rather than paying for whitening again. Ask about the refill terms when you start, so you know how they work.",
+            text: "Because the kit comes with lifetime refills, you can touch up the color later rather than paying for whitening again. Ask about the refill terms when you start, so you know how they work.",
           },
           {
             type: "p",
-            text: '[Image] The practice\'s take-home whitening kit (alt: "Take-home teeth whitening kit provided by Media Brite Smile in Media PA")',
+            text: '[Image] The practice\'s take-home whitening kit (alt: "Take-home teeth whitening kit provided by Media Brite Smile in Media, PA")',
           },
         ],
       },
@@ -512,22 +512,22 @@ export const cosmeticPages: Record<string, DraftPage> = {
           {
             type: "table",
             rows: [
-              ["", "Professional whitening here", "Strips and shop kits"],
+              ["", "Professional whitening here", "Strips and store-bought kits"],
               ["Teeth and gums checked first", "Yes", "No"],
               ["Stains that will not respond identified beforehand", "Yes", "No"],
-              ["Advice if teeth become sensitive", "Yes", "Packet instructions only"],
+              ["Advice if teeth become sensitive", "Yes", "Package instructions only"],
               ["Fillings and crowns at the front flagged", "Yes", "No"],
-              ["Top-ups afterwards", "Lifetime kit refills included", "Buy a new pack"],
+              ["Touch-ups afterward", "Lifetime kit refills included", "Buy a new pack"],
             ],
           },
           {
             type: "p",
-            text: "Shop kits can work for some people. The risk is spending money on a product that cannot shift your type of staining, or whitening around a front filling that then stands out.",
+            text: "Store-bought kits can work for some people. The risk is spending money on a product that cannot remove your type of staining, or whitening around a front filling that then stands out.",
           },
         ],
       },
       {
-        heading: "Stains That Whitening Will Not Shift",
+        heading: "Stains That Whitening Will Not Remove",
         kind: null,
         items: [
           {
@@ -581,7 +581,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If it happens, you can space out the sessions, use a toothpaste for sensitive teeth, or stop for a few days. Tell the dentist if it continues, because sensitivity can also point to a problem that needs looking at before you carry on.",
+            text: "If it happens, you can space out the sessions, use a toothpaste for sensitive teeth, or stop for a few days. Tell the dentist if it continues, because sensitivity can also point to a problem that needs to be looked at before you continue.",
           },
         ],
       },
@@ -591,11 +591,11 @@ export const cosmeticPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "How long whitening lasts depends mostly on what you eat, drink and smoke afterwards, so no fixed timeframe can be promised.",
+            text: "How long whitening lasts depends mostly on what you eat, drink and smoke afterward, so no fixed timeframe can be promised.",
           },
           {
             type: "p",
-            text: "Coffee, tea, red wine and tobacco bring staining back fastest. The lifetime refills mean you can top up at home when the color starts to fade, rather than starting again from the beginning.",
+            text: "Coffee, tea, red wine and tobacco bring staining back fastest. The lifetime refills mean you can touch up at home when the color starts to fade, rather than starting again from the beginning.",
           },
         ],
       },
@@ -650,7 +650,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
       },
       {
         q: "How long does whitening last?",
-        a: "It depends mostly on what you eat, drink and smoke afterwards. Coffee, tea, red wine and tobacco bring staining back fastest. The take-home kit comes with lifetime refills, so you can top the color up at home when it starts to fade instead of paying for whitening again.",
+        a: "It depends mostly on what you eat, drink and smoke afterward. Coffee, tea, red wine and tobacco bring staining back fastest. The take-home kit comes with lifetime refills, so you can touch up the color at home when it starts to fade instead of paying for whitening again.",
       },
       {
         q: "Does whitening damage enamel?",
@@ -665,7 +665,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
         a: "No, crowns, veneers, fillings and bonding keep their original color. If you have one near the front, it can look darker once the teeth around it lighten. The dentist will point these out first, and replacing one to match the new shade can be planned once whitening is finished.",
       },
       {
-        q: "Why are my teeth sensitive afterwards?",
+        q: "Why are my teeth sensitive afterward?",
         a: "Whitening can make teeth temporarily more sensitive to cold while the enamel settles, and it usually fades once you pause or finish. Spacing out the sessions and using a toothpaste for sensitive teeth both help. If it carries on, tell the dentist so it can be checked for another cause.",
       },
     ],
@@ -678,7 +678,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
     url: "/cosmetic-dentistry/dental-bonding",
     title: "Dental Bonding in Media, PA | Media Brite Smile",
     description:
-      "Chipped tooth, small gap or worn edge? Dental bonding in Media, PA often fixes it in one visit. How long it lasts, and when a veneer is better.",
+      "Chipped tooth, small gap or worn edge? Dental bonding in Media, PA, often fixes it in one visit. How long it lasts, and when a veneer is better.",
     h1: "Dental Bonding in Media, PA",
     intro: [
       "Dental bonding repairs a chipped, cracked, worn or discolored tooth by shaping tooth-colored resin directly onto it. At Media Brite Smile in Media, PA, bonding can often be completed in a single visit, usually without removing any healthy tooth.",
@@ -691,7 +691,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Composite bonding in Media, PA is used for small, specific problems on one or a few teeth:",
+            text: "Composite bonding in Media, PA, is used for small, specific problems on one or a few teeth:",
           },
           {
             type: "p",
@@ -707,7 +707,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "A stain or dark patch that whitening will not shift",
+            text: "A stain or dark patch that whitening will not remove",
           },
           {
             type: "p",
@@ -729,7 +729,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Shade match. The resin color is chosen to match the teeth either side.",
+            text: "Shade match. The resin color is chosen to match the teeth on either side.",
           },
           {
             type: "p",
@@ -755,7 +755,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Bonding resin does not respond to whitening. If you want whiter teeth as well, whiten first, then have the bonding matched to your new shade. Doing it the other way round leaves a bonded tooth darker than the rest.",
+            text: "Bonding resin does not respond to whitening. If you want whiter teeth as well, whiten first, then have the bonding matched to your new shade. Doing it the other way around leaves a bonded tooth darker than the rest.",
           },
           {
             type: "link",
@@ -786,7 +786,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Bonding is the better buy when the problem is small and you want it fixed quickly at lower cost. A veneer is the better buy when you are changing several teeth, want the color to stay put, or a bonded tooth keeps chipping.",
+            text: "Bonding is the better buy when the problem is small and you want it fixed quickly at lower cost. A veneer is the better buy if you are changing several teeth, if you want the color to stay put, or if a bonded tooth keeps chipping.",
           },
           {
             type: "link",
@@ -801,7 +801,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Bonding resin is not as strong as natural enamel, so it is more likely to stain, chip or break than your own teeth. It typically lasts three to five years before it needs repairing or redoing, depending on where it is and how you use the tooth.",
+            text: "Bonding resin is not as strong as natural enamel, so it is more likely to stain, chip or break than your own teeth. It typically lasts three to five years before it needs to be repaired or redone, depending on where it is and how you use the tooth.",
           },
           {
             type: "p",
@@ -863,7 +863,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "How long does dental bonding last?",
-        a: "Typically three to five years before it needs repairing or redoing, depending on the tooth and your habits. Resin is not as strong as enamel, so biting hard objects, grinding and staining drinks shorten its life. Small chips can often be repaired without redoing the whole bond.",
+        a: "Typically three to five years before it needs to be repaired or redone, depending on the tooth and your habits. Resin is not as strong as enamel, so biting hard objects, grinding and staining drinks shorten its life. Small chips can often be repaired without redoing the whole bond.",
       },
       {
         q: "How much does bonding cost per tooth?",
@@ -1021,7 +1021,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
       },
       {
         q: "How much does an onlay cost?",
-        a: "It is quoted once the dentist has examined the tooth, because it depends on the size of the restoration. An onlay usually costs more than a filling, because it is lab-made and lasts longer, and less tooth is removed than for a crown. Send your plan name to check insurance cover.",
+        a: "It is quoted once the dentist has examined the tooth, because it depends on the size of the restoration. An onlay usually costs more than a filling, because it is lab-made and lasts longer, and less tooth is removed than for a crown. Send your plan name to check insurance coverage.",
       },
       {
         q: "Will it match my other teeth?",
@@ -1078,7 +1078,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Deep staining that whitening cannot shift",
+            text: "Deep staining that whitening cannot remove",
           },
           {
             type: "p",
@@ -1086,7 +1086,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Veneers are not the answer for crooked teeth that need moving, for a tooth with large decay, or for a heavily broken tooth. Those need Invisalign, a filling or a dental crown instead.",
+            text: "Veneers are not the answer for crooked teeth that need to be moved, for a tooth with large decay, or for a heavily broken tooth. Those need Invisalign, a filling or a dental crown instead.",
           },
         ],
       },
@@ -1104,7 +1104,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Planning. Shape, length and shade are agreed with you before any tooth is prepared.",
+            text: "Planning. You agree on the shape, length and shade before any tooth is prepared.",
           },
           {
             type: "p",
@@ -1232,7 +1232,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "A veneer can chip or come loose. Some can be repaired; others need replacing, which means making a new veneer for the same prepared tooth.",
+            text: "A veneer can chip or come loose. Some can be repaired; others need to be replaced, which means making a new veneer for the same prepared tooth.",
           },
         ],
       },
@@ -1270,7 +1270,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Smile design and cosmetic transformations are among the clinical interests of Dr. Zan Chaudhary, while veneers sit alongside crowns, bridges and root canal therapy for Dr. Sanketkumar Suvagiya, a Nova Southeastern graduate with highest honors.",
+            text: "Smile design and cosmetic transformations are among the clinical interests of Dr. Zan Chaudhary, while veneers sit alongside crowns, bridges and root canal therapy for Dr. Sanketkumar Suvagiya, who graduated from Nova Southeastern with the highest honors.",
           },
           {
             type: "p",
@@ -1302,7 +1302,7 @@ export const cosmeticPages: Record<string, DraftPage> = {
         a: "It depends on how many teeth show when you smile and what you want to change. Some people need one veneer to match a single tooth; others want a consistent look across every tooth in a full smile. The dentist will show you the options at the consultation, and the decision is yours.",
       },
       {
-        q: "What happens when a veneer needs replacing?",
+        q: "What happens when a veneer needs to be replaced?",
         a: "A new veneer is made for the same prepared tooth, so the process is similar to the original fitting. A small chip can sometimes be repaired instead. Because the tooth underneath was prepared for a veneer, it will always need one or another covering, which is worth understanding before you start.",
       },
     ],

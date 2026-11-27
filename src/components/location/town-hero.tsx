@@ -89,7 +89,7 @@ export function TownHero({ location, town }: { location: Location; town: Town })
         <Reveal delay={0.2} fade={false} className="min-w-0 lg:col-span-6">
           <div className="relative overflow-hidden rounded-4xl bg-mist shadow-lift ring-1 ring-line sm:rounded-5xl">
             <iframe
-              title={`Driving route from ${town.name}, PA to ${site.name}`}
+              title={`Driving route from ${town.name}, PA, to ${site.name}`}
               src={location.routeEmbed}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -136,7 +136,7 @@ export function TownHero({ location, town }: { location: Location; town: Town })
                 <span>
                   {drive.time ? (
                     <>
-                      Usual route: {drive.route}, {drive.time} and {drive.miles} (measured 12 Nov 2026).{" "}
+                      Usual route: {drive.route}, {drive.time} and {drive.miles} (measured Nov. 12, 2026).{" "}
                     </>
                   ) : (
                     <>{drive.route}. </>

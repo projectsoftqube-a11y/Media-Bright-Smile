@@ -104,7 +104,7 @@ const looks: Record<string, Look> = {
     name: "Request an Appointment",
     parent: hub,
     eyebrow: "Request an appointment",
-    primary: { label: "Fill In the Request Form", href: "#s-1" },
+    primary: { label: "Fill Out the Request Form", href: "#s-1" },
     hero: T.phoneCall,
     ...ctaOf(T.happyPatient4),
     dark: 3,

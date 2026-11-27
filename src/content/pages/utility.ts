@@ -8,7 +8,7 @@ import type { DraftPage } from "./types";
 export const utilityPages: Record<string, DraftPage> = {
   "/sitemap": {
     url: "/sitemap",
-    title: "Sitemap | Media Brite Smile, Media PA",
+    title: "Sitemap | Media Brite Smile, Media, PA",
     description:
       "Every page on the Media Brite Smile website in Media, PA, grouped by section, including every town and service-area page.",
     h1: "Sitemap",

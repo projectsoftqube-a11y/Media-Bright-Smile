@@ -31,6 +31,13 @@ function asFeature(t: string): Feature | null {
   return { label: m[1], text: m[3] };
 }
 
+/** A feature row's description stands on its own beside the label, so it reads as a sentence:
+    capital first letter and a closing full stop ("Toothache: rinse..." -> "Rinse ..."). */
+export const asSentence = (t: string) => {
+  const s = t.charAt(0).toUpperCase() + t.slice(1);
+  return /[.?!:;)”"]$/.test(s) ? s : `${s}.`;
+};
+
 /** A checklist line: short, no closing full stop, not a question. */
 const isListLine = (t: string) => t.split(" ").length <= 16 && !/[.?!:]$/.test(t);
 
@@ -112,6 +119,7 @@ export function toBlocks(items: DraftItem[]): Block[] {
         text: `${b.rows[0].label}${/^[a-z]/.test(b.rows[0].text) ? ":" : "."} ${b.rows[0].text}`,
       };
     if (b.kind === "list" && b.items.length === 1 && !b.items[0].href) return { kind: "p", text: b.items[0].text };
+    if (b.kind === "features") return { ...b, rows: b.rows.map((r) => ({ ...r, text: asSentence(r.text) })) };
     return b;
   });
 }

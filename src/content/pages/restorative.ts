@@ -37,7 +37,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Broken tooth repair in Media, PA is done here, with the filling or crown edge fitted tight against the tooth, which is where decay would otherwise get back in.",
+            text: "Broken tooth repair in Media, PA, is done here, with the filling or crown edge fitted tightly against the tooth, which is where decay would otherwise get back in.",
           },
           {
             type: "p",
@@ -51,11 +51,11 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Keeping your own tooth is usually the better outcome, because a removed tooth leaves a gap that then needs filling.",
+            text: "Keeping your own tooth is usually the better outcome, because a removed tooth leaves a gap that then needs to be filled.",
           },
           {
             type: "p",
-            text: "A root canal removes the infected nerve from inside the tooth and seals it, so the tooth stays in place. Root canals, crowns and bridges are among the clinical interests of Dr. Sanketkumar Suvagiya, who graduated from Nova Southeastern with highest honors.",
+            text: "A root canal removes the infected nerve from inside the tooth and seals it, so the tooth stays in place. Root canals, crowns and bridges are among the clinical interests of Dr. Sanketkumar Suvagiya, who graduated from Nova Southeastern with the highest honors.",
           },
           {
             type: "link",
@@ -84,7 +84,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Missing tooth replacement in Media, PA comes down to three options, all of them made and fitted at this practice.",
+            text: "Missing tooth replacement in Media, PA, comes down to three options, all of them made and placed at this practice.",
           },
           {
             type: "p",
@@ -92,7 +92,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "A dental bridge. A false tooth held in place by crowns on the teeth either side of the gap.",
+            text: "A dental bridge. A false tooth held in place by crowns on the teeth on either side of the gap.",
           },
           {
             type: "p",
@@ -133,7 +133,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Choose a bridge if the teeth either side already need crowns, or you want the gap closed in a shorter time.",
+            text: "Choose a bridge if the teeth on either side already need crowns, or you want the gap closed in a shorter time.",
           },
           {
             type: "p",
@@ -191,7 +191,7 @@ export const restorativePages: Record<string, DraftPage> = {
                 "Fillings, crowns, bridges, root canals, dentures",
                 "Priced after examination, explained before treatment starts",
               ],
-              ["Dental Savings Plan members", "10 to 15% off procedures including fillings, crowns and dentures"],
+              ["Dental Savings Plan members", "10% to 15% off procedures including fillings, crowns and dentures"],
             ],
           },
           {
@@ -220,7 +220,7 @@ export const restorativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "What are my options for a missing tooth?",
-        a: "There are three: a dental implant, a dental bridge or a denture. An implant replaces the root and stands alone, a bridge is anchored to the teeth either side, and a denture is removable. Where most or all teeth in a jaw are missing, All-on-X full-arch implants are a fourth option.",
+        a: "There are three: a dental implant, a dental bridge or a denture. An implant replaces the root and stands alone, a bridge is anchored to the teeth on either side, and a denture is removable. Where most or all teeth in a jaw are missing, All-on-X full-arch implants are a fourth option.",
       },
       {
         q: "Is an implant always better than a bridge?",
@@ -228,7 +228,7 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "How much does restorative work cost?",
-        a: "A single implant, abutment and crown starts at $3,999, with $500 off at present and a free consultation. Fillings, crowns, bridges, root canals and dentures are priced after an examination, and the cost is explained before any treatment starts. Savings Plan members get 10 to 15% off.",
+        a: "A single implant, abutment and crown starts at $3,999, with $500 off at present and a free consultation. Fillings, crowns, bridges, root canals and dentures are priced after an examination, and the cost is explained before any treatment starts. Savings Plan members get 10% to 15% off.",
       },
       {
         q: "Can you do all of this here, or will I be referred?",
@@ -244,10 +244,10 @@ export const restorativePages: Record<string, DraftPage> = {
     url: "/restorative-dentistry/dental-crowns",
     title: "Dental Crowns in Media, PA | Media Brite Smile",
     description:
-      "Dental crowns in Media, PA, fitted for a tight edge. How many visits, how long they last and what affects the cost.",
+      "Dental crowns in Media, PA, placed with a tight edge. How many visits, how long they last and what affects the cost.",
     h1: "Dental Crowns in Media, PA",
     intro: [
-      "A dental crown is a cap that covers a cracked, weakened or root-canal-treated tooth to protect it and restore its shape. At Media Brite Smile in Media, PA, crowns are fitted with close attention to the edge, because the fit at the edge is what decides how long a crown lasts.",
+      "A dental crown is a cap that covers a cracked, weakened or root-canal-treated tooth to protect it and restore its shape. At Media Brite Smile in Media, PA, crowns are placed with close attention to the edge, because the fit at the edge is what decides how long a crown lasts.",
       "Crowns and bridges are among the listed clinical interests of Dr. Sanketkumar Suvagiya.",
     ],
     sections: [
@@ -262,7 +262,7 @@ export const restorativePages: Record<string, DraftPage> = {
               ["What it is", "A cap covering the whole visible part of a tooth"],
               ["Typical visits", "Two: preparation, then fitting"],
               ["Records", "Taken with the intraoral scanner or an impression"],
-              ["Savings Plan members", "10 to 15% off crowns"],
+              ["Savings Plan members", "10% to 15% off crowns"],
             ],
           },
         ],
@@ -334,7 +334,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Preparation. The tooth is numbed, any decay or old filling is removed, and the tooth is shaped so the crown can sit over it. The tooth is then recorded and a temporary crown is fitted to protect it.",
+            text: "Preparation. The tooth is numbed, any decay or old filling is removed, and the tooth is shaped so the crown can sit over it. The tooth is then recorded and a temporary crown is placed to protect it.",
           },
           {
             type: "p",
@@ -379,7 +379,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "For many patients that means no tray of impression putty held in the mouth while it sets. Where a traditional impression suits the case better, that will be used instead, and you will be told which.",
+            text: "For many patients, that means no tray of impression putty held in the mouth while it sets. Where a traditional impression suits the case better, that will be used instead, and you will be told which.",
           },
           {
             type: "link",
@@ -451,7 +451,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "You will be given the figure before the tooth is prepared. The practice works with more than 40 dental insurance plans and bills your insurer directly. Without insurance, Dental Savings Plan members get 10 to 15% off crowns, and CareCredit can spread the cost into payments.",
+            text: "You will be given the figure before the tooth is prepared. The practice works with more than 40 dental insurance plans and bills your insurer directly. Without insurance, Dental Savings Plan members get 10% to 15% off crowns, and CareCredit can spread the cost into payments.",
           },
           {
             type: "link",
@@ -470,7 +470,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If a tooth is missing rather than damaged, a dental bridge uses crowns on the teeth either side to hold a replacement tooth.",
+            text: "If a tooth is missing rather than damaged, a dental bridge uses crowns on the teeth on either side to hold a replacement tooth.",
           },
         ],
       },
@@ -479,11 +479,11 @@ export const restorativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "How many visits does a crown take?",
-        a: "Usually two: at the first, the tooth is numbed, shaped and recorded, and a temporary crown is fitted. At the second, the permanent crown is checked for fit, bite and color and cemented in place. The gap between the visits allows the crown to be made, and you will be told it when you book.",
+        a: "Usually two: at the first, the tooth is numbed, shaped and recorded, and a temporary crown is placed. At the second, the permanent crown is checked for fit, bite and color and cemented in place. The gap between the visits allows the crown to be made, and you will be told it when you book.",
       },
       {
         q: "How much does a crown cost?",
-        a: "It is priced after an examination, because the cost depends on the tooth, the material and whether anything else is needed first, such as a root canal. You are given the figure before the tooth is prepared. Dental Savings Plan members get 10 to 15% off crowns, and CareCredit can spread the cost.",
+        a: "It is priced after an examination, because the cost depends on the tooth, the material and whether anything else is needed first, such as a root canal. You are given the figure before the tooth is prepared. Dental Savings Plan members get 10% to 15% off crowns, and CareCredit can spread the cost.",
       },
       {
         q: "How long will a crown last?",
@@ -491,7 +491,7 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "Does it hurt?",
-        a: "The tooth is numbed before it is prepared, so most patients feel pressure rather than pain during the appointment. The aim is to keep you as comfortable as possible throughout. The tooth and gum can feel tender for a few days afterwards, and over-the-counter pain relief usually manages it.",
+        a: "The tooth is numbed before it is prepared, so most patients feel pressure rather than pain during the appointment. The aim is to keep you as comfortable as possible throughout. The tooth and gum can feel tender for a few days afterward, and over-the-counter pain relief usually manages it.",
       },
       {
         q: "Do I need a crown after a root canal?",
@@ -499,7 +499,7 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "Will it match my other teeth?",
-        a: "For a visible tooth, the crown's shade is matched to the teeth around it. If you want whiter teeth, whiten before the crown is made, because a crown keeps its color and will not lighten afterwards. Back-tooth crowns are chosen for strength first, with appearance considered alongside.",
+        a: "For a visible tooth, the crown's shade is matched to the teeth around it. If you want whiter teeth, whiten before the crown is made, because a crown keeps its color and will not lighten afterward. Back-tooth crowns are chosen for strength first, with appearance considered alongside.",
       },
     ],
     cta: {
@@ -529,7 +529,7 @@ export const restorativePages: Record<string, DraftPage> = {
               ["Material", "Tooth-colored composite resin, shade-matched"],
               ["Typical visits", "Usually one"],
               ["Numbing", "Local anesthetic, so you feel pressure rather than pain"],
-              ["Savings Plan members", "10 to 15% off fillings"],
+              ["Savings Plan members", "10% to 15% off fillings"],
             ],
           },
         ],
@@ -544,7 +544,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Decay that has only just started on the surface can sometimes be watched and treated with fluoride and better cleaning. Once it has broken through the enamel, it needs filling, because a cavity only gets bigger. Signs you may notice include sensitivity to sweet, hot or cold, a rough edge your tongue keeps finding, or food catching in one spot.",
+            text: "Decay that has only just started on the surface can sometimes be watched and treated with fluoride and better cleaning. Once it has broken through the enamel, it needs to be filled, because a cavity only gets bigger. Signs you may notice include sensitivity to sweet, hot or cold, a rough edge your tongue keeps finding, or food catching in one spot.",
           },
           {
             type: "p",
@@ -566,7 +566,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Fillings at Media Brite Smile are placed with care: the dentist removes all of the decay and seals the edges tightly, which is where a filling most often fails.",
+            text: "Fillings at Media Brite Smile are placed with care: the dentist removes all of the decay and seals the edges tightly, because the edge is where a filling most often fails.",
           },
         ],
       },
@@ -618,7 +618,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The aim is to keep you as comfortable as possible, and the tooth is checked to be numb before the dentist starts. If you are nervous about dental work, say so when you book so the appointment can be paced around it.",
+            text: "The aim is to keep you as comfortable as possible, and the dentist checks that the tooth is numb before starting. If you are nervous about dental work, say so when you book so the appointment can be paced around it.",
           },
           {
             type: "link",
@@ -641,7 +641,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The American Dental Association considers both amalgam and composite safe for filling teeth, so a sound amalgam filling does not need removing for health reasons. The dentist will tell you honestly whether yours needs replacing.",
+            text: "The American Dental Association considers both amalgam and composite safe for filling teeth, so a sound amalgam filling does not need to be removed for health reasons. The dentist will tell you honestly whether yours needs to be replaced.",
           },
         ],
       },
@@ -681,7 +681,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Large fillings on back teeth take the most force and tend to need replacing sooner. What helps a filling last is good cleaning around its edges and fewer sugary or acidic drinks. A night guard if you grind, and regular check-ups so wear is caught early, help too.",
+            text: "Large fillings on back teeth take the most force and tend to need to be replaced sooner. What helps a filling last is good cleaning around its edges and fewer sugary or acidic drinks. A night guard if you grind, and regular check-ups so wear is caught early, help too.",
           },
           {
             type: "link",
@@ -704,7 +704,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Without insurance, Dental Savings Plan members get 10 to 15% off fillings, and the plan covers your exams and X-rays for the year.",
+            text: "Without insurance, Dental Savings Plan members get 10% to 15% off fillings, and the plan covers your exams and X-rays for the year.",
           },
           {
             type: "link",
@@ -754,11 +754,11 @@ export const restorativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Does getting a filling hurt?",
-        a: "For most patients it feels like pressure and vibration rather than pain, because the tooth is numbed with a local anesthetic first. The dentist checks the tooth is numb before starting. You may feel some sensitivity to cold for a few days afterwards, which usually settles without treatment.",
+        a: "For most patients it feels like pressure and vibration rather than pain, because the tooth is numbed with a local anesthetic first. The dentist checks that the tooth is numb before starting. You may feel some sensitivity to cold for a few days afterward, which usually settles without treatment.",
       },
       {
         q: "How much does a filling cost?",
-        a: "It is priced after an examination, because the cost depends on how many surfaces of the tooth need filling. You are told the figure before the filling is placed. With insurance, send the plan name so the team can check your cover, and Dental Savings Plan members get 10 to 15% off fillings.",
+        a: "It is priced after an examination, because the cost depends on how many surfaces of the tooth need to be filled. You are told the figure before the filling is placed. With insurance, send the plan name so the team can check your coverage, and Dental Savings Plan members get 10% to 15% off fillings.",
       },
       {
         q: "How long do fillings last?",
@@ -766,7 +766,7 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "Should I replace my old silver fillings?",
-        a: "Only if there is a clinical or cosmetic reason, such as a crack, leakage, decay underneath, or a dark filling that shows when you smile. The American Dental Association considers both amalgam and composite safe, so a sound silver filling does not need removing for health reasons. The dentist will tell you honestly.",
+        a: "Only if there is a clinical or cosmetic reason, such as a crack, leakage, decay underneath, or a dark filling that shows when you smile. The American Dental Association considers both amalgam and composite safe, so a sound silver filling does not need to be removed for health reasons. The dentist will tell you honestly.",
       },
       {
         q: "Can a cavity be treated without a filling?",
@@ -782,7 +782,7 @@ export const restorativePages: Record<string, DraftPage> = {
     url: "/restorative-dentistry/dental-sealants",
     title: "Dental Sealants | Dentist in Media, PA",
     description:
-      "Dental sealants protect the grooves in back teeth from decay. Who benefits, how they are applied in Media, PA and how long they last.",
+      "Dental sealants protect the grooves in back teeth from decay. Who benefits, how they are applied in Media, PA, and how long they last.",
     h1: "Dental Sealants",
     intro: [
       "A dental sealant is a thin, tooth-colored coating painted onto the chewing surfaces of the back teeth to seal the deep grooves where decay most often starts. At Media Brite Smile in Media, PA, sealants take a few minutes per tooth, involve no drilling, and are used for children and for some adults.",
@@ -817,7 +817,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Tooth sealants for kids in Media, PA are most worthwhile soon after the adult back teeth come through, because that is when those grooves are most vulnerable. The dentist will tell you if a tooth does not need one.",
+            text: "Tooth sealants for kids in Media, PA, are most worthwhile soon after the adult back teeth come through, because that is when those grooves are most vulnerable. The dentist will tell you if a tooth does not need one.",
           },
           {
             type: "link",
@@ -858,7 +858,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Sealants hold up well under normal chewing and can last several years before they need reapplying. The dentist checks them at each check-up, and a worn or chipped sealant can be topped up or replaced quickly.",
+            text: "Sealants hold up well under normal chewing and can last several years before they need to be reapplied. The dentist checks them at each check-up, and a worn or chipped sealant can be patched or replaced quickly.",
           },
         ],
       },
@@ -902,7 +902,7 @@ export const restorativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "How long do dental sealants last?",
-        a: "They can last several years under normal chewing before they need reapplying. The dentist checks them at every check-up, and a sealant that has worn or chipped can be topped up or replaced in a few minutes.",
+        a: "They can last several years under normal chewing before they need to be reapplied. The dentist checks them at every check-up, and a sealant that has worn or chipped can be patched or replaced in a few minutes.",
       },
       {
         q: "Are sealants worth the money?",
@@ -926,10 +926,10 @@ export const restorativePages: Record<string, DraftPage> = {
     url: "/restorative-dentistry/dental-bridges",
     title: "Dental Bridges in Media, PA | Media Brite Smile",
     description:
-      "A dental bridge in Media, PA fills a gap using the teeth either side. What it costs those teeth, how it compares with an implant, and what it costs.",
+      "A dental bridge in Media, PA, fills a gap using the teeth on either side. What it costs those teeth, how it compares with an implant, and what it costs.",
     h1: "Dental Bridges in Media, PA",
     intro: [
-      "A dental bridge replaces one or more missing teeth with a false tooth held in place by the teeth on either side of the gap. At Media Brite Smile in Media, PA, bridges are made at a dental lab and fitted over two or three appointments.",
+      "A dental bridge replaces one or more missing teeth with a false tooth held in place by the teeth on either side of the gap. At Media Brite Smile in Media, PA, bridges are made at a dental lab and placed over two or three appointments.",
       "This page is honest about the trade-off: a bridge relies on the neighboring teeth, and that matters when you compare it with an implant.",
     ],
     sections: [
@@ -942,7 +942,7 @@ export const restorativePages: Record<string, DraftPage> = {
             rows: [
               [""],
               ["What it replaces", "One or more missing teeth in a row"],
-              ["How it is held", "Crowns on, or bonding to, the teeth either side (fixed), or clasps (removable)"],
+              ["How it is held", "Crowns on, or bonding to, the teeth on either side (fixed), or clasps (removable)"],
               ["Typical appointments", "Two or three"],
               ["Made by", "A dental lab, from impressions of your teeth"],
               ["Materials", "Gold alloys, non-precious alloys, porcelain, or porcelain bonded to metal"],
@@ -960,7 +960,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "In a fixed bridge, the supports are crowns cemented onto the teeth either side of the gap, called abutment teeth, or the false tooth is bonded directly to them. A fixed bridge can only be removed by a dentist. A removable bridge attaches with metal clasps or precision attachments, and you take it out to clean it.",
+            text: "In a fixed bridge, the supports are crowns cemented onto the teeth on either side of the gap, called abutment teeth, or the false tooth is bonded directly to them. A fixed bridge can only be removed by a dentist. A removable bridge attaches with metal clasps or precision attachments, and you take it out to clean it.",
           },
           {
             type: "p",
@@ -974,7 +974,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "A bridge makes most sense when the teeth either side of the gap already need crowns, or when an implant is not suitable.",
+            text: "A bridge makes most sense when the teeth on either side of the gap already need crowns, or when an implant is not suitable.",
           },
           {
             type: "p",
@@ -994,7 +994,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If the teeth either side are healthy and unrestored, an implant usually leaves them untouched, and that is worth weighing. The implants page sets out the comparison from the implant side.",
+            text: "If the teeth on either side are healthy and unrestored, an implant usually leaves them untouched, and that is worth weighing. The implants page sets out the comparison from the implant side.",
           },
           {
             type: "link",
@@ -1009,7 +1009,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "To hold a fixed bridge, the teeth either side are reshaped so crowns can fit over them, and that is permanent.",
+            text: "To hold a fixed bridge, the teeth on either side are reshaped so crowns can fit over them, and that is permanent.",
           },
           {
             type: "p",
@@ -1031,7 +1031,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Assessment. The dentist checks the gap, the teeth either side and your gums, and explains your options with the cost of each.",
+            text: "Assessment. The dentist checks the gap, the teeth on either side and your gums, and explains your options with the cost of each.",
           },
           {
             type: "p",
@@ -1054,7 +1054,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "A bridge needs cleaning underneath the false tooth, not just on top, because that is where food and plaque collect.",
+            text: "A bridge needs to be cleaned underneath the false tooth, not just on top, because that is where food and plaque collect.",
           },
           {
             type: "p",
@@ -1126,10 +1126,10 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "Is a bridge cheaper than an implant?",
-        a: "Often the upfront cost is lower, but it depends on how many teeth are involved. A single implant, abutment and crown starts at $3,999 at the practice, with $500 off at present. A bridge is priced after an examination, and the condition of the teeth either side matters as much as the price.",
+        a: "Often the upfront cost is lower, but it depends on how many teeth are involved. A single implant, abutment and crown starts at $3,999 at the practice, with $500 off at present. A bridge is priced after an examination, and the condition of the teeth on either side matters as much as the price.",
       },
       {
-        q: "Will the teeth either side be damaged?",
+        q: "Will the teeth on either side be damaged?",
         a: "They are reshaped permanently so crowns can fit over them, which removes some enamel and dentin. If those teeth are healthy and unfilled, that is a real cost, and an implant avoids it. If they already have large fillings, the crowns protect them, so the trade-off is much smaller.",
       },
       {
@@ -1143,14 +1143,14 @@ export const restorativePages: Record<string, DraftPage> = {
     ],
     cta: {
       title: "Get a Straight Answer: Bridge or Implant",
-      text: "An assessment of the teeth either side, both options with the costs, and a recommendation you can weigh.",
+      text: "An assessment of the teeth on either side, both options with the costs, and a recommendation you can weigh.",
     },
   },
   "/restorative-dentistry/dental-implants": {
     url: "/restorative-dentistry/dental-implants",
     title: "Dental Implants in Media, PA | Media Brite Smile",
     description:
-      "Dental implants in Media, PA from $3,999, with $500 off implant, abutment and crown. CBCT-planned by an NYU-trained implant dentist. Free consultation.",
+      "Dental implants in Media, PA, from $3,999, with $500 off implant, abutment and crown. CBCT-planned by an NYU-trained implant dentist. Free consultation.",
     h1: "Dental Implants in Media, PA",
     intro: [
       "A dental implant replaces a missing tooth root with a titanium post, which then holds a crown that functions like the tooth you lost. Placed here by Dr. Bhadresh Makani DDS, who has placed thousands of implants.",
@@ -1264,7 +1264,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "That matters because an implant crown which does not seat precisely at the margin collects plaque in the one place you cannot clean.",
+            text: "That matters because an implant crown that does not seat precisely at the margin collects plaque in the one place you cannot clean.",
           },
         ],
       },
@@ -1290,11 +1290,11 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Abutment and crown. A digital scan, then the final crown fitted and checked.",
+            text: "Abutment and crown. A digital scan, then the final crown placed and checked.",
           },
           {
             type: "p",
-            text: "If a tooth still needs removing first, that adds healing time before placement.",
+            text: "If a tooth still needs to be removed first, that adds healing time before placement.",
           },
           {
             type: "p",
@@ -1323,7 +1323,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "An implant is usually the better long-term answer for a single gap with healthy teeth either side, because it leaves those teeth alone. A bridge can be the better call when the neighboring teeth already need crowns.",
+            text: "An implant is usually the better long-term answer for a single gap with healthy teeth on either side, because it leaves those teeth alone. A bridge can be the better call when the neighboring teeth already need crowns.",
           },
           {
             type: "link",
@@ -1375,7 +1375,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "What can change the figure is whether a tooth needs removing first and what the scan shows about the bone. You are given the exact number at the consultation, before anything is booked.",
+            text: "What can change the figure is whether a tooth needs to be removed first and what the scan shows about the bone. You are given the exact number at the consultation, before anything is booked.",
           },
           {
             type: "link",
@@ -1422,7 +1422,7 @@ export const restorativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "How much does a dental implant cost in Media, PA?",
-        a: "A single implant, abutment and crown starts at $3,999, with $500 off currently and a free consultation included. The exact figure depends on whether a tooth needs removing first and what the CBCT scan shows. You are given it before treatment is booked.",
+        a: "A single implant, abutment and crown starts at $3,999, with $500 off currently and a free consultation included. The exact figure depends on whether a tooth needs to be removed first and what the CBCT scan shows. You are given it before treatment is booked.",
       },
       {
         q: "How long does the whole process take?",
@@ -1430,11 +1430,11 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "How long do dental implants last?",
-        a: "No lifespan can be promised, but an implant post that has integrated with the bone is intended as a long-term replacement. The crown on top takes the wear and may need replacing in time. Healthy gums around the implant, not smoking and regular check-ups are what protect it most.",
+        a: "No lifespan can be promised, but an implant post that has integrated with the bone is intended as a long-term replacement. The crown on top takes the wear and may need to be replaced in time. Healthy gums around the implant, not smoking and regular check-ups are what protect it most.",
       },
       {
         q: "Do dental implants hurt?",
-        a: "Placement is done under local anesthetic, so you should not feel pain during it. Nitrous oxide and oral sedation are available if you are anxious. Afterwards most people describe soreness rather than severe pain, managed with ordinary pain relief for a few days.",
+        a: "Placement is done under local anesthetic, so you should not feel pain during it. Nitrous oxide and oral sedation are available if you are anxious. Afterward, most people describe soreness rather than severe pain, managed with ordinary pain relief for a few days.",
       },
       {
         q: "Am I a candidate for a dental implant?",
@@ -1465,7 +1465,7 @@ export const restorativePages: Record<string, DraftPage> = {
       "Full, partial, immediate and implant-retained dentures in Media, PA, plus the relines and repairs that keep them fitting, all from one practice.",
     h1: "Dentures in Media, PA",
     intro: [
-      "Media Brite Smile makes dentures in Media, PA for people losing some or all of their teeth: full, partial, immediate and implant-retained. The same practice then relines, repairs and checks them for as long as you wear them.",
+      "Media Brite Smile makes dentures in Media, PA, for people losing some or all of their teeth: full, partial, immediate and implant-retained. The same practice then relines, repairs and checks them for as long as you wear them.",
       "If you are worried about how they will look or whether you will manage to eat, both are covered honestly below.",
     ],
     sections: [
@@ -1480,8 +1480,8 @@ export const restorativePages: Record<string, DraftPage> = {
               ["Types made here", "Full, partial, immediate and implant-retained"],
               ["Aftercare here", "Relines, rebases, repairs, soft liners and denture check-ups"],
               ["Implant options", "Implant-retained dentures and All-on-X full-arch, with Dr. Bhadresh Makani"],
-              ["Comfort", "Nitrous oxide and oral sedation available if teeth need removing"],
-              ["Paying", "40+ insurance plans billed, 10 to 15% off for Savings Plan members, CareCredit"],
+              ["Comfort", "Nitrous oxide and oral sedation available if teeth need to be removed"],
+              ["Paying", "40+ insurance plans billed, 10% to 15% off for Savings Plan members, CareCredit"],
             ],
           },
         ],
@@ -1501,7 +1501,7 @@ export const restorativePages: Record<string, DraftPage> = {
               [
                 "Full dentures",
                 "A complete upper or lower set resting on the gums",
-                "All the teeth in that jaw are missing or need removing",
+                "All the teeth in that jaw are missing or need to be removed",
               ],
               [
                 "Partial dentures",
@@ -1510,7 +1510,7 @@ export const restorativePages: Record<string, DraftPage> = {
               ],
               [
                 "Immediate dentures",
-                "A denture made in advance and fitted on the day teeth are removed",
+                "A denture made in advance and placed the day teeth are removed",
                 "You do not want to go without teeth while you heal",
               ],
               [
@@ -1522,7 +1522,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Full dentures in Media, PA replace a whole arch at once. Partials are the usual answer when the teeth you have left are worth keeping.",
+            text: "Full dentures in Media, PA, replace a whole arch at once. Partials are the usual answer when the teeth you have left are worth keeping.",
           },
           {
             type: "link",
@@ -1567,11 +1567,11 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Fitting and adjustment. The finished denture is fitted, and follow-up visits ease any sore spots.",
+            text: "Fitting and adjustment. The finished denture is placed, and follow-up visits ease any sore spots.",
           },
           {
             type: "p",
-            text: "How long this takes depends on whether teeth need removing first and how much healing is needed, so the timeline is set at your first appointment.",
+            text: "How long this takes depends on whether teeth need to be removed first and how much healing is needed, so the timeline is set at your first appointment.",
           },
         ],
       },
@@ -1581,11 +1581,11 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "An immediate denture is made before your extractions and fitted at the appointment where the teeth come out, so you leave with teeth.",
+            text: "An immediate denture is made before your extractions and placed at the appointment where the teeth come out, so you leave with teeth.",
           },
           {
             type: "p",
-            text: "The gums shrink as they heal over the following months, so an immediate denture usually needs relining once healing settles. Some people then move on to a new denture made for the healed shape.",
+            text: "The gums shrink as they heal over the following months, so an immediate denture usually needs to be relined once healing settles. Some people then move on to a new denture made for the healed shape.",
           },
           {
             type: "p",
@@ -1680,7 +1680,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Your gums and jawbone keep changing shape after teeth are lost, so a denture that fitted well at first will slowly loosen.",
+            text: "Your gums and jawbone keep changing shape after teeth are lost, so a denture that fit well at first will slowly loosen.",
           },
           {
             type: "p",
@@ -1730,7 +1730,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "What dentures cost in Media, PA depends on the type and on whether extractions or implants are involved. It is priced after your examination and explained before anything is made.",
+            text: "What dentures cost in Media, PA, depends on the type and on whether extractions or implants are involved. It is priced after your examination and explained before anything is made.",
           },
           {
             type: "p",
@@ -1738,7 +1738,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The Dental Savings Plan takes 10 to 15% off procedures including dentures, for $300 a year",
+            text: "The Dental Savings Plan takes 10% to 15% off procedures including dentures, for $300 a year",
           },
           {
             type: "p",
@@ -1774,7 +1774,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "That matters whether you are in Media or traveling in from elsewhere in the county. You get a denture dentist in Delaware County, PA who can also offer the implant route if a conventional denture is not enough.",
+            text: "That matters whether you are in Media or traveling in from elsewhere in the county. You get a denture dentist in Delaware County, PA, who can also offer the implant route if a conventional denture is not enough.",
           },
         ],
       },
@@ -1783,11 +1783,11 @@ export const restorativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "How much do dentures cost?",
-        a: "It depends on the type and on whether teeth need removing or implants placing first. Dentures are priced after an examination, and the cost is explained before anything is made. Dental Savings Plan members get 10 to 15% off dentures, and CareCredit can spread the cost.",
+        a: "It depends on the type and on whether teeth need to be removed or implants placed first. Dentures are priced after an examination, and the cost is explained before anything is made. Dental Savings Plan members get 10% to 15% off dentures, and CareCredit can spread the cost.",
       },
       {
         q: "How long does it take to get dentures?",
-        a: "It depends on whether any teeth need removing and how much healing is needed. A conventional denture is made in stages, from impressions to a try-in to the final fitting. If teeth are coming out, an immediate denture can be fitted at that appointment so you are not left without teeth.",
+        a: "It depends on whether any teeth need to be removed and how much healing is needed. A conventional denture is made in stages, from impressions to a try-in to the final fitting. If teeth are coming out, an immediate denture can be placed at that appointment so you are not left without teeth.",
       },
       {
         q: "Will they look natural?",
@@ -1798,7 +1798,7 @@ export const restorativePages: Record<string, DraftPage> = {
         a: "Most people get back to a normal diet with practice. Start with soft food in small pieces, chew on both sides at once, and bring harder foods back gradually. If a lower denture keeps moving, implant-retained dentures hold it firmly in place.",
       },
       {
-        q: "How often do dentures need replacing?",
+        q: "How often do dentures need to be replaced?",
         a: "When they stop fitting well even after relining, or when the teeth are worn or damaged. Gums and bone keep changing shape after tooth loss, so the fit is checked at your denture check-ups. A reline or replacement is suggested when it is needed, not on a fixed date.",
       },
       {
@@ -1950,7 +1950,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: 'Surgery day. Any remaining teeth in the arch are removed, implants placed, and a provisional fixed bridge fitted. This is the stage sometimes called "teeth in a day": you leave with fixed teeth, but they are the provisional set.',
+            text: 'Surgery day. Any remaining teeth in the arch are removed, implants placed, and a provisional fixed bridge placed. This is the stage sometimes called "teeth in a day": you leave with fixed teeth, but they are the provisional set.',
           },
           {
             type: "p",
@@ -1958,7 +1958,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Final bridge. Once healed, the definitive bridge is made and fitted.",
+            text: "Final bridge. Once healed, the definitive bridge is made and placed.",
           },
           {
             type: "p",
@@ -2093,7 +2093,7 @@ export const restorativePages: Record<string, DraftPage> = {
       "How to clean and store dentures, why you still need check-ups without natural teeth, and the signs your denture needs attention.",
     h1: "Looking After Your Dentures",
     intro: [
-      "Good denture care in Media, PA comes down to three habits: clean them daily, keep them moist when they are out, and keep seeing your dentist. This page sets out the routine, and the signs that mean your denture needs a check at Media Brite Smile.",
+      "Good denture care in Media, PA, comes down to three habits: clean them daily, keep them moist when they are out, and keep seeing your dentist. This page sets out the routine, and the signs that mean your denture needs a check at Media Brite Smile.",
     ],
     sections: [
       {
@@ -2172,7 +2172,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Having no natural teeth does not mean having no need for a dentist. A denture exam in Media, PA checks:",
+            text: "Having no natural teeth does not mean having no need for a dentist. A denture exam in Media, PA, checks:",
           },
           {
             type: "p",
@@ -2192,7 +2192,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Worn and stained dentures do not chew as well and can make you look older. Tell the dentist about all your current medications too, because some cause a dry mouth, which affects how a denture sits.",
+            text: "You cannot chew as well with worn and stained dentures, and they can make you look older. Tell the dentist about all your current medications too, because some cause a dry mouth, which affects how a denture sits.",
           },
           {
             type: "link",
@@ -2227,7 +2227,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Have a loose denture checked straight away, because the movement causes friction and pressure on the gums and the bone underneath.",
+            text: "Have a loose denture checked right away, because the movement causes friction and pressure on the gums and the bone underneath.",
           },
           {
             type: "link",
@@ -2270,7 +2270,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "When a denture does need replacing, CareCredit can spread the cost.",
+            text: "When a denture does need to be replaced, CareCredit can spread the cost.",
           },
         ],
       },
@@ -2362,7 +2362,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The dentist will also tell you why it broke and what would prevent it happening again, because a denture that keeps breaking often means the fit has changed.",
+            text: "The dentist will also tell you why it broke and what would prevent it from happening again, because a denture that keeps breaking often means the fit has changed.",
           },
         ],
       },
@@ -2376,7 +2376,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "It is used when the teeth are still in good condition but the base has worn, weakened or cracked. A denture rebase in Media, PA is commonly recommended for:",
+            text: "It is used when the teeth are still in good condition but the base has worn, weakened or cracked. A denture rebase in Media, PA, is commonly recommended for:",
           },
           {
             type: "p",
@@ -2468,7 +2468,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The practice works with more than 40 dental insurance plans and bills your insurer directly. Dental Savings Plan members get 10 to 15% off denture work, and CareCredit can spread the cost of a new denture if repair is not the best route.",
+            text: "The practice works with more than 40 dental insurance plans and bills your insurer directly. Dental Savings Plan members get 10% to 15% off denture work, and CareCredit can spread the cost of a new denture if repair is not the best route.",
           },
           {
             type: "link",
@@ -2527,7 +2527,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "A loose denture in Media, PA is not only annoying. Movement causes friction and pressure on the gums and bone, which leads to sore spots, so have a loose fit checked rather than living with it.",
+            text: "A loose denture in Media, PA, is not only annoying. Movement causes friction and pressure on the gums and bone, which leads to sore spots, so have a loose fit checked rather than living with it.",
           },
         ],
       },
@@ -2644,7 +2644,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "The cost of a denture reline depends on the type, hard, soft or temporary, and is quoted when the denture has been checked. Dental Savings Plan members get 10 to 15% off denture work, and CareCredit is available.",
+            text: "The cost of a denture reline depends on the type (hard, soft or temporary) and is quoted when the denture has been checked. Dental Savings Plan members get 10% to 15% off denture work, and CareCredit is available.",
           },
           {
             type: "link",
@@ -2657,16 +2657,16 @@ export const restorativePages: Record<string, DraftPage> = {
     faqHeading: "Questions",
     faqs: [
       {
-        q: "How often do dentures need relining?",
-        a: "Usually every one to two years, because the gums and bone under a denture slowly change shape. Full dentures are recommended a hard reline about every two years, and a soft reline stays pliable for one to two years before it needs replacing.",
+        q: "How often do dentures need to be relined?",
+        a: "Usually every one to two years, because the gums and bone under a denture slowly change shape. A hard reline is recommended for full dentures about every two years, and a soft reline stays pliable for one to two years before it needs to be replaced.",
       },
       {
         q: "How much does a denture reline cost?",
-        a: "It depends on whether you need a hard, soft or temporary reline, so the price is given once the denture has been checked. Dental Savings Plan members get 10 to 15% off denture work, and insurance is billed directly.",
+        a: "It depends on whether you need a hard, soft or temporary reline, so the price is given once the denture has been checked. Dental Savings Plan members get 10% to 15% off denture work, and insurance is billed directly.",
       },
       {
         q: "What is the difference between a soft and hard reline?",
-        a: "A hard reline uses rigid acrylic and is the standard choice for most full dentures. A soft reline uses a pliable material that cushions tender gums and is less likely to cause sore spots, but it needs replacing sooner, usually within one to two years.",
+        a: "A hard reline uses rigid acrylic and is the standard choice for most full dentures. A soft reline uses a pliable material that cushions tender gums and is less likely to cause sore spots, but it needs to be replaced sooner, usually within one to two years.",
       },
       {
         q: "Do I need a reline or a whole new denture?",
@@ -2682,10 +2682,10 @@ export const restorativePages: Record<string, DraftPage> = {
     url: "/restorative-dentistry/dentures/immediate-dentures",
     title: "Immediate Dentures | Dentist in Media, PA",
     description:
-      "Immediate dentures are fitted the day your teeth are removed in Media, PA, so you are not left without teeth. What to expect in the weeks after.",
+      "Immediate dentures are placed the day your teeth are removed in Media, PA, so you are not left without teeth. What to expect in the weeks after.",
     h1: "Immediate Dentures",
     intro: [
-      "An immediate denture is made before your teeth are removed and fitted at the same appointment as the extractions, so you leave with teeth. At Media Brite Smile in Media, PA, it is the usual answer when the remaining teeth in a jaw cannot be saved and you do not want to be seen without them.",
+      "An immediate denture is made before your teeth are removed and placed at the same appointment as the extractions, so you leave with teeth. At Media Brite Smile in Media, PA, it is the usual answer when the remaining teeth in a jaw cannot be saved and you do not want to be seen without them.",
     ],
     sections: [
       {
@@ -2694,16 +2694,16 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "An immediate denture is a full or partial denture prepared in advance and placed straight after extraction. Some people call them same day dentures or temporary dentures, because they get you through healing until the final fit is made.",
+            text: "An immediate denture is a full or partial denture prepared in advance and placed immediately after extraction. Some people call them same-day dentures or temporary dentures, because they get you through healing until the final fit is made.",
           },
           {
             type: "p",
-            text: "The trade-off is that it is made for a mouth that is about to change, so it needs adjusting as you heal.",
+            text: "The trade-off is that it is made for a mouth that is about to change, so it needs to be adjusted as you heal.",
           },
         ],
       },
       {
-        heading: "Fitted the Same Day as Extractions",
+        heading: "Placed the Same Day as Extractions",
         kind: null,
         items: [
           {
@@ -2712,7 +2712,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Extraction appointment. The teeth are removed under local anesthetic, and the immediate denture is placed straight away.",
+            text: "Extraction appointment. The teeth are removed under local anesthetic, and the immediate denture is placed right away.",
           },
           {
             type: "p",
@@ -2730,7 +2730,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "After extraction, the gums and the bone underneath shrink as they heal. The denture that fitted on day one gradually becomes looser.",
+            text: "After extraction, the gums and the bone underneath shrink as they heal. The denture that fit on day one gradually becomes looser.",
           },
           {
             type: "p",
@@ -2744,7 +2744,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "While you heal, temporary soft linings or tissue conditioners are added inside the denture to keep it fitting. These may need adjusting or replacing several times during the healing period.",
+            text: "While you heal, temporary soft linings or tissue conditioners are added inside the denture to keep it fitting. These may need to be adjusted or replaced several times during the healing period.",
           },
           {
             type: "p",
@@ -2811,12 +2811,12 @@ export const restorativePages: Record<string, DraftPage> = {
     faqHeading: "Questions",
     faqs: [
       {
-        q: "Will I leave with teeth on the day?",
+        q: "Will I leave with teeth the same day?",
         a: "Yes, that is the purpose of an immediate denture. It is made in advance from impressions of your mouth and placed at the same appointment as the extractions, so you do not go home without teeth.",
       },
       {
         q: "Do immediate dentures fit properly?",
-        a: "They fit at first, but they loosen as the gums and bone shrink during healing. Temporary linings and tissue conditioners keep them comfortable in the meantime and may need replacing several times. A permanent reline, or a new denture, gives the final fit once healing is complete.",
+        a: "They fit at first, but they loosen as the gums and bone shrink during healing. Temporary linings and tissue conditioners keep them comfortable in the meantime and may need to be replaced several times. A permanent reline, or a new denture, gives the final fit once healing is complete.",
       },
       {
         q: "How long until my final dentures?",
@@ -2836,11 +2836,11 @@ export const restorativePages: Record<string, DraftPage> = {
     url: "/restorative-dentistry/dentures/implant-retained-dentures",
     title: "Implant-Retained Dentures in Media, PA | Media Brite Smile",
     description:
-      "Implant-retained dentures in Media, PA that snap onto implants so they stay put when you eat and talk. The three designs, how many implants and the cost.",
+      "Implant-retained dentures in Media, PA, that snap onto implants so they stay put when you eat and talk. The three designs, how many implants and the cost.",
     h1: "Implant-Retained Dentures in Media, PA",
     intro: [
       "Implant-retained dentures snap onto dental implants placed in the jaw, so the denture stays where you put it instead of moving when you eat or talk. At Media Brite Smile in Media, PA, they are planned by Dr. Bhadresh Makani, who has placed thousands of implants, using CBCT 3D imaging.",
-      "They are most often chosen by people whose lower denture will not stay in place. Also called implant supported dentures in Media, PA, they come in three designs depending on how secure you want them to be.",
+      "They are most often chosen by people whose lower denture will not stay in place. Also called implant-supported dentures in Media, PA, they come in three designs depending on how secure you want them to be.",
     ],
     sections: [
       {
@@ -2928,7 +2928,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Fitting the denture. The denture, with its attachments, clips or bar, is fitted and adjusted.",
+            text: "Fitting the denture. The denture, with its attachments, clips or bar, is placed and adjusted.",
           },
           {
             type: "p",
@@ -2965,7 +2965,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "A removable implant denture comes out every day for cleaning, and the implants underneath need cleaning too.",
+            text: "A removable implant denture comes out every day for cleaning, and the implants underneath need to be cleaned too.",
           },
           {
             type: "p",
@@ -2977,7 +2977,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "All designs: keep your review visits, because clips and attachments wear and need replacing from time to time",
+            text: "All designs: keep your review visits, because clips and attachments wear and need to be replaced from time to time",
           },
           {
             type: "p",
@@ -3023,7 +3023,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The practice works with more than 40 dental insurance plans and bills your insurer directly. Dental Savings Plan members get 10 to 15% off dentures, and CareCredit can spread the cost into payments.",
+            text: "The practice works with more than 40 dental insurance plans and bills your insurer directly. Dental Savings Plan members get 10% to 15% off dentures, and CareCredit can spread the cost into payments.",
           },
           {
             type: "link",
@@ -3054,7 +3054,7 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "How much does it cost compared with a normal denture?",
-        a: "More, because the implants are part of it as well as the denture. The total depends on the design, the number of implants and whether extractions or bone work are needed first, so it is priced after the CBCT scan. Dental Savings Plan members get 10 to 15% off dentures, and CareCredit can spread the cost.",
+        a: "More, because the implants are part of it as well as the denture. The total depends on the design, the number of implants and whether extractions or bone work are needed first, so it is priced after the CBCT scan. Dental Savings Plan members get 10% to 15% off dentures, and CareCredit can spread the cost.",
       },
       {
         q: "Will it still come out for cleaning?",
@@ -3070,7 +3070,7 @@ export const restorativePages: Record<string, DraftPage> = {
     url: "/restorative-dentistry/dentures/partial-dentures",
     title: "Partial Dentures | Dentist in Media, PA",
     description:
-      "Partial dentures in Media, PA replace some missing teeth while keeping the healthy ones. Metal and acrylic options, and how they compare with a bridge.",
+      "Partial dentures in Media, PA, replace some missing teeth while keeping the healthy ones. Metal and acrylic options, and how they compare with a bridge.",
     h1: "Partial Dentures",
     intro: [
       "A removable partial denture replaces one or more missing teeth while your remaining natural teeth stay in place. At Media Brite Smile in Media, PA, each partial denture is designed around your own mouth, to restore your smile, your speech and your ability to chew.",
@@ -3090,7 +3090,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Keeping the gaps filled also helps stop the neighboring teeth drifting or tipping into the space.",
+            text: "Keeping the gaps filled also helps stop the neighboring teeth from drifting or tipping into the space.",
           },
         ],
       },
@@ -3124,7 +3124,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Clasps hold the partial on to your natural teeth. The dentist plans where they sit, so they are placed on teeth that show less when you smile wherever possible. Ask to see the design before it is made if visibility matters to you.",
+            text: "Clasps hold the partial onto your natural teeth. The dentist plans where they sit, so they are placed on teeth that show less when you smile wherever possible. Ask to see the design before it is made if visibility matters to you.",
           },
         ],
       },
@@ -3138,7 +3138,7 @@ export const restorativePages: Record<string, DraftPage> = {
               ["", "Partial denture", "Bridge", "Implant"],
               ["Fixed or removable", "Removable", "Fixed", "Fixed"],
               ["Neighboring teeth", "Used for support, not cut down", "Prepared for crowns", "Left alone"],
-              ["Number of gaps", "Several, on either side", "One gap, with teeth either side", "One per implant"],
+              ["Number of gaps", "Several, on either side", "One gap, with teeth on either side", "One per implant"],
               ["Cost", "Lowest", "Middle", "Highest"],
             ],
           },
@@ -3210,7 +3210,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "The price of a partial denture depends on the material and how many teeth it replaces, so it is quoted at your consultation. Dental Savings Plan members get 10 to 15% off denture work, and CareCredit can spread the cost.",
+            text: "The price of a partial denture depends on the material and how many teeth it replaces, so it is quoted at your consultation. Dental Savings Plan members get 10% to 15% off denture work, and CareCredit can spread the cost.",
           },
           {
             type: "link",
@@ -3224,11 +3224,11 @@ export const restorativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "How much are partial dentures?",
-        a: "The price depends on the material, metal-based or acrylic, and how many teeth are replaced, so it is quoted after the consultation. Dental Savings Plan members get 10 to 15% off denture work, and CareCredit can spread the cost monthly.",
+        a: "The price depends on the material, metal-based or acrylic, and how many teeth are replaced, so it is quoted after the consultation. Dental Savings Plan members get 10% to 15% off denture work, and CareCredit can spread the cost monthly.",
       },
       {
         q: "Partial denture or a bridge: which is better?",
-        a: "It depends on the gaps. A bridge is fixed but needs the teeth either side prepared for crowns, so it suits a single gap. A partial denture is removable, replaces several teeth across the arch and leaves healthy teeth uncut. The dentist will go through both for your mouth.",
+        a: "It depends on the gaps. A bridge is fixed but needs the teeth on either side prepared for crowns, so it suits a single gap. A partial denture is removable, replaces several teeth across the arch and leaves healthy teeth uncut. The dentist will go through both for your mouth.",
       },
       {
         q: "Will people see the clasps?",
@@ -3264,7 +3264,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "It is fitted to the shape of your gums, so it also improves the fit.",
+            text: "It is molded to the shape of your gums, so it also improves the fit.",
           },
         ],
       },
@@ -3307,7 +3307,7 @@ export const restorativePages: Record<string, DraftPage> = {
               [
                 "How long it lasts",
                 "A hard reline is recommended about every two years",
-                "Stays pliable for one to two years before replacing",
+                "Stays pliable for one to two years before it needs to be replaced",
               ],
               ["Feel", "Firm", "Softer against the gums"],
             ],
@@ -3329,7 +3329,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "A soft liner stays pliable for one to two years before it needs replacing. Over time the material hardens and is harder to keep clean, so it is checked at your denture visits. Clean it gently with a soft brush and denture cleaner, never hot water.",
+            text: "A soft liner stays pliable for one to two years before it needs to be replaced. Over time the material hardens and is harder to keep clean, so it is checked at your denture visits. Clean it gently with a soft brush and denture cleaner, never hot water.",
           },
         ],
       },
@@ -3403,7 +3403,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Non surgical endodontics in Media, PA covers the treatment most people know simply as a root canal. Everything is done from inside the tooth:",
+            text: "Non-surgical endodontics in Media, PA, covers the treatment most people know simply as a root canal. Everything is done from inside the tooth:",
           },
           {
             type: "p",
@@ -3427,7 +3427,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Treatment is completed in one or more visits, depending on the tooth. Most patients drive themselves home and return to normal activity straight afterwards.",
+            text: "Treatment is completed in one or more visits, depending on the tooth. Most patients drive themselves home and return to normal activity right afterward.",
           },
           {
             type: "link",
@@ -3455,7 +3455,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Root canal without surgery in Media, PA is what almost every patient needs. Surgery is the exception, used only when the infection sits where a standard root canal cannot reach it.",
+            text: "Root canal without surgery in Media, PA, is what almost every patient needs. Surgery is the exception, used only when the infection sits where a standard root canal cannot reach it.",
           },
         ],
       },
@@ -3479,7 +3479,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "The practice has no endodontist on staff and does not carry out root canal surgery. If your tooth needs surgery, or the chance of a successful root canal is low, you will be told at the consultation, or as soon as a complication becomes clear, and referred.",
+            text: "The practice has no endodontist on staff and does not carry out root canal surgery. If your tooth needs surgery, or the chance of a successful root canal is low, you will be told at the consultation, or as soon as a complication becomes clear, and referred to a specialist.",
           },
           {
             type: "p",
@@ -3567,7 +3567,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "None of these on its own confirms it. An examination and an X-ray show whether the nerve can be saved, needs a root canal, or whether the tooth is beyond keeping.",
+            text: "None of these on its own confirms it. An examination and an X-ray show whether the nerve can be saved, whether it needs a root canal, or whether the tooth is beyond keeping.",
           },
         ],
       },
@@ -3581,11 +3581,11 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The pain people associate with root canals is usually the infection that brought them in, not the treatment that ends it. The aim is to keep you as comfortable as possible throughout, and the tooth is checked to be properly numb before anything starts.",
+            text: "The pain people associate with root canals is usually the infection that brought them in, not the treatment that ends it. The aim is to keep you as comfortable as possible throughout, and the dentist checks that the tooth is properly numb before anything starts.",
           },
           {
             type: "p",
-            text: "Afterwards the tooth is often tender for a few days while the area settles, and over-the-counter pain relief usually manages it.",
+            text: "Afterward, the tooth is often tender for a few days while the area settles, and over-the-counter pain relief usually manages it.",
           },
           {
             type: "p",
@@ -3620,7 +3620,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Sealing. The canals are filled and sealed to stop bacteria getting back in.",
+            text: "Sealing. The canals are filled and sealed to stop bacteria from getting back in.",
           },
           {
             type: "p",
@@ -3652,7 +3652,7 @@ export const restorativePages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "Why the Tooth Usually Needs a Crown Afterwards",
+        heading: "Why the Tooth Usually Needs a Crown Afterward",
         kind: null,
         items: [
           {
@@ -3680,14 +3680,14 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Keeping your own tooth is usually the better outcome when it can be saved, because a removed tooth leaves a gap that then needs filling.",
+            text: "Keeping your own tooth is usually the better outcome when it can be saved, because a removed tooth leaves a gap that then needs to be filled.",
           },
           {
             type: "table",
             rows: [
               ["", "Root canal", "Extraction"],
               ["Keeps your own tooth", "Yes", "No"],
-              ["Usually needs a crown afterwards", "Often, for back teeth", "No"],
+              ["Usually needs a crown afterward", "Often, for back teeth", "No"],
               ["Leaves a gap", "No", "Yes, usually needing an implant, bridge or denture"],
               [
                 "When it is the right call",
@@ -3717,7 +3717,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "There is no endodontist (root canal specialist) on staff. Teeth with unusually curved or blocked canals, or a root canal that needs redoing, can need specialist care. You would be told at your assessment if that applies to your tooth.",
+            text: "There is no endodontist (root canal specialist) on staff. Teeth with unusually curved or blocked canals, or a root canal that needs to be redone, can need specialist care. You would be told at your assessment if that applies to your tooth.",
           },
         ],
       },
@@ -3727,7 +3727,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "A tooth infection or abscess needs treating promptly, because it does not clear up on its own. Abscess treatment in Media, PA usually means clearing the infection through a root canal, or removing the tooth if it cannot be saved.",
+            text: "A tooth infection or abscess needs to be treated promptly, because it does not clear up on its own. Abscess treatment in Media, PA, usually means clearing the infection through a root canal, or removing the tooth if it cannot be saved.",
           },
           {
             type: "p",
@@ -3750,7 +3750,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "A front tooth is usually less than a molar, and a crown afterwards is priced separately. The practice works with more than 40 dental insurance plans and bills your insurer directly. We are not able to confirm what your plan covers from a website. Send us the plan name and we will check it for you.",
+            text: "A front tooth usually costs less than a molar, and a crown afterward is priced separately. The practice works with more than 40 dental insurance plans and bills your insurer directly. We are not able to confirm what your plan covers from a website. Send us the plan name and we will check it for you.",
           },
           {
             type: "p",
@@ -3779,7 +3779,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Most people go back to normal activities straight afterwards, with some tenderness for a few days.",
+            text: "Most people go back to normal activities right afterward, with some tenderness for a few days.",
           },
           {
             type: "p",
@@ -3809,7 +3809,7 @@ export const restorativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Does a root canal hurt?",
-        a: "For most patients it feels much like having a filling, because the tooth is fully numbed first. The pain people dread is usually the infection that brought them in, and the treatment is what ends it. The tooth may be tender for a few days afterwards, which over-the-counter pain relief usually manages.",
+        a: "For most patients it feels much like having a filling, because the tooth is fully numbed first. The pain people dread is usually the infection that brought them in, and the treatment is what ends it. The tooth may be tender for a few days afterward, which over-the-counter pain relief usually manages.",
       },
       {
         q: "How much does a root canal cost?",
@@ -3817,14 +3817,14 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "How many appointments will I need?",
-        a: "Many root canals take one or two visits. A front tooth with one canal is usually quicker than a molar with several, and a tooth with significant infection may be cleaned first and sealed at a second visit. If a crown is needed afterwards, that adds its own appointments, and you will be told the plan beforehand.",
+        a: "Many root canals take one or two visits. A front tooth with one canal is usually quicker than a molar with several, and a tooth with significant infection may be cleaned first and sealed at a second visit. If a crown is needed afterward, that adds its own appointments, and you will be told the plan beforehand.",
       },
       {
         q: "Should I have a root canal or just pull the tooth?",
         a: "If the tooth can be saved, keeping it is usually the better outcome, because removing it leaves a gap that then needs an implant, bridge or denture. Extraction is the better call when the tooth is too broken or cracked to restore. The dentist will give you both options with the costs next to them.",
       },
       {
-        q: "Do I really need a crown afterwards?",
+        q: "Do I really need a crown afterward?",
         a: "Back teeth usually do, because a tooth that has had a root canal is more brittle and a crown protects it from breaking under biting force. Front teeth take less pressure and sometimes manage with a filling instead. The dentist will tell you which your tooth needs, and why, before anything is booked.",
       },
       {
@@ -3868,7 +3868,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "A tooth needs removing when there is not enough healthy tooth or bone left to restore it. Broken tooth removal in Media, PA is needed when the break runs too deep to repair.",
+            text: "A tooth needs to be removed when there is not enough healthy tooth or bone left to restore it. Broken tooth removal in Media, PA, is needed when the break runs too deep to repair.",
           },
           {
             type: "p",
@@ -3888,7 +3888,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "A tooth that needs removing before orthodontic treatment",
+            text: "A tooth that needs to be removed before orthodontic treatment",
           },
           {
             type: "p",
@@ -3907,7 +3907,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Tooth removal in Media, PA is usually quicker than people expect.",
+            text: "Tooth removal in Media, PA, is usually quicker than people expect.",
           },
           {
             type: "p",
@@ -3927,7 +3927,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If you feel pain rather than pressure at any point, say so straight away and more anesthetic can be given.",
+            text: "If you feel pain rather than pressure at any point, say so right away and more anesthetic can be given.",
           },
         ],
       },
@@ -3960,7 +3960,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Routine extractions, including teeth that need sectioning, are done at the practice, but complex surgical cases are not.",
+            text: "Routine extractions, including teeth that need to be sectioned, are done at the practice, but complex surgical cases are not.",
           },
           {
             type: "p",
@@ -4027,7 +4027,7 @@ export const restorativePages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "What to Eat Afterwards",
+        heading: "What to Eat Afterward",
         kind: null,
         items: [
           {
@@ -4036,7 +4036,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Yogurt, soup that is not too hot, mashed potato, scrambled eggs and smoothies eaten with a spoon",
+            text: "Yogurt, soup that is not too hot, mashed potatoes, scrambled eggs and smoothies eaten with a spoon",
           },
           {
             type: "p",
@@ -4053,16 +4053,16 @@ export const restorativePages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "Replacing the Tooth Afterwards",
+        heading: "Replacing the Tooth Afterward",
         kind: null,
         items: [
           {
             type: "p",
-            text: "Replacing a removed tooth stops the neighboring teeth drifting into the gap and keeps your bite even, especially for back teeth.",
+            text: "Replacing a removed tooth stops the neighboring teeth from drifting into the gap and keeps your bite even, especially for back teeth.",
           },
           {
             type: "p",
-            text: "Dental implant: replaces the root and the tooth, without involving the teeth either side",
+            text: "Dental implant: replaces the root and the tooth, without involving the teeth on either side",
           },
           {
             type: "p",
@@ -4070,7 +4070,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Immediate denture: fitted at the appointment where teeth are removed, so you are not left without teeth",
+            text: "Immediate denture: placed at the appointment at which teeth are removed, so you are not left without teeth",
           },
           {
             type: "p",
@@ -4119,7 +4119,7 @@ export const restorativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "The tooth extraction cost depends on the tooth and how difficult it is to remove, so it is priced after an examination and explained before treatment.",
+            text: "The cost of a tooth extraction depends on the tooth and how difficult it is to remove, so it is priced after an examination and explained before treatment.",
           },
           {
             type: "p",
@@ -4142,7 +4142,7 @@ export const restorativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Does an extraction hurt?",
-        a: "For most patients the main sensation is firm pressure rather than pain, because the tooth, gum and bone are numbed first. If you feel pain at any point, say so and more anesthetic can be given. The area is sore for a few days afterwards, and the pain relief you are advised to take usually manages it.",
+        a: "For most patients the main sensation is firm pressure rather than pain, because the tooth, gum and bone are numbed first. If you feel pain at any point, say so and more anesthetic can be given. The area is sore for a few days afterward, and the pain relief you are advised to take usually manages it.",
       },
       {
         q: "How long does it take to heal?",
@@ -4150,11 +4150,11 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "How much does an extraction cost?",
-        a: "It depends on the tooth and how difficult it is to remove, so it is priced after an examination and explained before treatment starts. Send your insurance plan name and the team will check your cover. If you plan to replace the tooth, ask for that cost at the same time so you see the whole picture.",
+        a: "It depends on the tooth and how difficult it is to remove, so it is priced after an examination and explained before treatment starts. Send your insurance plan name and the team will check your coverage. If you plan to replace the tooth, ask for that cost at the same time so you see the whole picture.",
       },
       {
-        q: "What can I eat afterwards?",
-        a: "Soft, nutritious food on the day, such as yogurt, soup that is not too hot, mashed potato and scrambled eggs. Avoid hard, crunchy and sticky food near the socket for a few days, and do not use a straw. You can go back to eating normally as soon as you feel comfortable.",
+        q: "What can I eat afterward?",
+        a: "Soft, nutritious food for the rest of the day, such as yogurt, soup that is not too hot, mashed potatoes and scrambled eggs. Avoid hard, crunchy and sticky food near the socket for a few days, and do not use a straw. You can go back to eating normally as soon as you feel comfortable.",
       },
       {
         q: "Do I have to replace the tooth?",
@@ -4177,17 +4177,17 @@ export const restorativePages: Record<string, DraftPage> = {
       "Do your wisdom teeth need to come out? An honest assessment in Media, PA, with X-rays, a clear recovery plan and a referral when surgery is complex.",
     h1: "Wisdom Teeth Removal in Media, PA",
     intro: [
-      "Not every wisdom tooth needs removing. At Media Brite Smile in Media, PA, wisdom teeth removal starts with an examination and X-rays to see whether yours are causing a problem or likely to. They only come out if there is a reason.",
-      "When they do need removing, straightforward cases are handled at the practice, and complex surgical cases are referred to an oral surgeon.",
+      "Not every wisdom tooth needs to be removed. At Media Brite Smile in Media, PA, wisdom teeth removal starts with an examination and X-rays to see whether yours are causing a problem or likely to. They only come out if there is a reason.",
+      "When they do need to be removed, straightforward cases are handled at the practice, and complex surgical cases are referred to an oral surgeon.",
     ],
     sections: [
       {
-        heading: "Do Your Wisdom Teeth Actually Need Removing?",
+        heading: "Do Your Wisdom Teeth Actually Need to Be Removed?",
         kind: null,
         items: [
           {
             type: "p",
-            text: "Many wisdom teeth do not need removing, as long as they have come through fully, sit in a healthy position and can be cleaned properly.",
+            text: "Many wisdom teeth do not need to be removed, as long as they have come through fully, sit in a healthy position and can be cleaned properly.",
           },
           {
             type: "p",
@@ -4221,11 +4221,11 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Repeated pain at the back of the mouth that keeps coming back.",
+            text: "Recurring pain. Pain at the back of the mouth that returns after settling.",
           },
           {
             type: "p",
-            text: "Wisdom tooth pain in Media, PA that comes with swelling or a bad taste needs looking at promptly. Call (610) 566-2711.",
+            text: "Wisdom tooth pain in Media, PA, that comes with swelling or a bad taste needs to be looked at promptly. Call (610) 566-2711.",
           },
         ],
       },
@@ -4329,7 +4329,7 @@ export const restorativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Yogurt, smoothies eaten with a spoon, soup that is not too hot, mashed potato and scrambled eggs",
+            text: "Yogurt, smoothies eaten with a spoon, soup that is not too hot, mashed potatoes and scrambled eggs",
           },
           {
             type: "p",
@@ -4409,7 +4409,7 @@ export const restorativePages: Record<string, DraftPage> = {
       },
       {
         q: "How much does it cost?",
-        a: "It depends on how many teeth need removing and how difficult each one is, so it is priced after the examination and X-rays. You are told the cost before anything is booked. If a tooth needs an oral surgeon, their fee is set separately, and CareCredit can spread the cost.",
+        a: "It depends on how many teeth need to be removed and how difficult each one is, so it is priced after the examination and X-rays. You are told the cost before anything is booked. If a tooth needs an oral surgeon, their fee is set separately, and CareCredit can spread the cost.",
       },
       {
         q: "Will I be referred to a surgeon?",

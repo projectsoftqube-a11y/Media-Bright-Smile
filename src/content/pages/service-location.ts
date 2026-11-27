@@ -27,7 +27,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Every case is planned and placed by Dr. Bhadresh Makani DDS, an implant-focused dentist trained at New York University College of Dentistry, who has placed thousands of implants. If you are looking for an implant dentist in Brookhaven, PA, there is no office in the borough itself; the practice is a short run up PA-352 in Media.",
+            text: "Every case is planned and placed by Dr. Bhadresh Makani DDS, an implant-focused dentist trained at New York University College of Dentistry, who has placed thousands of implants. If you are looking for an implant dentist in Brookhaven, PA, there is no office in the borough itself; the practice is a short drive up PA-352 in Media.",
           },
         ],
       },
@@ -110,7 +110,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Drive north on PA-352 from Brookhaven to N Pennell Road in Media. It measured about 9 minutes and 5.3 miles in Google Maps on 12 November 2026, with no highway driving.",
+            text: "Drive north on PA-352 from Brookhaven to N Pennell Road in Media. It measured about 9 minutes and 5.3 miles in Google Maps on November 12, 2026, with no highway driving.",
           },
           {
             type: "p",
@@ -161,7 +161,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Dental Savings Plan members receive 10 to 15% off additional procedures, including dentures",
+            text: "Dental Savings Plan members receive 10% to 15% off additional procedures, including dentures",
           },
           {
             type: "link",
@@ -199,10 +199,10 @@ export const serviceLocationPages: Record<string, DraftPage> = {
     url: "/dental-implants-delaware-county-pa",
     title: "Dental Implants in Delaware County, PA | Media, PA",
     description:
-      "Dental implants in Delaware County, PA from a Media practice 6 to 12 minutes from most of the county. Implant center or general practice? An honest answer.",
+      "Dental implants in Delaware County, PA, from a Media practice 6 to 12 minutes from most of the county. Implant center or general practice? An honest answer.",
     h1: "Dental Implants in Delaware County, PA",
     intro: [
-      "Media Brite Smile places dental implants for patients across Delaware County, PA from its practice in Media, the county seat. Most of eastern and central Delaware County is 6 to 12 minutes away by car.",
+      "Media Brite Smile places dental implants for patients across Delaware County, PA, from its practice in Media, the county seat. Most of eastern and central Delaware County is 6 to 12 minutes away by car.",
       "If you are deciding between a dedicated implant center and a general practice that places implants, this page gives you an honest comparison, including the cases where the specialist center is the better call.",
     ],
     sections: [
@@ -243,9 +243,9 @@ export const serviceLocationPages: Record<string, DraftPage> = {
                 "General, family, cosmetic and implant dentistry",
               ],
               ["Who places the implant", "Depends on the center", "Dr. Bhadresh Makani DDS, implant-focused"],
-              ["Complex oral or maxillofacial surgery", "Often available", "Not offered here; referred on"],
+              ["Complex oral or maxillofacial surgery", "Often available", "Not offered here; referred out"],
               [
-                "Check-ups and cleanings afterwards",
+                "Check-ups and cleanings afterward",
                 "Usually with your own dentist elsewhere",
                 "Same practice, same records",
               ],
@@ -258,7 +258,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "When a dedicated center or specialist is likely to be the right call: if your case involves complex surgery, or a condition that needs an oral surgeon or periodontist. A general practice should tell you that plainly instead of keeping the case, and this one refers those cases on.",
+            text: "When a dedicated center or specialist is likely to be the right call: if your case involves complex surgery, or a condition that needs an oral surgeon or periodontist. A general practice should tell you that plainly instead of keeping the case, and this one refers those cases out.",
           },
           {
             type: "p",
@@ -292,7 +292,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Abutment and crown, a digital scan and then the crown fitted and checked",
+            text: "Abutment and crown, a digital scan and then the crown placed and checked",
           },
           {
             type: "p",
@@ -362,7 +362,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The exact figure is set after the CBCT scan, because a tooth that needs removing or a change in the plan affects it. You see it before any treatment is booked.",
+            text: "The exact figure is set after the CBCT scan, because a tooth that needs to be removed or a change in the plan affects it. You see it before any treatment is booked.",
           },
           {
             type: "link",
@@ -385,7 +385,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Dental Savings Plan: members save 10 to 15% on additional procedures, including crowns",
+            text: "Dental Savings Plan: members save 10% to 15% on additional procedures, including crowns",
           },
           {
             type: "link",
@@ -399,7 +399,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Should I see an implant specialist or a general dentist for an implant?",
-        a: "For a straightforward single implant or a few missing teeth, an implant-focused dentist in a general practice is a sound choice, and your check-ups stay in the same place. For complex surgery, or a case that needs an oral surgeon or periodontist, a specialist is the better option, and this practice refers those cases on.",
+        a: "For a straightforward single implant or a few missing teeth, an implant-focused dentist in a general practice is a sound choice, and your check-ups stay in the same place. For complex surgery, or a case that needs an oral surgeon or periodontist, a specialist is the better option, and this practice refers those cases out.",
       },
       {
         q: "How far is the implant clinic from my part of Delaware County?",
@@ -411,7 +411,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
       },
       {
         q: "What does a dental implant cost in Delaware County at this practice?",
-        a: "The starting price is $3,999 for the implant post, abutment and crown together, and the current offer takes $500 off and includes a free consultation. The exact figure depends on the scan and whether a tooth needs removing first. CareCredit spreads it monthly, and savings plan members get 10 to 15% off additional procedures.",
+        a: "The starting price is $3,999 for the implant post, abutment and crown together, and the current offer takes $500 off and includes a free consultation. The exact figure depends on the scan and whether a tooth needs to be removed first. CareCredit spreads it monthly, and savings plan members get 10% to 15% off additional procedures.",
       },
     ],
     cta: {
@@ -444,7 +444,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If you are looking for an implant dentist in Springfield, PA, the practice in Media is not in Springfield itself. It is a short run south on the Baltimore Pike.",
+            text: "If you are looking for an implant dentist in Springfield, PA, the practice in Media is not in Springfield itself. It is a short drive south on the Baltimore Pike.",
           },
           {
             type: "link",
@@ -511,11 +511,11 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Abutment and crown. A digital scan, then the crown fitted and checked.",
+            text: "Abutment and crown. A digital scan, then the crown placed and checked.",
           },
           {
             type: "p",
-            text: "A tooth that needs removing first adds an appointment and extra healing time. At seven minutes each way, each trip from Springfield Township is short enough to fit around a working day.",
+            text: "A tooth that needs to be removed first adds an appointment and extra healing time. At seven minutes each way, each trip from Springfield Township is short enough to fit around a working day.",
           },
         ],
       },
@@ -525,7 +525,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Head south on US-1, the Baltimore Pike, to N Pennell Road in Media. The drive is about 7 minutes and 4.1 miles, measured in Google Maps on 12 November 2026. Rush-hour traffic on the Pike can stretch it.",
+            text: "Head south on US-1, the Baltimore Pike, to N Pennell Road in Media. The drive is about 7 minutes and 4.1 miles, measured in Google Maps on November 12, 2026. Rush-hour traffic on the Pike can stretch it.",
           },
           {
             type: "p",
@@ -553,7 +553,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Most people do not pay for an implant in one go, and there are three ways to spread or reduce it.",
+            text: "Most people do not pay for an implant all at once, and there are three ways to spread or reduce it.",
           },
           {
             type: "p",
@@ -561,11 +561,11 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Insurance is billed directly and the claim tracked for you. Implant cover varies a great deal between plans.",
+            text: "Insurance is billed directly and the claim tracked for you. Implant coverage varies a great deal between plans.",
           },
           {
             type: "p",
-            text: "The Dental Savings Plan gives members 10 to 15% off additional procedures, including crowns.",
+            text: "The Dental Savings Plan gives members 10% to 15% off additional procedures, including crowns.",
           },
           {
             type: "p",
@@ -587,7 +587,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
       },
       {
         q: "For Springfield, Delaware County patients, does the $3,999 price include the crown?",
-        a: "Yes. The starting price of $3,999 covers the implant post, the abutment and the crown, and there is currently $500 off. The exact figure depends on whether a tooth needs removing first and what the CBCT scan shows. You are told it at the free consultation, before anything is booked.",
+        a: "Yes. The starting price of $3,999 covers the implant post, the abutment and the crown, and there is currently $500 off. The exact figure depends on whether a tooth needs to be removed first and what the CBCT scan shows. You are told it at the free consultation, before anything is booked.",
       },
       {
         q: "How many appointments will I need from Springfield Township (19064)?",
@@ -595,7 +595,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
       },
       {
         q: "What does a dental implant cost without insurance, coming from 19064?",
-        a: "A single implant, abutment and crown starts at $3,999, with $500 off under the current offer and a free consultation. CareCredit can spread the cost into monthly payments. Dental Savings Plan members get 10 to 15% off additional procedures, including crowns.",
+        a: "A single implant, abutment and crown starts at $3,999, with $500 off under the current offer and a free consultation. CareCredit can spread the cost into monthly payments. Dental Savings Plan members get 10% to 15% off additional procedures, including crowns.",
       },
       {
         q: "Is this page for Springfield in Delaware County or another Springfield?",
@@ -675,14 +675,14 @@ export const serviceLocationPages: Record<string, DraftPage> = {
               ["Healing", "The bone integrates with the post over several months", "Mostly at home"],
               [
                 "3. Abutment and crown",
-                "A digital scan, then the crown fitted and checked",
+                "A digital scan, then the crown placed and checked",
                 "Confirmed at your consultation",
               ],
             ],
           },
           {
             type: "p",
-            text: "Your own count is set at the consultation, including whether the crown stage is one visit or two. A tooth that still needs removing adds a trip and more healing time before placement.",
+            text: "Your own count is set at the consultation, including whether the crown stage is one visit or two. A tooth that still needs to be removed adds a trip and more healing time before placement.",
           },
           {
             type: "p",
@@ -696,11 +696,11 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "From Swarthmore borough, follow N Providence Road and then E Baltimore Pike into Media, ending on N Pennell Road. Google Maps measured the trip at about 10 minutes and 3.8 miles on 12 November 2026.",
+            text: "From Swarthmore borough, follow N Providence Road and then E Baltimore Pike into Media, ending on N Pennell Road. Google Maps measured the trip at about 10 minutes and 3.8 miles on November 12, 2026.",
           },
           {
             type: "p",
-            text: "The practice opens at 8am Monday to Friday, so an early slot before work or classes is realistic.",
+            text: "The practice opens at 8am Monday through Friday, so an early slot before work or classes is realistic.",
           },
           {
             type: "p",
@@ -755,7 +755,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The Dental Savings Plan takes 10 to 15% off additional procedures, including crowns, for members.",
+            text: "The Dental Savings Plan takes 10% to 15% off additional procedures, including crowns, for members.",
           },
           {
             type: "link",
@@ -777,7 +777,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
       },
       {
         q: "Can I drive myself home to Swarthmore after placement?",
-        a: "If you choose oral sedation, plan for someone else to drive you home. After local anesthetic or nitrous oxide alone, the team will tell you on the day whether you are fine to drive. Either way, ask what to arrange when the placement visit is booked.",
+        a: "If you choose oral sedation, plan for someone else to drive you home. After local anesthetic or nitrous oxide alone, the team will tell you at the appointment whether you are fine to drive. Either way, ask what to arrange when the placement visit is booked.",
       },
       {
         q: "What does a single tooth implant cost?",
@@ -796,7 +796,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
       "Dental emergency in Delaware County, PA? Call (610) 566-2711. Our real opening hours, what to do when we are closed, and when the ER is the right call.",
     h1: "Emergency Dentist in Delaware County, PA",
     intro: [
-      "For a dental emergency anywhere in Delaware County, PA, call Media Brite Smile on (610) 566-2711 during opening hours. The practice is in Media, 6 to 12 minutes from most of eastern and central Delaware County, and urgent problems are seen the same day whenever possible.",
+      "For a dental emergency anywhere in Delaware County, PA, call Media Brite Smile at (610) 566-2711 during opening hours. The practice is in Media, 6 to 12 minutes from most of eastern and central Delaware County, and urgent problems are seen the same day whenever possible.",
       "This is a weekday dental practice, not a 24-hour clinic. Below are the exact hours, what to do when the practice is closed, and when an emergency room is the right place to go.",
     ],
     sections: [
@@ -816,11 +816,11 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "During opening hours, phone before you travel. The team asks what happened, how bad the pain is and whether there is swelling, then tells you whether to come in now, later that day, or at the next available appointment.",
+            text: "During opening hours, call before you travel. The team asks what happened, how bad the pain is and whether there is swelling, then tells you whether to come in now, later that day, or at the next available appointment.",
           },
           {
             type: "p",
-            text: "Calling first matters more from the far side of the county. It means you will not set off on a 12-minute drive to find no dentist free.",
+            text: "Calling first matters more from the far side of the county. It means you will not head out on a 12-minute drive to find no dentist free.",
           },
         ],
       },
@@ -832,14 +832,14 @@ export const serviceLocationPages: Record<string, DraftPage> = {
             type: "table",
             rows: [
               ["Day", "Open"],
-              ["Monday to Thursday", "8am to 5pm"],
+              ["Monday through Thursday", "8am to 5pm"],
               ["Friday", "8am to 2pm"],
               ["Saturday and Sunday", "Closed"],
             ],
           },
           {
             type: "p",
-            text: "The practice closes at 5pm Monday to Thursday and 2pm on Friday, and does not open at weekends.",
+            text: "The practice closes at 5pm Monday through Thursday and 2pm on Friday, and is not open on weekends.",
           },
           {
             type: "h3",
@@ -851,7 +851,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Toothache: rinse with warm salt water, keep your head raised at night, and take the pain relief you normally use as the packet directs",
+            text: "Toothache: rinse with warm salt water, keep your head raised at night, and take the pain relief you normally use as the label directs",
           },
           {
             type: "p",
@@ -859,7 +859,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Knocked-out adult tooth: this cannot wait for Monday. Replant it if you can, or keep it in milk, and get urgent care straight away",
+            text: "Knocked-out adult tooth: this cannot wait for Monday. Replant it if you can, or keep it in milk, and get urgent care right away",
           },
           {
             type: "h3",
@@ -867,7 +867,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Go to an emergency room if you have swelling spreading across your face or down your neck, difficulty breathing or swallowing, bleeding that will not stop with pressure, a high temperature with facial swelling, or a suspected broken jaw after an injury.",
+            text: "Go to an emergency room if you have swelling spreading across your face or down your neck, difficulty breathing or swallowing, bleeding that will not stop with pressure, a fever with facial swelling, or a suspected broken jaw after an injury.",
           },
           {
             type: "p",
@@ -911,7 +911,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "What to Do Before You Set Off",
+        heading: "What to Do Before You Leave",
         kind: null,
         items: [
           {
@@ -965,7 +965,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
     faqHeading: "Questions",
     faqs: [
       {
-        q: "What do I do if I have a dental emergency at the weekend in Delaware County?",
+        q: "What do I do if I have a dental emergency on the weekend in Delaware County?",
         a: "The practice is closed on Saturdays and Sundays. Manage pain at home with salt-water rinses and your usual pain relief, and call (610) 566-2711 when the practice opens on Monday at 8am. Go to an emergency room for facial swelling, trouble breathing or swallowing, uncontrolled bleeding or a suspected broken jaw.",
       },
       {
@@ -978,7 +978,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
       },
       {
         q: "Can I be seen the same day?",
-        a: "Call (610) 566-2711 as early as possible. Urgent problems are triaged by phone and seen the same day whenever possible. Late in the day, or at the weekend, the team will tell you how to manage the problem until the next appointment.",
+        a: "Call (610) 566-2711 as early as possible. Urgent problems are triaged by phone and seen the same day whenever possible. Late in the day, or on the weekend, the team will tell you how to manage the problem until the next appointment.",
       },
       {
         q: "What does an emergency dental visit cost without insurance?",
@@ -997,7 +997,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
       "Broken tooth or toothache in Springfield, Delaware County (19064)? Call (610) 566-2711 first. We are 7 minutes down US-1 in Media.",
     h1: "Emergency Dentist for Springfield, Delaware County",
     intro: [
-      "Call (610) 566-2711 before you set off. Tell us what happened and we will tell you how soon to come in.",
+      "Call (610) 566-2711 before you leave. Tell us what happened and we will tell you how soon to come in.",
       "If you need an emergency dentist in Springfield, PA (Delaware County), Media Brite Smile is about 7 minutes away in Media. Emergency dental care for Springfield patients is triaged on the phone and seen the same day whenever possible.",
     ],
     sections: [
@@ -1021,7 +1021,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Follow what you are told on the phone. Some problems need you in straight away and some can safely wait for a set time.",
+            text: "Follow what you are told on the phone. Some problems need you in right away and some can safely wait for a set time.",
           },
           {
             type: "p",
@@ -1054,7 +1054,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "What to Do Before You Set Off From Springfield (19064)",
+        heading: "What to Do Before You Head Out From Springfield (19064)",
         kind: null,
         items: [
           {
@@ -1087,13 +1087,13 @@ export const serviceLocationPages: Record<string, DraftPage> = {
             type: "table",
             rows: [
               ["Day", "Hours"],
-              ["Monday to Thursday", "8am to 5pm"],
+              ["Monday through Thursday", "8am to 5pm"],
               ["Friday", "8am to 2pm"],
             ],
           },
           {
             type: "p",
-            text: "The practice is closed at weekends. If it happens when we are closed, use the steps above and call when we open. The emergency room is for the swelling, breathing or swallowing problems in the notice above, uncontrolled bleeding, or a suspected broken jaw.",
+            text: "The practice is closed on weekends. If it happens when we are closed, use the steps above and call when we open. The emergency room is for the swelling, breathing or swallowing problems in the notice above, uncontrolled bleeding, or a suspected broken jaw.",
           },
           {
             type: "link",
@@ -1150,7 +1150,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
     url: "/emergency-dentist-swarthmore-pa",
     title: "Emergency Dentist Near Swarthmore, PA | (610) 566-2711",
     description:
-      "Dental emergency in Swarthmore, PA, and your own dentist is back home? Call Media Brite Smile on (610) 566-2711. We are 10 minutes away in Media.",
+      "Dental emergency in Swarthmore, PA, and your own dentist is back home? Call Media Brite Smile at (610) 566-2711. We are 10 minutes away in Media.",
     h1: "Emergency Dentist for Swarthmore, PA",
     intro: [
       "Call (610) 566-2711 first. If you need an emergency dentist in Swarthmore, PA, Media Brite Smile is about 10 minutes away in Media, and urgent problems are seen the same day whenever possible.",
@@ -1173,7 +1173,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Phone (610) 566-2711 and describe the pain or damage.",
+            text: "Call (610) 566-2711 and describe the pain or damage.",
           },
           {
             type: "p",
@@ -1181,7 +1181,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Come in when you are told to. Some problems need you straight away, and some are safe to book for later in the week.",
+            text: "Come in when you are told to. Some problems need you right away, and some are safe to book for later in the week.",
           },
         ],
       },
@@ -1228,7 +1228,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "What to Do Before You Set Off",
+        heading: "What to Do Before You Leave",
         kind: null,
         items: [
           {
@@ -1255,11 +1255,11 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "The practice opens at 8am Monday to Friday. It closes at 5pm Monday to Thursday and at 2pm on Friday. It is closed at weekends.",
+            text: "The practice opens at 8am Monday through Friday. It closes at 5pm Monday through Thursday and at 2pm on Friday. It is closed on weekends.",
           },
           {
             type: "p",
-            text: "Outside those hours, the steps above will usually hold a toothache or broken tooth until the practice next opens. A knocked-out adult tooth needs urgent care straight away. Swelling that is spreading or bleeding you cannot stop is a reason to go to an emergency room.",
+            text: "Outside those hours, the steps above will usually hold a toothache or broken tooth until the practice next opens. A knocked-out adult tooth needs urgent care right away. Swelling that is spreading or bleeding you cannot stop is a reason to go to an emergency room.",
           },
           {
             type: "link",
@@ -1379,7 +1379,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Head south on US-1, the Baltimore Pike, from Springfield Township into Media and turn onto N Pennell Road. Google Maps measured it at about 7 minutes and 4.1 miles on 12 November 2026.",
+            text: "Head south on US-1, the Baltimore Pike, from Springfield Township into Media and turn onto N Pennell Road. Google Maps measured it at about 7 minutes and 4.1 miles on November 12, 2026.",
           },
           {
             type: "p",
@@ -1564,7 +1564,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "From Brookhaven, follow PA-352 north into Media and turn onto N Pennell Road. Google Maps measured the drive at about 9 minutes and 5.3 miles on 12 November 2026. Parkside is effectively the same trip.",
+            text: "From Brookhaven, follow PA-352 north into Media and turn onto N Pennell Road. Google Maps measured the drive at about 9 minutes and 5.3 miles on November 12, 2026. Parkside is effectively the same trip.",
           },
           {
             type: "p",
@@ -1600,7 +1600,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Immediate dentures, fitted on the day teeth are removed",
+            text: "Immediate dentures, placed the day teeth are removed",
           },
           {
             type: "p",
@@ -1637,7 +1637,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Dental Savings Plan members receive 10 to 15% off additional procedures, including dentures. Insurance is billed directly, and CareCredit can spread the cost of a new denture.",
+            text: "Dental Savings Plan members receive 10% to 15% off additional procedures, including dentures. Insurance is billed directly, and CareCredit can spread the cost of a new denture.",
           },
           {
             type: "link",
@@ -1656,7 +1656,7 @@ export const serviceLocationPages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "How long does it take to get to you from Brookhaven?",
-        a: "About 9 minutes and 5.3 miles north on PA-352, measured in Google Maps from 8 N Pennell Rd in Media. It is one road most of the way and avoids the highway. Call before you set off with a broken denture, so the team can plan the repair.",
+        a: "About 9 minutes and 5.3 miles north on PA-352, measured in Google Maps from 8 N Pennell Rd in Media. It is one road most of the way and avoids the highway. Call before you leave with a broken denture, so the team can plan the repair.",
       },
       {
         q: "Can my denture be repaired the same day?",

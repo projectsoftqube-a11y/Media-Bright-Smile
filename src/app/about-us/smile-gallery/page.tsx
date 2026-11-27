@@ -163,7 +163,7 @@ export default function SmileGalleryPage() {
               <Image
                 data-reveal-media
                 src="/images/office/operatory-3.jpg"
-                alt={`Treatment room at ${site.name}, Media PA`}
+                alt={`Treatment room at ${site.name}, Media, PA`}
                 fill
                 priority
                 sizes="(min-width:1024px) 45vw, 100vw"
@@ -198,7 +198,7 @@ export default function SmileGalleryPage() {
                 Look at the <span className="text-brand-600">starting point</span>, not just the result
               </>
             }
-            lead="Veneers, bonding and whitening change the color, shape and alignment of teeth that are otherwise healthy. The useful question is not “is that a nice smile” but “did they start where I am starting”."
+            lead="Veneers, bonding and whitening change the color, shape and alignment of teeth that are otherwise healthy. The useful question is not “Is that a nice smile?” but “Did they start where I am starting?”"
             aside={
               <Link
                 href="/cosmetic-dentistry"

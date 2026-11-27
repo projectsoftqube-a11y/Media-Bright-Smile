@@ -125,7 +125,7 @@ function Block({ block, n }: { block: BlogBlock; n?: number }) {
             <>
               {" "}
               <a href={site.phone.href} className="font-bold whitespace-nowrap text-brand-600 hover:underline">
-                Call today {site.phone.display}
+                Call us today at {site.phone.display}.
               </a>
             </>
           )}

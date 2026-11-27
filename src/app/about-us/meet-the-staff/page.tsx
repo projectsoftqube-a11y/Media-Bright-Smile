@@ -11,7 +11,7 @@ import { ImageReveal } from "@/components/motion/image-reveal";
 import { Reveal, RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { JsonLd, pageSchema } from "@/lib/schema";
 
-const title = "Meet Our Dental Team | Media Brite Smile, Media PA";
+const title = "Meet Our Dental Team | Media Brite Smile, Media, PA";
 const description =
   "The dentists, hygienists, assistants and front-desk team at Media Brite Smile in Media, PA - the people you will actually see at your appointment.";
 
@@ -39,7 +39,7 @@ const roles = [
     icon: Sparkles,
     title: "Dental hygienists",
     // approved wording (Developer Q&A 19 Nov): the practice has not confirmed who does cleanings
-    text: "Regular cleanings in Media, PA are done by the practice team, and you will be shown how to look after your teeth and gums at home. If you want to know whether a dental hygienist or a dentist will see you, ask when you book.",
+    text: "Regular cleanings in Media, PA, are done by the practice team, and you will be shown how to look after your teeth and gums at home. If you want to know whether a dental hygienist or a dentist will see you, ask when you book.",
     tasks: ["Cleanings", "Periodontal maintenance", "Showing you how to look after teeth and gums at home"],
   },
   {
@@ -51,7 +51,7 @@ const roles = [
   {
     icon: Headset,
     title: "The front desk",
-    text: "The first voice on the phone and the people who sort out the practical side of your visit.",
+    text: "The first voice on the phone and the people who take care of the practical side of your visit.",
     tasks: ["Booking appointments", "Checking your insurance", "Explaining costs and payment options"],
   },
 ];
@@ -248,7 +248,7 @@ export default function MeetTheStaffPage() {
         }
         text={`Tell us who you would like to see, and we will do our best to arrange it. ${site.name}, ${site.address.city}.`}
         image="/images/office/operatory-3.jpg"
-        imageAlt={`Treatment room at ${site.name}, Media PA`}
+        imageAlt={`Treatment room at ${site.name}, Media, PA`}
       />
     </>
   );

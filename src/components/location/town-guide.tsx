@@ -1,4 +1,5 @@
 import { isHidden } from "@/content/site";
+import { asSentence } from "@/components/draft/blocks";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
@@ -42,9 +43,15 @@ function toBlocks(items: TownItem[]): Block[] {
     }
     out.push({ kind: "p", text: it.text });
   }
-  return out.map((b) =>
-    b.kind === "features" && b.rows.length === 1 ? { kind: "p", text: `${b.rows[0].label}. ${b.rows[0].text}` } : b,
-  );
+  return out.map((b) => {
+    if (b.kind !== "features") return b;
+    // a single row reads as one sentence again: "Label: lowercase text" keeps its colon
+    if (b.rows.length === 1) {
+      const r = b.rows[0];
+      return { kind: "p", text: `${r.label}${/^[a-z]/.test(r.text) ? ":" : "."} ${r.text}` };
+    }
+    return { ...b, rows: b.rows.map((r) => ({ ...r, text: asSentence(r.text) })) };
+  });
 }
 
 /* Chapter heading -> the photo that explains it (first unused candidate wins, so a page never repeats one). */

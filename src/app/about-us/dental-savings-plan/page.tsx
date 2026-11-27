@@ -14,7 +14,7 @@ import { JsonLd, pageSchema } from "@/lib/schema";
 
 const title = "Dental Savings Plan in Media, PA | $300 a Year";
 const description =
-  "No dental insurance? Our in-house plan is $300 a year, covering exams, screenings and X-rays, plus 10-15% off treatment. Media, PA.";
+  "No dental insurance? Our in-house plan is $300 a year, covering exams, screenings and X-rays, plus 10–15% off treatment. Media, PA.";
 
 export const metadata: Metadata = {
   title: { absolute: title },
@@ -35,11 +35,11 @@ const faqs: QA[] = [
   },
   {
     q: "Is a dental savings plan the same as insurance?",
-    a: "No. It is a membership with this practice, not an insurance policy, so there are no claims to file. It also does not pay out and cannot be used at another dentist. It is prepaid routine care for a year, plus 10 to 15% off additional procedures such as fillings, crowns and dentures.",
+    a: "No. It is a membership with this practice, not an insurance policy, so there are no claims to file. It also does not pay out and cannot be used at another dentist. It is prepaid routine care for a year, plus 10% to 15% off additional procedures such as fillings, crowns and dentures.",
   },
   {
     q: "What is not covered by the plan?",
-    a: "Treatment beyond the preventative items listed. Fillings, crowns and dentures are not covered outright; members get 10 to 15% off them instead. The plan covers the exams, screenings and X-rays in full.",
+    a: "Treatment beyond the preventative items listed. Fillings, crowns and dentures are not covered outright; members get 10% to 15% off them instead. The plan covers the exams, screenings and X-rays in full.",
   },
   {
     q: "Can my family join on one plan?",
@@ -51,14 +51,14 @@ const faqs: QA[] = [
   },
   {
     q: "Is the plan worth it if I only go once a year?",
-    a: "Probably not on the exams alone. It makes sense if you attend twice a year as recommended, need X-rays, or expect treatment during the year where the 10 to 15% discount applies. The team will tell you honestly if the $99 new patient offer suits you better.",
+    a: "Probably not on the exams alone. It makes sense if you attend twice a year as recommended, need X-rays, or expect treatment during the year where the 10% to 15% discount applies. The team will tell you honestly if the $99 new patient offer suits you better.",
   },
 ];
 
 const audiences = [
   { icon: Briefcase, title: "Self-employed", text: "No employer plan to fall back on." },
-  { icon: Building, title: "No dental cover at work", text: "Your employer does not offer dental insurance." },
-  { icon: Sunset, title: "Recently retired", text: "Cover ended when you stopped working." },
+  { icon: Building, title: "No dental coverage at work", text: "Your employer does not offer dental insurance." },
+  { icon: Sunset, title: "Recently retired", text: "Coverage ended when you stopped working." },
 ];
 
 /* Only rows the fact sheet supports. Waiting periods, annual maximums and exclusions are still to be confirmed. */
@@ -180,7 +180,7 @@ export default function SavingsPlanPage() {
                 ))}
               </ul>
               <p className="mt-6 rounded-2xl bg-white p-5 text-[1.0625rem] leading-relaxed text-ink ring-1 ring-line">
-                <strong className="text-brand-600">Plus 10 to 15% off</strong> additional procedures, including
+                <strong className="text-brand-600">Plus 10% to 15% off</strong> additional procedures, including
                 fillings, crowns and dentures.
               </p>
             </div>
@@ -243,7 +243,7 @@ export default function SavingsPlanPage() {
                 They look similar and <span className="text-brand-600">work quite differently</span>
               </>
             }
-            lead="Insurance is usually better value if an employer pays for it. A membership is usually better if you would be buying individual cover yourself."
+            lead="Insurance is usually better value if an employer pays for it. A membership is usually better if you would be buying individual coverage yourself."
           />
           <Reveal className="mt-10">
             <div className="overflow-hidden rounded-4xl ring-1 ring-line">
@@ -305,7 +305,7 @@ export default function SavingsPlanPage() {
                 other practices, and it does not pay out.
               </p>
               <p className="mt-4 max-w-3xl leading-relaxed text-white/70">
-                The preventative items above are covered in full. Fillings, crowns and dentures get the 10 to 15% member
+                The preventative items above are covered in full. Fillings, crowns and dentures get the 10% to 15% member
                 discount instead, and the team will tell you which other procedures it applies to.
               </p>
             </div>
@@ -383,7 +383,7 @@ export default function SavingsPlanPage() {
             Join the plan and <span className="text-glow">book your exam</span>
           </>
         }
-        text="$300 for the year, no claims to file, and 10 to 15% off additional procedures."
+        text="$300 for the year, no claims to file, and 10% to 15% off additional procedures."
         primary={{ label: "Join the Plan", href: site.bookingHref }}
         image={T.insurance5.src}
         imageAlt={T.insurance5.alt}

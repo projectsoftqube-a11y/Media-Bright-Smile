@@ -452,7 +452,7 @@ export const membership = {
     "Full mouth series X-rays or Panorex",
   ],
   // Developer Q&A 19 Nov: the practice has not confirmed procedures beyond these three, so no "and more"
-  discount: "10-15% off additional procedures, including fillings, crowns and dentures",
+  discount: "10–15% off additional procedures, including fillings, crowns and dentures",
 } as const;
 
 /* -------------------------------------------------------------------------- */
@@ -616,7 +616,7 @@ export const faqs: {
   },
   {
     q: "What are your opening hours?",
-    a: `The practice opens at 8am every weekday: 8am to 5pm Monday to Thursday, and 8am to 2pm every Friday. It is closed on weekends. Call ${site.phone.display} to book.`,
+    a: `The practice opens at 8am every weekday: 8am to 5pm Monday through Thursday, and 8am to 2pm every Friday. It is closed on weekends. Call ${site.phone.display} to book.`,
     category: "visit",
     link: { label: "Directions, map and opening hours", href: "/contact-us" },
   },
@@ -664,7 +664,7 @@ export const faqs: {
   },
   {
     q: "Do you treat children as well as adults?",
-    a: "Yes. Children's dentistry is provided by the general dentists at the practice, covering first visits, check-ups, fluoride and sealants. Families often book children alongside an adult appointment. Cases needing a pediatric specialist are referred on.",
+    a: "Yes. Children's dentistry is provided by the general dentists at the practice, covering first visits, check-ups, fluoride and sealants. Families often book children alongside an adult appointment. Cases needing a pediatric specialist are referred to one.",
     category: "care",
     link: { label: "What new patients need to know", href: "/patient-information/new-patients" },
   },

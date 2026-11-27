@@ -20,7 +20,7 @@ const photos = [
   { src: "/images/office/waiting-room-2.webp", alt: "The comfortable waiting area" },
   { src: "/images/office/in-house-lab.webp", alt: "The in-house dental lab" },
   { src: "/images/hero/young-patient-smile.jpg", alt: "A young patient smiling in the dental chair" },
-  { src: "/images/topics/forms-6.jpg", alt: "A new patient filling in a form on a clipboard" },
+  { src: "/images/topics/forms-6.jpg", alt: "A new patient filling out a form on a clipboard" },
   { src: "/images/topics/comfort-7.jpg", alt: "A smiling patient relaxed in the dental chair beside a dental nurse" },
   { src: "/images/topics/family-care-2.jpg", alt: "A father and two children brushing their teeth together" },
   { src: "/images/topics/driving-8.jpg", alt: "The view through a car windscreen on a road lined with autumn trees" },

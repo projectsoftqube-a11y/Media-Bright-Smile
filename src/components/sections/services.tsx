@@ -72,7 +72,7 @@ const groups = [
       to("Dental Bridges"),
       to("Dentures"),
       to("Non-Surgical Root Canal"),
-      to("Wisdom Tooth Removal", "Wisdom Teeth Removal"),
+      to("Wisdom Teeth Removal"),
       to("Rebase & Repairs", "Denture Rebase & Repairs"),
       to("Soft Liners"),
       to("Oral Cancer Screening"),

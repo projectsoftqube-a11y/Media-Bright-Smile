@@ -13,7 +13,7 @@ export const preventativePages: Record<string, DraftPage> = {
       "Check-ups, cleanings, gum care, children's dentistry and screenings in Media, PA. $300 a year covers routine care without insurance.",
     h1: "Preventative Dentistry in Media, PA",
     intro: [
-      "Preventative dentistry at Media Brite Smile in Media, PA is the routine care that finds problems while they are still small and cheap to fix. It covers check-ups, cleanings, gum care, children's dentistry, night guards and screenings, for every age in the household.",
+      "Preventative dentistry at Media Brite Smile in Media, PA, is the routine care that finds problems while they are still small and cheap to fix. It covers check-ups, cleanings, gum care, children's dentistry, night guards and screenings, for every age in the household.",
     ],
     sections: [
       {
@@ -178,7 +178,7 @@ export const preventativePages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "Paying for Preventive Dental Care in Media, PA",
+        heading: "Paying for Preventative Dental Care in Media, PA",
         kind: null,
         items: [
           {
@@ -191,7 +191,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Without insurance: the Dental Savings Plan is $300 a year for the first member and $275 for a second. It covers two exams, one emergency exam, two oral cancer screenings and the year's X-rays, plus 10 to 15% off other treatment.",
+            text: "Without insurance: the Dental Savings Plan is $300 a year for the first member and $275 for a second. It covers two exams, one emergency exam, two oral cancer screenings and the year's X-rays, plus 10% to 15% off other treatment.",
           },
           {
             type: "link",
@@ -215,7 +215,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Describe what you can feel and you will be told how soon it needs to be seen. A dental checkup in Media, PA can wait a week. A cracked tooth or a swelling should not.",
+            text: "Describe what you can feel and you will be told how soon it needs to be seen. A dental checkup in Media, PA, can wait a week. A cracked tooth or a swelling should not.",
           },
           {
             type: "link",
@@ -241,7 +241,7 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "Can children and adults be seen at the same practice?",
-        a: "Yes, children are seen by the general dentists for check-ups, cleanings, fluoride and sealants, and parents can be booked in alongside them. With several dentists, grouping a household's appointments is often possible. Say you want them together when you call (610) 566-2711.",
+        a: "Yes, children are seen by the general dentists for check-ups, cleanings, fluoride and sealants, and parents can be booked alongside them. With several dentists, grouping a household's appointments is often possible. Say you want them together when you call (610) 566-2711.",
       },
     ],
     cta: {
@@ -253,7 +253,7 @@ export const preventativePages: Record<string, DraftPage> = {
     url: "/preventative-care/family-dentistry",
     title: "Family Dentist in Media, PA | Media Brite Smile",
     description:
-      "One family dentist in Media, PA for children through grandparents. Several dentists, $99 new patient exam, $300 savings plan. Call (610) 566-2711.",
+      "One family dentist in Media, PA, for children through grandparents. Several dentists, $99 new patient exam, $300 savings plan. Call (610) 566-2711.",
     h1: "Family Dentist in Media, PA",
     intro: [
       "At Media Brite Smile, we provide comprehensive dental care for every member of your family, from a child's first dental checkup to the ongoing oral health needs of older adults. Our dedicated dental team offers a range of services in one convenient location, with flexible scheduling to accommodate your family's school, work, and daily routines.",
@@ -326,7 +326,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The practice opens at 8am Monday to Friday, which suits a before-school or before-work appointment.",
+            text: "The practice opens at 8am Monday through Friday, which suits a before-school or before-work appointment.",
           },
         ],
       },
@@ -389,7 +389,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "First visits, check-ups, fluoride, sealants and fillings in baby teeth are all handled. Children who need a pediatric specialist, or complex care under general anesthetic, are referred on, and you would be told that at the assessment.",
+            text: "First visits, check-ups, fluoride, sealants and fillings in baby teeth are all handled. Children who need a pediatric specialist, or complex care under general anesthetic, are referred to a specialist, and you would be told that at the assessment.",
           },
           {
             type: "p",
@@ -453,7 +453,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The Dental Savings Plan is $300 a year for the first member and $275 for a second. That covers two exams, an emergency exam, two oral cancer screenings and X-rays for the year, plus 10 to 15% off treatment.",
+            text: "The Dental Savings Plan is $300 a year for the first member and $275 for a second. That covers two exams, an emergency exam, two oral cancer screenings and X-rays for the year, plus 10% to 15% off treatment.",
           },
           {
             type: "link",
@@ -477,11 +477,11 @@ export const preventativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Can my children and I be seen on the same visit?",
-        a: "Often, yes. Several dentists work here, so there is usually more than one chair available at a given time. Say you want appointments grouped when you call (610) 566-2711 and the team will arrange it around the three diaries.",
+        a: "Often, yes. Several dentists work here, so there is usually more than one chair available at a given time. Say you want appointments grouped when you call (610) 566-2711 and the team will arrange it around our dentists’ schedules.",
       },
       {
         q: "What age should my child first see a dentist?",
-        a: "General guidance is around a child's first birthday, or within six months of the first tooth appearing. Early visits are short and mostly about getting the child comfortable. Ask when you call and the team will advise for your child's age.",
+        a: "General guidance is around a child's first birthday, or within six months of the first tooth appearing. Early visits are short and mostly about getting the child comfortable. Ask when you call and the team will advise you based on your child's age.",
       },
       {
         q: "Do you treat older patients with dentures?",
@@ -493,7 +493,7 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "Do you see children of all ages?",
-        a: "Children are treated by the general dentists here, which covers routine care from first visits onward. Cases needing a pediatric specialist or treatment under general anesthetic are referred on. You would be told that at the assessment rather than later.",
+        a: "Children are treated by the general dentists here, which covers routine care from first visits onward. Cases needing a pediatric specialist or treatment under general anesthetic are referred to a specialist. You would be told that at the assessment rather than later.",
       },
       {
         q: "Can the whole family see the same dentist?",
@@ -501,7 +501,7 @@ export const preventativePages: Record<string, DraftPage> = {
       },
     ],
     cta: {
-      title: "Book the Whole Family In",
+      title: "Book the Whole Family",
       text: "One practice, several dentists, appointments from 8am, and the costs published rather than quoted on request.",
     },
   },
@@ -525,7 +525,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Repair. Acids from plaque draw minerals out of the enamel through the day. Fluoride helps calcium and phosphate return to the tooth surface and rebuild it.",
+            text: "Repair. Acids from plaque draw minerals out of the enamel throughout the day. Fluoride helps calcium and phosphate return to the tooth surface and rebuild it.",
           },
           {
             type: "p",
@@ -564,7 +564,7 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Fluoride is applied at the end of a check-up and cleaning. It takes a few minutes, involves no needles or drilling, and you can go home straight afterwards. You will be told how long to wait before eating and drinking, and what to avoid for the rest of the day.",
+            text: "Fluoride is applied at the end of a check-up and cleaning. It takes a few minutes, involves no needles or drilling, and you can go home right afterward. You will be told how long to wait before eating and drinking, and what to avoid for the rest of the day.",
           },
           {
             type: "link",
@@ -617,7 +617,7 @@ export const preventativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Is fluoride safe for my child?",
-        a: "Yes. Mainstream dental and public-health bodies, including the American Dental Association, consider professionally applied fluoride safe and effective at preventing decay in children. The amount used at a dental visit is small, and it is applied by the dental team. At home, use a rice-grain smear of toothpaste under three and a pea-sized amount from three to six.",
+        a: "Yes. Mainstream dental and public-health bodies, including the American Dental Association, consider professionally applied fluoride safe and effective at preventing decay in children. The amount used at a dental visit is small, and it is applied by the dental team. At home, use a rice-grain smear of toothpaste for children under three and a pea-sized amount for children from three to six.",
       },
       {
         q: "How long after fluoride can I eat or drink?",
@@ -730,7 +730,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "That still leaves most treatment in house, including implants, root canals, extractions, wisdom teeth removal and dentures. When something is beyond that, you are told at the assessment and referred on, rather than finding out halfway through treatment.",
+            text: "That still leaves most treatment in house, including implants, root canals, extractions, wisdom teeth removal and dentures. When something is beyond that, you are told at the assessment and referred elsewhere, rather than finding out halfway through treatment.",
           },
         ],
       },
@@ -740,7 +740,7 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "General dentistry is about health and function: is the tooth sound, is the gum healthy, does the bite work. Cosmetic dentistry is about how the smile looks, through whitening, veneers, bonding or Invisalign.",
+            text: "General dentistry is about health and function: Is the tooth sound? Is the gum healthy? Does the bite work? Cosmetic dentistry is about how the smile looks, through whitening, veneers, bonding or Invisalign.",
           },
           {
             type: "p",
@@ -763,7 +763,7 @@ export const preventativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "What does a general dentist treat?",
-        a: "A general dentist handles the prevention, diagnosis and treatment of everyday dental problems: check-ups, cleanings, X-rays, fillings, crowns, bridges, root canals, extractions and dentures. They also screen for gum disease and oral cancer, and refer you on when a case needs a specialist.",
+        a: "A general dentist handles the prevention, diagnosis and treatment of everyday dental problems: check-ups, cleanings, X-rays, fillings, crowns, bridges, root canals, extractions and dentures. They also screen for gum disease and oral cancer, and refer you to a specialist when a case needs one.",
       },
       {
         q: "What is the difference between a general and a cosmetic dentist?",
@@ -785,13 +785,13 @@ export const preventativePages: Record<string, DraftPage> = {
   },
   "/preventative-care/oral-hygiene": {
     url: "/preventative-care/oral-hygiene",
-    title: "Oral Hygiene Advice | Media Brite Smile, Media PA",
+    title: "Oral Hygiene Advice | Media Brite Smile, Media, PA",
     description:
       "How to brush, floss and clean between your teeth properly: the home routine that decides how your next check-up at Media Brite Smile goes.",
     h1: "Looking After Your Teeth at Home",
     intro: [
-      'Good oral hygiene comes down to removing plaque every day, at the gumline and between the teeth, where most problems start. This oral hygiene advice from Media Brite Smile in Media, PA covers the technique most adults get slightly wrong, not just "brush twice a day".',
-      "Plaque is a colorless, sticky film that forms on your teeth constantly. It causes both decay and gum disease, and if it is not removed it hardens into tartar that only a professional cleaning can shift.",
+      'Good oral hygiene comes down to removing plaque every day, at the gumline and between the teeth, where most problems start. This oral hygiene advice from Media Brite Smile in Media, PA, covers the technique most adults get slightly wrong, not just "brush twice a day".',
+      "Plaque is a colorless, sticky film that forms on your teeth constantly. It causes both decay and gum disease, and if it is not removed it hardens into tartar that only a professional cleaning can remove.",
     ],
     sections: [
       {
@@ -846,7 +846,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Wind most of it round one middle finger and the rest round the other",
+            text: "Wind most of it around one middle finger and the rest around the other",
           },
           {
             type: "p",
@@ -920,7 +920,7 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Every sugary snack or drink starts an acid attack on the enamel. How often you have sugar matters more than how much, so keep sweet foods to mealtimes rather than grazing through the day, and drink water between meals.",
+            text: "Every sugary snack or drink starts an acid attack on the enamel. How often you have sugar matters more than how much, so keep sweet foods to mealtimes rather than grazing throughout the day, and drink water between meals.",
           },
         ],
       },
@@ -983,10 +983,10 @@ export const preventativePages: Record<string, DraftPage> = {
     url: "/preventative-care/teeth-cleaning-and-check-ups",
     title: "Teeth Cleaning & Check-Ups in Media, PA | Media Brite Smile",
     description:
-      "Teeth cleaning and check-ups in Media, PA. $99 new patient exam for uninsured patients, regular $315. Book on (610) 566-2711.",
+      "Teeth cleaning and check-ups in Media, PA. $99 new patient exam for uninsured patients, regular $315. Call (610) 566-2711 to book.",
     h1: "Teeth Cleaning and Check-Ups in Media, PA",
     intro: [
-      "A dental checkup in Media, PA every six months catches small problems while they are still small. For uninsured new patients the examination is $99 instead of the usual $315.",
+      "A dental checkup in Media, PA, every six months catches small problems while they are still small. For uninsured new patients the examination is $99 instead of the usual $315.",
     ],
     sections: [
       {
@@ -1007,7 +1007,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Professional cleaning to remove plaque and hardened tartar that brushing cannot shift",
+            text: "Professional cleaning to remove plaque and hardened tartar that brushing cannot remove",
           },
           {
             type: "p",
@@ -1089,7 +1089,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "For ongoing care without insurance, the Dental Savings Plan is $300 a year and covers two annual exams, one emergency exam, two oral cancer screenings, four bitewing X-rays, all individual X-rays for the year, and a full mouth series or Panorex. It also takes 10 to 15% off additional procedures, including fillings, crowns and dentures.",
+            text: "For ongoing care without insurance, the Dental Savings Plan is $300 a year and covers two annual exams, one emergency exam, two oral cancer screenings, four bitewing X-rays, all individual X-rays for the year, and a full mouth series or Panorex. It also takes 10% to 15% off additional procedures, including fillings, crowns and dentures.",
           },
           {
             type: "p",
@@ -1192,7 +1192,7 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "How much is a cleaning if I have no insurance?",
-        a: "For new patients the examination is $99 against a regular price of $315. For ongoing care, the Dental Savings Plan is $300 a year and covers two exams, an emergency exam, two oral cancer screenings and your X-rays for the year, plus 10 to 15% off treatment.",
+        a: "For new patients the examination is $99 against a regular price of $315. For ongoing care, the Dental Savings Plan is $300 a year and covers two exams, an emergency exam, two oral cancer screenings and your X-rays for the year, plus 10% to 15% off treatment.",
       },
       {
         q: "Does a cleaning hurt?",
@@ -1220,7 +1220,7 @@ export const preventativePages: Record<string, DraftPage> = {
     url: "/preventative-care/arestin",
     title: "Arestin Gum Treatment | Dentist in Media, PA",
     description:
-      "How Arestin antibiotic treatment is used alongside deep cleaning in Media, PA to treat gum pockets, and what to expect in the days afterwards.",
+      "How Arestin antibiotic treatment is used alongside deep cleaning in Media, PA, to treat gum pockets, and what to expect in the days afterward.",
     h1: "Arestin Antibiotic Treatment for Gum Disease",
     intro: [
       "Arestin is a locally applied antibiotic placed directly into infected gum pockets after a deep cleaning. At Media Brite Smile in Media, PA, Arestin treatment is used alongside scaling and root planing, not instead of it, to help control the bacteria that cause gum disease.",
@@ -1237,7 +1237,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "It is one of the ways an antibiotic gum treatment in Media, PA can be added to a deep cleaning.",
+            text: "It is one of the ways an antibiotic gum treatment in Media, PA, can be added to a deep cleaning.",
           },
         ],
       },
@@ -1247,7 +1247,7 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Gum disease creates pockets between the gum and the tooth where bacteria collect. Scaling and root planing removes the tartar and bacteria from the roots. Arestin is then placed in the pockets straight afterwards, where it continues to act on the remaining bacteria after you leave.",
+            text: "Gum disease creates pockets between the gum and the tooth where bacteria collect. Scaling and root planing removes the tartar and bacteria from the roots. Arestin is then placed in the pockets immediately afterward, where it continues to act on the remaining bacteria after you leave.",
           },
           {
             type: "p",
@@ -1282,12 +1282,12 @@ export const preventativePages: Record<string, DraftPage> = {
         ],
       },
       {
-        heading: "What to Expect Afterwards",
+        heading: "What to Expect Afterward",
         kind: null,
         items: [
           {
             type: "p",
-            text: "The placement itself takes a few minutes and is done at the end of the cleaning. Afterwards, the dentist will usually ask you to:",
+            text: "The placement itself takes a few minutes and is done at the end of the cleaning. Afterward, the dentist will usually ask you to:",
           },
           {
             type: "p",
@@ -1303,7 +1303,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "You will be given exact instructions on the day.",
+            text: "You will be given exact instructions at your appointment.",
           },
         ],
       },
@@ -1317,7 +1317,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If you notice swelling, a rash or anything unusual after treatment, call the practice on (610) 566-2711.",
+            text: "If you notice swelling, a rash or anything unusual after treatment, call the practice at (610) 566-2711.",
           },
         ],
       },
@@ -1330,7 +1330,7 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "Are there side effects?",
-        a: "Most people have none, but any antibiotic can cause side effects. Tell the dentist if you are allergic to minocycline or tetracycline antibiotics, or are pregnant or breastfeeding. Call the practice if you notice swelling, a rash or anything unusual afterwards.",
+        a: "Most people have none, but any antibiotic can cause side effects. Tell the dentist if you are allergic to minocycline or tetracycline antibiotics, or are pregnant or breastfeeding. Call the practice if you notice swelling, a rash or anything unusual afterward.",
       },
       {
         q: "How soon does Arestin work?",
@@ -1369,7 +1369,7 @@ export const preventativePages: Record<string, DraftPage> = {
               ["How it is decided", "Pocket depth measurements, X-rays and how far the disease has progressed"],
               ["Numbing", "Local anesthetic where needed, usually used"],
               ["Visits", "Often split across two or more appointments"],
-              ["Afterwards", "Periodontal maintenance cleanings to keep it under control"],
+              ["Afterward", "Periodontal maintenance cleanings to keep it under control"],
             ],
           },
         ],
@@ -1388,7 +1388,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Root planing smooths the root surface. That removes the rough, bacteria-laden layer and makes it harder for bacteria to settle back on, which gives the gum the chance to heal against the tooth.",
+            text: "Root planing smooths the root surface. That removes the rough, bacteria-laden layer and makes it harder for bacteria to settle back onto it, which gives the gum the chance to heal against the tooth.",
           },
         ],
       },
@@ -1432,7 +1432,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Pocket depths. A small probe measures the gap between each tooth and the gum at several points. Healthy pockets are shallow; the risk of gum disease rises once pockets go beyond about 3mm.",
+            text: "Pocket depths. A small probe measures the gap between each tooth and the gum at several points. Healthy pockets are shallow; the risk of gum disease rises once pockets go beyond about 3 mm.",
           },
           {
             type: "p",
@@ -1440,7 +1440,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Tartar below the gumline, bleeding when the pockets are measured, and how far the disease has progressed.",
+            text: "Other findings. Tartar below the gumline, bleeding when the pockets are measured, and how far the disease has progressed.",
           },
           {
             type: "p",
@@ -1522,7 +1522,7 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "After a deep cleaning, the gums are rechecked, and most patients move onto periodontal maintenance.",
+            text: "After a deep cleaning, the gums are rechecked, and most patients move on to periodontal maintenance.",
           },
           {
             type: "p",
@@ -1541,7 +1541,7 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "The deep cleaning teeth cost in Media, PA depends on how many sections of the mouth need treating, so it is priced after the examination.",
+            text: "The cost of a deep teeth cleaning in Media, PA, depends on how many sections of the mouth need to be treated, so it is priced after the examination.",
           },
           {
             type: "p",
@@ -1549,7 +1549,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Without insurance, Dental Savings Plan members get 10 to 15% off additional procedures, and CareCredit can spread the cost.",
+            text: "Without insurance, Dental Savings Plan members get 10% to 15% off additional procedures, and CareCredit can spread the cost.",
           },
           {
             type: "link",
@@ -1568,7 +1568,7 @@ export const preventativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Does a deep cleaning hurt?",
-        a: "For most patients it feels like pressure and scraping rather than pain, because the area is numbed with a local anesthetic first. Only one section of the mouth is treated at a time. Gums are usually tender and teeth more sensitive for a few days afterwards, which settles as the gums heal.",
+        a: "For most patients it feels like pressure and scraping rather than pain, because the area is numbed with a local anesthetic first. Only one section of the mouth is treated at a time. Gums are usually tender and teeth more sensitive for a few days afterward, which settles as the gums heal.",
       },
       {
         q: "How many visits will I need?",
@@ -1576,15 +1576,15 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "Do I really need a deep cleaning or is this an upsell?",
-        a: "It should rest on measurements you can see: pocket depths beyond about 3mm, bone loss on X-rays and tartar below the gumline point to a deep cleaning. Ask for your pocket numbers and to see the X-rays. If the readings are shallow, a routine cleaning is the right answer.",
+        a: "It should rest on measurements you can see: pocket depths beyond about 3 mm, bone loss on X-rays and tartar below the gumline point to a deep cleaning. Ask for your pocket numbers and to see the X-rays. If the readings are shallow, a routine cleaning is the right answer.",
       },
       {
-        q: "What can I eat afterwards?",
+        q: "What can I eat afterward?",
         a: "Wait until the numbness has worn off, then choose soft food that is not too hot for the first day or two while the gums are tender. Avoid hard, sharp or very spicy food near the treated area. Keep brushing gently and flossing carefully, because clean gums heal faster.",
       },
       {
         q: "Is it covered by insurance?",
-        a: "It depends on your plan, including how often deep cleanings and maintenance visits are paid for, and the practice works with more than 40 dental insurance plans and bills your insurer directly. Send the plan name and the team will check what applies. Without insurance, the Dental Savings Plan gives 10 to 15% off.",
+        a: "It depends on your plan, including how often deep cleanings and maintenance visits are paid for, and the practice works with more than 40 dental insurance plans and bills your insurer directly. Send the plan name and the team will check what applies. Without insurance, the Dental Savings Plan gives 10% to 15% off.",
       },
     ],
     cta: {
@@ -1658,7 +1658,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Periodontitis means attachment and bone have been lost, and that damage is permanent. Treatment stops it progressing and keeps the teeth, but does not restore what has gone.",
+            text: "Periodontitis means attachment and bone have been lost, and that damage is permanent. Treatment stops it from progressing and keeps the teeth, but does not restore what has gone.",
           },
           {
             type: "p",
@@ -1775,7 +1775,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "That is the bit most people skip. You will be shown the technique for your own mouth rather than handed a generic leaflet.",
+            text: "That is the part most people skip. You will be shown the technique for your own mouth rather than handed a generic handout.",
           },
           {
             type: "p",
@@ -1798,7 +1798,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "You will be given the figure before treatment starts. Coverage for gum treatment depends on your plan, so send the plan name and the team will check it; the practice bills your insurer and tracks the claim. The Dental Savings Plan takes 10 to 15% off treatment for uninsured patients.",
+            text: "You will be given the figure before treatment starts. Coverage for gum treatment depends on your plan, so send the plan name and the team will check it; the practice bills your insurer and tracks the claim. The Dental Savings Plan takes 10% to 15% off treatment for uninsured patients.",
           },
           {
             type: "link",
@@ -1821,7 +1821,7 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "Can gum disease be reversed?",
-        a: "Gingivitis can be reversed completely. Periodontitis cannot, because the bone and attachment already lost do not regrow. Treatment stops the disease progressing and keeps the teeth you have. Anyone promising a permanent cure for periodontitis is overstating what is possible.",
+        a: "Gingivitis can be reversed completely. Periodontitis cannot, because the bone and attachment already lost do not regrow. Treatment stops the disease from progressing and keeps the teeth you have. Anyone promising a permanent cure for periodontitis is overstating what is possible.",
       },
       {
         q: "Will I lose my teeth?",
@@ -1829,11 +1829,11 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "How many appointments does treatment take?",
-        a: "A deep cleaning is often split across two or more visits, depending on how many areas are affected. After that you move onto periodontal maintenance, which is ongoing rather than a fixed course. You will be given a plan with the number of visits at the assessment.",
+        a: "A deep cleaning is often split across two or more visits, depending on how many areas are affected. After that you move on to periodontal maintenance, which is ongoing rather than a fixed course. You will be given a plan with the number of visits at the assessment.",
       },
       {
         q: "Does insurance cover gum disease treatment?",
-        a: "It depends on your policy, including how often maintenance visits are paid for. The practice works with more than 40 dental insurance plans, so call (610) 566-2711 with your plan name and the team will check before treatment starts. Without insurance, the Dental Savings Plan takes 10 to 15% off.",
+        a: "It depends on your policy, including how often maintenance visits are paid for. The practice works with more than 40 dental insurance plans, so call (610) 566-2711 with your plan name and the team will check before treatment starts. Without insurance, the Dental Savings Plan takes 10% to 15% off.",
       },
       {
         q: "Do I really need a deep cleaning?",
@@ -1903,7 +1903,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Each perio maintenance cleaning in Media, PA includes cleaning below the gumline, checking the pocket depths against your last visit, and a look at any areas that are bleeding or inflamed.",
+            text: "Each periodontal maintenance cleaning in Media, PA, includes cleaning below the gumline, checking the pocket depths against your last visit, and a look at any areas that are bleeding or inflamed.",
           },
           {
             type: "link",
@@ -1950,7 +1950,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If you have no insurance, the in-house Dental Savings Plan gives 10 to 15% off additional procedures for members.",
+            text: "If you have no insurance, the in-house Dental Savings Plan gives 10% to 15% off additional procedures for members.",
           },
           {
             type: "link",
@@ -1991,7 +1991,7 @@ export const preventativePages: Record<string, DraftPage> = {
       "Dental care for children in Media, PA: a first visit around age one, check-ups, fluoride, sealants and help for nervous kids. Call (610) 566-2711.",
     h1: "Dental Care for Children in Media, PA",
     intro: [
-      "Media Brite Smile is a family practice in Media, PA where children are seen by the general dentists for first visits, check-ups, cleanings, fluoride and sealants. A child's first visit is short and gentle, and it is mostly about getting comfortable rather than treatment.",
+      "Media Brite Smile is a family practice in Media, PA, where children are seen by the general dentists for first visits, check-ups, cleanings, fluoride and sealants. A child's first visit is short and gentle, and it is mostly about getting comfortable rather than treatment.",
       "If your child is nervous, or had a bad experience somewhere else, say so when you book and the visit is paced around them.",
     ],
     sections: [
@@ -2006,7 +2006,7 @@ export const preventativePages: Record<string, DraftPage> = {
               ["First visit", "Just after your child's first birthday"],
               ["Who sees children", "The practice's general dentists"],
               ["Routine care", "Check-ups, cleanings, topical fluoride and sealants"],
-              ["Pediatric specialist on staff?", "No. Children who need one are referred"],
+              ["Pediatric specialist on staff?", "No. Children who need one are referred to a specialist"],
               ["Families", "Children and adults can be booked together"],
             ],
           },
@@ -2026,7 +2026,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "An early first visit means any problem is caught while it is small, and your child gets used to the dental chair before anything needs doing. For parents looking for a dentist for toddlers in Media, PA, that early, unhurried visit is the starting point.",
+            text: "An early first visit means any problem is caught while it is small, and your child gets used to the dental chair before anything needs to be done. For parents looking for a dentist for toddlers in Media, PA, that early, unhurried visit is the starting point.",
           },
           {
             type: "p",
@@ -2137,7 +2137,7 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Cavities in baby teeth usually do need treating, even though the teeth will fall out eventually.",
+            text: "Cavities in baby teeth usually do need to be treated, even though the teeth will fall out eventually.",
           },
           {
             type: "p",
@@ -2180,12 +2180,12 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "That covers routine care for most children. A child who needs specialist pediatric care, or treatment that cannot be done in a general practice, is referred on. You would be told that at the assessment, so you can plan around it.",
+            text: "That covers routine care for most children. A child who needs specialist pediatric care, or treatment that cannot be done in a general practice, is referred to a specialist. You would be told that at the assessment, so you can plan around it.",
           },
         ],
       },
       {
-        heading: "Grinding and Night-Time Protection",
+        heading: "Grinding and Nighttime Protection",
         kind: null,
         items: [
           {
@@ -2227,7 +2227,7 @@ export const preventativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "What age should my child first see a dentist?",
-        a: "Just after their first birthday, a few months after the first baby teeth usually appear. An early visit means any problem is caught while it is small, and it lets your child get used to the dental chair before anything needs doing. The first visit is short and involves very little treatment.",
+        a: "Just after their first birthday, a few months after the first baby teeth usually appear. An early visit means any problem is caught while it is small, and it lets your child get used to the dental chair before anything needs to be done. The first visit is short and involves very little treatment.",
       },
       {
         q: "My child is terrified. What can you do?",
@@ -2247,7 +2247,7 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "Is there a pediatric specialist at the practice?",
-        a: "No. Children are seen by the general dentists, who handle routine care such as check-ups, cleanings, fluoride, sealants and fillings in baby teeth. A child who needs specialist pediatric care is referred on, and you would be told that at the assessment rather than later.",
+        a: "No. Children are seen by the general dentists, who handle routine care such as check-ups, cleanings, fluoride, sealants and fillings in baby teeth. A child who needs specialist pediatric care is referred to a pediatric specialist, and you would be told that at the assessment rather than later.",
       },
     ],
     cta: {
@@ -2259,7 +2259,7 @@ export const preventativePages: Record<string, DraftPage> = {
     url: "/preventative-care/night-guards",
     title: "Night Guards & Teeth Grinding | Media, PA Dentist",
     description:
-      "Custom night guards in Media, PA for teeth grinding and clenching: how they are made, and how they compare with store-bought guards.",
+      "Custom night guards in Media, PA, for teeth grinding and clenching: how they are made, and how they compare with store-bought guards.",
     h1: "Night Guards for Teeth Grinding",
     intro: [
       "A night guard is a custom-made mouthpiece you wear while you sleep, so that grinding and clenching wear down the guard instead of your teeth. At Media Brite Smile in Media, PA, night guards are made in a dental lab from an impression of your own teeth.",
@@ -2272,7 +2272,7 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Teeth grinding, also called bruxism, mostly happens during sleep, so many people do not know they do it. Teeth grinding treatment in Media, PA starts with spotting it. Common signs include:",
+            text: "Teeth grinding, also called bruxism, mostly happens during sleep, so many people do not know they do it. Teeth grinding treatment in Media, PA, starts with spotting it. Common signs include:",
           },
           {
             type: "p",
@@ -2306,7 +2306,7 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "The force of night-time grinding is far greater than ordinary chewing. Over months and years it can wear the enamel flat, chip edges, crack teeth and fillings, and loosen crowns.",
+            text: "The force of nighttime grinding is far greater than ordinary chewing. Over months and years it can wear the enamel flat, chip edges, crack teeth and fillings, and loosen crowns.",
           },
           {
             type: "p",
@@ -2461,11 +2461,11 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "How long does a night guard last?",
-        a: "It depends mainly on how hard you grind. Bring the guard to your check-ups so the dentist can see the wear and tell you when it needs replacing. Cleaning it daily and keeping it away from heat helps it last.",
+        a: "It depends mainly on how hard you grind. Bring the guard to your check-ups so the dentist can see the wear and tell you when it needs to be replaced. Cleaning it daily and keeping it away from heat helps it last.",
       },
       {
         q: "Will a night guard stop my jaw pain?",
-        a: "It may help, but it is not guaranteed. A night guard protects your teeth from grinding, and some people find their morning jaw ache eases. Ongoing jaw pain, clicking or headaches need assessing in their own right, and Dr. Suvagiya assesses TMD and facial pain.",
+        a: "It may help, but it is not guaranteed. A night guard protects your teeth from grinding, and some people find their morning jaw ache eases. Ongoing jaw pain, clicking or headaches need to be assessed in their own right, and Dr. Suvagiya assesses TMD and facial pain.",
       },
     ],
     cta: {
@@ -2499,7 +2499,7 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "The practice is open 8am to 5pm Monday to Thursday, and 8am to 2pm on Friday.",
+            text: "The practice is open 8am to 5pm Monday through Thursday, and 8am to 2pm on Friday.",
           },
           {
             type: "p",
@@ -2595,7 +2595,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Rinse with warm salt water and keep your head raised, including at night. A cold compress against the outside of your cheek helps with swelling. Take the pain relief you would normally take, following the packet. Do not put aspirin directly against the gum.",
+            text: "Rinse with warm salt water and keep your head raised, including at night. A cold compress against the outside of your cheek helps with swelling. Take the pain relief you would normally take, following the directions on the package. Do not put aspirin directly against the gum.",
           },
           {
             type: "h3",
@@ -2721,7 +2721,7 @@ export const preventativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Can I be seen today?",
-        a: "Call (610) 566-2711 as early in the day as you can. Urgent problems are triaged on the phone and you will be seen the same day whenever possible. If the day is full, we will tell you straight away and give you guidance for managing it until the next slot.",
+        a: "Call (610) 566-2711 as early in the day as you can. Urgent problems are triaged on the phone and you will be seen the same day whenever possible. If the day is full, we will tell you right away and give you guidance for managing it until the next slot.",
       },
       {
         q: "Should I go to the emergency room for a toothache?",
@@ -2729,7 +2729,7 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "What do I do if my tooth has been knocked out?",
-        a: "Pick it up by the crown, not the root, and avoid scrubbing it. Try to reposition it in the socket and hold it there. If you cannot, keep it in milk and call us straight away. A tooth replanted within the first hour has a far better chance than one left dry.",
+        a: "Pick it up by the crown, not the root, and avoid scrubbing it. Try to reposition it in the socket and hold it there. If you cannot, keep it in milk and call us right away. A tooth replanted within the first hour has a far better chance than one left dry.",
       },
       {
         q: "How much will it cost?",
@@ -2757,10 +2757,10 @@ export const preventativePages: Record<string, DraftPage> = {
     url: "/preventative-care/digital-x-rays",
     title: "Digital Dental X-Rays | Dentist in Media, PA",
     description:
-      "Why Media Brite Smile in Media, PA uses digital X-rays, how often they are needed, and what they show that an exam alone cannot.",
+      "Why Media Brite Smile in Media, PA, uses digital X-rays, how often they are needed, and what they show that an exam alone cannot.",
     h1: "Digital Dental X-Rays",
     intro: [
-      "Digital dental X-rays use a small sensor instead of film, so the image appears on a computer straight away with less radiation than traditional X-rays. At Media Brite Smile in Media, PA, X-rays are taken only when they are needed, following clinical guidelines.",
+      "Digital dental X-rays use a small sensor instead of film, so the image appears on a computer immediately with less radiation than traditional X-rays. At Media Brite Smile in Media, PA, X-rays are taken only when they are needed, following clinical guidelines.",
       "If you are uneasy about radiation, or wonder whether X-rays are really necessary, this page answers both questions plainly.",
     ],
     sections: [
@@ -2893,7 +2893,7 @@ export const preventativePages: Record<string, DraftPage> = {
   },
   "/preventative-care/intraoral-scanner": {
     url: "/preventative-care/intraoral-scanner",
-    title: "Intraoral Scanner & Digital Impressions | Media PA",
+    title: "Intraoral Scanner & Digital Impressions | Media, PA",
     description:
       "Media Brite Smile scans your teeth digitally instead of taking putty impressions: no trays to gag on, an accurate 3D model, and results on screen.",
     h1: "Digital Scanning Instead of Impression Putty",
@@ -2908,7 +2908,7 @@ export const preventativePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "The wand is moved slowly around your mouth, and it captures the shape of your teeth and gums in 3D as it goes. The model builds on the screen in real time, so you and the dentist can look at it together straight away.",
+            text: "The wand is moved slowly around your mouth, and it captures the shape of your teeth and gums in 3D as it goes. The model builds on the screen in real time, so you and the dentist can look at it together right away.",
           },
           {
             type: "p",
@@ -2927,13 +2927,13 @@ export const preventativePages: Record<string, DraftPage> = {
               ["What goes in your mouth", "A tray of putty that has to set", "A small wand, moved around the teeth"],
               ["Gag reflex", "A common problem", "Far less likely"],
               ["If it goes wrong", "Repeat the whole impression", "Rescan just that area"],
-              ["Seeing the result", "Not until the model is made", "On screen straight away"],
-              ["Sending it to the lab", "Physical impression, posted", "Digital file"],
+              ["Seeing the result", "Not until the model is made", "On screen immediately"],
+              ["Sending it to the lab", "Physical impression, mailed", "Digital file"],
             ],
           },
           {
             type: "p",
-            text: "For no putty dental impressions in Media, PA, this is how the practice works.",
+            text: "For no-putty dental impressions in Media, PA, this is how the practice works.",
           },
         ],
       },
@@ -2994,7 +2994,7 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "Is a digital impression more accurate than a mold?",
-        a: "Digital scans are highly accurate, and they avoid problems such as a putty impression distorting when it is removed. If part of a scan is unclear, only that area needs rescanning rather than starting again, which helps aligners and retainers fit precisely.",
+        a: "Digital scans are highly accurate, and they avoid problems such as a putty impression distorting when it is removed. If part of a scan is unclear, only that area needs to be rescanned rather than starting again, which helps aligners and retainers fit precisely.",
       },
       {
         q: "How long does a scan take?",
@@ -3141,7 +3141,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "If the dentist sees something, they will explain what they have found and what the next step is. That usually means checking the area again after a short interval to see whether it has changed, or arranging a biopsy, where a small sample is sent to a laboratory. If you need specialist care, you will be referred.",
+            text: "If the dentist sees something, they will explain what they have found and what the next step is. That usually means checking the area again after a short interval to see whether it has changed, or arranging a biopsy, where a small sample is sent to a laboratory. If you need specialist care, you will be referred to the right specialist.",
           },
           {
             type: "p",
@@ -3202,7 +3202,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: 'TMJ is the name of the joint. TMD is the name of the disorder. People use "TMJ" for both, and it does not matter what you call it when you ring.',
+            text: 'TMJ is the name of the joint. TMD is the name of the disorder. People use "TMJ" for both, and it does not matter what you call it when you get in touch.',
           },
         ],
       },
@@ -3244,7 +3244,7 @@ export const preventativePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Pain that worsens through the day, or after a stressful week",
+            text: "Pain that worsens as the day goes on, or after a stressful week",
           },
           {
             type: "p",
@@ -3410,7 +3410,7 @@ export const preventativePages: Record<string, DraftPage> = {
     faqs: [
       {
         q: "Can a dentist treat TMJ?",
-        a: "Yes. The jaw joint, the chewing muscles and the bite are all dental territory, and orofacial pain is a recognized area of advanced dental training. Dr. Suvagiya holds a fellowship in orofacial pain from Rutgers University. Where pain turns out to be neurological or ENT-related, you are referred on.",
+        a: "Yes. The jaw joint, the chewing muscles and the bite are all dental territory, and orofacial pain is a recognized area of advanced dental training. Dr. Suvagiya holds a fellowship in orofacial pain from Rutgers University. Where pain turns out to be neurological or ENT-related, you are referred to the appropriate specialist.",
       },
       {
         q: "What causes TMD?",
@@ -3422,7 +3422,7 @@ export const preventativePages: Record<string, DraftPage> = {
       },
       {
         q: "Will TMD go away on its own?",
-        a: "Often it settles, particularly when a short period of strain caused it. Pain lasting more than a few weeks, a jaw that locks, or teeth that are visibly wearing are worth assessing, because the longer grinding continues the more damage accumulates in teeth that then need restoring.",
+        a: "Often it settles, particularly when a short period of strain caused it. Pain lasting more than a few weeks, a jaw that locks, or teeth that are visibly wearing are worth assessing, because the longer grinding continues the more damage accumulates in teeth that then need to be restored.",
       },
       {
         q: "Do I need a night guard?",

@@ -136,7 +136,7 @@ export function Technology() {
               <div>
                 <h3 className="text-xl font-semibold tracking-tight">Intraoral scanner</h3>
                 <p className="mt-2 text-sm">
-                  Impressions are scanned rather than taken in putty. That fits better and avoids the gag reflex. X-rays
+                  Impressions are scanned rather than taken with putty. A scanned impression fits better and avoids the gag reflex. X-rays
                   are digital.
                 </p>
               </div>

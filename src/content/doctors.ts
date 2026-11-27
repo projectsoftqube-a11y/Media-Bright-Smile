@@ -50,7 +50,7 @@ const profiles: DoctorProfile[] = [
     lead: "Dr. Zan is a general and cosmetic dentist at Media Brite Smile. He is Invisalign certified and an active member of the American Dental Association.",
     bio: [
       "Dr. Zan was born and raised in West Chester, PA and has been committed to providing comprehensive care to patients of all ages. Dr. Zan completed his Bachelor of Science at West Chester University, and received his Doctorate of Dental Medicine from Nova Southeastern University College of Dental Medicine in Fort Lauderdale, Florida.",
-      "While attending Nova Southeastern University, Dr. Zan worked with rural and underserved populations as part of the Remote Area Medical missions group and the Ryan White Foundation. Alongside his own dental training, Dr. Zan mentored masters students seeking to pursue dentistry, and also enjoyed teaching human anatomy on cadavers to medical, nursing and fellow dental students, and other post-graduate professionals.",
+      "While attending Nova Southeastern University, Dr. Zan worked with rural and underserved populations as part of the Remote Area Medical missions group and the Ryan White Foundation. Alongside his own dental training, Dr. Zan mentored master’s students seeking to pursue dentistry, and also enjoyed teaching human anatomy on cadavers to medical, nursing and fellow dental students, and other postgraduate professionals.",
       "Since returning home to Pennsylvania, Dr. Zan has completed numerous continuing education courses, is [Invisalign®](/cosmetic-dentistry/invisalign) certified, and is an active member of the American Dental Association (ADA). Dr. Zan enjoys smile design and providing cosmetic transformations as much as routine, comprehensive, and preventative care.",
       "In his free time, Dr. Zan spends a lot of time with his parents, reading fiction novels, and traveling. Half of his family lives in Dallas, TX, and he also enjoys visiting South Florida.",
     ],
@@ -75,7 +75,7 @@ const profiles: DoctorProfile[] = [
       },
       {
         title: "Teaching and Outreach",
-        text: "At Nova Southeastern, Dr. Zan worked with rural and underserved patients. He did this through the Remote Area Medical missions group and the Ryan White Foundation.\n\nHe also mentored masters students who were applying to dentistry. And he taught human anatomy on cadavers, to medical students, nursing students, fellow dental students and other post-graduates.\n\nTeaching anatomy is relevant to the chair, not just the CV. It is the same knowledge that tells a dentist where a nerve runs before an injection goes in.",
+        text: "At Nova Southeastern, Dr. Zan worked with rural and underserved patients. He did this through the Remote Area Medical missions group and the Ryan White Foundation.\n\nHe also mentored master’s students who were applying to dentistry. And he taught human anatomy on cadavers, to medical students, nursing students, fellow dental students and other postgraduates.\n\nTeaching anatomy is relevant to the chair, not just the CV. It is the same knowledge that tells a dentist where a nerve runs before an injection goes in.",
       },
       {
         title: "What Dr. Zan Treats",
@@ -109,7 +109,7 @@ const profiles: DoctorProfile[] = [
         items: [
           "Remote Area Medical missions",
           "Ryan White Foundation",
-          "Mentored masters students applying to dentistry",
+          "Mentored master’s students applying to dentistry",
           "Taught human anatomy on cadavers",
         ],
       },
@@ -149,7 +149,7 @@ const profiles: DoctorProfile[] = [
     seo: {
       title: "Dr. Sanketkumar Suvagiya, DMD | Media, PA Dentist",
       description:
-        "Meet Dr. Sanketkumar Suvagiya DMD at Media Brite Smile, Media PA. Rutgers orofacial pain fellowship, restorative dentistry. Call (610) 566-2711.",
+        "Meet Dr. Sanketkumar Suvagiya DMD at Media Brite Smile, Media, PA. Rutgers orofacial pain fellowship, restorative dentistry. Call (610) 566-2711.",
     },
     lead: "Dr. Suvagiya is a restorative dentist at Media Brite Smile. He holds a fellowship in orofacial pain from Rutgers University and treats TMD, jaw muscle pain and headaches alongside general restorative work.",
     bio: [
@@ -219,11 +219,11 @@ const profiles: DoctorProfile[] = [
     faqs: [
       {
         q: "What is an orofacial pain fellowship?",
-        a: "It is advanced dental training in jaw, face and mouth pain. That covers TMD, chewing muscle pain, and headaches that start in the teeth or jaw. Dr. Suvagiya completed his at Rutgers University. It is a fellowship, not specialist registration.",
+        a: "It is advanced dental training in jaw, face and mouth pain. That covers TMD, chewing muscle pain, and headaches that start in the teeth or jaw. Dr. Suvagiya completed his fellowship at Rutgers University. It is a fellowship, not specialist registration.",
       },
       {
         q: "Can Dr. Suvagiya help with my jaw pain or headaches?",
-        a: "Often, yes. Jaw joint problems, clenching and an uneven bite can all cause pain that shows up as headaches or earache. The assessment works out which structures are involved. Where the cause is neurological or ENT, you are referred on.",
+        a: "Often, yes. Jaw joint problems, clenching and an uneven bite can all cause pain that shows up as headaches or earache. The assessment works out which structures are involved. Where the cause is neurological or ENT, you are referred to the appropriate specialist.",
       },
       {
         q: "Where did Dr. Suvagiya train?",
@@ -231,7 +231,7 @@ const profiles: DoctorProfile[] = [
       },
       {
         q: "Does he do root canals?",
-        a: "Yes. Root canals are one of his clinical interests, along with crowns, bridges, veneers and extractions. Complex cases that need an endodontist are referred. You would be told that at the assessment, not partway through.",
+        a: "Yes. Root canals are one of his clinical interests, along with crowns, bridges, veneers and extractions. Complex cases that need an endodontist are referred to one. You would be told that at the assessment, not partway through.",
       },
     ],
     cta: {
@@ -242,9 +242,9 @@ const profiles: DoctorProfile[] = [
   {
     slug: "meet-dr-bhadresh-makani-dds",
     seo: {
-      title: "Dr. Bhadresh Makani, DDS | Implant Dentist, Media PA",
+      title: "Dr. Bhadresh Makani, DDS | Implant Dentist, Media, PA",
       description:
-        "Meet Dr. Bhadresh Makani DDS at Media Brite Smile, Media PA. NYU trained, thousands of implants placed, All-on-X and CBCT-guided surgery.",
+        "Meet Dr. Bhadresh Makani DDS at Media Brite Smile, Media, PA. NYU trained, thousands of implants placed, All-on-X and CBCT-guided surgery.",
     },
     lead: "Dr. Makani is an implant-focused dentist at Media Brite Smile. He trained at New York University College of Dentistry and has placed thousands of implants, from single teeth to full-arch reconstruction.",
     bio: [
@@ -338,11 +338,11 @@ const profiles: DoctorProfile[] = [
       },
       {
         q: "What is All-on-X?",
-        a: "All-on-X is full-arch implant treatment. A fixed bridge replaces every tooth in a jaw, held by a number of implants that your CBCT scan decides, rather than a fixed count chosen before anyone has looked.",
+        a: "All-on-X is full-arch implant treatment. A fixed bridge replaces every tooth in a jaw, held by implants whose number is decided by your CBCT scan, rather than a fixed count chosen before anyone has looked.",
       },
       {
         q: "Is the implant consultation free?",
-        a: "Yes. You get the assessment and a written plan with costs. There is $500 off implant, abutment and crown at the moment, against a regular price starting at $3,999. You decide afterwards. Nothing is booked unless you ask.",
+        a: "Yes. You get the assessment and a written plan with costs. There is $500 off implant, abutment and crown at the moment, against a regular price starting at $3,999. You decide afterward. Nothing is booked unless you ask.",
       },
     ],
     cta: {

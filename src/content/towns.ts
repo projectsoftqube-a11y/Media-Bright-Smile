@@ -55,7 +55,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "From Rose Valley, take Manchester Avenue to N Providence Road and head into Media, finishing on N Pennell Road. Google Maps measured it at about 6 minutes and 2.8 miles on 12 November 2026.",
+            text: "From Rose Valley, take Manchester Avenue to N Providence Road and head into Media, finishing on N Pennell Road. Google Maps measured it at about 6 minutes and 2.8 miles on November 12, 2026.",
           },
           {
             type: "link",
@@ -69,7 +69,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "Being close is most useful for the visits that come round regularly:",
+            text: "Being close is most useful for the visits that come around regularly:",
           },
           {
             type: "p",
@@ -98,7 +98,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "This page covers Rose Valley borough (ZIP 19063 and 19065), including the Old Mill Lane area and nearby Moylan. Wallingford, next door, has its own Wallingford page, and every other town is on the Areas We Serve page.",
+            text: "This page covers Rose Valley borough (ZIP codes 19063 and 19065), including the Old Mill Lane area and nearby Moylan. Wallingford, next door, has its own Wallingford page, and every other town is on the Areas We Serve page.",
           },
         ],
       },
@@ -177,7 +177,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "ZIP 19086 covers Wallingford and most of Nether Providence Township. That includes the residential streets either side of Providence Road, the area around Wallingford station, and the parts of the township that shade into Rose Valley and Swarthmore. Wallingford is served by the Wallingford-Swarthmore School District.",
+            text: "ZIP 19086 covers Wallingford and most of Nether Providence Township. That includes the residential streets on either side of Providence Road, the area around Wallingford station, and the parts of the township that shade into Rose Valley and Swarthmore. Wallingford is served by the Wallingford-Swarthmore School District.",
           },
         ],
       },
@@ -198,7 +198,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "Two other things bring Wallingford patients in. Emergencies, such as a broken tooth or sudden pain, triaged on the phone so you know how soon to come in. And dentures, which are fitted, relined and repaired by the practice that has your records.",
+            text: "Two other things bring Wallingford patients in: emergencies, such as a broken tooth or sudden pain, triaged on the phone so you know how soon to come in; and dentures, which are made, relined and repaired by the practice that has your records.",
           },
           {
             type: "link",
@@ -335,7 +335,11 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "Jaw pain, clicking and TMD. Dr. Sanketkumar Suvagiya DMD holds a fellowship in Orofacial Pain from Rutgers University and assesses TMD, jaw-muscle pain and headaches linked to the jaw. Teeth grinding. Custom night guards protect worn teeth, and the dentist will tell you whether jaw symptoms need assessing in their own right.",
+            text: "Jaw pain, clicking and TMD. Dr. Sanketkumar Suvagiya DMD holds a fellowship in Orofacial Pain from Rutgers University and assesses TMD, jaw-muscle pain and headaches linked to the jaw.",
+          },
+          {
+            type: "p",
+            text: "Teeth grinding. Custom night guards protect worn teeth, and the dentist will tell you whether jaw symptoms need to be assessed in their own right.",
           },
           {
             type: "p",
@@ -358,7 +362,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "This page covers Upper Providence Township in Delaware County, ZIP 19063 and 19086, including the Rose Tree area around Rose Tree Park.",
+            text: "This page covers Upper Providence Township in Delaware County, ZIP codes 19063 and 19086, including the Rose Tree area around Rose Tree Park.",
           },
           {
             type: "p",
@@ -380,7 +384,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "The practice works with more than 40 insurance plans and bills them directly. Patients without cover can use the in-house Dental Savings Plan, and CareCredit is available for larger treatment.",
+            text: "The practice works with more than 40 insurance plans and bills them directly. Patients without coverage can use the in-house Dental Savings Plan, and CareCredit is available for larger treatment.",
           },
         ],
       },
@@ -397,7 +401,7 @@ export const towns: Town[] = [
       },
       {
         q: "Do you see children from Upper Providence?",
-        a: "Yes. The general dentists see children from around their first birthday for check-ups, cleanings, fluoride and sealants, and there is no pediatric specialist on staff, so a child who needs one is referred on.",
+        a: "Yes. The general dentists see children from around their first birthday for check-ups, cleanings, fluoride and sealants, and there is no pediatric specialist on staff, so a child who needs one is referred to a pediatric specialist.",
       },
       {
         q: "Is this Upper Providence in Delaware County or Montgomery County?",
@@ -445,7 +449,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "Take US-1 south, the Baltimore Pike, and the practice is on N Pennell Road in Media. About 7 minutes, 4.1 miles, measured in Google Maps on 12 November 2026.",
+            text: "Take US-1 south, the Baltimore Pike, and the practice is on N Pennell Road in Media. About 7 minutes, 4.1 miles, measured in Google Maps on November 12, 2026.",
           },
           {
             type: "p",
@@ -484,7 +488,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "Emergencies. Seven minutes is a short run with a broken tooth, and the phone call tells you how soon to come in.",
+            text: "Emergencies. Seven minutes is a short drive with a broken tooth, and the phone call tells you how soon to come in.",
           },
           {
             type: "p",
@@ -492,7 +496,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "Alongside those, the everyday work: a family dentist for check-ups and children's appointments, cosmetic treatment such as whitening and veneers, and dentures fitted, relined and repaired through the same practice.",
+            text: "Alongside those, the everyday work: a family dentist for check-ups and children's appointments, cosmetic treatment such as whitening and veneers, and dentures made, relined and repaired through the same practice.",
           },
           {
             type: "link",
@@ -553,11 +557,11 @@ export const towns: Town[] = [
       },
       {
         q: "Are you accepting new patients from Springfield Township (19064)?",
-        a: "Yes, new patients from Springfield Township and 19064 are welcome. A first visit is $99 without insurance under the New Patient Special, against a regular price of $315, and an in-house savings plan is available for patients with no cover. With insurance, call with the plan name and the team will check it before booking.",
+        a: "Yes, new patients from Springfield Township and 19064 are welcome. A first visit is $99 without insurance under the New Patient Special, against a regular price of $315, and an in-house savings plan is available for patients with no coverage. With insurance, call with the plan name and the team will check it before booking.",
       },
       {
         q: "Can I be seen the same day from Springfield, Delaware County?",
-        a: "Call (610) 566-2711 as early in the day as you can. Urgent problems are triaged on the phone and you will be seen the same day whenever possible. Being seven minutes out helps, but whether a slot is free on the day decides it.",
+        a: "Call (610) 566-2711 as early in the day as you can. Urgent problems are triaged on the phone and you will be seen the same day whenever possible. Being seven minutes out helps, but whether a slot is free that day decides it.",
       },
     ],
     cta: {
@@ -623,7 +627,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "The practice makes full dentures, partials, immediate dentures and implant-retained dentures, and handles the things that go wrong afterwards: relines when the fit loosens, rebases, repairs when one cracks, and soft liners for sore ridges.",
+            text: "The practice makes full dentures, partials, immediate dentures and implant-retained dentures, and handles the things that go wrong afterward: relines when the fit loosens, rebases, repairs when one cracks, and soft liners for sore ridges.",
           },
           {
             type: "p",
@@ -656,7 +660,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "Brookhaven patients weighing up a denture against something fixed can have that conversation here rather than being sent elsewhere.",
+            text: "Brookhaven patients weighing a denture against something fixed can have that conversation here rather than being sent elsewhere.",
           },
           {
             type: "p",
@@ -664,7 +668,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "Two other reasons Brookhaven patients come in: emergencies, where a broken tooth or sudden pain is triaged by phone first, and cosmetic work (whitening, veneers and Invisalign), done here rather than referred on.",
+            text: "Two other reasons Brookhaven patients come in: emergencies, where a broken tooth or sudden pain is triaged by phone first, and cosmetic work (whitening, veneers and Invisalign), done here rather than referred out.",
           },
           {
             type: "link",
@@ -720,7 +724,7 @@ export const towns: Town[] = [
       },
       {
         q: "Are you accepting new patients from Brookhaven?",
-        a: "Yes, new patients from Brookhaven, Parkside and the rest of 19015 are welcome. The New Patient Special puts a first visit at $99 for anyone uninsured, against a regular price of $315, and the practice runs its own savings plan for patients with no cover. With insurance, call with the plan name so it can be checked first.",
+        a: "Yes, new patients from Brookhaven, Parkside and the rest of 19015 are welcome. The New Patient Special puts a first visit at $99 for anyone uninsured, against a regular price of $315, and the practice runs its own savings plan for patients with no coverage. With insurance, call with the plan name so it can be checked first.",
       },
       {
         q: "Can I replace a denture with implants?",
@@ -790,7 +794,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "That makes two things useful. Urgent care, when something breaks mid-semester and traveling home is not realistic, and short-course cosmetic work such as whitening, which fits into a term.",
+            text: "That makes two things useful: urgent care, when something breaks mid-semester and traveling home is not realistic, and short-course cosmetic work such as whitening, which fits into a term.",
           },
           {
             type: "p",
@@ -867,11 +871,11 @@ export const towns: Town[] = [
       },
       {
         q: "Are you accepting new patients from Swarthmore?",
-        a: "Yes, new patients from Swarthmore and 19081 are welcome, students and borough households alike. The uninsured rate for a first visit is $99 under the New Patient Special, against a regular price of $315, and the practice runs its own savings plan for patients who have no cover at all. With insurance, call with the plan name and it will be checked first.",
+        a: "Yes, new patients from Swarthmore and 19081 are welcome, students and borough households alike. The uninsured rate for a first visit is $99 under the New Patient Special, against a regular price of $315, and the practice runs its own savings plan for patients who have no coverage at all. With insurance, call with the plan name and it will be checked first.",
       },
       {
         q: "Can I be seen urgently from Swarthmore?",
-        a: "Call (610) 566-2711 and describe what has happened. The problem is triaged on the call, and you will be seen the same day whenever possible. Ten minutes is a short run for a dental emergency.",
+        a: "Call (610) 566-2711 and describe what has happened. The problem is triaged on the call, and you will be seen the same day whenever possible. Ten minutes is a short drive for a dental emergency.",
       },
     ],
     cta: {
@@ -911,11 +915,11 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "By car. Take West Woodland Avenue to US-1 and follow it south-west into Media, finishing on N Pennell Road. Google Maps measured it at about 11 minutes and 5.4 miles on 12 November 2026.",
+            text: "By car. Take West Woodland Avenue to US-1 and follow it southwest into Media, finishing on N Pennell Road. Google Maps measured it at about 11 minutes and 5.4 miles on November 12, 2026.",
           },
           {
             type: "p",
-            text: "By train. Morton station and Media station are both on SEPTA's Media/Wawa Line. Check the timetable and the walk from Media station to N Pennell Road before you rely on it for a timed appointment.",
+            text: "By train. Morton station and Media station are both on SEPTA's Media/Wawa Line. Check the schedule and the walk from Media station to N Pennell Road before you rely on it for a timed appointment.",
           },
           {
             type: "link",
@@ -985,7 +989,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "Insurance is billed directly by the practice, which works with more than 40 plans. The in-house Dental Savings Plan is the option for patients with no cover, and CareCredit can spread the cost of larger treatment.",
+            text: "Insurance is billed directly by the practice, which works with more than 40 plans. The in-house Dental Savings Plan is the option for patients with no coverage, and CareCredit can spread the cost of larger treatment.",
           },
         ],
       },
@@ -994,7 +998,7 @@ export const towns: Town[] = [
     faqs: [
       {
         q: "How long does it take to get to you from Morton?",
-        a: "About 11 minutes and 5.4 miles by car, via West Woodland Avenue and US-1, measured in Google Maps from 8 N Pennell Rd in Media. If you prefer the train, Morton and Media are both stations on SEPTA's Media/Wawa Line; check the timetable before booking.",
+        a: "About 11 minutes and 5.4 miles by car, via West Woodland Avenue and US-1, measured in Google Maps from 8 N Pennell Rd in Media. If you prefer the train, Morton and Media are both stations on SEPTA's Media/Wawa Line; check the schedule before booking.",
       },
       {
         q: "Are you taking new patients from Morton (19070)?",
@@ -1002,7 +1006,7 @@ export const towns: Town[] = [
       },
       {
         q: "Do you treat children from Morton?",
-        a: "Yes, children are seen by the general dentists from about their first birthday, with check-ups, cleanings, fluoride and sealants. Fillings in baby teeth are done at the practice too. There is no pediatric specialist on staff, so a child needing one is referred on.",
+        a: "Yes, children are seen by the general dentists from about their first birthday, with check-ups, cleanings, fluoride and sealants. Fillings in baby teeth are done at the practice too. There is no pediatric specialist on staff, so a child needing one is referred to a pediatric specialist.",
       },
       {
         q: "Can I be seen urgently from Morton?",
@@ -1029,7 +1033,7 @@ export const towns: Town[] = [
       "Dentist for Ridley Park, Woodlyn and Folsom, PA (19078), about 11 minutes via I-476. Root canals and crowns done in house. Call (610) 566-2711.",
     h1: "Your Dentist Near Ridley Park, PA",
     intro: [
-      "Media Brite Smile is about 11 minutes from Ridley Park. At 7.2 miles it is further than it sounds, but I-476 makes the drive quick. When a tooth is cracked, decayed or infected, the work to save it is done at the practice rather than referred out.",
+      "Media Brite Smile is about 11 minutes from Ridley Park. At 7.2 miles it is farther than it sounds, but I-476 makes the drive quick. When a tooth is cracked, decayed or infected, the work to save it is done at the practice rather than referred out.",
     ],
     sections: [
       {
@@ -1046,7 +1050,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "From Ridley Park, join I-476, the Blue Route, northbound and come off towards Media, finishing on N Pennell Road. Google Maps measured the drive at about 11 minutes and 7.2 miles on 12 November 2026.",
+            text: "From Ridley Park, join I-476, the Blue Route, northbound and exit toward Media, finishing on N Pennell Road. Google Maps measured the drive at about 11 minutes and 7.2 miles on November 12, 2026.",
           },
           {
             type: "p",
@@ -1104,7 +1108,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "More than 40 dental plans are accepted and billed directly. Patients without cover can join the in-house Dental Savings Plan, which includes 10 to 15% off additional procedures such as fillings and crowns. CareCredit spreads larger treatment costs.",
+            text: "More than 40 dental plans are accepted and billed directly. Patients without coverage can join the in-house Dental Savings Plan, which includes 10% to 15% off additional procedures such as fillings and crowns. CareCredit spreads larger treatment costs.",
           },
         ],
       },
@@ -1121,7 +1125,7 @@ export const towns: Town[] = [
       },
       {
         q: "Do you treat children from Ridley Park?",
-        a: "Yes. The general dentists see children from around their first birthday, for check-ups, cleanings, fluoride, sealants and fillings in baby teeth. There is no pediatric specialist on staff, and any child who needs one is referred on.",
+        a: "Yes. The general dentists see children from around their first birthday, for check-ups, cleanings, fluoride, sealants and fillings in baby teeth. There is no pediatric specialist on staff, and any child who needs one is referred to a pediatric specialist.",
       },
       {
         q: "Can a root canal be done at your practice, or will I be referred?",
@@ -1165,7 +1169,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "From Clifton Heights, take West Springfield Road to US-1, the Baltimore Pike, and follow it south into Media, ending on N Pennell Road. Google Maps measured the drive at about 12 minutes and 5.7 miles on 12 November 2026.",
+            text: "From Clifton Heights, take West Springfield Road to US-1, the Baltimore Pike, and follow it south into Media, ending on N Pennell Road. Google Maps measured the drive at about 12 minutes and 5.7 miles on November 12, 2026.",
           },
           {
             type: "link",
@@ -1183,7 +1187,7 @@ export const towns: Town[] = [
           },
           {
             type: "p",
-            text: "If a case needs a periodontist, you are told at the assessment and referred.",
+            text: "If a case needs a periodontist, you are told at the assessment and referred to one.",
           },
           {
             type: "p",
@@ -1196,7 +1200,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "This page covers Clifton Heights borough, ZIP 19018, along with neighboring Aldan and the West Springfield Road corridor towards US-1. You can find other towns on the Areas We Serve page, and family dentistry covers care for every age.",
+            text: "This page covers Clifton Heights borough, ZIP 19018, along with neighboring Aldan and the West Springfield Road corridor toward US-1. You can find other towns on the Areas We Serve page, and family dentistry covers care for every age.",
           },
         ],
       },
@@ -1214,7 +1218,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "Your insurer is billed directly by the practice, which accepts over 40 plans. Gum treatment is often covered differently from cleanings, so send your plan name to have it checked. The in-house Dental Savings Plan is available for patients without cover.",
+            text: "Your insurer is billed directly by the practice, which accepts over 40 plans. Gum treatment is often covered differently from cleanings, so send your plan name to have it checked. The in-house Dental Savings Plan is available for patients without coverage.",
           },
         ],
       },
@@ -1226,16 +1230,16 @@ export const towns: Town[] = [
         a: "About 12 minutes and 5.7 miles via West Springfield Road and US-1, measured in Google Maps from 8 N Pennell Rd in Media. Aldan is a similar drive. Allow extra time on the Baltimore Pike at rush hour.",
       },
       {
-        q: "My gums bleed when I brush. Should a Clifton Heights patient book in?",
+        q: "My gums bleed when I brush. Should a Clifton Heights patient make an appointment?",
         a: "Yes. Bleeding gums are often the first sign of gum disease, and early treatment is simpler than treating advanced disease. A check-up measures the gums and shows whether a cleaning, a deep cleaning or more is needed.",
       },
       {
         q: "Do you see children from Clifton Heights?",
-        a: "Yes, from around their first birthday. Children are seen by the general dentists for check-ups, cleanings, fluoride and sealants. A child who needs a pediatric specialist is referred on.",
+        a: "Yes, from around their first birthday. Children are seen by the general dentists for check-ups, cleanings, fluoride and sealants. A child who needs a pediatric specialist is referred to one.",
       },
       {
         q: "Can I be seen urgently from Clifton Heights?",
-        a: "Phone (610) 566-2711 and describe what has happened. Urgent problems are triaged during the call and seen the same day whenever possible. The drive from Clifton Heights is around twelve minutes.",
+        a: "Call (610) 566-2711 and describe what has happened. Urgent problems are triaged during the call and seen the same day whenever possible. The drive from Clifton Heights is around twelve minutes.",
       },
     ],
     cta: {
@@ -1279,7 +1283,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "Head north on US-1, the West Baltimore Pike, from Glen Mills into Media and turn onto N Pennell Road. Google Maps measured the trip at about 8 minutes and 4.4 miles on 12 November 2026.",
+            text: "Head north on US-1, the West Baltimore Pike, from Glen Mills into Media and turn onto N Pennell Road. Google Maps measured the trip at about 8 minutes and 4.4 miles on November 12, 2026.",
           },
           {
             type: "link",
@@ -1375,7 +1379,7 @@ export const towns: Town[] = [
       },
       {
         q: "Do you treat children from Glen Mills?",
-        a: "Yes, from around their first birthday. The general dentists handle check-ups, cleanings, fluoride, sealants and fillings in baby teeth. There is no pediatric specialist on staff; a child who needs specialist care is referred, and you are told at the assessment.",
+        a: "Yes, from around their first birthday. The general dentists handle check-ups, cleanings, fluoride, sealants and fillings in baby teeth. There is no pediatric specialist on staff; a child who needs specialist care is referred to a specialist, and you are told at the assessment.",
       },
       {
         q: "Can I be seen urgently if I live in Glen Mills?",
@@ -1423,7 +1427,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "Take Providence Road, PA-252, south out of Newtown Square and stay on it into Media, ending on N Pennell Road. Google Maps measured the drive at about 8 minutes and 4.1 miles on 12 November 2026.",
+            text: "Take Providence Road, PA-252, south out of Newtown Square and stay on it into Media, ending on N Pennell Road. Google Maps measured the drive at about 8 minutes and 4.1 miles on November 12, 2026.",
           },
           {
             type: "p",
@@ -1482,7 +1486,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "The practice works with more than 40 dental insurance plans and bills them directly. Without cover, the in-house Dental Savings Plan costs $300 a year for the first member and includes two exams and 10 to 15% off additional procedures. CareCredit spreads the cost of larger cosmetic or implant treatment.",
+            text: "The practice works with more than 40 dental insurance plans and bills them directly. Without coverage, the in-house Dental Savings Plan costs $300 a year for the first member and includes two exams and 10% to 15% off additional procedures. CareCredit spreads the cost of larger cosmetic or implant treatment.",
           },
         ],
       },
@@ -1499,7 +1503,7 @@ export const towns: Town[] = [
       },
       {
         q: "Do you treat children from Newtown Square?",
-        a: "Yes, the general dentists see children from about their first birthday for check-ups, cleanings, fluoride and sealants. Parents and children can often be booked into the same visit. There is no pediatric specialist on staff, and a child who needs one is referred.",
+        a: "Yes, the general dentists see children from about their first birthday for check-ups, cleanings, fluoride and sealants. Parents and children can often be booked into the same visit. There is no pediatric specialist on staff, and a child who needs one is referred to a pediatric specialist.",
       },
       {
         q: "Can I be seen urgently if I live in Newtown Square?",
@@ -1526,7 +1530,7 @@ export const towns: Town[] = [
       "Dentist for Broomall and Marple Township, PA (19008), about 10 minutes via Paxon Hollow Rd. Costs explained first, with or without insurance.",
     h1: "Your Dentist Near Broomall, PA",
     intro: [
-      "Media Brite Smile is about 10 minutes from Broomall, 4.3 miles via Paxon Hollow Road. Whether you have insurance, a savings plan or no cover at all, you are told what a visit or treatment costs before anything is done.",
+      "Media Brite Smile is about 10 minutes from Broomall, 4.3 miles via Paxon Hollow Road. Whether you have insurance, a savings plan or no coverage at all, you are told what a visit or treatment costs before anything is done.",
     ],
     sections: [
       {
@@ -1547,7 +1551,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "From Broomall, Paxon Hollow Road runs south towards Media, and the practice is on N Pennell Road. Google Maps measured it at about 10 minutes and 4.3 miles on 12 November 2026.",
+            text: "From Broomall, Paxon Hollow Road runs south toward Media, and the practice is on N Pennell Road. Google Maps measured it at about 10 minutes and 4.3 miles on November 12, 2026.",
           },
           {
             type: "p",
@@ -1644,19 +1648,19 @@ export const towns: Town[] = [
     faqs: [
       {
         q: "How long does it take to get to you from Broomall?",
-        a: "About 10 minutes and 4.3 miles via Paxon Hollow Road, measured in Google Maps from 8 N Pennell Rd in Media. The route avoids the main highways, so the time stays fairly steady through the day.",
+        a: "About 10 minutes and 4.3 miles via Paxon Hollow Road, measured in Google Maps from 8 N Pennell Rd in Media. The route avoids the main highways, so the time stays fairly steady throughout the day.",
       },
       {
         q: "I have no dental insurance. What will a visit cost from Broomall?",
-        a: "As a new patient without insurance, your first visit is $99 under the New Patient Special. For ongoing care, the Dental Savings Plan costs $300 a year for the first member and covers two exams, X-rays and an emergency exam, with 10 to 15% off additional procedures.",
+        a: "As a new patient without insurance, your first visit is $99 under the New Patient Special. For ongoing care, the Dental Savings Plan costs $300 a year for the first member and covers two exams, X-rays and an emergency exam, with 10% to 15% off additional procedures.",
       },
       {
         q: "Do you see children from Broomall and Marple Township?",
-        a: "Yes. Children are seen by the general dentists from around their first birthday, for check-ups, cleanings, fluoride and sealants, and can often be booked alongside a parent. There is no pediatric specialist, and a child who needs one is referred.",
+        a: "Yes. Children are seen by the general dentists from around their first birthday, for check-ups, cleanings, fluoride and sealants, and can often be booked alongside a parent. There is no pediatric specialist, and a child who needs one is referred to a pediatric specialist.",
       },
       {
         q: "Can I get an urgent appointment from Broomall?",
-        a: "Phone (610) 566-2711 as early in the day as possible and describe the problem. Urgent cases are triaged on the call and seen the same day whenever possible, and the drive from Broomall is about ten minutes.",
+        a: "Call (610) 566-2711 as early in the day as possible and describe the problem. Urgent cases are triaged on the call and seen the same day whenever possible, and the drive from Broomall is about ten minutes.",
       },
     ],
     cta: {
@@ -1696,7 +1700,7 @@ export const towns: Town[] = [
         items: [
           {
             type: "p",
-            text: "From Garnet Valley, take Valleybrook Road to US-1, the West Baltimore Pike, and follow it north into Media, ending on N Pennell Road. Google Maps measured it at about 10 minutes and 5.7 miles on 12 November 2026.",
+            text: "From Garnet Valley, take Valleybrook Road to US-1, the West Baltimore Pike, and follow it north into Media, ending on N Pennell Road. Google Maps measured it at about 10 minutes and 5.7 miles on November 12, 2026.",
           },
           {
             type: "link",
@@ -1795,7 +1799,7 @@ export const towns: Town[] = [
       },
       {
         q: "Can I be seen urgently from Garnet Valley?",
-        a: "Ring (610) 566-2711 and explain what has happened. Urgent problems are triaged on the call and seen the same day whenever possible. From Garnet Valley the drive is about ten minutes.",
+        a: "Call (610) 566-2711 and explain what has happened. Urgent problems are triaged on the call and seen the same day whenever possible. From Garnet Valley the drive is about ten minutes.",
       },
     ],
     cta: {
@@ -1935,11 +1939,11 @@ export const towns: Town[] = [
     faqs: [
       {
         q: "How do I get there from Aston?",
-        a: "Head north on Pennell Road, PA-452, and the practice is at 8 N Pennell Rd in Media. About 11 minutes and 4.6 miles, with almost no turns, measured in Google Maps on 12 November 2026.",
+        a: "Head north on Pennell Road, PA-452, and the practice is at 8 N Pennell Rd in Media. About 11 minutes and 4.6 miles, with almost no turns, measured in Google Maps on November 12, 2026.",
       },
       {
         q: "Are you taking new patients from Aston?",
-        a: "Yes. The practice is accepting new patients from Aston, and Aston is a newer area for it rather than a long-standing one. Without insurance, the New Patient Special applies. $99 for uninsured new patients, against a regular price of $315.",
+        a: "Yes. The practice is accepting new patients from Aston, and Aston is a newer area for it rather than a long-standing one. Without insurance, the New Patient Special applies: $99 for uninsured new patients, against a regular price of $315.",
       },
       {
         q: "Do you cover Village Green and Green Ridge?",

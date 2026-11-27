@@ -93,7 +93,7 @@ const deals = [
     regular: "Regular price $550",
     who: "Professional whitening",
     includes: ["$249 take-home whitening kit", "Lifetime refills"],
-    body: "The lifetime refills are the part worth noticing. Most whitening is a one-off, and this keeps you topped up afterwards.",
+    body: "The lifetime refills are the part worth noticing. Most whitening is a one-time treatment, and this keeps you topped off afterward.",
     links: [
       { label: "About teeth whitening", href: "/cosmetic-dentistry/teeth-whitening" },
       { label: "Book whitening", href: site.bookingHref },
@@ -112,7 +112,7 @@ const faqs: QA[] = [
   },
   {
     q: "Is the free consultation really free?",
-    a: "Yes, for Invisalign and for implants. You get the assessment and a plan with costs, and you decide afterwards. There is no obligation to proceed, and nothing is booked at the consultation unless you ask for it.",
+    a: "Yes, for Invisalign and for implants. You get the assessment and a plan with costs, and you decide afterward. There is no obligation to proceed, and nothing is booked at the consultation unless you ask for it.",
   },
   {
     q: "What does the $500 off implant offer actually include?",
@@ -120,7 +120,7 @@ const faqs: QA[] = [
   },
   {
     q: "Does the whitening kit really come with lifetime refills?",
-    a: "Yes. The $249 take-home kit included with the whitening offer comes with lifetime refills, which is what separates it from a one-off whitening appointment. Results still depend on the type of staining, and whitening does not lighten crowns, veneers or fillings.",
+    a: "Yes. The $249 take-home kit included with the whitening offer comes with lifetime refills, which is what separates it from a one-time whitening appointment. Results still depend on the type of staining, and whitening does not lighten crowns, veneers or fillings.",
   },
   {
     q: "How do I claim one of these?",
@@ -418,10 +418,10 @@ export default function SpecialOffersPage() {
                   title: "Call or send a request",
                   text: `Call ${site.phone.display}, or send an appointment request and say which offer you want.`,
                 },
-                { title: "It is applied", text: "The offer is applied to that appointment. Nothing else to fill in." },
+                { title: "It is applied", text: "The offer is applied to that appointment. Nothing else to fill out." },
                 {
                   title: "Consult first",
-                  text: "For Invisalign and implants, the free consultation comes first and you decide afterwards.",
+                  text: "For Invisalign and implants, the free consultation comes first and you decide afterward.",
                 },
                 {
                   title: "Insurance explained",

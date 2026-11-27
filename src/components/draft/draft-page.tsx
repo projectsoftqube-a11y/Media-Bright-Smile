@@ -231,4 +231,4 @@ export function DraftPageView({ page, look, hero }: { page: DraftPage; look: Dra
   );
 }
 
-export const officeAlt = (room: string) => `${room} at ${site.name}, Media PA`;
+export const officeAlt = (room: string) => `${room} at ${site.name}, Media, PA`;

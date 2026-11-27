@@ -36,7 +36,7 @@ const sections: Record<string, { chapter: string; blurb: string; image: SitemapI
   },
   "Preventative Care": {
     chapter: "preventative-care",
-    blurb: "Cleanings, checkups, gum care, children's dentistry, night guards and emergency visits.",
+    blurb: "Cleanings, check-ups, gum care, children's dentistry, night guards and emergency visits.",
     image: T.childCheckup,
     tile: T.brushingWoman,
   },
@@ -103,7 +103,7 @@ const tasks: SitemapTask[] = [
   },
   {
     title: "New patients",
-    text: "What to bring, the forms to fill in and how the first visit goes.",
+    text: "What to bring, the forms to fill out and how the first visit goes.",
     href: "/patient-information/new-patients",
     image: T.formReview,
   },

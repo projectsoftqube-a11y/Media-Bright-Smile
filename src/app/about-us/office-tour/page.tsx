@@ -28,7 +28,7 @@ import { Reveal, RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { JsonLd, pageSchema } from "@/lib/schema";
 import { cn } from "@/lib/utils";
 
-const title = "Dental Office Tour | Media Brite Smile, Media PA";
+const title = "Dental Office Tour | Media Brite Smile, Media, PA";
 const description = `See inside the Media Brite Smile dental office at ${site.address.full} before your first visit: the waiting area, treatment rooms and equipment.`;
 
 export const metadata: Metadata = {
@@ -43,7 +43,7 @@ const crumbs: Crumb[] = [
   { label: "Office Tour" },
 ];
 
-const alt = (room: string) => `${room} at ${site.name}, Media PA`;
+const alt = (room: string) => `${room} at ${site.name}, Media, PA`;
 
 const photos = [
   { src: "/images/office/office-41.jpg", room: "The building on N Pennell Rd" },

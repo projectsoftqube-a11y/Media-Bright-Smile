@@ -8,7 +8,7 @@ import type { DraftPage } from "./types";
 export const compliancePages: Record<string, DraftPage> = {
   "/disclaimer": {
     url: "/disclaimer",
-    title: "Disclaimer | Media Brite Smile, Media PA",
+    title: "Disclaimer | Media Brite Smile, Media, PA",
     description:
       "Important information about the content on the Media Brite Smile website, and why it is not a substitute for a dental examination.",
     h1: "Disclaimer",
@@ -64,7 +64,7 @@ export const compliancePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "[CONFIRM: any further wording the practice's adviser requires, such as on testimonials or images.]",
+            text: "[CONFIRM: any further wording the practice's advisor requires, such as on testimonials or images.]",
           },
           {
             type: "p",
@@ -92,7 +92,7 @@ export const compliancePages: Record<string, DraftPage> = {
   },
   "/hipaa-notice-of-privacy-practices": {
     url: "/hipaa-notice-of-privacy-practices",
-    title: "HIPAA Notice of Privacy Practices | Media PA",
+    title: "HIPAA Notice of Privacy Practices | Media, PA",
     description:
       "The HIPAA Notice of Privacy Practices for Media Brite Smile in Media, PA: how your health information may be used and disclosed, and your rights.",
     h1: "Notice of Privacy Practices",
@@ -174,7 +174,7 @@ export const compliancePages: Record<string, DraftPage> = {
     url: "/patient-information/privacy",
     title: "Privacy Policy | Media Brite Smile",
     description:
-      "How Media Brite Smile in Media, PA collects, uses and protects the personal information you share through this website.",
+      "How Media Brite Smile in Media, PA, collects, uses and protects the personal information you share through this website.",
     h1: "Privacy Policy",
     intro: [
       "This privacy policy explains how Media Brite Smile, 8 N Pennell Rd, Media, PA 19063, collects, uses and protects information you give us when you use this website.",
@@ -200,7 +200,7 @@ export const compliancePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "The reason for your enquiry and any details you choose to include",
+            text: "The reason for your inquiry and any details you choose to include",
           },
           // answered in the Developer Q&A, 19 Nov: the approved forms' fields
           {
@@ -227,7 +227,7 @@ export const compliancePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "Respond to your enquiry or appointment request",
+            text: "Respond to your inquiry or appointment request",
           },
           {
             type: "p",
@@ -247,7 +247,7 @@ export const compliancePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: '[CONFIRM: the live policy says information may be shared with "third party partners for marketing or promotional purposes". The practice\'s adviser must confirm whether this happens at all. If it does not, delete the statement. If it does, describe it precisely and state the opt-out.]',
+            text: '[CONFIRM: the live policy says information may be shared with "third party partners for marketing or promotional purposes". The practice\'s advisor must confirm whether this happens at all. If it does not, delete the statement. If it does, describe it precisely and state the opt-out.]',
           },
           {
             type: "p",
@@ -307,7 +307,7 @@ export const compliancePages: Record<string, DraftPage> = {
           },
           {
             type: "p",
-            text: "[CONFIRM: the rights and process the practice's adviser approves under applicable US and Pennsylvania law. Remove the live policy's reference to the UK Data Protection Act 1998 and its \"small fee\" wording.]",
+            text: "[CONFIRM: the rights and process the practice's advisor approves under applicable US and Pennsylvania law. Remove the live policy's reference to the UK Data Protection Act 1998 and its \"small fee\" wording.]",
           },
         ],
       },
