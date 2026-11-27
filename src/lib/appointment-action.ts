@@ -1,8 +1,15 @@
 "use server";
 
 import { headers } from "next/headers";
+import { after } from "next/server";
 import { validateAppointment, type AppointmentErrors } from "@/lib/appointment-request";
-import { isMailConfigured, sendAppointmentEmail } from "@/lib/mailer";
+import { isConfirmationOn, isMailConfigured, sendAppointmentEmail, sendPatientConfirmation } from "@/lib/mailer";
+
+/** Logs a mail failure without the patient's details. */
+function logMailError(where: string, err: unknown) {
+  const e = err as { code?: string; responseCode?: number; message?: string };
+  console.error(`[appointment-form] ${where} failed:`, e.code ?? "", e.responseCode ?? "", e.message ?? "");
+}
 
 export type AppointmentResult =
   | { status: "sent" }
@@ -52,13 +59,19 @@ export async function sendAppointmentRequest(data: FormData): Promise<Appointmen
   const ip = h.get("x-forwarded-for")?.split(",")[0]?.trim() || h.get("x-real-ip") || "unknown";
   if (limited(ip)) return { status: "limited" };
 
+  let sent: Awaited<ReturnType<typeof sendAppointmentEmail>>;
   try {
-    await sendAppointmentEmail(checked.request);
-    return { status: "sent" };
+    sent = await sendAppointmentEmail(checked.request);
   } catch (err) {
-    // log the failure, never the patient's details
-    const e = err as { code?: string; responseCode?: number; message?: string };
-    console.error("[appointment-form] email failed:", e.code ?? "", e.responseCode ?? "", e.message ?? "");
+    logMailError("office email", err);
     return { status: "failed" };
   }
+
+  // The practice has the request, so the visitor sees "sent" now; the confirmation to the patient
+  // goes out after the response, and if it fails the request still stands.
+  if (isConfirmationOn()) {
+    const request = checked.request;
+    after(() => sendPatientConfirmation(request, sent).catch((err) => logMailError("patient confirmation", err)));
+  }
+  return { status: "sent" };
 }

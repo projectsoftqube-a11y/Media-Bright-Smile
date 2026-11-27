@@ -1,7 +1,10 @@
 import "server-only";
+import { randomInt } from "node:crypto";
 import nodemailer, { type Transporter } from "nodemailer";
 import { site } from "@/content/site";
-import { formatPhone, patientLabels, type AppointmentRequest } from "@/lib/appointment-request";
+import type { AppointmentRequest } from "@/lib/appointment-request";
+import { EMAIL_LOGO } from "@/lib/email/logo";
+import { officeEmail, patientEmail, type EmailContent } from "@/lib/email/templates";
 
 /**
  * SMTP email for the website forms. Settings come from environment variables (see .env.example);
@@ -9,15 +12,21 @@ import { formatPhone, patientLabels, type AppointmentRequest } from "@/lib/appoi
  * and the form tells visitors to call instead, so the site never claims to have sent something it
  * did not.
  *
+ * Each request sends two emails (designs in src/lib/email/templates.ts):
+ *   1. to the practice (MAIL_TO), with Reply-To set to the patient. This one must succeed.
+ *   2. a confirmation to the patient, unless MAIL_CONFIRMATION=false. Sent after the form has
+ *      answered, and a failure there never turns a sent request into an error.
+ *
  * HIPAA: an appointment request (a name with a reason for visit) is protected health information.
  * Send it only through an email provider that has signed a Business Associate Agreement with the
  * practice (for example Google Workspace or Microsoft 365 with a BAA, or a HIPAA email service).
- * The connection is always encrypted (TLS 1.2+), and the subject line carries no patient details.
+ * The connection is always encrypted (TLS 1.2+), and subject lines carry no patient details.
  */
 
 function settings() {
   const env = process.env;
   const port = Number(env.SMTP_PORT || 587);
+  const from = env.MAIL_FROM?.trim();
   return {
     host: env.SMTP_HOST?.trim(),
     port,
@@ -26,11 +35,14 @@ function settings() {
     user: env.SMTP_USER?.trim(),
     // Google shows App Passwords in groups of four ("abcd efgh ..."); the spaces are not part of it
     pass: env.SMTP_PASS?.replace(/\s/g, ""),
-    from: env.MAIL_FROM?.trim(),
+    from,
+    /** the bare address in MAIL_FROM ("Name <a@b.com>" -> "a@b.com") */
+    fromAddress: from?.match(/<([^>]+)>/)?.[1] ?? from,
     to: (env.MAIL_TO ?? "")
       .split(",")
       .map((s) => s.trim())
       .filter(Boolean),
+    confirmation: !/^(false|off|no|0)$/i.test(env.MAIL_CONFIRMATION?.trim() ?? ""),
   };
 }
 
@@ -57,62 +69,61 @@ function getTransport() {
   return transport;
 }
 
-const escapeHtml = (s: string) =>
-  s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
+/** Short request reference, e.g. "MBS-7K2QXP" (no 0/O or 1/I/L, so it reads clearly over the phone). */
+function newRef() {
+  const abc = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";
+  return `MBS-${Array.from({ length: 6 }, () => abc[randomInt(abc.length)]).join("")}`;
+}
 
-const pageNames: Record<AppointmentRequest["formId"], string> = {
-  "appointment-form": "Scheduling page",
-  "contact-form": "Contact page",
-};
+/** The logo travels inside the email (see src/lib/email/logo.ts). */
+const logoAttachment = () => ({
+  filename: "media-brite-smile.png",
+  content: Buffer.from(EMAIL_LOGO.base64, "base64"),
+  contentType: "image/png",
+  cid: EMAIL_LOGO.cid,
+  contentDisposition: "inline" as const,
+});
 
+const message = (m: EmailContent) => ({
+  subject: m.subject,
+  text: m.text,
+  html: m.html,
+  attachments: [logoAttachment()],
+});
+
+/** Sends the request to the practice. Returns what the patient confirmation needs. */
 export async function sendAppointmentEmail(r: AppointmentRequest) {
   const s = settings();
-  const received = new Date().toLocaleString("en-US", {
-    timeZone: "America/New_York",
-    dateStyle: "full",
-    timeStyle: "short",
-  });
-  const rows: [string, string][] = [
-    ["Patient", patientLabels[r.patient]],
-    ["Name", r.name],
-    ["Phone", formatPhone(r.phone)],
-    ["Email", r.email],
-    ["Preferred day", r.preferredDay],
-    ["Reason for visit", r.services.join(", ")],
-    ["Message", r.message || "(none)"],
-    ["Sent from", `${pageNames[r.formId]}, ${site.url}`],
-    ["Received", `${received} (Eastern)`],
-  ];
-
-  const text = [
-    "New appointment request from the website.",
-    "Please call the patient back to confirm a time.",
-    "",
-    ...rows.map(([k, v]) => `${k}: ${v}`),
-  ].join("\n");
-
-  const html = `<!doctype html><html><body style="margin:0;padding:24px;background:#f4f7f8;font-family:Arial,Helvetica,sans-serif;color:#10242b">
-<table role="presentation" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;margin:0 auto;background:#ffffff;border-radius:12px;border:1px solid #dde7ea">
-<tr><td style="padding:24px 28px 8px"><h1 style="margin:0;font-size:20px">New appointment request</h1>
-<p style="margin:8px 0 0;font-size:15px;color:#3d5560">Please call the patient back to confirm a time.</p></td></tr>
-<tr><td style="padding:16px 28px 28px"><table role="presentation" cellpadding="0" cellspacing="0" style="width:100%;font-size:15px;border-collapse:collapse">
-${rows
-  .map(
-    ([k, v]) =>
-      `<tr><th align="left" valign="top" style="padding:10px 16px 10px 0;border-top:1px solid #eef3f5;width:150px;color:#3d5560;font-weight:600">${escapeHtml(k)}</th><td style="padding:10px 0;border-top:1px solid #eef3f5;white-space:pre-wrap">${escapeHtml(v)}</td></tr>`,
-  )
-  .join("\n")}
-</table></td></tr></table></body></html>`;
-
+  const ctx = { ref: newRef(), received: new Date(), logoSrc: `cid:${EMAIL_LOGO.cid}` };
   await getTransport().sendMail({
     from: s.from,
     to: s.to,
     // reply goes straight to the patient; nodemailer encodes the name safely
     replyTo: { name: r.name, address: r.email },
-    // no patient details in the subject: it shows in inbox lists and notifications
-    subject: `New appointment request (${pageNames[r.formId]})`,
-    text,
-    html,
-    headers: { "X-Form-Id": r.formId },
+    ...message(officeEmail(r, ctx)),
+    headers: { "X-Form-Id": r.formId, "X-Request-Ref": ctx.ref },
+  });
+  return ctx;
+}
+
+export const isConfirmationOn = () => settings().confirmation;
+
+/** "We have your request" email to the patient. Replies go to the practice inbox. */
+export async function sendPatientConfirmation(
+  r: AppointmentRequest,
+  ctx: Awaited<ReturnType<typeof sendAppointmentEmail>>,
+) {
+  const s = settings();
+  await getTransport().sendMail({
+    from: { name: site.name, address: s.fromAddress! },
+    to: { name: r.name, address: r.email },
+    replyTo: s.fromAddress,
+    ...message(patientEmail(r, ctx)),
+    headers: {
+      // an automatic message: tells vacation responders not to answer it
+      "Auto-Submitted": "auto-generated",
+      "X-Auto-Response-Suppress": "All",
+      "X-Request-Ref": ctx.ref,
+    },
   });
 }

@@ -20,6 +20,7 @@ console.log(`server : ${env.SMTP_HOST || "-"}:${port} (${secure ? "TLS" : "START
 console.log(`login  : ${env.SMTP_USER || "-"}  password: ${env.SMTP_PASS ? "set" : "MISSING"}`);
 console.log(`from   : ${env.MAIL_FROM || "-"}`);
 console.log(`to     : ${to.join(", ") || "-"}`);
+console.log(`patient confirmation: ${/^(false|off|no|0)$/i.test(env.MAIL_CONFIRMATION?.trim() ?? "") ? "off" : "on"}`);
 if (missing.length) {
   console.error(`\nNot ready: fill in ${missing.join(", ")} in .env.local.`);
   process.exit(1);
@@ -53,4 +54,11 @@ if (process.argv.includes("--send")) {
     text: "This is a test from the Media Brite Smile website. Appointment requests will arrive at this address.",
   });
   console.log(`Test email sent to ${to.join(", ")}.`);
+  if (to.some((t) => t.toLowerCase() === env.SMTP_USER?.trim().toLowerCase()))
+    console.log(
+      "\nMAIL_TO is the same mailbox that sends. Check that the test shows in its Inbox, not only in Sent:\n" +
+        "Gmail can file mail an account sends to itself under Sent. If it does, set MAIL_TO to a\n" +
+        "different mailbox (most reliable), or at least add a Gmail filter for\n" +
+        'from:me subject:"appointment request" that labels them and marks them important.',
+    );
 }
