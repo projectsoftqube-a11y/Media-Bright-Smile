@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState, type ReactNode, type RefObject } from "react";
 import { motion } from "motion/react";
-import { ArrowUpRight, MapPin } from "lucide-react";
+import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
 import { locations, serviceGroups, site } from "@/content/site";
 import { FacebookIcon, GoogleIcon, YelpIcon } from "@/components/ui/icons";
 import { Reveal } from "@/components/motion/reveal";
@@ -123,6 +123,28 @@ export function Footer({ year }: { year: ReactNode }) {
               className="h-20 w-auto brightness-0 invert md:h-24"
             />
           </Link>
+        </Reveal>
+
+        {/* ---------- Contact ---------- */}
+        <Reveal className="mt-8 flex flex-wrap justify-center gap-3">
+          {[
+            { icon: Phone, label: site.phone.display, href: site.phone.href },
+            { icon: Mail, label: site.email.display, href: site.email.href },
+            { icon: MapPin, label: site.address.full, href: site.address.directions, external: true },
+          ].map(({ icon: Icon, label, href, external }) => (
+            <a
+              key={href}
+              href={href}
+              {...(external ? { target: "_blank", rel: "noopener" } : {})}
+              className="group inline-flex min-h-11 items-center gap-2.5 rounded-full bg-white/10 px-5 py-2.5 text-[0.9375rem] font-semibold text-white ring-1 ring-white/20 transition-colors duration-300 hover:bg-white hover:text-brand-700"
+            >
+              <Icon
+                className="size-4 shrink-0 text-glow transition-colors duration-300 group-hover:text-brand-600"
+                aria-hidden="true"
+              />
+              {label}
+            </a>
+          ))}
         </Reveal>
 
         {/* ---------- Navigation ---------- */}

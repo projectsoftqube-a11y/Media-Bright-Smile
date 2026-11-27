@@ -317,11 +317,7 @@ export const compliancePages: Record<string, DraftPage> = {
         items: [
           {
             type: "p",
-            text: "Media Brite Smile, 8 N Pennell Rd, Media, PA 19063. Call (610) 566-2711.",
-          },
-          {
-            type: "p",
-            text: "[CONFIRM: a privacy contact email address, if the practice wants one published.]",
+            text: "Media Brite Smile, 8 N Pennell Rd, Media, PA 19063. Call (610) 566-2711 or email info@mediabritesmile.com.",
           },
         ],
       },

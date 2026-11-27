@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { MapPin, Phone, Star } from "lucide-react";
+import { Mail, MapPin, Phone, Star } from "lucide-react";
 import { locations, site } from "@/content/site";
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { Button } from "@/components/ui/button";
@@ -88,6 +88,13 @@ export default function LocationsPage() {
                   <MapPin className="mt-1 size-5 shrink-0 text-brand-500" aria-hidden="true" />
                   {site.address.full}
                 </p>
+                <a
+                  href={site.email.href}
+                  className="mt-2 inline-flex min-h-11 items-center gap-2 self-start text-lg font-semibold text-brand-700 underline decoration-brand-300 underline-offset-4 hover:decoration-brand-700"
+                >
+                  <Mail className="size-5 shrink-0 text-brand-500" aria-hidden="true" />
+                  {site.email.display}
+                </a>
                 <div className="mt-7 flex flex-wrap gap-3">
                   <Button href={site.address.directions} target="_blank" rel="noopener">
                     Get directions

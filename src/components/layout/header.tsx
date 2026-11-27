@@ -15,6 +15,7 @@ import {
   Clock,
   CreditCard,
   HeartHandshake,
+  Mail,
   MapPin,
   Phone,
   Siren,
@@ -143,10 +144,20 @@ export function Header() {
           className="overflow-hidden bg-brand-950 text-[0.8125rem] text-brand-100"
         >
           <div className="container-site flex h-10 items-center justify-between gap-6">
-            <p className="flex items-center gap-2">
-              <MapPin className="size-3.5 text-glow" aria-hidden="true" />
-              <span className="font-semibold text-white">{site.address.full}</span>
-            </p>
+            <div className="flex items-center gap-6">
+              <p className="flex items-center gap-2">
+                <MapPin className="size-3.5 text-glow" aria-hidden="true" />
+                <span className="font-semibold text-white">{site.address.full}</span>
+              </p>
+              {/* from 1280px up, where the bar has room for it next to the address */}
+              <a
+                href={site.email.href}
+                className="hidden min-h-6 items-center gap-2 py-0.5 font-medium text-white transition-colors hover:text-glow xl:flex"
+              >
+                <Mail className="size-3.5 text-glow" aria-hidden="true" />
+                {site.email.display}
+              </a>
+            </div>
             <Link
               href="/patient-information/insurance-payment-options"
               className="group hidden min-h-6 items-center gap-2 rounded-full py-0.5 font-medium text-white focus-visible:ring-2 focus-visible:ring-glow focus-visible:outline-none md:flex"

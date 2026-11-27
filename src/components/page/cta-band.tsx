@@ -1,6 +1,6 @@
 import Image from "next/image";
 import type { ReactNode } from "react";
-import { MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import { site } from "@/content/site";
 import { Button } from "@/components/ui/button";
 import { ToothWatermark } from "@/components/ui/icons";
@@ -48,9 +48,17 @@ export function CtaBand({
                   {site.phone.display}
                 </Button>
               </div>
-              <p className="mt-8 flex items-center gap-2 text-sm text-white/70">
-                <MapPin className="size-4 shrink-0 text-glow" /> {site.address.full}
-              </p>
+              <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-1 text-sm text-white/70">
+                <p className="flex items-center gap-2">
+                  <MapPin className="size-4 shrink-0 text-glow" aria-hidden="true" /> {site.address.full}
+                </p>
+                <a
+                  href={site.email.href}
+                  className="inline-flex min-h-11 items-center gap-2 text-white/85 underline decoration-white/30 underline-offset-4 hover:text-white hover:decoration-white"
+                >
+                  <Mail className="size-4 shrink-0 text-glow" aria-hidden="true" /> {site.email.display}
+                </a>
+              </div>
             </div>
             <div className="relative order-first min-h-64 sm:min-h-80 lg:order-none lg:min-h-0">
               <Image

@@ -11,6 +11,7 @@ export const site = {
   url: "https://www.mediabritesmile.com",
   since: 2015,
   phone: { display: "(610) 566-2711", href: "tel:+16105662711" },
+  email: { display: "info@mediabritesmile.com", href: "mailto:info@mediabritesmile.com" },
   address: {
     street: "8 N Pennell Rd",
     city: "Media",

@@ -33,6 +33,7 @@ const jsonLd = {
       name: site.name,
       url: site.url,
       telephone: "+1-610-566-2711",
+      email: site.email.display,
       image: `${site.url}/images/office/office-5.jpg`,
       logo: `${site.url}/images/brand/logo.png`,
       address: {

@@ -10,6 +10,7 @@ import {
   CircleAlert,
   CircleCheck,
   LoaderCircle,
+  Mail,
   Phone,
   Send,
   UserRound,
@@ -158,7 +159,8 @@ export function AppointmentForm({ id = "appointment-form" }: { id?: FormId }) {
   /** once a field shows an error, re-check it as the visitor types so the message clears when fixed */
   function onChange(e: FormEvent<HTMLFormElement>) {
     const el = e.target;
-    if (!(el instanceof HTMLInputElement || el instanceof HTMLTextAreaElement || el instanceof HTMLSelectElement)) return;
+    if (!(el instanceof HTMLInputElement || el instanceof HTMLTextAreaElement || el instanceof HTMLSelectElement))
+      return;
     const f = el.name as AppointmentField;
     if (f === "message") setMessageLength(el.value.length);
     if (f === "service") {
@@ -208,9 +210,7 @@ export function AppointmentForm({ id = "appointment-form" }: { id?: FormId }) {
   function showErrors(next: AppointmentErrors) {
     setErrors(next);
     const fields = Object.keys(next) as AppointmentField[];
-    setAnnounce(
-      fields.length === 1 ? "Please correct 1 field." : `Please correct ${fields.length} fields.`,
-    );
+    setAnnounce(fields.length === 1 ? "Please correct 1 field." : `Please correct ${fields.length} fields.`);
     const first = fields[0];
     formRef.current?.querySelector<HTMLElement>(`[name="${first}"]`)?.focus();
   }
@@ -393,7 +393,8 @@ export function AppointmentForm({ id = "appointment-form" }: { id?: FormId }) {
 
                   <fieldset className="col-span-full" {...describe("service")}>
                     <legend className="text-sm font-semibold text-ink">
-                      Reason for Visit <Req /> <span className="ml-1 font-normal text-muted">Select all that apply</span>
+                      Reason for Visit <Req />{" "}
+                      <span className="ml-1 font-normal text-muted">Select all that apply</span>
                     </legend>
                     <div className="mt-3 grid grid-cols-1 gap-2.5 md:grid-cols-2 lg:grid-cols-3">
                       {visitReasons.map((s) => (
@@ -520,12 +521,20 @@ export function AppointmentForm({ id = "appointment-form" }: { id?: FormId }) {
                         .
                       </p>
                     </div>
-                    <a
-                      href={site.phone.href}
-                      className="inline-flex min-h-11 items-center gap-2 self-start font-semibold text-brand-600 sm:self-auto"
-                    >
-                      <Phone className="size-4" /> Or call {site.phone.display}
-                    </a>
+                    <div className="flex flex-col items-start gap-1 sm:items-end">
+                      <a
+                        href={site.phone.href}
+                        className="inline-flex min-h-11 items-center gap-2 font-semibold text-brand-600 hover:text-brand-700"
+                      >
+                        <Phone className="size-4" aria-hidden="true" /> Or call {site.phone.display}
+                      </a>
+                      <a
+                        href={site.email.href}
+                        className="inline-flex min-h-11 items-center gap-2 font-semibold text-brand-600 hover:text-brand-700"
+                      >
+                        <Mail className="size-4" aria-hidden="true" /> Or email {site.email.display}
+                      </a>
+                    </div>
                   </div>
                 </motion.div>
               )}

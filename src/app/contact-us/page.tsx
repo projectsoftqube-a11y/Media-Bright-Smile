@@ -7,6 +7,7 @@ import {
   ClipboardList,
   Footprints,
   Globe,
+  Mail,
   MapPin,
   Navigation,
   Phone,
@@ -51,6 +52,10 @@ const faqs: QA[] = [
     a: `Yes. The practice is open every Friday from 8am to 2pm, and Monday to Thursday from 8am to 5pm.`,
   },
   {
+    q: "Can I email the practice?",
+    a: `Yes, at ${site.email.display}. Email suits general questions. To book or change an appointment, or if you are in pain, please call ${site.phone.display}. Please do not send detailed medical information by email.`,
+  },
+  {
     q: "Can I text the practice?",
     a: "Please call rather than text. The number listed is a voice line, and an appointment request through the website is the best option outside opening hours. You will get a reply with the closest available times.",
   },
@@ -68,6 +73,12 @@ const ways = [
     title: "Online",
     text: "Send an appointment request at any hour and we will reply with the closest available times across our dentists.",
     action: { label: "Request a time", href: "#appointment-form" },
+  },
+  {
+    icon: Mail,
+    title: "By email",
+    text: "Email general questions at any time and the team will get back to you. To book, or if you are in pain, please call. Please keep detailed medical information out of email.",
+    action: { label: site.email.display, href: site.email.href },
   },
   {
     icon: Footprints,
@@ -224,11 +235,11 @@ export default function ContactPage() {
             eyebrow="How to reach us"
             title={
               <>
-                Three ways to <span className="text-brand-600">get in touch</span>
+                Four ways to <span className="text-brand-600">get in touch</span>
               </>
             }
           />
-          <RevealGroup className="mt-10 grid grid-cols-1 gap-4 md:grid-cols-3" stagger={0.08}>
+          <RevealGroup className="mt-10 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4" stagger={0.08}>
             {ways.map(({ icon: Icon, title: t, text, action }) => (
               <RevealItem key={t}>
                 <div className="flex h-full flex-col rounded-4xl bg-white p-7 ring-1 ring-line">

@@ -10,6 +10,7 @@ import {
   ExternalLink,
   FileCheck2,
   HandCoins,
+  Mail,
   Percent,
   Phone,
   ScanLine,
@@ -212,7 +213,10 @@ export function SavingsAndPayment() {
             </p>
           </Reveal>
 
-          <Reveal delay={0.1} className="flex flex-col rounded-4xl bg-white p-6 ring-1 ring-line sm:p-8 lg:col-span-5 lg:p-10">
+          <Reveal
+            delay={0.1}
+            className="flex flex-col rounded-4xl bg-white p-6 ring-1 ring-line sm:p-8 lg:col-span-5 lg:p-10"
+          >
             <span className="grid size-12 place-items-center rounded-2xl bg-brand-600 text-white">
               <FileCheck2 className="size-5" aria-hidden="true" />
             </span>
@@ -222,8 +226,8 @@ export function SavingsAndPayment() {
               changes to your insurance plan.
             </p>
             <p className="mt-3 leading-relaxed text-body">
-              You are responsible for the fees charged by our office, no matter what your insurance coverage may be.
-              Any remaining cost is your responsibility.
+              You are responsible for the fees charged by our office, no matter what your insurance coverage may be. Any
+              remaining cost is your responsibility.
             </p>
             <div className="mt-auto pt-6">
               <div className="flex items-center gap-4 border-t border-line pt-5">
@@ -247,13 +251,18 @@ export function SavingsAndPayment() {
             <p className="leading-relaxed">
               <strong className="block text-lg font-bold text-ink">We are here to help!</strong>
               <span className="text-body">
-                Please call for more information about financing your oral health needs in our office.
+                Please call or email for more information about financing your oral health needs in our office.
               </span>
             </p>
           </div>
-          <Button href={site.phone.href} size="lg" icon={<Phone className="size-4" />} className="shrink-0">
-            Call {site.phone.display}
-          </Button>
+          <div className="flex shrink-0 flex-wrap gap-3">
+            <Button href={site.phone.href} size="lg" icon={<Phone className="size-4" />}>
+              Call {site.phone.display}
+            </Button>
+            <Button href={site.email.href} variant="outline" size="lg" icon={<Mail className="size-4" />}>
+              Email us
+            </Button>
+          </div>
         </Reveal>
       </div>
     </section>

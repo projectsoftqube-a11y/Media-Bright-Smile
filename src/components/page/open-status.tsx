@@ -49,19 +49,20 @@ export function OpenStatus({ className }: { className?: string }) {
   const s: Status | null = snap ? JSON.parse(snap) : null;
 
   return (
-    <span className={cn("flex items-center gap-3", className)} aria-live="polite">
-      <span className="relative flex size-3">
+    /* the dot sits inline with the status label, so it stays next to the words when the block is
+       left- or right-aligned */
+    <span className={cn("block leading-tight", className)} aria-live="polite">
+      <span className="inline-flex items-center gap-2 font-semibold text-ink">
         <span
+          aria-hidden="true"
           className={cn(
-            "absolute inline-flex size-full rounded-full",
+            "size-2.5 shrink-0 rounded-full",
             s?.tone === "open" ? "bg-emerald-500" : s?.tone === "check" ? "bg-amber-400" : "bg-slate-400",
           )}
         />
+        {s ? s.label : "Opening hours"}
       </span>
-      <span className="leading-tight">
-        <span className="block font-semibold text-ink">{s ? s.label : "Opening hours"}</span>
-        <span className="block text-sm text-muted">{s ? s.detail : "Mon–Thu from 8:00am"}</span>
-      </span>
+      <span className="mt-0.5 block text-sm text-muted">{s ? s.detail : "Mon–Thu from 8:00am"}</span>
     </span>
   );
 }

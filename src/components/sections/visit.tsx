@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { MapPin, Navigation, Phone, Siren } from "lucide-react";
+import { Mail, MapPin, Navigation, Phone, Siren } from "lucide-react";
 import { locations, site } from "@/content/site";
 import { Button } from "@/components/ui/button";
 import { SplitReveal } from "@/components/motion/split-reveal";
@@ -67,7 +67,7 @@ export function Visit() {
             </div>
           </Reveal>
           <Reveal delay={0.15} className="lg:col-span-4">
-            <div className="flex h-full flex-col justify-between gap-10 rounded-5xl bg-ink p-8 text-white md:p-10">
+            <div className="flex h-full flex-col justify-between gap-10 rounded-5xl bg-ink p-8 text-white max-[374px]:p-6 md:p-10">
               <div>
                 <p className="text-xs font-bold tracking-[0.2em] text-brand-300 uppercase">Visit us</p>
                 <h3 className="mt-4 text-3xl font-bold tracking-tight text-white">{site.name}</h3>
@@ -84,6 +84,12 @@ export function Visit() {
                     <Phone className="mt-0.5 size-5 shrink-0 text-brand-400" />
                     <a href={site.phone.href} className="font-semibold text-white hover:text-brand-300">
                       {site.phone.display}
+                    </a>
+                  </li>
+                  <li className="flex gap-4">
+                    <Mail className="mt-0.5 size-5 shrink-0 text-brand-400" />
+                    <a href={site.email.href} className="font-semibold text-white hover:text-brand-300">
+                      {site.email.display}
                     </a>
                   </li>
                   <li className="flex gap-4">

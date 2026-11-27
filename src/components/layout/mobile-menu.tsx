@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { ArrowUpRight, MapPin, Phone, Plus } from "lucide-react";
+import { ArrowUpRight, Mail, MapPin, Phone, Plus } from "lucide-react";
 import { mainNav, serviceGroups, site, type NavGroup, type NavLink } from "@/content/site";
 import { Button } from "@/components/ui/button";
 import { FacebookIcon, GoogleIcon, YelpIcon } from "@/components/ui/icons";
@@ -266,6 +266,13 @@ export function MobileMenu({ open, onClose }: { open: boolean; onClose: () => vo
               className="flex items-start gap-2.5 text-sm text-white/70 hover:text-white"
             >
               <MapPin className="mt-0.5 size-4 shrink-0 text-glow" /> {site.address.full}
+            </a>
+            <a
+              data-mm-foot
+              href={site.email.href}
+              className="flex items-start gap-2.5 text-sm text-white/70 hover:text-white"
+            >
+              <Mail className="mt-0.5 size-4 shrink-0 text-glow" /> {site.email.display}
             </a>
             <div data-mm-foot className="flex gap-2">
               {[

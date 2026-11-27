@@ -24,7 +24,8 @@ function settings() {
     // port 465 uses TLS from the start; 587 upgrades with STARTTLS (required below)
     secure: env.SMTP_SECURE ? env.SMTP_SECURE === "true" : port === 465,
     user: env.SMTP_USER?.trim(),
-    pass: env.SMTP_PASS,
+    // Google shows App Passwords in groups of four ("abcd efgh ..."); the spaces are not part of it
+    pass: env.SMTP_PASS?.replace(/\s/g, ""),
     from: env.MAIL_FROM?.trim(),
     to: (env.MAIL_TO ?? "")
       .split(",")

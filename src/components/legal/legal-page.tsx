@@ -98,6 +98,18 @@ export function LegalPage({ doc }: { doc: LegalDoc }) {
                 <span className="mt-1 block font-semibold">{site.phone.display}</span>
               </span>
             </a>
+            <a
+              href={site.email.href}
+              className="mt-3 hidden items-center gap-3 rounded-3xl bg-white p-4 ring-1 ring-line transition-shadow duration-500 hover:shadow-lift lg:flex"
+            >
+              <span className="grid size-10 shrink-0 place-items-center rounded-2xl bg-brand-50 text-brand-600 max-[1299px]:hidden">
+                <Mail className="size-4" aria-hidden="true" />
+              </span>
+              <span className="min-w-0 leading-tight">
+                <span className="block text-sm text-muted">Questions about this page?</span>
+                <span className="mt-1 block text-sm font-semibold text-ink">{site.email.display}</span>
+              </span>
+            </a>
           </aside>
 
           <div className="min-w-0">
